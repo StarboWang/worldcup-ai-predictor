@@ -22,7 +22,7 @@
         "home_imp": 0.5263,
         "draw_imp": 0.2595,
         "away_imp": 0.2141,
-        "updated_at": "2026-06-13 23:32:11",
+        "updated_at": "2026-06-14 02:41:50",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": []
@@ -49,7 +49,7 @@
         "home_imp": 0.4533,
         "draw_imp": 0.2619,
         "away_imp": 0.2848,
-        "updated_at": "2026-06-13 23:32:13",
+        "updated_at": "2026-06-14 02:41:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": []
@@ -76,7 +76,7 @@
         "home_imp": 0.4207,
         "draw_imp": 0.3307,
         "away_imp": 0.2486,
-        "updated_at": "2026-06-13 23:32:16",
+        "updated_at": "2026-06-14 02:41:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": []
@@ -103,7 +103,7 @@
         "home_imp": 0.5299,
         "draw_imp": 0.2406,
         "away_imp": 0.2295,
-        "updated_at": "2026-06-13 23:32:18",
+        "updated_at": "2026-06-14 02:41:57",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": []
@@ -123,67 +123,67 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，卡塔尔胜平负概率为47%/24%/29%，最可能比分为1-1。",
+          "home_goals": 0,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "真实API欧洲盘客胜隐含概率78.5%，soccer24赛程为未开始。瑞士排名、Elo和防守明显优于卡塔尔，攻防状态支持客队稳健小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:25"
+          "time": "2026-06-14 02:40:03"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "Qatar home_win 47% overrated; 330 Elo gap + Swiss #14 rank demand away win. Swiss attack 1.7 breaks Qatar defense 1.6. Away win value at 29%.",
+          "analysis": "真实API BetExplorer聚合赔率瑞士隐含胜率78.5%，卡塔尔仅7.2%，市场与baseline严重背离。baseline高估卡塔尔进攻效率，瑞士Elo高出330分且攻防均衡(1.7/0.9)。市场压倒性看衰卡塔尔，瑞士零封取胜符合盘口信号。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:49"
+          "time": "2026-06-14 02:41:42"
         }
       ],
       "odds": {
-        "source": "内部估算",
-        "bookmaker": "内部估算盘",
-        "home_odds": 2.0,
-        "draw_odds": 4.01,
-        "away_odds": 3.22,
-        "home_imp": 0.4717,
-        "draw_imp": 0.2353,
-        "away_imp": 0.293,
-        "updated_at": "2026-06-13 23:32:19",
-        "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
+        "source": "真实API",
+        "bookmaker": "BetExplorer (聚合多家欧洲盘)",
+        "home_odds": 13.35,
+        "draw_odds": 6.71,
+        "away_odds": 1.22,
+        "home_imp": 0.0718,
+        "draw_imp": 0.1428,
+        "away_imp": 0.7854,
+        "updated_at": "2026-06-14 02:39:07",
+        "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "平局",
-          "odds": 4.01,
-          "model_prob": 0.4555,
-          "implied_prob": 0.2353,
-          "ev": 0.8264,
+          "item": "客胜",
+          "odds": 1.22,
+          "model_prob": 0.5131,
+          "implied_prob": 0.7854,
+          "ev": -0.374,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 45.5%，赔率 4.01，隐含概率 23.5%，期望收益率 82.6%。",
-          "time": "2026-06-13 23:33:35"
+          "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 51.3%，赔率 1.22，隐含概率 78.5%，期望收益率 -37.4%。",
+          "time": "2026-06-14 02:43:47"
         },
         {
           "model": "DeepSeek V4 Pro",
           "item": "客胜",
-          "odds": 3.22,
+          "odds": 1.22,
           "model_prob": 0.5131,
-          "implied_prob": 0.293,
-          "ev": 0.6522,
+          "implied_prob": 0.7854,
+          "ev": -0.374,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 51.3%，赔率 3.22，隐含概率 29.3%，期望收益率 65.2%。",
-          "time": "2026-06-13 23:33:37"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 51.3%，赔率 1.22，隐含概率 78.5%，期望收益率 -37.4%。",
+          "time": "2026-06-14 02:43:49"
         }
       ]
     },
@@ -202,25 +202,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 3,
-          "away_goals": 2,
+          "home_goals": 2,
+          "away_goals": 1,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，巴西胜平负概率为58%/16%/26%，最可能比分为3-2。",
+          "analysis": "市场赔率内部校准给巴西主胜约57.8%，soccer24确认未开赛。巴西攻防强度和近况均占优，摩洛哥防守不弱，倾向巴西小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:26"
+          "time": "2026-06-14 02:40:05"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 2,
+          "home_goals": 1,
+          "away_goals": 1,
           "result": "平局",
-          "analysis": "Brazil win% 57.8 sub-threshold; Morocco W6 D2 L2 form + defense 0.8 solid. High lambdas = both score, draw 16.5% undervalued risk.",
+          "analysis": "巴西热门胜率57.8%未过58%冷门阈值，摩洛哥防守力0.8出色、近10场W6D2L2状态稳定且有世界杯四强经验。巴西攻击虽强(2.1)但防线0.7存在漏洞，摩洛哥有能力在反击中破门，平局风险被baseline低估。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:51"
+          "time": "2026-06-14 02:41:43"
         }
       ],
       "odds": {
@@ -232,7 +232,7 @@
         "home_imp": 0.5783,
         "draw_imp": 0.1648,
         "away_imp": 0.2569,
-        "updated_at": "2026-06-13 23:32:21",
+        "updated_at": "2026-06-14 02:42:01",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -248,7 +248,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 79.8%，赔率 1.63，隐含概率 57.8%，期望收益率 30.1%。",
-          "time": "2026-06-13 23:33:38"
+          "time": "2026-06-14 02:43:51"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -262,7 +262,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 38.5%，赔率 5.72，隐含概率 16.5%，期望收益率 120.1%。",
-          "time": "2026-06-13 23:33:40"
+          "time": "2026-06-14 02:43:53"
         }
       ]
     },
@@ -284,22 +284,22 @@
           "home_goals": 0,
           "away_goals": 0,
           "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，海地胜平负概率为29%/37%/34%，最可能比分为0-0。",
+          "analysis": "市场内部盘平局概率36.9%最高，soccer24赛程显示未开始。双方预期进球偏低，海地进攻弱、苏格兰优势不足，攻防状态指向低比分。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:28"
+          "time": "2026-06-14 02:40:07"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 0,
           "away_goals": 0,
           "result": "平局",
-          "analysis": "Draw prob 36.9% highest; both offenses weak (λ 0.76/0.85). Top score 0-0 at 21.4%. Low-quality stalemate near-certain.",
+          "analysis": "平局隐含概率36.9%为三结果最高远超25%阈值。双方攻击力均弱（海地0.8/苏格兰1.3），Elo差380但苏格兰客场未必能破密集防守。0-0是baseline第一比分(21.4%)，低比分闷平最符合两队攻防画像。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:52"
+          "time": "2026-06-14 02:41:45"
         }
       ],
       "odds": {
@@ -311,7 +311,7 @@
         "home_imp": 0.2921,
         "draw_imp": 0.3685,
         "away_imp": 0.3394,
-        "updated_at": "2026-06-13 23:32:24",
+        "updated_at": "2026-06-14 02:42:03",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -327,7 +327,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 58.9%，赔率 2.56，隐含概率 36.9%，期望收益率 50.7%。",
-          "time": "2026-06-13 23:33:41"
+          "time": "2026-06-14 02:43:55"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -341,7 +341,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 58.9%，赔率 2.56，隐含概率 36.9%，期望收益率 50.7%。",
-          "time": "2026-06-13 23:33:42"
+          "time": "2026-06-14 02:43:56"
         }
       ]
     },
@@ -360,25 +360,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，澳大利亚胜平负概率为40%/26%/35%，最可能比分为1-1。",
+          "result": "主胜",
+          "analysis": "市场内部盘澳大利亚主胜略高但优势有限，未提供soccer24真实赛程校验。双方攻防接近、土耳其近况稳定，倾向澳大利亚险胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:30"
+          "time": "2026-06-14 02:40:08"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo diff 50 only, draw 25.7% > threshold. Top score 1-1 at 12.2%. Balanced clash, Turkey 4 draws in 10 locks stalemate.",
+          "analysis": "Elo差仅50远低于180阈值，平局概率25.7%超过25%冷门线，四场中最均衡对决。双方攻防数据接近(澳1.4/1.2 vs 土1.5/1.3)，近况均平庸，baseline第一比分即1-1(12.2%)，对称性极强。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:54"
+          "time": "2026-06-14 02:41:47"
         }
       ],
       "odds": {
@@ -390,23 +390,23 @@
         "home_imp": 0.3963,
         "draw_imp": 0.257,
         "away_imp": 0.3467,
-        "updated_at": "2026-06-13 23:32:25",
+        "updated_at": "2026-06-14 02:42:05",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "平局",
-          "odds": 3.67,
-          "model_prob": 0.477,
-          "implied_prob": 0.257,
-          "ev": 0.7504,
+          "item": "主胜",
+          "odds": 2.38,
+          "model_prob": 0.6166,
+          "implied_prob": 0.3963,
+          "ev": 0.4676,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 47.7%，赔率 3.67，隐含概率 25.7%，期望收益率 75.0%。",
-          "time": "2026-06-13 23:33:44"
+          "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 61.7%，赔率 2.38，隐含概率 39.6%，期望收益率 46.8%。",
+          "time": "2026-06-14 02:43:58"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -420,7 +420,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 47.7%，赔率 3.67，隐含概率 25.7%，期望收益率 75.0%。",
-          "time": "2026-06-13 23:33:46"
+          "time": "2026-06-14 02:44:00"
         }
       ]
     },
@@ -440,24 +440,24 @@
         {
           "model": "GPT-5.5",
           "home_goals": 3,
-          "away_goals": 2,
+          "away_goals": 1,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，阿根廷胜平负概率为49%/17%/33%，最可能比分为3-2。",
+          "analysis": "阿根廷FIFA第1、Elo 1950、近10场8胜1平状态火热。日本虽强但防守0.9难挡阿根廷2.2攻击力，3-1为稳健主胜比分。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:31"
+          "time": "2026-06-14 02:04:00"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 2,
           "result": "平局",
-          "analysis": "Argentina win% 49.5 < 58%; Japan away_win 33% danger signal. Both λ > 2.9, Japan W6 D2 L2 form. Upset risk real, draw value.",
+          "analysis": "阿根廷胜率49.5%低于58%，日本客胜33.3%异常偏高。日本防守0.9且近态W6 D2 L2出色，阿根廷防线0.6脆弱，高比分平局风险大。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:56"
+          "time": "2026-06-14 02:20:00"
         }
       ],
       "odds": {
@@ -469,7 +469,7 @@
         "home_imp": 0.4942,
         "draw_imp": 0.1723,
         "away_imp": 0.3335,
-        "updated_at": "2026-06-13 23:32:27",
+        "updated_at": "2026-06-14 02:42:08",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -485,7 +485,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 71.5%，赔率 1.91，隐含概率 49.4%，期望收益率 36.5%。",
-          "time": "2026-06-13 23:33:47"
+          "time": "2026-06-14 02:44:01"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -499,7 +499,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 39.2%，赔率 5.48，隐含概率 17.2%，期望收益率 114.9%。",
-          "time": "2026-06-13 23:33:48"
+          "time": "2026-06-14 02:44:03"
         }
       ]
     },
@@ -518,25 +518,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 3,
-          "away_goals": 2,
+          "home_goals": 2,
+          "away_goals": 1,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，法国胜平负概率为56%/17%/27%，最可能比分为3-2。",
+          "analysis": "法国FIFA第2、Elo 1900、主场胜率55.97%超阈值。克罗地亚FIFA第10实力不俗可破门，但法国攻防更优，2-1为合理主胜比分。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:33"
+          "time": "2026-06-14 02:04:01"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo gap 120 < 180, France win% 55.97 < 58%. Croatia W5 D3 L2 pedigree closes gap. Lower than baseline 3-2 top, draw value pick.",
+          "analysis": "Elo差仅120低于180阈值，法国胜率56.0%未达58%。克罗地亚防守0.9偏弱但经验丰富，法国防线0.7同样有漏洞，低比分平局价值高。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:57"
+          "time": "2026-06-14 02:20:01"
         }
       ],
       "odds": {
@@ -548,7 +548,7 @@
         "home_imp": 0.5588,
         "draw_imp": 0.1674,
         "away_imp": 0.2737,
-        "updated_at": "2026-06-13 23:32:28",
+        "updated_at": "2026-06-14 02:42:10",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -564,7 +564,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 78.0%，赔率 1.69，隐含概率 55.9%，期望收益率 31.8%。",
-          "time": "2026-06-13 23:33:50"
+          "time": "2026-06-14 02:44:05"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -578,7 +578,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 38.7%，赔率 5.64，隐含概率 16.7%，期望收益率 118.4%。",
-          "time": "2026-06-13 23:33:52"
+          "time": "2026-06-14 02:44:07"
         }
       ]
     },
@@ -597,25 +597,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 3,
-          "away_goals": 2,
+          "home_goals": 2,
+          "away_goals": 1,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为57%/17%/26%，最可能比分为3-2。",
+          "analysis": "英格兰主场胜率57.37%超阈值，Elo领先160分攻防俱佳。乌拉圭近期3负状态略逊，Poisson支持英格兰2-1取胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:05:34"
+          "time": "2026-06-14 02:04:03"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo gap 160 < 180, home_win 57.4 < 58%. Baseline high-score vs Uruguay defense 0.9. England opener tight, 1-1 > predicted shootout.",
+          "result": "主胜",
+          "analysis": "Elo差160低于180，英格兰胜率57.4%接近但未达58%。乌拉圭防守0.9但近态3败不稳，英格兰一球小胜是风险调整后的合理路径。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:17:59"
+          "time": "2026-06-14 02:20:04"
         }
       ],
       "odds": {
@@ -627,7 +627,7 @@
         "home_imp": 0.5742,
         "draw_imp": 0.1685,
         "away_imp": 0.2573,
-        "updated_at": "2026-06-13 23:32:30",
+        "updated_at": "2026-06-14 02:42:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -643,21 +643,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 79.4%，赔率 1.64，隐含概率 57.4%，期望收益率 30.2%。",
-          "time": "2026-06-13 23:33:53"
+          "time": "2026-06-14 02:44:09"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 5.59,
-          "model_prob": 0.3887,
-          "implied_prob": 0.1685,
-          "ev": 1.1727,
+          "item": "主胜",
+          "odds": 1.64,
+          "model_prob": 0.7937,
+          "implied_prob": 0.5742,
+          "ev": 0.3016,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 38.9%，赔率 5.59，隐含概率 16.9%，期望收益率 117.3%。",
-          "time": "2026-06-13 23:33:55"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 79.4%，赔率 1.64，隐含概率 57.4%，期望收益率 30.2%。",
+          "time": "2026-06-14 02:44:11"
         }
       ]
     },
@@ -676,25 +676,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 3,
-          "away_goals": 2,
-          "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，西班牙胜平负概率为48%/18%/35%，最可能比分为3-2。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-13 23:05:36"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 2,
           "result": "平局",
-          "analysis": "Elo near-equal Belgium +40, home_win 47.7%. Mirror profiles identical form. Away_win 34.8% underrated, Belgium fully competitive here.",
+          "analysis": "Elo差仅40、攻防与近期状态完全镜像，为8场中实力最接近对决。无任一队胜率超52%，取Poisson修正后2-2平局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:18:00"
+          "time": "2026-06-14 02:04:04"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "Elo差仅40且比利时Elo更高，baseline西班牙胜率47.7%可能高估主场优势。双方攻防数据几乎镜像，比利时客胜是盘口价值方向。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-14 02:20:05"
         }
       ],
       "odds": {
@@ -706,26 +706,12 @@
         "home_imp": 0.4771,
         "draw_imp": 0.1756,
         "away_imp": 0.3473,
-        "updated_at": "2026-06-13 23:32:32",
+        "updated_at": "2026-06-14 02:42:16",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "主胜",
-          "odds": 1.98,
-          "model_prob": 0.6972,
-          "implied_prob": 0.4771,
-          "ev": 0.3805,
-          "stake": 100.0,
-          "actual": "未结束",
-          "pnl": 0.0,
-          "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 69.7%，赔率 1.98，隐含概率 47.7%，期望收益率 38.0%。",
-          "time": "2026-06-13 23:33:56"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
           "item": "平局",
           "odds": 5.38,
           "model_prob": 0.3953,
@@ -735,8 +721,22 @@
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 39.5%，赔率 5.38，隐含概率 17.6%，期望收益率 112.7%。",
-          "time": "2026-06-13 23:33:57"
+          "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 39.5%，赔率 5.38，隐含概率 17.6%，期望收益率 112.7%。",
+          "time": "2026-06-14 02:44:12"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "item": "客胜",
+          "odds": 2.72,
+          "model_prob": 0.5675,
+          "implied_prob": 0.3473,
+          "ev": 0.5435,
+          "stake": 100.0,
+          "actual": "未结束",
+          "pnl": 0.0,
+          "status": "待结算",
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 56.7%，赔率 2.72，隐含概率 34.7%，期望收益率 54.3%。",
+          "time": "2026-06-14 02:44:14"
         }
       ]
     },
@@ -758,22 +758,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "德国Elo与FIFA排名均领先，攻防强度更均衡，baseline主胜率57.4%且最可能比分为2-1。塞内加尔状态不差，预计德国小胜。",
+          "analysis": "德国Elo1800领先塞内加尔150分，FIFA第11对第20，攻防差值明显。Poisson最可能比分2-1概率7.66%，主胜57.4%超52%阈值。塞内加尔攻击1.4对德国防守0.9可能进球，但德国攻防均占优，主场2-1小胜是稳健选择。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:06"
+          "time": "2026-06-14 02:07:10"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo差值仅150分低于180阈值，德国胜率57.4%不达58%安全线，双重触发平局预警。德国防线0.9存在破绽，塞内加尔近态5胜3平2负表现稳健，有能力在客场带走一分。",
+          "analysis": "Elo差150低于180阈值，德国胜率57.4%不达58%，塞内加尔防守1.0且近况W5 D3 L2，平局冷门风险显著，1-1价值高于热门胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:14"
+          "time": "2026-06-14 02:22:55"
         }
       ],
       "odds": {
@@ -785,7 +785,7 @@
         "home_imp": 0.5744,
         "draw_imp": 0.1847,
         "away_imp": 0.2409,
-        "updated_at": "2026-06-13 23:32:33",
+        "updated_at": "2026-06-14 02:42:18",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -801,7 +801,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 79.4%，赔率 1.64，隐含概率 57.4%，期望收益率 30.2%。",
-          "time": "2026-06-13 23:33:59"
+          "time": "2026-06-14 02:44:15"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -815,7 +815,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 40.5%，赔率 5.10，隐含概率 18.5%，期望收益率 106.5%。",
-          "time": "2026-06-13 23:34:01"
+          "time": "2026-06-14 02:44:17"
         }
       ]
     },
@@ -837,22 +837,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "葡萄牙FIFA、Elo和近况均优于哥伦比亚，baseline主胜略高于52%。虽模型给出偏高进球期望，但稳健策略压低比分，取主队小胜。",
+          "analysis": "葡萄牙Elo1850领先哥伦比亚150分，攻击力1.9突出。主胜52.4%刚过52%阈值不算强势，但Poisson最高分差胜2-1(5.53%)。哥伦比亚W5D2L3有韧性可破门，葡萄牙整体压制力更强但防守0.7偏弱，2-1谨慎主胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:08"
+          "time": "2026-06-14 02:07:12"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 2,
+          "home_goals": 1,
+          "away_goals": 1,
           "result": "平局",
-          "analysis": "葡萄牙虽排名第6但胜率仅52.4%远低于预期，防线0.7为本轮最弱环节。哥伦比亚客胜基线达29.6%不容小觑，葡萄牙防守漏洞将遭对手反复冲击，高比分平局风险极大。",
+          "analysis": "葡萄牙胜率仅52.4%远低于58%，Elo差150，哥伦比亚客胜29.6%偏高且防线1.0稳固，冷门平局赔率价值突出。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:16"
+          "time": "2026-06-14 02:22:57"
         }
       ],
       "odds": {
@@ -864,7 +864,7 @@
         "home_imp": 0.5239,
         "draw_imp": 0.1796,
         "away_imp": 0.2965,
-        "updated_at": "2026-06-13 23:32:35",
+        "updated_at": "2026-06-14 02:42:21",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -880,7 +880,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 74.4%，赔率 1.80，隐含概率 52.4%，期望收益率 33.9%。",
-          "time": "2026-06-13 23:34:02"
+          "time": "2026-06-14 02:44:19"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -894,7 +894,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 40.0%，赔率 5.25，隐含概率 18.0%，期望收益率 109.8%。",
-          "time": "2026-06-13 23:34:04"
+          "time": "2026-06-14 02:44:21"
         }
       ]
     },
@@ -916,22 +916,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "荷兰Elo领先200分，FIFA排名和近期状态也更稳，baseline主胜率56.4%，Poisson首选2-1。丹麦具备进球能力，但客胜概率偏低。",
+          "analysis": "荷兰Elo1840领先丹麦200分，近10场W6D2L2状态出色。主胜56.4%明确高于阈值，lambda主2.85对客1.92优势显著。Poisson最可能主胜比分2-1(6.96%)，荷兰攻击1.8对丹麦防1.0有破门保障，主场稳健取胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:09"
+          "time": "2026-06-14 02:07:14"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "荷兰胜率56.4%低于58%警戒线，且自身防线0.8同样存在隐患。丹麦防守强度1.0相对稳健，Elo差距200分刚突破阈值，荷兰穿盘大胜缺乏充分支撑，平局不可忽视。",
+          "result": "主胜",
+          "analysis": "荷兰胜率56.4%低于58%阈值但Elo差200略超临界，丹麦防线1.0近况平庸W4 D3 L3，一球小胜概率高于大胜和平局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:17"
+          "time": "2026-06-14 02:22:58"
         }
       ],
       "odds": {
@@ -943,7 +943,7 @@
         "home_imp": 0.5644,
         "draw_imp": 0.1816,
         "away_imp": 0.254,
-        "updated_at": "2026-06-13 23:32:37",
+        "updated_at": "2026-06-14 02:42:23",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -959,21 +959,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 78.4%，赔率 1.67，隐含概率 56.4%，期望收益率 30.9%。",
-          "time": "2026-06-13 23:34:06"
+          "time": "2026-06-14 02:44:22"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 5.19,
-          "model_prob": 0.4018,
-          "implied_prob": 0.1816,
-          "ev": 1.0854,
+          "item": "主胜",
+          "odds": 1.67,
+          "model_prob": 0.7837,
+          "implied_prob": 0.5644,
+          "ev": 0.3089,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 40.2%，赔率 5.19，隐含概率 18.2%，期望收益率 108.5%。",
-          "time": "2026-06-13 23:34:08"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 78.4%，赔率 1.67，隐含概率 56.4%，期望收益率 30.9%。",
+          "time": "2026-06-14 02:44:24"
         }
       ]
     },
@@ -993,24 +993,24 @@
         {
           "model": "GPT-5.5",
           "home_goals": 2,
-          "away_goals": 1,
+          "away_goals": 0,
           "result": "主胜",
-          "analysis": "意大利排名、Elo、防守质量均优于伊朗，baseline主胜率54.7%，最可能比分集中在2-1。伊朗状态尚可，保留客队一球空间。",
+          "analysis": "意大利Elo1810领先伊朗180分，防守0.8为四场中最稳固。伊朗攻击仅1.3，面对意大利防线难破门。主胜54.7%高于阈值，Poisson支持小比分主胜。意大利攻击1.7不算爆发但足以破伊朗防1.0，2-0零封胜合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:11"
+          "time": "2026-06-14 02:07:15"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "意大利胜率54.7%不足58%且Elo差值恰好180分，触发平局考量信号。蓝衣军团防线0.8并不稳固，伊朗近态5胜2平3负展现韧性，传统强队世界杯慢热规律值得警惕。",
+          "analysis": "意大利胜率54.7%不达58%，Elo差恰180临界，伊朗防线1.0且近况W5 D2 L3表现不俗，平局爆冷风险不可忽视。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:19"
+          "time": "2026-06-14 02:23:00"
         }
       ],
       "odds": {
@@ -1022,7 +1022,7 @@
         "home_imp": 0.5479,
         "draw_imp": 0.1904,
         "away_imp": 0.2618,
-        "updated_at": "2026-06-13 23:32:39",
+        "updated_at": "2026-06-14 02:42:28",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1038,7 +1038,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 76.7%，赔率 1.72，隐含概率 54.8%，期望收益率 32.0%。",
-          "time": "2026-06-13 23:34:09"
+          "time": "2026-06-14 02:44:25"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1052,7 +1052,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 41.1%，赔率 4.95，隐含概率 19.0%，期望收益率 103.3%。",
-          "time": "2026-06-13 23:34:11"
+          "time": "2026-06-14 02:44:27"
         }
       ]
     },
@@ -1074,22 +1074,22 @@
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "尽管baseline异常偏向卡塔尔，但阿根廷Elo高500分、FIFA第1且攻防显著占优。按基本面复核应强烈修正，选择阿根廷稳健客胜。",
+          "analysis": "阿根廷FIFA第1、Elo1950，卡塔尔仅1450差距500分为全场最大。阿根廷攻击2.2全场最高，卡塔尔防1.6最弱。Poisson对差距估计偏低但基本面清晰：阿根廷防守0.6极强，卡塔尔攻击1.4难破门，客队零封2-0取胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:13"
+          "time": "2026-06-14 02:07:17"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 0,
-          "away_goals": 3,
+          "away_goals": 2,
           "result": "客胜",
-          "analysis": "Baseline数据严重失真，阿根廷Elo1950碾压卡塔尔1450，真实实力差距超500分。潘帕斯雄鹰攻击力2.2对卡塔尔防线1.6形成全面压制，八胜一平一负的近态势不可挡，零封大胜无悬念。",
+          "analysis": "Elo差500实力悬殊，卡塔尔防线1.6漏洞明显，阿根廷攻2.2防0.6全面碾压，虽客场但零封两球完胜合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:20"
+          "time": "2026-06-14 02:23:01"
         }
       ],
       "odds": {
@@ -1101,7 +1101,7 @@
         "home_imp": 0.4996,
         "draw_imp": 0.1919,
         "away_imp": 0.3085,
-        "updated_at": "2026-06-13 23:32:40",
+        "updated_at": "2026-06-14 02:42:30",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1117,7 +1117,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 52.9%，赔率 3.06，隐含概率 30.9%，期望收益率 61.7%。",
-          "time": "2026-06-13 23:34:13"
+          "time": "2026-06-14 02:44:29"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1131,7 +1131,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 52.9%，赔率 3.06，隐含概率 30.9%，期望收益率 61.7%。",
-          "time": "2026-06-13 23:34:14"
+          "time": "2026-06-14 02:44:31"
         }
       ]
     },
@@ -1150,25 +1150,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "巴西与法国FIFA、Elo、攻防和近况几乎对等，Elo差仅20。baseline胜率完全均衡，世界杯强强对话宜降低总进球，取1-1平局。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-13 23:07:14"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 2,
           "result": "平局",
-          "analysis": "巴法大战Elo仅差20分近乎均势，双方胜率均41.3%难分伯仲。两队攻击力均超2.0且防线同为0.7，λ值高达3.6预示进球盛宴，高比分平局是最合理的冷门路径。",
+          "analysis": "巴西Elo1920对法国1900仅差20分，攻防几乎镜像(2.1/0.7对2.0/0.7)。双方胜率各41.3%无人超52%阈值，lambda均3.6预示对攻。虽baseline平局仅17.4%未达28%触发线，但实力极度接近且攻击力均强，2-2平局最稳健。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:22"
+          "time": "2026-06-14 02:07:18"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "Elo差仅20旗鼓相当，双方胜率各41.3%低于58%，攻防指标完全对称，强强对话平局为价值首选。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-14 02:23:03"
         }
       ],
       "odds": {
@@ -1180,7 +1180,7 @@
         "home_imp": 0.4127,
         "draw_imp": 0.1747,
         "away_imp": 0.4127,
-        "updated_at": "2026-06-13 23:32:42",
+        "updated_at": "2026-06-14 02:42:32",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1196,7 +1196,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 39.4%，赔率 5.41，隐含概率 17.5%，期望收益率 113.4%。",
-          "time": "2026-06-13 23:34:16"
+          "time": "2026-06-14 02:44:32"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1210,7 +1210,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 39.4%，赔率 5.41，隐含概率 17.5%，期望收益率 113.4%。",
-          "time": "2026-06-13 23:34:18"
+          "time": "2026-06-14 02:44:34"
         }
       ]
     },
@@ -1232,22 +1232,22 @@
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "英格兰Elo领先680分，FIFA排名和攻防质量明显压制海地。baseline客胜率虽仅45.6%，但结构数据差距过大，复核后取客队两球胜。",
+          "analysis": "英格兰Elo1880领先海地680分碾压级差距，FIFA第4对第87。海地攻击0.8极弱无法突破英格兰防0.7，英格兰攻击1.9对海地防1.9有充足破门空间。Poisson客胜45.6%低估真实差距，基本面指向零封客胜，0-2最稳健。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:16"
+          "time": "2026-06-14 02:07:20"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "平局基线26.9%突破25%阈值，英格兰客场胜率仅45.6%远低于58%，双重触发爆冷预警。海地坐拥中北美主场地利，英格兰虽纸面占优但攻坚效率存疑，1-1是冷门价值选项。",
+          "home_goals": 0,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "Elo差680，海地防线1.9形同虚设且近况W2 D3 L5低迷，英格兰攻1.9足够穿透，客场零封两球轻取。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:24"
+          "time": "2026-06-14 02:23:04"
         }
       ],
       "odds": {
@@ -1259,7 +1259,7 @@
         "home_imp": 0.2746,
         "draw_imp": 0.2691,
         "away_imp": 0.4563,
-        "updated_at": "2026-06-13 23:32:44",
+        "updated_at": "2026-06-14 02:42:35",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1275,21 +1275,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 67.6%，赔率 2.07，隐含概率 45.6%，期望收益率 40.0%。",
-          "time": "2026-06-13 23:34:19"
+          "time": "2026-06-14 02:44:36"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 3.51,
-          "model_prob": 0.4891,
-          "implied_prob": 0.2691,
-          "ev": 0.7169,
+          "item": "客胜",
+          "odds": 2.07,
+          "model_prob": 0.6763,
+          "implied_prob": 0.4563,
+          "ev": 0.3999,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 48.9%，赔率 3.51，隐含概率 26.9%，期望收益率 71.7%。",
-          "time": "2026-06-13 23:34:21"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 67.6%，赔率 2.07，隐含概率 45.6%，期望收益率 40.0%。",
+          "time": "2026-06-14 02:44:37"
         }
       ]
     },
@@ -1311,22 +1311,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "baseline偏向澳大利亚，但西班牙Elo领先220分，FIFA、攻防和近期状态均占优。按稳健基本面修正，澳大利亚有进球但西班牙小胜。",
+          "analysis": "西班牙Elo1820领先澳大利亚220分，FIFA第8对第27。攻击1.8对澳防1.2有渗透空间，防守0.8对澳攻1.4需警惕丢球。baseline偏向主队但Elo和攻防数据一致支持西班牙，澳大利亚主场可得分但无法避免失利，1-2客胜合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:07:17"
+          "time": "2026-06-14 02:07:21"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "澳大利亚主场胜率45.3%反超西班牙客胜34.2%，打破传统强弱格局。斗牛士防线0.8存在破绽，袋鼠近态5胜2平3负并非鱼腩，双方均无力完胜对手，平局价值最高。",
+          "analysis": "澳大利亚主场胜率45.3%高于西班牙客胜34.2%，Elo差220但澳洲近况W5状态在线，主场不败平局有赔率价值。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:21:25"
+          "time": "2026-06-14 02:23:07"
         }
       ],
       "odds": {
@@ -1338,7 +1338,7 @@
         "home_imp": 0.4536,
         "draw_imp": 0.2046,
         "away_imp": 0.3418,
-        "updated_at": "2026-06-13 23:32:46",
+        "updated_at": "2026-06-14 02:42:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1354,7 +1354,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 56.2%，赔率 2.76，隐含概率 34.2%，期望收益率 55.2%。",
-          "time": "2026-06-13 23:34:23"
+          "time": "2026-06-14 02:44:39"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1368,7 +1368,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 42.5%，赔率 4.61，隐含概率 20.5%，期望收益率 95.9%。",
-          "time": "2026-06-13 23:34:25"
+          "time": "2026-06-14 02:44:41"
         }
       ]
     },
@@ -1390,22 +1390,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "德国Elo和FIFA排名略优，攻防指标也更均衡；墨西哥近况稳定且baseline接近，但客队进攻上限更高，按稳健基本面取德国小胜。",
+          "analysis": "德Elo+50/FIFA略优,进攻1.8对1.4明显占优。双方Poisson均超2.2,对攻格局。墨有主场但德攻防更均衡,Poisson最可能比分1-2(6.53%)支撑客胜,看好德1球小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:06"
+          "time": "2026-06-14 02:11:55"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo差仅50分两队极度接近，防守端均偏弱（墨西哥1.0/德国0.9），但小组赛第2轮求稳惯性下平局概率被低估；1-1是最合理的风险敞口。",
+          "analysis": "Elo差仅50远低于180阈值，主客胜率几乎相等皆为~40%，墨西哥在美洲赛场有隐性主场优势，德国防线0.9存破绽，平局价值被低估。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:16"
+          "time": "2026-06-14 02:25:46"
         }
       ],
       "odds": {
@@ -1417,7 +1417,7 @@
         "home_imp": 0.4051,
         "draw_imp": 0.2017,
         "away_imp": 0.3933,
-        "updated_at": "2026-06-13 23:32:48",
+        "updated_at": "2026-06-14 02:42:40",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1433,7 +1433,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 61.4%，赔率 2.40，隐含概率 39.3%，期望收益率 47.3%。",
-          "time": "2026-06-13 23:34:27"
+          "time": "2026-06-14 02:44:43"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1447,7 +1447,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 42.1%，赔率 4.68，隐含概率 20.2%，期望收益率 97.2%。",
-          "time": "2026-06-13 23:34:29"
+          "time": "2026-06-14 02:44:45"
         }
       ]
     },
@@ -1469,22 +1469,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "葡萄牙Elo领先230分，FIFA排名、进攻强度和防守失球均明显占优；虽baseline偏向韩国不强，但基本面差距较大，取葡萄牙小胜。",
+          "analysis": "葡Elo+230/FIFA第6远超韩国第24,攻防全方位占优(攻1.9vs1.3,防0.7vs1.1)。近态葡7胜1平2负更稳。虽baseline受主场修正偏高,但基本面差距明确,葡客胜合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:07"
+          "time": "2026-06-14 02:11:56"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
+          "home_goals": 1,
           "away_goals": 2,
-          "result": "平局",
-          "analysis": "葡萄牙防线漏洞严重（防守0.7），韩国主场势能+反击效率足以破门；baseline主胜概率偏高，实际互爆格局下2-2比主胜更有价值。",
+          "result": "客胜",
+          "analysis": "韩国主场防守1.1稳健，但葡萄牙防线0.7漏洞明显且攻击力1.9顶级，虽Elo差230但baseline低估了客队破门能力，冷门客胜有赔率价值。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:18"
+          "time": "2026-06-14 02:25:47"
         }
       ],
       "odds": {
@@ -1496,7 +1496,7 @@
         "home_imp": 0.4231,
         "draw_imp": 0.1949,
         "away_imp": 0.382,
-        "updated_at": "2026-06-13 23:32:49",
+        "updated_at": "2026-06-14 02:42:42",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1512,21 +1512,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 60.3%，赔率 2.47，隐含概率 38.2%，期望收益率 48.8%。",
-          "time": "2026-06-13 23:34:31"
+          "time": "2026-06-14 02:44:46"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 4.84,
-          "model_prob": 0.4151,
-          "implied_prob": 0.1949,
-          "ev": 1.0091,
+          "item": "客胜",
+          "odds": 2.47,
+          "model_prob": 0.6026,
+          "implied_prob": 0.382,
+          "ev": 0.4884,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 41.5%，赔率 4.84，隐含概率 19.5%，期望收益率 100.9%。",
-          "time": "2026-06-13 23:34:33"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 60.3%，赔率 2.47，隐含概率 38.2%，期望收益率 48.8%。",
+          "time": "2026-06-14 02:44:48"
         }
       ]
     },
@@ -1548,22 +1548,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "荷兰Elo高出320分，FIFA排名、攻防质量和近10场稳定性都优于加拿大；Poisson低比分支持胶着，稳健策略给荷兰2-1。",
+          "analysis": "荷Elo+320/FIFA第7碾压加第41,攻1.8对1.2差距悬殊。Poisson低比分(λ均<1.9)指向小球格局,top scores中1-2(8.03%)为最可能客胜比分,荷1球客胜稳健。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:09"
+          "time": "2026-06-14 02:11:57"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "荷兰客胜仅39.7%远非真正热门，加拿大防守1.3有足够韧性；低xG（1.84vs1.88）预示低比分，1-1平局是最大风险敞口。",
+          "analysis": "加拿大主场防守1.3具韧性，荷兰客场胜率仅40%未达58%阈值，双方lambda接近(1.84/1.88)预示低比分，22%平局概率仍被低估。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:20"
+          "time": "2026-06-14 02:25:49"
         }
       ],
       "odds": {
@@ -1575,7 +1575,7 @@
         "home_imp": 0.3807,
         "draw_imp": 0.2227,
         "away_imp": 0.3967,
-        "updated_at": "2026-06-13 23:32:51",
+        "updated_at": "2026-06-14 02:42:44",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1591,7 +1591,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 61.7%，赔率 2.38，隐含概率 39.7%，期望收益率 46.8%。",
-          "time": "2026-06-13 23:34:34"
+          "time": "2026-06-14 02:44:50"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1605,7 +1605,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 44.3%，赔率 4.24，隐含概率 22.3%，期望收益率 87.6%。",
-          "time": "2026-06-13 23:34:36"
+          "time": "2026-06-14 02:44:52"
         }
       ]
     },
@@ -1624,25 +1624,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "美国有主场与近期状态优势，baseline也给主队不低概率；但意大利Elo、FIFA、攻防效率均略强，双方接近时取客队低比分小胜。",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "美主场优势显著,Elo仅落后意90点,FIFA12vs9接近。美近态W6D3L1优于意W5D3L2,Poisson λ美2.69高于意2.38。高比分对攻格局下2-1为最可能主胜比分(5.7%)。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:10"
+          "time": "2026-06-14 02:11:59"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo差90分且双方防守皆漏（0.9/0.8），美国主场不败但意大利大赛底蕴强；平局18.9%被严重低估，1-1是合理冷门判断。",
+          "result": "主胜",
+          "analysis": "Elo差仅90触发冷门预警，双方防线皆漏(0.9/0.8)，美国主场纽约且近况6胜3平1负极佳，一球小胜比baseline的大比分预期更合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:21"
+          "time": "2026-06-14 02:25:50"
         }
       ],
       "odds": {
@@ -1654,37 +1654,37 @@
         "home_imp": 0.4554,
         "draw_imp": 0.1889,
         "away_imp": 0.3557,
-        "updated_at": "2026-06-13 23:32:53",
+        "updated_at": "2026-06-14 02:42:47",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "客胜",
-          "odds": 2.65,
-          "model_prob": 0.5758,
-          "implied_prob": 0.3557,
-          "ev": 0.526,
+          "item": "主胜",
+          "odds": 2.07,
+          "model_prob": 0.6753,
+          "implied_prob": 0.4554,
+          "ev": 0.3978,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 57.6%，赔率 2.65，隐含概率 35.6%，期望收益率 52.6%。",
-          "time": "2026-06-13 23:34:37"
+          "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 67.5%，赔率 2.07，隐含概率 45.5%，期望收益率 39.8%。",
+          "time": "2026-06-14 02:44:54"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 4.99,
-          "model_prob": 0.4089,
-          "implied_prob": 0.1889,
-          "ev": 1.0404,
+          "item": "主胜",
+          "odds": 2.07,
+          "model_prob": 0.6753,
+          "implied_prob": 0.4554,
+          "ev": 0.3978,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 40.9%，赔率 4.99，隐含概率 18.9%，期望收益率 104.0%。",
-          "time": "2026-06-13 23:34:39"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 67.5%，赔率 2.07，隐含概率 45.5%，期望收益率 39.8%。",
+          "time": "2026-06-14 02:44:55"
         }
       ]
     },
@@ -1706,22 +1706,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "瑞士Elo领先100分，FIFA排名更高，攻防数据与baseline主胜53%一致；日本状态好但防守优势不明显，稳健选择瑞士2-1。",
+          "analysis": "瑞Elo+100/FIFA14vs18占优,baseline主胜53.1%>52%阈值触发稳健策略。Poisson瑞2.84远高于日2.08,攻防均势(攻1.7vs1.6,防0.9相同)。2-1为top scores最优主胜比分(6.45%)。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:12"
+          "time": "2026-06-14 02:12:00"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "瑞士主胜53%未达安全线，日本近态更佳(W6D2L2)；但瑞士进攻xG优势(2.84vs2.08)真实存在，一球小胜路线风险可控。",
+          "analysis": "瑞士主场胜率53%未达58%安全线，日本攻防均衡1.6/0.9并非鱼腩，Elo差仅100暗示一球差距，2-1比baseline热门比分更符合窄幅风险框架。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:23"
+          "time": "2026-06-14 02:25:52"
         }
       ],
       "odds": {
@@ -1733,7 +1733,7 @@
         "home_imp": 0.5308,
         "draw_imp": 0.1846,
         "away_imp": 0.2846,
-        "updated_at": "2026-06-13 23:32:55",
+        "updated_at": "2026-06-14 02:42:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1749,7 +1749,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 75.1%，赔率 1.78，隐含概率 53.1%，期望收益率 33.8%。",
-          "time": "2026-06-13 23:34:40"
+          "time": "2026-06-14 02:44:58"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1763,7 +1763,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 75.1%，赔率 1.78，隐含概率 53.1%，期望收益率 33.8%。",
-          "time": "2026-06-13 23:34:42"
+          "time": "2026-06-14 02:45:00"
         }
       ]
     },
@@ -1783,24 +1783,24 @@
         {
           "model": "GPT-5.5",
           "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "克罗地亚Elo和FIFA略优，摩洛哥防守与近况更好，双方攻防强度接近；baseline胜负几乎对半，稳健处理为1-1平局。",
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "克Elo+80/FIFA10vs13微优,攻1.5相同防摩0.8略好。baseline接近平盘(主40.7%vs客39.6%),Poisson极接近(λ≈2.35)。局面均衡下克凭Elo和大赛经验小胜,1-2为最可能客胜比分(6.09%)。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:14"
+          "time": "2026-06-14 02:12:02"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "两队攻防几近镜像（攻击均为1.5），Elo差仅80分且xG几乎相同；平局19.7%被低估，1-1是最符合数据结构的中立判断。",
+          "analysis": "Elo差仅80双方胜率几乎持平，摩洛哥主场但防线0.8偏弱，克罗地亚世界杯经验丰富且攻守均衡，1-1平局概率被baseline低估。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:24"
+          "time": "2026-06-14 02:25:53"
         }
       ],
       "odds": {
@@ -1812,23 +1812,23 @@
         "home_imp": 0.4066,
         "draw_imp": 0.197,
         "away_imp": 0.3964,
-        "updated_at": "2026-06-13 23:32:56",
+        "updated_at": "2026-06-14 02:42:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "平局",
-          "odds": 4.79,
-          "model_prob": 0.4168,
-          "implied_prob": 0.197,
-          "ev": 0.9963,
+          "item": "客胜",
+          "odds": 2.38,
+          "model_prob": 0.6164,
+          "implied_prob": 0.3964,
+          "ev": 0.4671,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 41.7%，赔率 4.79，隐含概率 19.7%，期望收益率 99.6%。",
-          "time": "2026-06-13 23:34:44"
+          "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 61.6%，赔率 2.38，隐含概率 39.6%，期望收益率 46.7%。",
+          "time": "2026-06-14 02:45:02"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1842,7 +1842,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 41.7%，赔率 4.79，隐含概率 19.7%，期望收益率 99.6%。",
-          "time": "2026-06-13 23:34:45"
+          "time": "2026-06-14 02:45:03"
         }
       ]
     },
@@ -1864,22 +1864,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "乌拉圭Elo领先140分，FIFA排名和防守质量优于苏格兰；baseline受主队进球期望影响偏主胜，但基本面更支持乌拉圭小胜。",
+          "analysis": "乌Elo+140/FIFA16vs30明显领先,攻防均优于苏(攻1.4vs1.3,防0.9vs1.1)。虽baseline受主场修正偏苏(主胜44.9%),但基本面差距明确。Poisson低比分(λ<1.9),1-2(7.43%)为最可能客胜比分。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:16"
+          "time": "2026-06-14 02:12:03"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "xG合计仅3.47属于低比分格局，top score 1-1概率高达9.9%；苏格兰主场防守尚可(1.1)，乌拉圭攻坚乏力，平局价值最高。",
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "Elo差140触发窄幅预警，乌拉圭高海拔客场难破苏格兰1.1防线，双方lambda均低于2预示低比分，1-0小胜比baseline1-1更反映主场优势。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:26"
+          "time": "2026-06-14 02:25:55"
         }
       ],
       "odds": {
@@ -1891,7 +1891,7 @@
         "home_imp": 0.4491,
         "draw_imp": 0.2289,
         "away_imp": 0.3219,
-        "updated_at": "2026-06-13 23:32:58",
+        "updated_at": "2026-06-14 02:42:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1907,21 +1907,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 54.1%，赔率 2.93，隐含概率 32.2%，期望收益率 58.6%。",
-          "time": "2026-06-13 23:34:47"
+          "time": "2026-06-14 02:45:05"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 4.12,
-          "model_prob": 0.4491,
-          "implied_prob": 0.2289,
-          "ev": 0.8502,
+          "item": "主胜",
+          "odds": 2.1,
+          "model_prob": 0.6695,
+          "implied_prob": 0.4491,
+          "ev": 0.4059,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 44.9%，赔率 4.12，隐含概率 22.9%，期望收益率 85.0%。",
-          "time": "2026-06-13 23:34:49"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 66.9%，赔率 2.10，隐含概率 44.9%，期望收益率 40.6%。",
+          "time": "2026-06-14 02:45:07"
         }
       ]
     },
@@ -1943,22 +1943,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "比利时Elo高出310分，FIFA排名、进攻火力和防守质量均明显优于土耳其；即使baseline偏主队，稳健基本面应取比利时2-1。",
+          "analysis": "比Elo+310/FIFA第5远超土第35,攻防全方位碾压(攻1.8vs1.5,防0.8vs1.3)。baseline异常偏高主胜(47.99%)疑为主场修正过强,以Elo和攻防基本面为准,比客胜合理。Poisson 1-2为最优客胜比分。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:09:18"
+          "time": "2026-06-14 02:12:05"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "比利时防守0.8为致命弱点，土耳其主场防守1.3有足够抗击打力；baseline主胜48%已释放冷门信号，2-1路线可行。",
+          "analysis": "土耳其主场防线1.3稳固，比利时防守0.8漏洞大已被baseline反映为主胜，但Elo差310提醒客队攻击力1.8仍可破门，一球差距最合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:24:27"
+          "time": "2026-06-14 02:25:57"
         }
       ],
       "odds": {
@@ -1970,7 +1970,7 @@
         "home_imp": 0.4793,
         "draw_imp": 0.2039,
         "away_imp": 0.3168,
-        "updated_at": "2026-06-13 23:33:00",
+        "updated_at": "2026-06-14 02:42:56",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1986,7 +1986,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 53.6%，赔率 2.98，隐含概率 31.7%，期望收益率 59.9%。",
-          "time": "2026-06-13 23:34:50"
+          "time": "2026-06-14 02:45:08"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2000,7 +2000,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 70.0%，赔率 1.97，隐含概率 47.9%，期望收益率 37.9%。",
-          "time": "2026-06-13 23:34:52"
+          "time": "2026-06-14 02:45:10"
         }
       ]
     },
@@ -2022,22 +2022,22 @@
           "home_goals": 0,
           "away_goals": 1,
           "result": "客胜",
-          "analysis": "塞内加尔Elo与FIFA排名优势明显，攻防强度和近况均优于南非；baseline虽偏均衡且1-1最高，但稳健策略倾向客队低比分小胜。",
+          "analysis": "塞内加尔Elo1650对南非1350领先300分，FIFA排名20vs67、近态W5D3L2全面占优。攻防对位塞内加尔进攻1.4对南非防守1.4持平，但南非进攻1.0难破塞内加尔防守1.0。Poisson最可能低比分中0-1概率第二高(11.3%)，稳健策略给塞内加尔小胜零封。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:40"
+          "time": "2026-06-14 02:14:41"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "塞内加尔客胜仅38.4%远低于58%，平局28.7%>25%。南非防守1.4不算差，塞内加尔攻击1.4未达碾压级，三结果极均衡，1-1平局是价值最高的路径。",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，南非胜平负概率为33%/29%/38%，最可能比分为1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:47"
+          "time": "2026-06-14 02:29:35"
         }
       ],
       "odds": {
@@ -2049,7 +2049,7 @@
         "home_imp": 0.3288,
         "draw_imp": 0.2877,
         "away_imp": 0.3836,
-        "updated_at": "2026-06-13 23:33:01",
+        "updated_at": "2026-06-14 02:42:59",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2065,7 +2065,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 60.4%，赔率 2.46，隐含概率 38.4%，期望收益率 48.6%。",
-          "time": "2026-06-13 23:34:53"
+          "time": "2026-06-14 02:45:12"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2079,7 +2079,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 50.7%，赔率 3.28，隐含概率 28.8%，期望收益率 66.4%。",
-          "time": "2026-06-13 23:34:55"
+          "time": "2026-06-14 02:45:14"
         }
       ]
     },
@@ -2099,24 +2099,24 @@
         {
           "model": "GPT-5.5",
           "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "哥伦比亚Elo高出170且FIFA排名、攻防效率和近10场状态更稳；Poisson给出1-1与1-2接近，综合基本面取客队小胜。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "哥伦比亚Elo1700对捷克1530有170分优势，FIFA排名17vs38、近态W5D2L3略优。但双方攻防对位接近，lambda预示3球左右对攻。Poisson最可能比分1-1(12.0%)，Elo差未达200且主胜率0.389未过半，均势格局倾向握手言和。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:41"
+          "time": "2026-06-14 02:14:43"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo差170<180且平局25.4%>25%，哥伦比亚客胜仅35.7%。捷克主场加成下无一方有明确优势，1-1最符合数据均衡格局。",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，捷克胜平负概率为39%/25%/36%，最可能比分为1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:49"
+          "time": "2026-06-14 02:29:37"
         }
       ],
       "odds": {
@@ -2128,23 +2128,23 @@
         "home_imp": 0.3893,
         "draw_imp": 0.2539,
         "away_imp": 0.3568,
-        "updated_at": "2026-06-13 23:33:03",
+        "updated_at": "2026-06-14 02:43:02",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
         {
           "model": "GPT-5.5",
-          "item": "客胜",
-          "odds": 2.64,
-          "model_prob": 0.577,
-          "implied_prob": 0.3568,
-          "ev": 0.5232,
+          "item": "平局",
+          "odds": 3.71,
+          "model_prob": 0.474,
+          "implied_prob": 0.2539,
+          "ev": 0.7585,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 57.7%，赔率 2.64，隐含概率 35.7%，期望收益率 52.3%。",
-          "time": "2026-06-13 23:34:57"
+          "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 47.4%，赔率 3.71，隐含概率 25.4%，期望收益率 75.9%。",
+          "time": "2026-06-14 02:45:15"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2158,7 +2158,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 47.4%，赔率 3.71，隐含概率 25.4%，期望收益率 75.9%。",
-          "time": "2026-06-13 23:34:58"
+          "time": "2026-06-14 02:45:17"
         }
       ]
     },
@@ -2180,22 +2180,22 @@
           "home_goals": 0,
           "away_goals": 1,
           "result": "客胜",
-          "analysis": "丹麦在Elo、FIFA排名、防守质量和近期胜率上均领先波黑；baseline平局概率较高，但实力差超过120，稳健取丹麦一球胜。",
+          "analysis": "丹麦Elo1640对波黑1400领先240分，FIFA排名21vs58、近态W4D3L3远优于波黑W2D3L5。丹麦攻防1.4/1.0全面占优，波黑攻击1.0难以突破丹麦防线。Poisson虽1-1最高但0-1紧随其后(11.4%)，低lambda格局下稳健选丹麦小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:43"
+          "time": "2026-06-14 02:14:44"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 0,
-          "away_goals": 0,
+          "home_goals": 1,
+          "away_goals": 1,
           "result": "平局",
-          "analysis": "平局29.6%为本批最高之一。波黑攻击1.0极弱但防守1.5稳健，丹麦攻击1.4不致命，lambda低至1.16/1.14预示沉闷局面，0-0冷平价值高。",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，波黑胜平负概率为36%/30%/35%，最可能比分为1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:51"
+          "time": "2026-06-14 02:29:39"
         }
       ],
       "odds": {
@@ -2207,7 +2207,7 @@
         "home_imp": 0.3574,
         "draw_imp": 0.2958,
         "away_imp": 0.3469,
-        "updated_at": "2026-06-13 23:33:05",
+        "updated_at": "2026-06-14 02:43:04",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2223,7 +2223,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 56.6%，赔率 2.72，隐含概率 34.7%，期望收益率 54.1%。",
-          "time": "2026-06-13 23:35:01"
+          "time": "2026-06-14 02:45:18"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2237,7 +2237,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 51.6%，赔率 3.19，隐含概率 29.6%，期望收益率 64.6%。",
-          "time": "2026-06-13 23:35:03"
+          "time": "2026-06-14 02:45:20"
         }
       ]
     },
@@ -2259,22 +2259,22 @@
           "home_goals": 0,
           "away_goals": 1,
           "result": "客胜",
-          "analysis": "伊朗Elo和FIFA排名领先，攻防数据也略优于巴拉圭；baseline显示胜平负接近且低比分为主，因此保守选择伊朗客场小胜。",
+          "analysis": "伊朗Elo1630对巴拉圭1450有180分优势，FIFA排名22vs50、近态W5D2L3明显优于对手。双方lambda接近(1.22vs1.21)，Poisson最可能比分1-1，但伊朗综合实力更胜一筹。攻防对位伊朗1.3/1.0略占上风，低比分格局选客胜0-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:45"
+          "time": "2026-06-14 02:14:46"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "平局28.6%>25%，Elo差仅180临界。伊朗防守1.0脆弱但巴拉圭攻击1.0同样乏力，双方均无必胜把握，1-1最合理。",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，巴拉圭胜平负概率为36%/29%/36%，最可能比分为1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:53"
+          "time": "2026-06-14 02:29:40"
         }
       ],
       "odds": {
@@ -2286,7 +2286,7 @@
         "home_imp": 0.359,
         "draw_imp": 0.2861,
         "away_imp": 0.3549,
-        "updated_at": "2026-06-13 23:33:06",
+        "updated_at": "2026-06-14 02:43:07",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2302,7 +2302,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 57.5%，赔率 2.66，隐含概率 35.5%，期望收益率 53.0%。",
-          "time": "2026-06-13 23:35:04"
+          "time": "2026-06-14 02:45:22"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2316,7 +2316,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 50.6%，赔率 3.30，隐含概率 28.6%，期望收益率 67.0%。",
-          "time": "2026-06-13 23:35:06"
+          "time": "2026-06-14 02:45:23"
         }
       ]
     },
@@ -2338,22 +2338,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "日本Elo、FIFA排名、防守稳定性和近期状态均明显优于卡塔尔；尽管baseline偏向主队进球优势，基本面复核后取日本2-1。",
+          "analysis": "日本Elo1680对卡塔尔1450领先230分，FIFA排名18vs55、近态W6D2L2明显占优。虽baseline给卡塔尔高lambda(1.889)但日本攻防1.6/0.9更具威胁，进攻端对卡塔尔防守1.6有破门能力。稳健策略信任Elo实力差，预测日本客胜1-2。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:46"
+          "time": "2026-06-14 02:14:47"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "baseline高估卡塔尔主场，日本Elo高230、近态W6D2L2明显更强。日防守0.9是隐患但攻击1.6可破卡防线，1-2客胜是价值方向。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，卡塔尔胜平负概率为51%/23%/26%，最可能比分为1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:55"
+          "time": "2026-06-14 02:29:41"
         }
       ],
       "odds": {
@@ -2365,7 +2365,7 @@
         "home_imp": 0.5121,
         "draw_imp": 0.2332,
         "away_imp": 0.2547,
-        "updated_at": "2026-06-13 23:33:08",
+        "updated_at": "2026-06-14 02:43:09",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2381,21 +2381,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 47.5%，赔率 3.70，隐含概率 25.5%，期望收益率 75.8%。",
-          "time": "2026-06-13 23:35:08"
+          "time": "2026-06-14 02:45:25"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "客胜",
-          "odds": 3.7,
-          "model_prob": 0.4752,
-          "implied_prob": 0.2547,
-          "ev": 0.7583,
+          "item": "平局",
+          "odds": 4.04,
+          "model_prob": 0.4534,
+          "implied_prob": 0.2332,
+          "ev": 0.8317,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 47.5%，赔率 3.70，隐含概率 25.5%，期望收益率 75.8%。",
-          "time": "2026-06-13 23:35:09"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 45.3%，赔率 4.04，隐含概率 23.3%，期望收益率 83.2%。",
+          "time": "2026-06-14 02:45:27"
         }
       ]
     },
@@ -2414,25 +2414,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 2,
+          "home_goals": 3,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "巴西Elo、FIFA排名、攻防强度和近况均占优，baseline主胜率超过52%；克罗地亚韧性强，故不取大胜，预测巴西2-1。",
+          "analysis": "巴西Elo1920领先克罗地亚1780达140分，FIFA排名第3、近态W7D2L1、攻击力2.1超强。lambda高达3.6预示进球大战，巴西进攻对克罗地亚防守0.9优势显著。home_win56.5%超52%阈值，稳健策略果断给东道主热门中胜3-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:48"
+          "time": "2026-06-14 02:14:49"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "巴西胜率56.5%<58%，Elo差140<180。克罗地亚两届世界杯淘汰赛硬仗DNA，巴西防守0.7漏洞明显，1-1延续2022八强剧本。",
+          "home_goals": 3,
+          "away_goals": 2,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，巴西胜平负概率为56%/17%/27%，最可能比分为3-2。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:56"
+          "time": "2026-06-14 02:29:43"
         }
       ],
       "odds": {
@@ -2444,7 +2444,7 @@
         "home_imp": 0.5649,
         "draw_imp": 0.1664,
         "away_imp": 0.2688,
-        "updated_at": "2026-06-13 23:33:10",
+        "updated_at": "2026-06-14 02:43:11",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2460,21 +2460,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 78.5%，赔率 1.67，隐含概率 56.5%，期望收益率 31.1%。",
-          "time": "2026-06-13 23:35:11"
+          "time": "2026-06-14 02:45:28"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 5.67,
-          "model_prob": 0.3863,
-          "implied_prob": 0.1664,
-          "ev": 1.1905,
+          "item": "主胜",
+          "odds": 1.67,
+          "model_prob": 0.7849,
+          "implied_prob": 0.5649,
+          "ev": 0.3109,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 38.6%，赔率 5.67，隐含概率 16.6%，期望收益率 119.0%。",
-          "time": "2026-06-13 23:35:12"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 78.5%，赔率 1.67，隐含概率 56.5%，期望收益率 31.1%。",
+          "time": "2026-06-14 02:45:30"
         }
       ]
     },
@@ -2494,24 +2494,24 @@
         {
           "model": "GPT-5.5",
           "home_goals": 0,
-          "away_goals": 2,
+          "away_goals": 1,
           "result": "客胜",
-          "analysis": "乌拉圭Elo领先巨大，FIFA排名、攻防效率和状态全面压过海地；baseline偏低比分和防冷平，但基本面差距支持客队两球胜。",
+          "analysis": "乌拉圭Elo1720对海地1200差距520分，FIFA排名16vs87、攻防1.4/0.9对0.8/1.9全面碾压。海地近态W2D3L5极差，攻击力0.8难以威胁乌拉圭。虽baseline平局概率33.4%偏高但Elo差远超120阈值，排除平局选乌拉圭小胜零封。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:49"
+          "time": "2026-06-14 02:14:51"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 0,
           "away_goals": 0,
           "result": "平局",
-          "analysis": "平局33.4%最高，乌拉圭客胜仅35.9%。lambda仅0.90/0.99预示极低比分，0-0概率16.3%为top1，海地虽弱但乌攻击力不足以碾压。",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，海地胜平负概率为31%/33%/36%，最可能比分为0-0。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:58"
+          "time": "2026-06-14 02:29:44"
         }
       ],
       "odds": {
@@ -2523,7 +2523,7 @@
         "home_imp": 0.3075,
         "draw_imp": 0.3336,
         "away_imp": 0.3589,
-        "updated_at": "2026-06-13 23:33:11",
+        "updated_at": "2026-06-14 02:43:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2539,7 +2539,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 57.9%，赔率 2.63，隐含概率 35.9%，期望收益率 52.2%。",
-          "time": "2026-06-13 23:35:15"
+          "time": "2026-06-14 02:45:32"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2553,7 +2553,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 55.4%，赔率 2.83，隐含概率 33.4%，期望收益率 56.8%。",
-          "time": "2026-06-13 23:35:17"
+          "time": "2026-06-14 02:45:33"
         }
       ]
     },
@@ -2575,22 +2575,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "比利时Elo与FIFA排名优势清晰，攻击力、防守失球和近况均优于澳大利亚；baseline进球偏多，稳健选择比利时2-1小胜。",
+          "analysis": "比利时Elo1860对澳大利亚1600有260分优势，FIFA排名第5、攻防1.8/0.8全面优于对手1.4/1.2。双方lambda均超2.0预示对攻格局，top scores分散。比利时近态W6D2L2更稳健，综合实力差距明显，预测1-2客胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:10:51"
+          "time": "2026-06-14 02:14:52"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "比利时Elo高260、攻击1.8质变明显，baseline主胜44%高估澳大利亚主场。比防守0.8有漏洞但澳攻击1.4未必充分惩罚，1-2客胜价值方向。",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，澳大利亚胜平负概率为44%/21%/35%，最可能比分为2-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:26:59"
+          "time": "2026-06-14 02:29:46"
         }
       ],
       "odds": {
@@ -2602,7 +2602,7 @@
         "home_imp": 0.4406,
         "draw_imp": 0.205,
         "away_imp": 0.3545,
-        "updated_at": "2026-06-13 23:33:13",
+        "updated_at": "2026-06-14 02:43:15",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2618,21 +2618,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 57.4%，赔率 2.66，隐含概率 35.4%，期望收益率 52.7%。",
-          "time": "2026-06-13 23:35:19"
+          "time": "2026-06-14 02:45:35"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "客胜",
-          "odds": 2.66,
-          "model_prob": 0.5741,
-          "implied_prob": 0.3545,
-          "ev": 0.5272,
+          "item": "主胜",
+          "odds": 2.14,
+          "model_prob": 0.6608,
+          "implied_prob": 0.4406,
+          "ev": 0.414,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 57.4%，赔率 2.66，隐含概率 35.4%，期望收益率 52.7%。",
-          "time": "2026-06-13 23:35:20"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 66.1%，赔率 2.14，隐含概率 44.1%，期望收益率 41.4%。",
+          "time": "2026-06-14 02:45:37"
         }
       ]
     },
@@ -2654,22 +2654,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "Elo与FIFA均小幅倾向墨西哥，双方攻防接近但墨西哥近况略稳；Poisson首选2-1，按稳健基本面给主队小胜，不追高比分。",
+          "analysis": "墨西哥Elo与FIFA排名均略优，近况W6稳定，攻防与塞内加尔接近；baseline主胜最高且2-1居首，稳健取主队小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:19"
+          "time": "2026-06-14 02:15:51"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo差仅100分，双方实力极为接近。墨西哥主场优势微弱但胜率不足49%，塞内加尔防守稳固(1.0)。平局价值被低估，1-1是baseline第二高概率比分。",
+          "analysis": "Elo差仅100,主胜48.9%不足58%阈值,塞内加尔防守1.0近期5胜3平2负稳定。双方均非碾压型,平局价值高于盘口暗示。1-1合理。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:28:57"
+          "time": "2026-06-14 02:31:59"
         }
       ],
       "odds": {
@@ -2681,7 +2681,7 @@
         "home_imp": 0.4886,
         "draw_imp": 0.2168,
         "away_imp": 0.2947,
-        "updated_at": "2026-06-13 23:33:16",
+        "updated_at": "2026-06-14 02:43:17",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2697,7 +2697,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 70.9%，赔率 1.93，隐含概率 48.9%，期望收益率 36.8%。",
-          "time": "2026-06-13 23:35:22"
+          "time": "2026-06-14 02:45:39"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2711,7 +2711,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 43.7%，赔率 4.35，隐含概率 21.7%，期望收益率 90.0%。",
-          "time": "2026-06-13 23:35:24"
+          "time": "2026-06-14 02:45:41"
         }
       ]
     },
@@ -2733,22 +2733,22 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "哥伦比亚Elo和FIFA占优，但韩国主场项与Poisson分布拉近差距；最高概率为1-1，双方胜率分散，稳健取平局。",
+          "analysis": "哥伦比亚Elo和排名占优，但韩国主场项与状态不差，baseline主胜偏高但1-1为最可能比分；双方差距未拉开，取低比分平局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:20"
+          "time": "2026-06-14 02:15:53"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "Elo差仅80分，远低于180阈值。韩国主场但哥伦比亚整体略优，平局概率23.58%且1-1是baseline第一比分，双方都难以完全压制对手。",
+          "analysis": "Elo差80极度接近,韩国主场胜率仅43.2%。哥伦比亚攻防略优但客场不稳,双方近况相当,平局23.6%近阈值。1-1体现均衡。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:28:58"
+          "time": "2026-06-14 02:32:01"
         }
       ],
       "odds": {
@@ -2760,7 +2760,7 @@
         "home_imp": 0.4313,
         "draw_imp": 0.2361,
         "away_imp": 0.3326,
-        "updated_at": "2026-06-13 23:33:17",
+        "updated_at": "2026-06-14 02:43:19",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2776,7 +2776,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 45.6%，赔率 4.00，隐含概率 23.6%，期望收益率 82.3%。",
-          "time": "2026-06-13 23:35:27"
+          "time": "2026-06-14 02:45:43"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2790,7 +2790,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 45.6%，赔率 4.00，隐含概率 23.6%，期望收益率 82.3%。",
-          "time": "2026-06-13 23:35:28"
+          "time": "2026-06-14 02:45:45"
         }
       ]
     },
@@ -2812,22 +2812,22 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "丹麦Elo和FIFA优势明显，加拿大有主场修正但进攻防线不占优；Poisson最高为1-1，胜率差距不大，稳健取低比分平局。",
+          "analysis": "丹麦Elo与FIFA明显优于加拿大，但baseline主胜受场地修正偏高，平局概率接近26%；双方近况相同，Poisson首选1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:22"
+          "time": "2026-06-14 02:15:54"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "平局概率25.86%已超过25%阈值，Elo差仅120分。两队近况完全相同(W4D3L3)，丹麦攻击力略强但加拿大主场防守不差(1.3)，平局是最优价值选择。",
+          "analysis": "平局概率25.9%突破阈值,Elo差120,加拿大主场丹麦无碾压优势。两队状态同为4胜3平3负,1-1最典型低比分平局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:00"
+          "time": "2026-06-14 02:32:02"
         }
       ],
       "odds": {
@@ -2839,7 +2839,7 @@
         "home_imp": 0.431,
         "draw_imp": 0.2586,
         "away_imp": 0.3105,
-        "updated_at": "2026-06-13 23:33:19",
+        "updated_at": "2026-06-14 02:43:21",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2855,7 +2855,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 平局；模型概率 47.9%，赔率 3.65，隐含概率 25.9%，期望收益率 74.7%。",
-          "time": "2026-06-13 23:35:30"
+          "time": "2026-06-14 02:45:47"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2869,7 +2869,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 47.9%，赔率 3.65，隐含概率 25.9%，期望收益率 74.7%。",
-          "time": "2026-06-13 23:35:32"
+          "time": "2026-06-14 02:45:48"
         }
       ]
     },
@@ -2891,22 +2891,22 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "美国Elo、FIFA、攻防和近况均优于伊朗，主场环境也加分；Poisson首选2-1，胜率接近五成，稳健给美国小胜。",
+          "analysis": "美国Elo、FIFA、攻防和近况均优于伊朗，baseline主胜约51%且2-1为最高概率；未到大胜门槛，稳健给主队小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:23"
+          "time": "2026-06-14 02:15:56"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "Elo差仅90分需警惕冷门，但美国主场+状态更优(W6D3L1)。伊朗防守1.0不差但美国攻击力1.5可信，2-1一球小胜反映主场优势而非碾压。",
+          "analysis": "Elo差90小于180,伊朗防守1.0恰好临界。美国主场50.9%胜率不过半,但近期6胜3平1负状态出色,2-1小胜风险可控。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:01"
+          "time": "2026-06-14 02:32:03"
         }
       ],
       "odds": {
@@ -2918,7 +2918,7 @@
         "home_imp": 0.5096,
         "draw_imp": 0.209,
         "away_imp": 0.2814,
-        "updated_at": "2026-06-13 23:33:20",
+        "updated_at": "2026-06-14 02:43:24",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2934,7 +2934,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 72.9%，赔率 1.85，隐含概率 51.0%，期望收益率 34.9%。",
-          "time": "2026-06-13 23:35:33"
+          "time": "2026-06-14 02:45:50"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2948,7 +2948,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 72.9%，赔率 1.85，隐含概率 51.0%，期望收益率 34.9%。",
-          "time": "2026-06-13 23:35:35"
+          "time": "2026-06-14 02:45:51"
         }
       ]
     },
@@ -2970,22 +2970,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "阿根廷Elo、FIFA、攻防效率和近况均明显领先，瑞士实力不弱但防守承压；按基本面压过高进球模型，选阿根廷2-1。",
+          "analysis": "阿根廷Elo高170且FIFA第1，攻防效率和近况明显强于瑞士；baseline偏高比分需压低，按基本面选择强队2-1客胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:25"
+          "time": "2026-06-14 02:15:58"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
           "away_goals": 2,
           "result": "平局",
-          "analysis": "Elo差170分低于阈值，阿根廷防守仅0.6极度脆弱。瑞士主场攻击力1.7且双方lambda均超3.4预示进球大战，2-2捕捉阿根廷后防崩盘风险。",
+          "analysis": "Elo差170<180,阿根廷客胜仅38.8%,瑞士主场胜率43.8%反超。双方防守弱点0.9/0.6必致互有进球,2-2高风险高价值。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:04"
+          "time": "2026-06-14 02:32:05"
         }
       ],
       "odds": {
@@ -2997,7 +2997,7 @@
         "home_imp": 0.437,
         "draw_imp": 0.1745,
         "away_imp": 0.3885,
-        "updated_at": "2026-06-13 23:33:22",
+        "updated_at": "2026-06-14 02:43:27",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3013,7 +3013,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 60.8%，赔率 2.43，隐含概率 38.9%，期望收益率 47.8%。",
-          "time": "2026-06-13 23:35:37"
+          "time": "2026-06-14 02:45:53"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3027,7 +3027,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 39.4%，赔率 5.41，隐含概率 17.4%，期望收益率 113.3%。",
-          "time": "2026-06-13 23:35:38"
+          "time": "2026-06-14 02:45:55"
         }
       ]
     },
@@ -3049,22 +3049,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "法国在Elo、FIFA、进攻和近期状态上全面占优，摩洛哥防守韧性可限制差距；Poisson偏客队进球优势，取法国2-1。",
+          "analysis": "法国Elo高200、FIFA第2，攻击与防守均优于摩洛哥，近10场稳定；baseline客胜最高，修正高lambda后取法国2-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:26"
+          "time": "2026-06-14 02:15:59"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 3,
+          "away_goals": 2,
           "result": "客胜",
-          "analysis": "Elo差200分法国实力优势确立。摩洛哥防守仅0.8难以抵挡法国2.0攻击群，但摩洛哥主场有破门能力，1-3反映法国胜出但非零封。",
+          "analysis": "Elo差200刚过180阈值,法国客胜47.6%不足58%。摩洛哥主场6胜2平2负,法国防守0.7也漏,摩洛哥进球可期。1-2警惕冷门。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:05"
+          "time": "2026-06-14 02:32:06"
         }
       ],
       "odds": {
@@ -3076,7 +3076,7 @@
         "home_imp": 0.3492,
         "draw_imp": 0.1746,
         "away_imp": 0.4762,
-        "updated_at": "2026-06-13 23:33:23",
+        "updated_at": "2026-06-14 02:43:29",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3092,7 +3092,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 69.6%，赔率 1.98，隐含概率 47.6%，期望收益率 37.8%。",
-          "time": "2026-06-13 23:35:40"
+          "time": "2026-06-14 02:45:57"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3106,7 +3106,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 69.6%，赔率 1.98，隐含概率 47.6%，期望收益率 37.8%。",
-          "time": "2026-06-13 23:35:43"
+          "time": "2026-06-14 02:45:58"
         }
       ]
     },
@@ -3128,22 +3128,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "英格兰Elo和FIFA优势巨大，攻防强度与近况均优于苏格兰；德比属性提升胶着度，但稳健策略仍给英格兰2-1。",
+          "analysis": "英格兰Elo领先300且FIFA排名、攻防质量全面占优，苏格兰近况一般；baseline虽接近，但最可能客胜比分为1-2。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:28"
+          "time": "2026-06-14 02:16:01"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "Elo差300分英格兰纸面碾压，但英苏德比历来胶着。苏格兰主场且baseline主胜39.43%逼近客胜40.9%，1-2一球小胜比大比分更合理。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "英苏德比,Elo差300但客胜40.9%与主胜39.4%几乎持平。苏格兰主场+德比加成,英格兰被盘口高估,1-1揭示风险。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:07"
+          "time": "2026-06-14 02:32:08"
         }
       ],
       "odds": {
@@ -3155,7 +3155,7 @@
         "home_imp": 0.3949,
         "draw_imp": 0.1966,
         "away_imp": 0.4085,
-        "updated_at": "2026-06-13 23:33:25",
+        "updated_at": "2026-06-14 02:43:32",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3171,21 +3171,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 62.9%，赔率 2.31，隐含概率 40.8%，期望收益率 45.3%。",
-          "time": "2026-06-13 23:35:44"
+          "time": "2026-06-14 02:46:00"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "客胜",
-          "odds": 2.31,
-          "model_prob": 0.629,
-          "implied_prob": 0.4085,
-          "ev": 0.453,
+          "item": "平局",
+          "odds": 4.8,
+          "model_prob": 0.4167,
+          "implied_prob": 0.1966,
+          "ev": 1.0001,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 62.9%，赔率 2.31，隐含概率 40.8%，期望收益率 45.3%。",
-          "time": "2026-06-13 23:35:46"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 41.7%，赔率 4.80，隐含概率 19.7%，期望收益率 100.0%。",
+          "time": "2026-06-14 02:46:02"
         }
       ]
     },
@@ -3207,22 +3207,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "西班牙Elo、FIFA排名、防守质量和近况均优于土耳其，土耳其主场修正不足以覆盖差距；按稳健基本面给西班牙2-1。",
+          "analysis": "西班牙Elo领先270、FIFA和防守显著更好；baseline主胜受主场/模型偏差抬高，但基本面支持西班牙小胜，取1-2。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:13:29"
+          "time": "2026-06-14 02:16:02"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo差270分但西班牙客场胜率仅30.5%远低于50%阈值。土耳其主场有攻击力(1.5)且baseline主胜49.18%高于客胜，平局是被市场低估的价值点。",
+          "result": "主胜",
+          "analysis": "Elo差270但西班牙客胜仅30.5%,土耳其主场胜率49.2%明显占优。土耳其防守1.3稳固,西班牙防守0.8存隐患,2-1冷门价值。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:29:09"
+          "time": "2026-06-14 02:32:09"
         }
       ],
       "odds": {
@@ -3234,7 +3234,7 @@
         "home_imp": 0.4916,
         "draw_imp": 0.203,
         "away_imp": 0.3054,
-        "updated_at": "2026-06-13 23:33:27",
+        "updated_at": "2026-06-14 02:43:34",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3250,21 +3250,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 52.5%，赔率 3.09，隐含概率 30.5%，期望收益率 62.4%。",
-          "time": "2026-06-13 23:35:48"
+          "time": "2026-06-14 02:46:04"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 4.65,
-          "model_prob": 0.4228,
-          "implied_prob": 0.203,
-          "ev": 0.9658,
+          "item": "主胜",
+          "odds": 1.92,
+          "model_prob": 0.7118,
+          "implied_prob": 0.4916,
+          "ev": 0.3667,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 42.3%，赔率 4.65，隐含概率 20.3%，期望收益率 96.6%。",
-          "time": "2026-06-13 23:35:49"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 71.2%，赔率 1.92，隐含概率 49.2%，期望收益率 36.7%。",
+          "time": "2026-06-14 02:46:05"
         }
       ]
     },
@@ -3283,25 +3283,25 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 0,
+          "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "德国Elo与FIFA排名优势显著，攻防强度和近况均优于南非。虽baseline客胜未过52%，但基本面差距大，取稳健客队中小胜。",
+          "analysis": "德国在Elo、FIFA排名、攻防效率和近况上均明显占优，南非防线失球偏高；Poisson最可能低比分含1-2，稳健策略倾向德国小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:14:33"
+          "time": "2026-06-14 02:16:44"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "德国客胜48.97%低于58%阈值触发风险预警；南非防守1.4尚可固守，近期状态W3D3L4不差；德国防线0.9暴露反击风险；客胜赔率被高估，平局具备冷门价值。",
+          "analysis": "德国客胜仅49%低于58%阈值，平局24.5%逼近风险线。南非防守1.4优于德国防线0.9，1-1为最高概率比分。冷门策略下平局价值显著。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:32:03"
+          "time": "2026-06-14 02:34:02"
         }
       ],
       "odds": {
@@ -3313,7 +3313,7 @@
         "home_imp": 0.2659,
         "draw_imp": 0.2451,
         "away_imp": 0.489,
-        "updated_at": "2026-06-13 23:33:28",
+        "updated_at": "2026-06-14 02:43:36",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3329,7 +3329,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 71.0%，赔率 1.93，隐含概率 48.9%，期望收益率 37.0%。",
-          "time": "2026-06-13 23:35:51"
+          "time": "2026-06-14 02:46:07"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3343,7 +3343,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 46.5%，赔率 3.85，隐含概率 24.5%，期望收益率 79.0%。",
-          "time": "2026-06-13 23:35:53"
+          "time": "2026-06-14 02:46:09"
         }
       ]
     },
@@ -3365,22 +3365,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "葡萄牙排名、Elo、攻击力和防守质量全面占优，近10场胜率更高。baseline接近但客队硬实力清晰，按强队小胜处理。",
+          "analysis": "葡萄牙Elo与排名优势较大，攻击力和防守质量均优于捷克，近10场胜率更高；虽baseline差距不大，但基本面支持客队小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:14:35"
+          "time": "2026-06-14 02:16:45"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
+          "home_goals": 2,
           "away_goals": 1,
-          "result": "平局",
-          "analysis": "葡萄牙客胜41.45%远低于58%阈值，捷克主胜37.9%与之接近；葡防线仅0.7极其脆弱；捷克进攻1.2具备破门能力；机构高估葡萄牙，平局价值显著。",
+          "result": "主胜",
+          "analysis": "葡萄牙客胜仅41%远低58%阈值，防线0.7为四场最差。捷克主场胜率38%逼近平手盘，Elo差320非碾压。葡防线漏洞下捷克2-1冷门可期。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:32:05"
+          "time": "2026-06-14 02:34:03"
         }
       ],
       "odds": {
@@ -3392,7 +3392,7 @@
         "home_imp": 0.3792,
         "draw_imp": 0.2066,
         "away_imp": 0.4142,
-        "updated_at": "2026-06-13 23:33:30",
+        "updated_at": "2026-06-14 02:43:38",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3408,21 +3408,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 63.5%，赔率 2.28，隐含概率 41.4%，期望收益率 44.7%。",
-          "time": "2026-06-13 23:35:55"
+          "time": "2026-06-14 02:46:10"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "平局",
-          "odds": 4.57,
-          "model_prob": 0.4265,
-          "implied_prob": 0.2066,
-          "ev": 0.9489,
+          "item": "主胜",
+          "odds": 2.49,
+          "model_prob": 0.599,
+          "implied_prob": 0.3792,
+          "ev": 0.4915,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 42.6%，赔率 4.57，隐含概率 20.7%，期望收益率 94.9%。",
-          "time": "2026-06-13 23:35:58"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 59.9%，赔率 2.49，隐含概率 37.9%，期望收益率 49.2%。",
+          "time": "2026-06-14 02:46:12"
         }
       ]
     },
@@ -3444,22 +3444,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "荷兰Elo高出明显，FIFA排名、攻防效率和近期状态均强于波黑。baseline偏低比分，首选接近Poisson高位的客队小胜。",
+          "analysis": "荷兰Elo、FIFA排名、进攻和防守指标全面领先，波黑近况偏弱且防守压力大；baseline首选有平局，但强弱差距支持荷兰1-2。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:14:36"
+          "time": "2026-06-14 02:16:47"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 0,
+          "home_goals": 1,
           "away_goals": 1,
-          "result": "客胜",
-          "analysis": "荷兰客胜44.01%低于58%阈值；波黑防守1.5较为稳固能限制对手，但攻击1.0偏弱难破门；近态W2D3L5低迷不支持主胜；荷兰小胜是低比分价值路径。",
+          "result": "平局",
+          "analysis": "荷兰客胜仅44%低于58%阈值，平局24.7%逼近风险线。波黑防守1.5固若金汤，荷兰防线0.8存隐患。1-1为最高概率比分，平局价值被低估。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:32:06"
+          "time": "2026-06-14 02:34:05"
         }
       ],
       "odds": {
@@ -3471,7 +3471,7 @@
         "home_imp": 0.313,
         "draw_imp": 0.2467,
         "away_imp": 0.4403,
-        "updated_at": "2026-06-13 23:33:31",
+        "updated_at": "2026-06-14 02:43:40",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3487,21 +3487,21 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 66.0%，赔率 2.14，隐含概率 44.0%，期望收益率 41.3%。",
-          "time": "2026-06-13 23:35:59"
+          "time": "2026-06-14 02:46:14"
         },
         {
           "model": "DeepSeek V4 Pro",
-          "item": "客胜",
-          "odds": 2.14,
-          "model_prob": 0.6601,
-          "implied_prob": 0.4403,
-          "ev": 0.4127,
+          "item": "平局",
+          "odds": 3.82,
+          "model_prob": 0.4669,
+          "implied_prob": 0.2467,
+          "ev": 0.7835,
           "stake": 100.0,
           "actual": "未结束",
           "pnl": 0.0,
           "status": "待结算",
-          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 66.0%，赔率 2.14，隐含概率 44.0%，期望收益率 41.3%。",
-          "time": "2026-06-13 23:36:01"
+          "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 46.7%，赔率 3.82，隐含概率 24.7%，期望收益率 78.3%。",
+          "time": "2026-06-14 02:46:15"
         }
       ]
     },
@@ -3523,22 +3523,22 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "意大利Elo、排名与防守稳定性优于巴拉圭，近期不败能力更好。baseline客胜占先但平局不低，稳健选择客队一球小胜。",
+          "analysis": "意大利Elo和排名优势稳定，防守强度优于巴拉圭，近况也更可靠；Poisson高频比分含1-2，按稳健基本面给意大利小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:14:38"
+          "time": "2026-06-14 02:16:48"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "意大利客胜44.26%低于58%阈值；巴拉圭防守1.3尚可固守主场；意防线0.8存在被反击漏洞；巴拉圭主胜31.79%不可忽视，平局赔率被低估具备价值。",
+          "analysis": "意大利客胜仅44%远低阈值，防线0.8偏弱。巴拉圭主场防守1.3不差，Elo差360但场面胶着。1-1为最高概率比分，平局价值被市场忽视。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-13 23:32:08"
+          "time": "2026-06-14 02:34:06"
         }
       ],
       "odds": {
@@ -3550,7 +3550,7 @@
         "home_imp": 0.3176,
         "draw_imp": 0.2394,
         "away_imp": 0.4429,
-        "updated_at": "2026-06-13 23:33:33",
+        "updated_at": "2026-06-14 02:43:42",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3566,7 +3566,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 66.3%，赔率 2.13，隐含概率 44.3%，期望收益率 41.1%。",
-          "time": "2026-06-13 23:36:03"
+          "time": "2026-06-14 02:46:17"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3580,7 +3580,7 @@
           "pnl": 0.0,
           "status": "待结算",
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 46.0%，赔率 3.94，隐含概率 23.9%，期望收益率 81.1%。",
-          "time": "2026-06-13 23:36:05"
+          "time": "2026-06-14 02:46:19"
         }
       ]
     },
@@ -4107,7 +4107,7 @@
       "pnl": 0,
       "roi": 0,
       "win_rate": 0,
-      "updated_at": "2026-06-13 23:36:07"
+      "updated_at": "2026-06-14 02:46:21"
     },
     {
       "model": "DeepSeek V4 Pro",
@@ -4118,7 +4118,7 @@
       "pnl": 0,
       "roi": 0,
       "win_rate": 0,
-      "updated_at": "2026-06-13 23:36:09"
+      "updated_at": "2026-06-14 02:46:23"
     }
   ]
 }
