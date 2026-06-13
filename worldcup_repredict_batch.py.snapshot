@@ -49,18 +49,37 @@ def load_odds_context():
     return out
 
 
+def parse_match_time_beijing(value):
+    if not value:
+        return None
+    for fmt in ('%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M'):
+        try:
+            return datetime.strptime(str(value).strip(), fmt).replace(tzinfo=TZ)
+        except Exception:
+            pass
+    return None
+
+
 def build_items(matches, teams, include_finished=False):
     soccer24=load_soccer24_context()
     odds_ctx=load_odds_context()
     items=[]
+    now=datetime.now(TZ)
     for m in matches:
         if m['home']=='待定' or m['away']=='待定' or not m['home_id'] or not m['away_id']:
             continue
         if not include_finished and m['status']=='已结束':
             continue
+        s24=soccer24.get((teams[m['home_id']]['en'].lower(), teams[m['away_id']]['en'].lower())) or soccer24.get((m['home'].lower(), m['away'].lower()))
+        # 预测纪律：只在赛前预测。开赛后不再覆盖预测，等赛后校准。
+        if not include_finished:
+            if s24 and s24.get('status') != '未开始':
+                continue
+            mt=parse_match_time_beijing(m.get('time'))
+            if mt and now >= mt:
+                continue
         probs=enhanced_probs(teams[m['home_id']], teams[m['away_id']], m['stage'])
         top=probs['top_scores'][0]
-        s24=soccer24.get((teams[m['home_id']]['en'].lower(), teams[m['away_id']]['en'].lower())) or soccer24.get((m['home'].lower(), m['away'].lower()))
         market=odds_ctx.get(m['record_id'])
         items.append({
             'record_id':m['record_id'],
@@ -208,11 +227,23 @@ def main():
     force='--force' in sys.argv
     include_finished='--include-finished' in sys.argv
     limit=None
+    horizon_hours=None
     if '--limit' in sys.argv:
         try: limit=int(sys.argv[sys.argv.index('--limit')+1])
         except Exception: pass
+    if '--horizon-hours' in sys.argv:
+        try: horizon_hours=float(sys.argv[sys.argv.index('--horizon-hours')+1])
+        except Exception: pass
     teams=load_teams(); matches=load_matches(teams)
     items=build_items(matches,teams,include_finished=include_finished)
+    if horizon_hours is not None:
+        now=datetime.now(TZ)
+        filtered=[]
+        for it in items:
+            mt=parse_match_time_beijing(it.get('time'))
+            if mt and 0 <= (mt-now).total_seconds() <= horizon_hours*3600:
+                filtered.append(it)
+        items=filtered
     if not force:
         # 默认只预测未预测/未开始的比赛；force 会重预测全部未结束已知球队比赛
         items=[it for it in items if next((m for m in matches if m['record_id']==it['record_id']),{}).get('prediction_status')!='已预测']

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+python3 /Users/lute/.hermes/scripts/worldcup_soccer24_collect.py
+python3 /Users/lute/.hermes/scripts/worldcup_odds_betexplorer.py
+python3 /Users/lute/.hermes/scripts/worldcup_repredict_batch.py --force --horizon-hours 72
+python3 /Users/lute/.hermes/scripts/worldcup_enhanced_update.py
+python3 /Users/lute/.hermes/scripts/_worldcup_extract.py
+bash /Users/lute/.hermes/scripts/worldcup_github_publish.sh
