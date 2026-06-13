@@ -1,0 +1,15 @@
+
+# Secrets
+.env
+*.key
+*.pem
+*.secret
+*credentials*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
