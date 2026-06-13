@@ -126,34 +126,34 @@
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "真实API欧洲盘客胜隐含概率78.5%，soccer24赛程为未开始。瑞士排名、Elo和防守明显优于卡塔尔，攻防状态支持客队稳健小胜。",
+          "analysis": "瑞士Elo和FIFA排名优势明显，近况W5D3L2优于卡塔尔，防守失球0.9也更稳；卡塔尔失球1.6抗压较弱。当前无明确伤停/首发数据，阵容深度与关键球员质量仍偏瑞士，市场欧赔仅作校验支持客胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:40:03"
+          "time": "2026-06-14 03:04:29"
         },
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 0,
-          "away_goals": 2,
+          "away_goals": 1,
           "result": "客胜",
-          "analysis": "真实API BetExplorer聚合赔率瑞士隐含胜率78.5%，卡塔尔仅7.2%，市场与baseline严重背离。baseline高估卡塔尔进攻效率，瑞士Elo高出330分且攻防均衡(1.7/0.9)。市场压倒性看衰卡塔尔，瑞士零封取胜符合盘口信号。",
+          "analysis": "瑞士Elo领先330分、世界杯经验远胜卡塔尔，整体实力差距真实。但卡塔尔防守力1.6不差，瑞士进攻仅1.7且攻坚能力一般，此役大概率低比分。平局风险（基线23.5%）不可忽视——瑞士面对密集防守时破门效率存疑。当前无明确伤停/首发数据。市场赔率虽极度倾向瑞士，但1-0小胜是更符合两队攻防结构的路径。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:41:42"
+          "time": "2026-06-14 03:05:23"
         }
       ],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 13.35,
+        "home_odds": 13.45,
         "draw_odds": 6.71,
         "away_odds": 1.22,
-        "home_imp": 0.0718,
-        "draw_imp": 0.1428,
-        "away_imp": 0.7854,
-        "updated_at": "2026-06-14 02:39:07",
+        "home_imp": 0.0713,
+        "draw_imp": 0.1429,
+        "away_imp": 0.7858,
+        "updated_at": "2026-06-14 03:01:05",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -205,11 +205,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "市场赔率内部校准给巴西主胜约57.8%，soccer24确认未开赛。巴西攻防强度和近况均占优，摩洛哥防守不弱，倾向巴西小胜。",
+          "analysis": "Soccer24显示未开始，市场内部盘巴西胜率约57.8%；巴西攻防2.1/0.7与近况W7更优，摩洛哥状态不差，稳健取巴西小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:40:05"
+          "time": "2026-06-14 03:02:30"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -282,13 +282,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "市场内部盘平局概率36.9%最高，soccer24赛程显示未开始。双方预期进球偏低，海地进攻弱、苏格兰优势不足，攻防状态指向低比分。",
+          "away_goals": 1,
+          "result": "客胜",
+          "analysis": "Soccer24显示未开始，市场内部盘胜平接近且平局最高；但苏格兰FIFA/Elo和防守明显优于海地，海地进攻0.8偏弱，取客队一球险胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:40:07"
+          "time": "2026-06-14 03:02:32"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -363,11 +363,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "市场内部盘澳大利亚主胜略高但优势有限，未提供soccer24真实赛程校验。双方攻防接近、土耳其近况稳定，倾向澳大利亚险胜。",
+          "analysis": "未提供Soccer24事件，按给定赛程预测；市场内部盘澳大利亚略占39.6%，双方攻防接近，澳洲近况W5稍好，取主队2-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:40:08"
+          "time": "2026-06-14 03:02:34"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -439,14 +439,14 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 3,
+          "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "阿根廷FIFA第1、Elo 1950、近10场8胜1平状态火热。日本虽强但防守0.9难挡阿根廷2.2攻击力，3-1为稳健主胜比分。",
+          "analysis": "未提供Soccer24事件，按给定赛程预测；市场内部盘阿根廷胜率49.4%，其攻防2.2/0.6和W8状态更强，日本具备进球能力。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:04:00"
+          "time": "2026-06-14 03:02:35"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -521,11 +521,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "法国FIFA第2、Elo 1900、主场胜率55.97%超阈值。克罗地亚FIFA第10实力不俗可破门，但法国攻防更优，2-1为合理主胜比分。",
+          "analysis": "未提供Soccer24事件，按给定赛程预测；市场内部盘法国胜率约55.9%，法国攻防和近期W7领先，克罗地亚韧性强，取2-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:04:01"
+          "time": "2026-06-14 03:02:37"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -600,11 +600,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "英格兰主场胜率57.37%超阈值，Elo领先160分攻防俱佳。乌拉圭近期3负状态略逊，Poisson支持英格兰2-1取胜。",
+          "analysis": "未提供Soccer24事件，按给定赛程预测；市场内部盘英格兰胜率57.4%，英格兰防守0.7与近况更稳，乌拉圭反击可进一球。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:04:03"
+          "time": "2026-06-14 03:02:38"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -677,13 +677,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 2,
-          "away_goals": 2,
-          "result": "平局",
-          "analysis": "Elo差仅40、攻防与近期状态完全镜像，为8场中实力最接近对决。无任一队胜率超52%，取Poisson修正后2-2平局。",
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "未提供Soccer24事件，按给定赛程预测；市场内部盘西班牙胜率47.7%略高，双方攻防同档，比利时Elo略优，取西班牙小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:04:04"
+          "time": "2026-06-14 03:02:40"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -758,11 +758,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "德国Elo1800领先塞内加尔150分，FIFA第11对第20，攻防差值明显。Poisson最可能比分2-1概率7.66%，主胜57.4%超52%阈值。塞内加尔攻击1.4对德国防守0.9可能进球，但德国攻防均占优，主场2-1小胜是稳健选择。",
+          "analysis": "内部市场主胜隐含约57%，德国攻强1.8且防守0.9略优；塞内加尔状态不差，真实赛程未给event校验，倾向德国小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:10"
+          "time": "2026-06-14 03:03:42"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -837,11 +837,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "葡萄牙Elo1850领先哥伦比亚150分，攻击力1.9突出。主胜52.4%刚过52%阈值不算强势，但Poisson最高分差胜2-1(5.53%)。哥伦比亚W5D2L3有韧性可破门，葡萄牙整体压制力更强但防守0.7偏弱，2-1谨慎主胜。",
+          "analysis": "内部市场主胜约52%刚过优势线，葡萄牙攻防1.9/0.7和近况W7更稳；哥伦比亚有进球能力，真实赛程未显示已结束，取小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:12"
+          "time": "2026-06-14 03:03:44"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -916,11 +916,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "荷兰Elo1840领先丹麦200分，近10场W6D2L2状态出色。主胜56.4%明确高于阈值，lambda主2.85对客1.92优势显著。Poisson最可能主胜比分2-1(6.96%)，荷兰攻击1.8对丹麦防1.0有破门保障，主场稳健取胜。",
+          "analysis": "内部市场主胜约56%，与基线最可能2-1一致；荷兰攻防和近况均优于丹麦，真实赛程无结束信息，稳健给荷兰小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:14"
+          "time": "2026-06-14 03:03:45"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -993,13 +993,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 2,
-          "away_goals": 0,
+          "away_goals": 1,
           "result": "主胜",
-          "analysis": "意大利Elo1810领先伊朗180分，防守0.8为四场中最稳固。伊朗攻击仅1.3，面对意大利防线难破门。主胜54.7%高于阈值，Poisson支持小比分主胜。意大利攻击1.7不算爆发但足以破伊朗防1.0，2-0零封胜合理。",
+          "analysis": "内部市场主胜约55%，意大利防守0.8和FIFA排名优势明显；伊朗近况尚可且有反击得分点，真实赛程未校验结束，取2-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:15"
+          "time": "2026-06-14 03:03:47"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1074,11 +1074,11 @@
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "阿根廷FIFA第1、Elo1950，卡塔尔仅1450差距500分为全场最大。阿根廷攻击2.2全场最高，卡塔尔防1.6最弱。Poisson对差距估计偏低但基本面清晰：阿根廷防守0.6极强，卡塔尔攻击1.4难破门，客队零封2-0取胜。",
+          "analysis": "内部市场对阿根廷仅给约31%偏保守，但卡塔尔防守1.6偏弱；阿根廷攻防2.2/0.6、近况W8明显占优，修正为客胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:17"
+          "time": "2026-06-14 03:03:48"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1150,14 +1150,14 @@
       "predictions": [
         {
           "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 2,
+          "home_goals": 1,
+          "away_goals": 1,
           "result": "平局",
-          "analysis": "巴西Elo1920对法国1900仅差20分，攻防几乎镜像(2.1/0.7对2.0/0.7)。双方胜率各41.3%无人超52%阈值，lambda均3.6预示对攻。虽baseline平局仅17.4%未达28%触发线，但实力极度接近且攻击力均强，2-2平局最稳健。",
+          "analysis": "内部市场主客胜完全均衡，巴西与法国攻防、近况几乎镜像；真实赛程未给结束状态，强强对话不宜夸张，保守取1-1。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:18"
+          "time": "2026-06-14 03:03:51"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1232,11 +1232,11 @@
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "英格兰Elo1880领先海地680分碾压级差距，FIFA第4对第87。海地攻击0.8极弱无法突破英格兰防0.7，英格兰攻击1.9对海地防1.9有充足破门空间。Poisson客胜45.6%低估真实差距，基本面指向零封客胜，0-2最稳健。",
+          "analysis": "内部市场客胜约46%未过半，但英格兰攻防1.9/0.7远优于海地0.8/1.9；真实赛程无已结束信息，稳健看英格兰胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:20"
+          "time": "2026-06-14 03:03:52"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1311,11 +1311,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "西班牙Elo1820领先澳大利亚220分，FIFA第8对第27。攻击1.8对澳防1.2有渗透空间，防守0.8对澳攻1.4需警惕丢球。baseline偏向主队但Elo和攻防数据一致支持西班牙，澳大利亚主场可得分但无法避免失利，1-2客胜合理。",
+          "analysis": "内部市场略偏澳大利亚但未形成强信号；西班牙攻防1.8/0.8、排名和近况更稳，真实赛程未显示完赛，低信心取客胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:07:21"
+          "time": "2026-06-14 03:03:53"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1390,11 +1390,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "德Elo+50/FIFA略优,进攻1.8对1.4明显占优。双方Poisson均超2.2,对攻格局。墨有主场但德攻防更均衡,Poisson最可能比分1-2(6.53%)支撑客胜,看好德1球小胜。",
+          "analysis": "市场内部赔率主客接近、平局不高；soccer24_event为空，按给定赛程未完赛处理。德国攻防1.8/0.9略优，墨西哥主场因素支撑但防线压力更大。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:11:55"
+          "time": "2026-06-14 03:04:38"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1469,11 +1469,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "葡Elo+230/FIFA第6远超韩国第24,攻防全方位占优(攻1.9vs1.3,防0.7vs1.1)。近态葡7胜1平2负更稳。虽baseline受主场修正偏高,但基本面差距明确,葡客胜合理。",
+          "analysis": "市场内部赔率虽略偏韩国，但真实赛程字段未确认，按未完赛预测。葡萄牙攻防1.9/0.7和近况W7更稳，韩国状态不错但防守承压。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:11:56"
+          "time": "2026-06-14 03:04:40"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1548,11 +1548,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "荷Elo+320/FIFA第7碾压加第41,攻1.8对1.2差距悬殊。Poisson低比分(λ均<1.9)指向小球格局,top scores中1-2(8.03%)为最可能客胜比分,荷1球客胜稳健。",
+          "analysis": "市场内部赔率仅小幅支持荷兰，soccer24_event缺失需按给定赛程复核。荷兰攻防1.8/0.8、近况W6更优，加拿大防守1.3偏弱。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:11:57"
+          "time": "2026-06-14 03:04:41"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1627,11 +1627,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "美主场优势显著,Elo仅落后意90点,FIFA12vs9接近。美近态W6D3L1优于意W5D3L2,Poisson λ美2.69高于意2.38。高比分对攻格局下2-1为最可能主胜比分(5.7%)。",
+          "analysis": "市场内部赔率给美国约45.5%为最高，真实赛程字段为空但未显示已结束。美国近况W6 D3 L1且攻防1.5/0.9稳定，意大利实力接近。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:11:59"
+          "time": "2026-06-14 03:04:43"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1706,11 +1706,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "瑞Elo+100/FIFA14vs18占优,baseline主胜53.1%>52%阈值触发稳健策略。Poisson瑞2.84远高于日2.08,攻防均势(攻1.7vs1.6,防0.9相同)。2-1为top scores最优主胜比分(6.45%)。",
+          "analysis": "市场内部赔率瑞士主胜约53.1%，是本组较清晰方向；soccer24_event为空按未赛处理。瑞士攻防1.7/0.9，日本状态好但客胜校准偏低。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:12:00"
+          "time": "2026-06-14 03:04:45"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1783,13 +1783,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "克Elo+80/FIFA10vs13微优,攻1.5相同防摩0.8略好。baseline接近平盘(主40.7%vs客39.6%),Poisson极接近(λ≈2.35)。局面均衡下克凭Elo和大赛经验小胜,1-2为最可能客胜比分(6.09%)。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "市场内部赔率主客几乎五五开，真实赛程字段缺失。双方攻防差距很小，摩洛哥防守0.8略好，克罗地亚经验与近况稳定，倾向低风险平局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:12:02"
+          "time": "2026-06-14 03:04:46"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1862,13 +1862,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "乌Elo+140/FIFA16vs30明显领先,攻防均优于苏(攻1.4vs1.3,防0.9vs1.1)。虽baseline受主场修正偏苏(主胜44.9%),但基本面差距明确。Poisson低比分(λ<1.9),1-2(7.43%)为最可能客胜比分。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "市场内部赔率给苏格兰更高但优势不足，soccer24_event为空。乌拉圭攻防与排名更稳，苏格兰主场校准拉升，双方差距不大，1-1更稳健。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:12:03"
+          "time": "2026-06-14 03:04:48"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1943,11 +1943,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "比Elo+310/FIFA第5远超土第35,攻防全方位碾压(攻1.8vs1.5,防0.8vs1.3)。baseline异常偏高主胜(47.99%)疑为主场修正过强,以Elo和攻防基本面为准,比客胜合理。Poisson 1-2为最优客胜比分。",
+          "analysis": "市场内部赔率偏向土耳其但非真实API，真实赛程字段为空。比利时攻防1.8/0.8和近况W6更强，土耳其防守1.3风险较高，客队小胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-14 02:12:05"
+          "time": "2026-06-14 03:04:49"
         },
         {
           "model": "DeepSeek V4 Pro",
