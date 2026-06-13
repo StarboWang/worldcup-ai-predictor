@@ -1,0 +1,260 @@
+#!/usr/bin/env python3
+"""世界杯增强批量重预测。
+策略：Elo + 攻防 + 近期状态 + Poisson/Dixon-Coles 基线 → GPT/DeepSeek 批量复核 → 写回预测记录表。
+"""
+import json, subprocess, sys, tempfile, time
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+sys.path.insert(0, '/Users/lute/.hermes/scripts')
+from worldcup_enhanced_update import BASE, TABLES, TZ, load_teams, load_matches, enhanced_probs, upsert, lark, load_predictions, table_rows, clean_select, float_or_none, ids_from_raw
+
+MODELS=[('GPT-5.5','gpt-5.5'),('DeepSeek V4 Pro','deepseek-v4-pro')]
+
+
+def result_from_goals(h,a):
+    return '主胜' if h>a else '客胜' if h<a else '平局'
+
+
+def load_soccer24_context():
+    path=Path.home()/'.hermes/data/worldcup/soccer24_worldcup_matches.json'
+    if not path.exists():
+        return {}
+    try:
+        data=json.loads(path.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+    ctx={}
+    for e in data.get('events',[]):
+        key=(e.get('home','').lower(), e.get('away','').lower())
+        ctx[key]=e
+    return ctx
+
+
+def load_odds_context():
+    out={}
+    for r in table_rows(TABLES['odds'], 1000):
+        ids=ids_from_raw(r)
+        if not ids: continue
+        out[ids[0]]={
+            'source': clean_select(r.get('赔率来源','')),
+            'bookmaker': r.get('博彩公司',''),
+            'home_odds': float_or_none(r.get('主胜赔率')),
+            'draw_odds': float_or_none(r.get('平局赔率')),
+            'away_odds': float_or_none(r.get('客胜赔率')),
+            'home_imp': float_or_none(r.get('主胜隐含概率')),
+            'draw_imp': float_or_none(r.get('平局隐含概率')),
+            'away_imp': float_or_none(r.get('客胜隐含概率')),
+        }
+    return out
+
+
+def build_items(matches, teams, include_finished=False):
+    soccer24=load_soccer24_context()
+    odds_ctx=load_odds_context()
+    items=[]
+    for m in matches:
+        if m['home']=='待定' or m['away']=='待定' or not m['home_id'] or not m['away_id']:
+            continue
+        if not include_finished and m['status']=='已结束':
+            continue
+        probs=enhanced_probs(teams[m['home_id']], teams[m['away_id']], m['stage'])
+        top=probs['top_scores'][0]
+        s24=soccer24.get((teams[m['home_id']]['en'].lower(), teams[m['away_id']]['en'].lower())) or soccer24.get((m['home'].lower(), m['away'].lower()))
+        market=odds_ctx.get(m['record_id'])
+        items.append({
+            'record_id':m['record_id'],
+            'match_id':m['match_id'],
+            'stage':m['stage'],
+            'time':m['time'],
+            'venue':m['venue'],
+            'home':m['home'],
+            'away':m['away'],
+            'home_team':teams[m['home_id']],
+            'away_team':teams[m['away_id']],
+            'baseline':{
+                'home_win':round(probs['home_win'],4),'draw':round(probs['draw'],4),'away_win':round(probs['away_win'],4),
+                'lambda_home':round(probs['lambda_home'],3),'lambda_away':round(probs['lambda_away'],3),
+                'top_scores':probs['top_scores']
+            },
+            'market_odds':market,
+            'soccer24':s24,
+            'baseline_pick':{'home_goals':top['home_goals'],'away_goals':top['away_goals'],'result':result_from_goals(top['home_goals'],top['away_goals'])}
+        })
+    return items
+
+
+def prompt_for(chunk, model_label):
+    slim=[]
+    for it in chunk:
+        slim.append({
+            'match_id':it['match_id'], 'stage':it['stage'], 'time':it['time'], 'venue':it['venue'],
+            'home':it['home'], 'away':it['away'],
+            'home_fifa':it['home_team']['fifa'], 'home_elo':it['home_team']['elo'], 'home_attack':it['home_team']['attack'], 'home_defense':it['home_team']['defense'], 'home_form':it['home_team']['form'],
+            'away_fifa':it['away_team']['fifa'], 'away_elo':it['away_team']['elo'], 'away_attack':it['away_team']['attack'], 'away_defense':it['away_team']['defense'], 'away_form':it['away_team']['form'],
+            'baseline':it['baseline'],
+            # 预测模型不直接接收赔率，避免分析从盘口/市场价格出发。
+            # 赔率仅在后续投注/校验模块使用，不作为赛前分析推理起点。
+            'soccer24_event':it.get('soccer24')
+        })
+    if 'GPT' in model_label:
+        strategy = """
+你是主预测模型，采用“稳健基本面策略”：
+- 以 Elo、FIFA 排名、攻防强度、近期状态、Poisson 最可能比分为主。
+- 目标是提高胜平负命中率，不追求冷门。
+- 当强队胜率明显高于 52% 时，优先给强队小胜或中胜。
+- 当平局概率高于 28% 且双方 Elo 差小于 120 时，可以给 1-1 或 0-0。
+- 不要为了和另一个模型不同而刻意反向。
+"""
+    else:
+        strategy = """
+你是风险/第二视角预测模型，采用“冷门与结构性风险策略”：
+- 不要简单复读 baseline 第一比分；你要重点寻找球队真实结构中被低估的平局、爆冷、低比分风险。
+- 优先看：弱队防守质量、近期状态、关键球员/阵容深度、战术克制、比赛环境、强队攻坚能力。
+- 当热门胜率低于 58%、平局概率高于 25%、或双方 Elo 差小于 180 时，必须认真考虑平局/一球小胜/爆冷路径。
+- 当弱队防守力 ≤1.0 或近期状态不差时，允许给弱队不败或小负而不是热门大胜。
+- 盘口只能作为结果校验和风险提示，不是推理起点；不能因为赔率低就直接判热门胜。
+- 你的目标不是和主预测模型一致，而是提供第二视角：真实比赛结构里的风险暴露、冷门概率、低比分路径。
+- 但不能胡乱反买；每个不同判断都要在 analysis 里说明真实足球依据。
+"""
+    return f"""你是世界杯比赛预测模型 {model_label}。请基于结构化数据做复核预测，不要裸猜。
+
+{strategy}
+通用约束：
+1. 分析主线必须来自真实足球因素：球队整体实力、FIFA/Elo 只是背景；重点看攻防强度、近期状态、阵容深度、关键球员质量、战术风格、比赛环境、伤停/首发信息（如果数据里没有伤停/首发，必须明确写“当前无明确伤停/首发数据”，不能臆造）。
+2. 字段含义必须正确：attack 数值越高代表进攻越强；defense 是失球/防守风险，数值越低代表防守越好，不能把低 defense 写成防线短板。
+3. 不使用盘口/赔率作为预测输入；本轮预测只能从球队真实因素和数学基线出发。赔率会在预测后由系统单独做 sanity check。
+4. analysis 禁止使用“盘口、赔率、市场、主胜率、胜率、隐含概率、基线概率、概率阈值”作为理由；只能从球队真实因素写起，不能用数字概率替代足球分析。
+5. 如果后续校验发现预测与真实欧洲盘严重冲突，只能作为风险提示，不能反推改写分析主线。
+6. 使用 soccer24_event 校验真实官方赛程、event_id、开赛时间、已结束状态；如果已结束则不要预测，按实际比分复盘。
+7. baseline 只是数学基线，由攻防强度、近况、Poisson/Dixon-Coles 得到；可参考但不能机械复读。
+8. 单场比分不要夸张；世界杯常见比分集中在 0-0、1-0、1-1、2-0、2-1、3-1。
+9. confidence 只表示相对信心，0.50-0.85 之间。
+10. analysis 80-140 字，必须优先说明“攻防状态/近期状态/阵容深度/比赛环境”中的至少两个依据。
+11. 严禁臆造输入里没有的具体球员姓名、伤停、首发、历史交锋、新闻事件；当前输入不含球员名单/伤停/首发/历史交锋明细时，只能写“当前无明确伤停/首发数据”，不能编造 Neymar 伤停、历史交锋等具体事实。
+
+请只返回 JSON 数组，不要 Markdown，不要解释：
+[
+  {{"match_id":"M005","home_goals":0,"away_goals":2,"result":"客胜","confidence":0.72,"analysis":"..."}}
+]
+
+比赛数据：
+{json.dumps(slim,ensure_ascii=False)}
+"""
+
+
+def call_model(prompt, model_name):
+    with tempfile.NamedTemporaryFile('w',encoding='utf-8',delete=False,suffix='.txt') as f:
+        f.write(prompt); path=f.name
+    import shlex
+    cmd=f'hermes chat -Q --ignore-rules --skills "" -m {shlex.quote(model_name)} -q {shlex.quote(prompt)}'
+    p=subprocess.run(cmd,shell=True,capture_output=True,text=True,timeout=300)
+    out=(p.stdout or '').strip()
+    if p.returncode!=0 and not out:
+        raise RuntimeError(p.stderr[:1000])
+    # Hermes CLI may print reasoning/session_id before the final answer.
+    # Extract the last valid JSON array from stdout instead of taking first '[' to last ']'.
+    s=out
+    if '```json' in s:
+        blocks=s.split('```json')[1:]
+        candidates=[b.split('```',1)[0].strip() for b in blocks]
+    elif '```' in s:
+        blocks=s.split('```')[1::2]
+        candidates=[b.strip() for b in blocks]
+    else:
+        candidates=[]
+    # Also try every '[' position with JSONDecoder.raw_decode; keep the last list parsed.
+    dec=json.JSONDecoder(strict=False)
+    parsed=[]
+    for cand in candidates + [s[i:] for i,ch in enumerate(s) if ch=='[']:
+        try:
+            obj, end = dec.raw_decode(cand.lstrip())
+            if isinstance(obj, list):
+                parsed.append(obj)
+        except Exception:
+            continue
+    if parsed:
+        return parsed[-1]
+    raise ValueError('No valid JSON array found in model output: '+out[-500:])
+
+
+def fallback_prediction(item):
+    top=item['baseline']['top_scores'][0]
+    h=top['home_goals']; a=top['away_goals']
+    probs=item['baseline']
+    res=result_from_goals(h,a)
+    p={'主胜':probs['home_win'],'平局':probs['draw'],'客胜':probs['away_win']}[res]
+    return {'match_id':item['match_id'],'home_goals':h,'away_goals':a,'result':res,'confidence':round(max(0.52,min(0.82,p)),2),'analysis':f"增强策略基线：Elo/攻防/近期状态综合后，{item['home']}胜平负概率为{probs['home_win']:.0%}/{probs['draw']:.0%}/{probs['away_win']:.0%}，最可能比分为{h}-{a}。"}
+
+
+def write_prediction(match_rid, model_label, pred, existing_record_id=None):
+    fields={
+        '比赛':[{'id':match_rid}],
+        '预测模型':model_label,
+        '预测主队进球':int(pred['home_goals']),
+        '预测客队进球':int(pred['away_goals']),
+        '预测结果':pred['result'],
+        '预测分析':pred.get('analysis','')[:450],
+        '预测时间':datetime.now(TZ).strftime('%Y-%m-%d %H:%M:%S')
+    }
+    upsert(TABLES['preds'], fields, existing_record_id)
+
+
+def update_match_status(match_rid):
+    upsert(TABLES['matches'], {'预测状态':'已预测'}, match_rid)
+
+
+def main():
+    force='--force' in sys.argv
+    include_finished='--include-finished' in sys.argv
+    limit=None
+    if '--limit' in sys.argv:
+        try: limit=int(sys.argv[sys.argv.index('--limit')+1])
+        except Exception: pass
+    teams=load_teams(); matches=load_matches(teams)
+    items=build_items(matches,teams,include_finished=include_finished)
+    if not force:
+        # 默认只预测未预测/未开始的比赛；force 会重预测全部未结束已知球队比赛
+        items=[it for it in items if next((m for m in matches if m['record_id']==it['record_id']),{}).get('prediction_status')!='已预测']
+    if limit:
+        items=items[:limit]
+    print(f'items={len(items)} force={force}')
+    if not items:
+        return
+    latest={(p['match_rid'],p['model']):p['record_id'] for p in load_predictions()}
+    by_mid={it['match_id']:it for it in items}
+    chunk_size=8
+    only_model = None
+    if '--only' in sys.argv:
+        try:
+            only_model = sys.argv[sys.argv.index('--only')+1]
+        except Exception:
+            only_model = None
+    selected_models = [(label, name) for label, name in MODELS if not only_model or only_model in label]
+    for model_label,model_name in selected_models:
+        for i in range(0,len(items),chunk_size):
+            chunk=items[i:i+chunk_size]
+            prompt=prompt_for(chunk,model_label)
+            try:
+                preds=call_model(prompt,model_name)
+                print(f'{model_label} chunk {i//chunk_size+1}: model_ok {len(preds)}')
+            except Exception as e:
+                print(f'{model_label} chunk {i//chunk_size+1}: model_failed fallback {e}')
+                preds=[fallback_prediction(it) for it in chunk]
+            for pred in preds:
+                it=by_mid.get(pred.get('match_id'))
+                if not it: continue
+                try:
+                    pred['home_goals']=int(pred['home_goals']); pred['away_goals']=int(pred['away_goals'])
+                    if pred.get('result') not in {'主胜','平局','客胜'}:
+                        pred['result']=result_from_goals(pred['home_goals'],pred['away_goals'])
+                    rid=latest.get((it['record_id'],model_label))
+                    write_prediction(it['record_id'],model_label,pred,rid)
+                    update_match_status(it['record_id'])
+                    time.sleep(0.08)
+                except Exception as e:
+                    print('write_failed',model_label,pred.get('match_id'),e)
+    print('done')
+
+if __name__=='__main__':
+    main()
