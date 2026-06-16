@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:09:46.596739+08:00",
+  "generated_at": "2026-06-16T23:19:52.534114+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -770,10 +770,7 @@
         "deepseek": "法国攻防俱佳（进攻2.0/防守0.7），但塞内加尔防守1.0不弱且近况W5D3L2稳定，Elo差250不算压倒性。塞内加尔非洲球队身体对抗强，反击速度可威胁法国...",
         "gpt-5.5": "法国攻防(2.0/0.7)碾压塞内加尔(1.4/1.0)，Elo差250。法国近况W7 D2 L1统治级，阵容深度与大赛经验均占优。当前无明确伤停/首发数据。法..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
@@ -864,10 +861,7 @@
         "deepseek": "两队Elo仅差60，实力接近。挪威进攻1.4对伊拉克防守1.2有微弱优势，但伊拉克近况W5D3L2并不差，且挪威客场攻坚能力存疑。平局概率27.2%超阈值，双方...",
         "gpt-5.5": "挪威攻防(1.4/1.1)略优于伊拉克(1.0/1.2)，Elo差仅60。双方近况接近，但挪威整体实力与攻击效率更高。当前无明确伤停/首发数据。低比分挪威客场小..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
@@ -957,10 +951,7 @@
         "deepseek": "阿根廷进攻2.2/防守0.6属顶级，近况W8D1L1状态火热。阿尔及利亚防守1.1尚可但近况W4D3L3平庸，进攻1.2难以持续威胁阿根廷防线。实力差距明显，阿...",
         "gpt-5.5": "阿根廷攻击2.2精英级，防守0.6全场最佳。阿尔及利亚近况W4 D3 L3平庸，攻防两端均处下风。当前无明确伤停/首发数据。阿根廷攻防碾压大胜。"
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
@@ -1050,10 +1041,7 @@
         "deepseek": "奥地利主场胜率仅56.4%低于58%阈值，平局24.2%接近风险线。约旦防守1.3偏弱但奥地利进攻1.5并非顶级，近期W6D2L2状态不错但攻坚效率存疑。约旦攻...",
         "gpt-5.5": "奥地利攻击1.5远优于约旦0.9，防守1.0也更稳固。约旦客场攻击乏力，Elo差230实力悬殊。当前无明确伤停/首发数据。奥地利控场零封胜。"
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
@@ -1143,10 +1131,7 @@
         "gpt-5.5": "葡萄牙攻防(1.9/0.7)全面碾压刚果(金)(0.9/1.3)，Elo差390。刚果近况W3 D4 L3疲软，攻击力不足威胁葡萄牙防线。当前无明确伤停/首发数...",
         "deepseek": "葡萄牙攻防（1.9/0.7）全面压制刚果金（0.9/1.3），Elo差390实力悬殊。刚果金近况W3D4L3平局虽多但攻击力弱，难以穿透葡萄牙防线。葡萄牙小组赛..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1237,10 +1222,7 @@
         "gpt-5.5": "英格兰攻击1.9对克罗地亚防守0.9形成精准对位。克罗地亚大赛经验丰富，攻击1.5可制造威胁。当前无明确伤停/首发数据。英格兰主场小胜。",
         "deepseek": "英格兰vs克罗地亚，Elo仅差100远低于180阈值。克罗地亚防守0.9出色，英格兰主场胜率仅52.4%低于58%。双方进攻火力相当（1.9 vs 1.5），近..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1330,10 +1312,7 @@
         "gpt-5.5": "加纳巴拿马攻击均弱(1.1/0.9)，防守同为1.3，Elo差仅30属均势。双方近况平淡，均缺乏一锤定音能力。当前无明确伤停/首发数据。低比分平局。",
         "deepseek": "加纳巴拿马实力极近，Elo差30。双方防守均为1.3，进攻端加纳1.1略优于巴拿马0.9但差距有限。平局概率32.5%全场最高，0-0或1-0是典型低比分格局，..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1424,10 +1403,7 @@
         "gpt-5.5": "哥伦比亚攻防(1.4/1.0)全面优于乌兹别克(1.0/1.2)，Elo差200。乌兹别克近况虽好但对手实力有限，大赛经验不足。当前无明确伤停/首发数据。哥伦比...",
         "deepseek": "哥伦比亚客场胜率仅40.3%低于58%，平局26.5%超阈值。乌兹别克近况W6D2L2极佳，防守1.2尚可，哥伦比亚进攻1.4并不突出且近况W5D2L3一般。客..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1518,10 +1494,7 @@
         "gpt-5.5": "捷克攻防两端均优于南非（进攻1.2 vs 1.0，防守1.2 vs 1.4），Elo高出180分，实力差距明显。南非近期状态平庸（3胜3平4负），缺乏爆冷基础。...",
         "deepseek": "捷克进攻火力有限（1.2），面对南非防守（1.4）难以形成碾压；南非近期状态不差（W3 D3 L4），具备一定韧性。Elo差仅180处于临界值，双方进攻产出均偏..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1611,10 +1584,7 @@
         "gpt-5.5": "瑞士攻防全面碾压波黑（进攻1.7 vs 1.0，防守0.9 vs 1.5），Elo领先380分，实力不在同一档次。波黑近10场仅2胜且防守漏洞大，面对瑞士高效进...",
         "deepseek": "瑞士防守精英级别（0.9），波黑进攻乏力（1.0）难以破门；瑞士进攻（1.7）面对波黑薄弱防线（1.5）形成明显错位。波黑近期状态糟糕（W2 D3 L5），抵抗..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1704,10 +1674,7 @@
         "gpt-5.5": "两队实力接近，Elo仅差70分。加拿大防守稍稳但卡塔尔进攻略强，攻防互有抵消。双方近期状态均无绝对优势，加拿大虽有主场之利但不足以确保取胜，平局是最合理结果。当...",
         "deepseek": "加拿大进攻（1.2）与卡塔尔进攻（1.4）均面对不稳固防线（1.3和1.6），双方近期状态相近，Elo差仅70实力接近。卡塔尔进攻略占优但加拿大坐拥主场，开放式..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1798,10 +1765,7 @@
         "gpt-5.5": "墨西哥整体实力略优于韩国，攻防更均衡（进攻1.4/防守1.0 vs 1.3/1.1），近期状态出色（6胜2平2负）。韩国同样状态不俗但客场作战，防线面对墨西哥进...",
         "deepseek": "墨西哥进攻（1.4）遭遇韩国稳固防守（1.1），韩国进攻（1.3）考验墨西哥防线（1.0）。双方近期状态均出色（墨西哥W6 D2 L2，韩国W5 D3 L2），..."
       },
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -1885,10 +1849,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1922,10 +1883,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1959,10 +1917,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1996,10 +1951,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2033,10 +1985,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2070,10 +2019,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2107,10 +2053,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2144,10 +2087,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2181,10 +2121,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2218,10 +2155,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2255,10 +2189,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2292,10 +2223,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2329,10 +2257,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2366,10 +2291,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2403,10 +2325,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2440,10 +2359,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2477,10 +2393,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2514,10 +2427,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2551,10 +2461,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2588,10 +2495,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2625,10 +2529,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2662,10 +2563,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2699,10 +2597,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2736,10 +2631,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2773,10 +2665,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2810,10 +2699,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2847,10 +2733,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2884,10 +2767,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2921,10 +2801,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2958,10 +2835,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2995,10 +2869,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3032,10 +2903,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3069,10 +2937,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3106,10 +2971,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3143,10 +3005,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3180,10 +3039,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3217,10 +3073,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3254,10 +3107,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3291,10 +3141,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3328,10 +3175,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3365,10 +3209,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3402,10 +3243,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3439,10 +3277,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3476,10 +3311,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3809,10 +3641,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3835,10 +3664,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3861,10 +3687,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3887,10 +3710,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3913,10 +3733,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3939,10 +3756,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3965,10 +3779,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -3991,10 +3802,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4017,10 +3825,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4043,10 +3848,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4069,10 +3871,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4095,10 +3894,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4121,10 +3917,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4147,10 +3940,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4173,10 +3963,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4199,10 +3986,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4225,10 +4009,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4251,10 +4032,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4277,10 +4055,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4303,10 +4078,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4329,10 +4101,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4355,10 +4124,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4381,10 +4147,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4407,10 +4170,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4433,10 +4193,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4459,10 +4216,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4485,10 +4239,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4511,10 +4262,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4537,10 +4285,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4563,10 +4308,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4589,10 +4331,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],
@@ -4615,10 +4354,7 @@
         "A": []
       },
       "comment": {},
-      "score": {
-        "team_a": 0,
-        "team_b": 0
-      },
+      "score": null,
       "predictions": [],
       "odds": null,
       "bets_detail": [],

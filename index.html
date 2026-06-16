@@ -428,31 +428,41 @@ function renderHero() {
   const live = allMatches.filter(m => matchStatus(m) === 'live');
   const finished = allMatches.filter(m => matchStatus(m) === 'finished').sort((a,b) => new Date(b.kickoff_at)-new Date(a.kickoff_at));
 
-  // Show: live + upcoming + recently finished (last 3-4)
-  const heroMatches = [...live, ...upcoming];
-  if (heroMatches.length < 3) {
-    heroMatches.push(...finished.slice(0, Math.max(0, 4 - heroMatches.length)));
-  }
-  const display = heroMatches.slice(0, 6);
+  const recentFinished = finished.slice(0, 4);
+  const nextUpcoming = [...live, ...upcoming].slice(0, 4);
 
-  if (display.length === 0) {
-    section.innerHTML = `<div class="text-center py-12 text-text-muted">暂无比赛数据</div>`;
-    return;
-  }
-
-  section.innerHTML = `
+  let html = `
     <div class="flex items-center justify-between mb-4">
       <div>
         <p class="text-xs font-mono text-text-muted tracking-widest uppercase mb-1">AI Prediction Board</p>
         <h2 class="text-xl md:text-2xl font-display font-bold">AI 预测</h2>
       </div>
       <span class="text-xs text-text-muted">${live.length} 场进行中 · ${upcoming.length} 场即将开始 · ${finished.length} 场已结束</span>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      ${display.map(m => `<div class="match-card p-4 md:p-5 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">
-        ${heroCardInner(m)}
-      </div>`).join('')}
     </div>`;
+
+  if (recentFinished.length > 0) {
+    html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">最近结束</span></div>`;
+    html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">`;
+    for (const m of recentFinished) {
+      html += `<div class="match-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
+    }
+    html += `</div>`;
+  }
+
+  if (nextUpcoming.length > 0) {
+    html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">即将开始</span></div>`;
+    html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">`;
+    for (const m of nextUpcoming) {
+      html += `<div class="match-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
+    }
+    html += `</div>`;
+  }
+
+  if (recentFinished.length === 0 && nextUpcoming.length === 0) {
+    html += `<div class="text-center py-12 text-text-muted">暂无比赛数据</div>`;
+  }
+
+  section.innerHTML = html;
 }
 
 function heroCardInner(m) {
