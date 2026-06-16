@@ -1,39 +1,53 @@
 {
+  "generated_at": "2026-06-16T21:42:52.465889+08:00",
+  "competition_name": "2026 世界杯",
   "matches": [
     {
-      "record_id": "recvmw4dz5pq12",
       "match_id": "M001",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "德国",
-      "away": "库拉索",
-      "home_score": 7,
-      "away_score": 1,
+      "kickoff_at": "2026-06-15T01:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-15 01:00:00",
+      "team_a": "德国",
+      "team_b": "库拉索",
+      "team_a_id": "ger",
+      "team_b_id": "cuw",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防线薄弱(防守1.5)且近期状态持续低迷。当前无明确伤停/首发数据。实力差距悬殊，德国控场轻松取胜。",
+        "deepseek": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防守漏洞明显(1.5)且近10场仅2胜，实力差距悬殊。Elo差330远超风险阈值，德国虽近况有3败但对手档..."
+      },
+      "score": {
+        "team_a": 7,
+        "team_b": 1
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防线薄弱(防守1.5)且近期状态持续低迷。当前无明确伤停/首发数据。实力差距悬殊，德国控场轻松取胜。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 00:04:35"
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防守漏洞明显(1.5)且近10场仅2胜，实力差距悬殊。Elo差330远超风险阈值，德国虽近况有3败但对手档次远高于库拉索，小组赛首轮控场消耗即可零封取胜，冷门空间极小。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 00:10:01"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -48,7 +62,7 @@
         "updated_at": "2026-06-15 01:00:20",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -77,42 +91,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 82.0%，赔率 1.04，隐含概率 93.4%，期望收益率 -14.7%。",
           "time": "2026-06-16 21:12:02"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4dSRHQO0",
       "match_id": "M002",
-      "venue": "纽约大都会体育场",
-      "home": "荷兰",
-      "away": "日本",
-      "home_score": 2,
-      "away_score": 2,
+      "kickoff_at": "2026-06-15T04:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-15 04:00:00",
+      "team_a": "荷兰",
+      "team_b": "日本",
+      "team_a_id": "ned",
+      "team_b_id": "jpn",
+      "venue": "纽约大都会体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "两队近期状态接近，荷兰进攻强度更高、防守风险更低，整体实力与阵容深度更适合主动控球推进；日本反击有威胁但比赛环境压力较大。当前无明确伤停/首发数据，比分不宜拉开...",
+        "deepseek": "荷兰Elo仅领先160，主场胜率仅53.9%，两条风险线同时触发。双方近况完全相同W6 D2 L2，日本防守0.9极为稳固，荷兰攻坚难度大。日本攻击1.6有反击..."
+      },
+      "score": {
+        "team_a": 2,
+        "team_b": 2
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "两队近期状态接近，荷兰进攻强度更高、防守风险更低，整体实力与阵容深度更适合主动控球推进；日本反击有威胁但比赛环境压力较大。当前无明确伤停/首发数据，比分不宜拉开。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 03:03:07"
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "荷兰Elo仅领先160，主场胜率仅53.9%，两条风险线同时触发。双方近况完全相同W6 D2 L2，日本防守0.9极为稳固，荷兰攻坚难度大。日本攻击1.6有反击破门能力，荷兰防线0.8顶级但难以零封。小组首轮可能胶着，荷兰凭整体深度小胜。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 03:07:55"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -127,7 +155,7 @@
         "updated_at": "2026-06-15 04:00:42",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -156,42 +184,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 75.9%，赔率 2.02，隐含概率 47.0%，期望收益率 53.3%。",
           "time": "2026-06-16 21:12:03"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4eaP9KVT",
       "match_id": "M003",
-      "venue": "达拉斯AT&T体育场",
-      "home": "科特迪瓦",
-      "away": "厄瓜多尔",
-      "home_score": 1,
-      "away_score": 0,
+      "kickoff_at": "2026-06-15T07:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-15 07:00:00",
+      "team_a": "科特迪瓦",
+      "team_b": "厄瓜多尔",
+      "team_a_id": "civ",
+      "team_b_id": "ecu",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "双方进攻强度接近，厄瓜多尔防守风险略低，科特迪瓦近况更稳但优势有限。达拉斯中立环境下节奏可能谨慎，当前无明确伤停/首发数据。",
+        "deepseek": "双方Elo仅差10，攻防数据几乎对称。科特迪瓦防守1.1、厄瓜多尔防守1.0均有组织性，进攻端均偏温和（各1.3），W6D3L1与W5D3L2近况差距极小。当前..."
+      },
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "双方进攻强度接近，厄瓜多尔防守风险略低，科特迪瓦近况更稳但优势有限。达拉斯中立环境下节奏可能谨慎，当前无明确伤停/首发数据。",
-          "score": 150,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 06:04:33"
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "双方Elo仅差10，攻防数据几乎对称。科特迪瓦防守1.1、厄瓜多尔防守1.0均有组织性，进攻端均偏温和（各1.3），W6D3L1与W5D3L2近况差距极小。当前无明确伤停/首发数据，低比分僵局风险高。",
-          "score": 150,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 06:07:58"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -206,7 +248,7 @@
         "updated_at": "2026-06-15 07:01:07",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "平局",
@@ -235,42 +277,57 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 45.3%，赔率 2.94，隐含概率 32.3%，期望收益率 33.1%。",
           "time": "2026-06-16 21:12:04"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4erZpymd",
       "match_id": "M004",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "瑞典",
-      "away": "突尼斯",
-      "home_score": 5,
-      "away_score": 1,
+      "kickoff_at": "2026-06-15T10:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-15 10:00:00",
+      "team_a": "瑞典",
+      "team_b": "突尼斯",
+      "team_a_id": "swe",
+      "team_b_id": "tun",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5"
+        ],
+        "D": [
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "瑞典进攻强度更高，防守风险也略低，近期W5D3L2保持稳定；突尼斯近况同样坚韧但客场攻坚能力稍弱。亚特兰大中立环境影响有限，当前无明确伤停/首发数据。",
+        "deepseek": "瑞典主场胜率53.9%低于58%风险线，Elo差仅110。突尼斯近10场W5 D4 L1仅1负状态极佳，防守1.1具备韧性。瑞典进攻1.4攻坚不足。当前无明确伤..."
+      },
+      "score": {
+        "team_a": 5,
+        "team_b": 1
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "瑞典进攻强度更高，防守风险也略低，近期W5D3L2保持稳定；突尼斯近况同样坚韧但客场攻坚能力稍弱。亚特兰大中立环境影响有限，当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 09:03:17"
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "瑞典主场胜率53.9%低于58%风险线，Elo差仅110。突尼斯近10场W5 D4 L1仅1负状态极佳，防守1.1具备韧性。瑞典进攻1.4攻坚不足。当前无明确伤停/首发数据。平局结构性风险高，1-1最合理。",
-          "score": 150,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 09:07:16"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -285,7 +342,7 @@
         "updated_at": "2026-06-15 10:00:39",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -314,42 +371,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 45.4%，赔率 3.43，隐含概率 27.5%，期望收益率 55.8%。",
           "time": "2026-06-16 21:12:04"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4eIzSwKB",
       "match_id": "M005",
-      "venue": "迈阿密硬石体育场",
-      "home": "西班牙",
-      "away": "佛得角",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-16T00:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-16 00:00:00",
+      "team_a": "西班牙",
+      "team_b": "佛得角",
+      "team_a_id": "esp",
+      "team_b_id": "cpv",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "西班牙攻防两端全面占优，attack 1.8 对佛得角 defense 1.4 优势明显，defense 0.8 足以零封对方疲软进攻。近期 W6 D2 L2 ...",
+        "deepseek": "西班牙防守极为稳固(defense 0.8)，佛得角进攻乏力(attack 0.8)难以构成威胁。西班牙进攻端(attack 1.8)面对佛得角防线(1.4)有..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "西班牙攻防两端全面占优，attack 1.8 对佛得角 defense 1.4 优势明显，defense 0.8 足以零封对方疲软进攻。近期 W6 D2 L2 状态稳定，迈阿密环境下技术流传控占优。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 23:04:36"
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "西班牙防守极为稳固(defense 0.8)，佛得角进攻乏力(attack 0.8)难以构成威胁。西班牙进攻端(attack 1.8)面对佛得角防线(1.4)有充足破门能力，但佛得角可能密集防守，比分不会太高。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 23:09:24"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -364,7 +435,7 @@
         "updated_at": "2026-06-16 05:00:42",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -393,42 +464,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 82.0%，赔率 1.08，隐含概率 88.7%，期望收益率 -11.4%。",
           "time": "2026-06-16 21:12:05"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4eZpyaDn",
       "match_id": "M006",
-      "venue": "休斯顿NRG体育场",
-      "home": "比利时",
-      "away": "埃及",
-      "home_score": 1,
-      "away_score": 1,
+      "kickoff_at": "2026-06-16T03:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-16 03:00:00",
+      "team_a": "比利时",
+      "team_b": "埃及",
+      "team_a_id": "bel",
+      "team_b_id": "egy",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek",
+          "gpt-5.5"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "deepseek": "比利时攻击力(1.8)非顶级，埃及近10场仅1负(W5 D4 L1)防守1.2坚固。Elo差仅180处于临界线，小组首轮双方倾向保守开局，埃及韧性足以限制比分，...",
+        "gpt-5.5": "比利时攻防两端均明显优于埃及，进攻1.8对埃及防线1.2具备持续威胁。比利时近期W6胜率稳定，埃及虽不败率高但平局偏多缺乏决胜力。休斯顿中立场地，当前无明确伤停..."
+      },
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "比利时攻击力(1.8)非顶级，埃及近10场仅1负(W5 D4 L1)防守1.2坚固。Elo差仅180处于临界线，小组首轮双方倾向保守开局，埃及韧性足以限制比分，看好比利时一球小胜。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 02:08:09"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "比利时攻防两端均明显优于埃及，进攻1.8对埃及防线1.2具备持续威胁。比利时近期W6胜率稳定，埃及虽不败率高但平局偏多缺乏决胜力。休斯顿中立场地，当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 02:04:11"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -443,7 +528,7 @@
         "updated_at": "2026-06-16 05:00:43",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "DeepSeek V4 Pro",
           "item": "主胜",
@@ -472,42 +557,57 @@
           "reason": "按 GPT-5.5 预测结果自动投注 主胜；模型概率 74.1%，赔率 1.54，隐含概率 61.7%，期望收益率 14.1%。",
           "time": "2026-06-16 21:12:12"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4fgjCx2Y",
       "match_id": "M007",
-      "venue": "西雅图Lumen球场",
-      "home": "沙特阿拉伯",
-      "away": "乌拉圭",
-      "home_score": 1,
-      "away_score": 1,
+      "kickoff_at": "2026-06-16T06:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-16 06:00:00",
+      "team_a": "沙特阿拉伯",
+      "team_b": "乌拉圭",
+      "team_a_id": "ksa",
+      "team_b_id": "uru",
+      "venue": "西雅图Lumen球场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "deepseek"
+        ],
+        "A": [
+          "gpt-5.5"
+        ]
+      },
+      "comment": {
+        "deepseek": "沙特防守力1.2具备一定韧性，乌拉圭进攻端1.4缺乏绝对统治力；双方Elo差仅130表明实力接近，中立场地西雅图无主场优势，比赛结构倾向于胶着低比分，平局是真实...",
+        "gpt-5.5": "乌拉圭攻防两端均占优（进攻1.4 vs 1.0，防守0.9 vs 1.2），Elo高出130分且近期状态更稳定。当前无明确伤停/首发数据。沙特防线承压，乌拉圭整..."
+      },
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "沙特防守力1.2具备一定韧性，乌拉圭进攻端1.4缺乏绝对统治力；双方Elo差仅130表明实力接近，中立场地西雅图无主场优势，比赛结构倾向于胶着低比分，平局是真实风险。",
-          "score": 150,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 05:08:04"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
           "analysis": "乌拉圭攻防两端均占优（进攻1.4 vs 1.0，防守0.9 vs 1.2），Elo高出130分且近期状态更稳定。当前无明确伤停/首发数据。沙特防线承压，乌拉圭整体实力足以客场取分。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 05:02:44"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -522,7 +622,7 @@
         "updated_at": "2026-06-16 21:00:25",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "DeepSeek V4 Pro",
           "item": "平局",
@@ -551,42 +651,56 @@
           "reason": "按 GPT-5.5 预测结果自动投注 客胜；模型概率 58.6%，赔率 1.50，隐含概率 63.4%，期望收益率 -12.1%。",
           "time": "2026-06-16 21:12:13"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4fyewQQ2",
       "match_id": "M008",
-      "venue": "旧金山Levi's体育场",
-      "home": "伊朗",
-      "away": "新西兰",
-      "home_score": 2,
-      "away_score": 2,
+      "kickoff_at": "2026-06-16T09:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-16 09:00:00",
+      "team_a": "伊朗",
+      "team_b": "新西兰",
+      "team_a_id": "irn",
+      "team_b_id": "nzl",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek",
+          "gpt-5.5"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "deepseek": "伊朗防守稳固（defense 1.0），新西兰进攻乏力（attack 0.8）；两队近况同为W5 D2 L3，实力接近。旧金山中立场地伊朗略占优，Elo差仅11...",
+        "gpt-5.5": "伊朗攻防两端均优于新西兰（进攻1.3对0.8，防守1.0对1.2），Elo领先110分，主场作战具备场面控制力。两队近期状态相同（均为W5 D2 L3），但伊朗..."
+      },
+      "score": {
+        "team_a": 2,
+        "team_b": 2
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "伊朗防守稳固（defense 1.0），新西兰进攻乏力（attack 0.8）；两队近况同为W5 D2 L3，实力接近。旧金山中立场地伊朗略占优，Elo差仅110分，低比分格局下平局风险较高，伊朗一球小胜可期。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 08:07:17"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "伊朗攻防两端均优于新西兰（进攻1.3对0.8，防守1.0对1.2），Elo领先110分，主场作战具备场面控制力。两队近期状态相同（均为W5 D2 L3），但伊朗整体实力层级更高，Poisson最可能比分1-0反映伊朗小胜格局。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 08:02:18"
+          "hit_score": true
         }
       ],
       "odds": {
@@ -601,7 +715,7 @@
         "updated_at": "2026-06-16 21:00:26",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -630,42 +744,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 74.3%，赔率 1.79，隐含概率 53.0%，期望收益率 33.0%。",
           "time": "2026-06-16 21:12:08"
         }
-      ]
+      ],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4fOET8lL",
       "match_id": "M009",
-      "venue": "费城林肯金融球场",
-      "home": "法国",
-      "away": "塞内加尔",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-17T03:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-17 03:00:00",
+      "team_a": "法国",
+      "team_b": "塞内加尔",
+      "team_a_id": "fra",
+      "team_b_id": "sen",
+      "venue": "费城林肯金融球场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek",
+          "gpt-5.5"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "deepseek": "法国进攻火力强劲(attack 2.0)，塞内加尔防线(defense 1.0)虽有组织但难完全阻挡。塞内加尔进攻端有威胁(attack 1.4)，法国精英级防...",
+        "gpt-5.5": "法国攻防两端均占优：进攻2.0对1.4，防守0.7对1.0，近期W7 D2 L1状态火热。费城主场环境加持，塞内加尔防线难以抵挡法国前场冲击。当前无明确伤停/首..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "法国进攻火力强劲(attack 2.0)，塞内加尔防线(defense 1.0)虽有组织但难完全阻挡。塞内加尔进攻端有威胁(attack 1.4)，法国精英级防守(0.7)可限制但非滴水不漏。热门胜率刚过58%门槛，一球小胜路径值得重视。当前无明确伤停/首发数据。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 21:08:55"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "法国攻防两端均占优：进攻2.0对1.4，防守0.7对1.0，近期W7 D2 L1状态火热。费城主场环境加持，塞内加尔防线难以抵挡法国前场冲击。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:03:59"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -680,7 +808,7 @@
         "updated_at": "2026-06-16 21:00:28",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -709,42 +837,57 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 80.1%，赔率 1.44，隐含概率 65.7%，期望收益率 15.4%。",
           "time": "2026-06-16 21:12:09"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4g6azrHM",
       "match_id": "M010",
-      "venue": "波士顿吉列体育场",
-      "home": "伊拉克",
-      "away": "挪威",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-17T06:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-17 06:00:00",
+      "team_a": "伊拉克",
+      "team_b": "挪威",
+      "team_a_id": "irq",
+      "team_b_id": "nor",
+      "venue": "波士顿吉列体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "deepseek"
+        ],
+        "A": [
+          "gpt-5.5"
+        ]
+      },
+      "comment": {
+        "deepseek": "Elo差仅60，实力极为接近。伊拉克近期状态不差(W5 D3 L2)，挪威进攻(1.4)缺乏绝对统治力，攻坚伊拉克薄弱防线(1.2)未必轻松。平局基线27.2%...",
+        "gpt-5.5": "挪威攻防两端微弱占优：进攻1.4对1.0，防守1.1对1.2，近期W6 D2 L2略好于伊拉克。伊拉克攻击火力不足，难以穿透挪威有组织的防线。当前无明确伤停/首..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "Elo差仅60，实力极为接近。伊拉克近期状态不差(W5 D3 L2)，挪威进攻(1.4)缺乏绝对统治力，攻坚伊拉克薄弱防线(1.2)未必轻松。平局基线27.2%明显偏高。小组赛首轮双方谨慎，低比分平局是结构上最合理的路径。当前无明确伤停/首发数据。",
-          "score": 150,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 21:08:57"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 0,
           "away_goals": 1,
           "result": "客胜",
           "analysis": "挪威攻防两端微弱占优：进攻1.4对1.0，防守1.1对1.2，近期W6 D2 L2略好于伊拉克。伊拉克攻击火力不足，难以穿透挪威有组织的防线。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:01"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -759,7 +902,7 @@
         "updated_at": "2026-06-16 21:10:59",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "客胜",
@@ -788,42 +931,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 49.2%，赔率 3.47，隐含概率 27.2%，期望收益率 70.8%。",
           "time": "2026-06-16 21:12:10"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4gp1i5Ud",
       "match_id": "M011",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "阿根廷",
-      "away": "阿尔及利亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-17T09:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-17 09:00:00",
+      "team_a": "阿根廷",
+      "team_b": "阿尔及利亚",
+      "team_a_id": "arg",
+      "team_b_id": "alg",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek",
+          "gpt-5.5"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "deepseek": "阿根廷攻防皆为精英级(attack 2.2, defense 0.6)，近10场W8 D1 L1状态极佳。阿尔及利亚进攻乏力(attack 1.2)几乎不可能穿...",
+        "gpt-5.5": "阿根廷攻防碾压级：进攻2.2对1.2，防守0.6对1.1，W8 D1 L1近况完美。阿尔及利亚攻击线面对世界最佳防线难有作为，阿根廷主场气势下稳胜。当前无明确伤..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 3,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "阿根廷攻防皆为精英级(attack 2.2, defense 0.6)，近10场W8 D1 L1状态极佳。阿尔及利亚进攻乏力(attack 1.2)几乎不可能穿透阿根廷防线，防守端(defense 1.1)面对顶级火力恐难支撑。当前无明确伤停/首发数据。零封大胜可期。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 21:08:58"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 3,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "阿根廷攻防碾压级：进攻2.2对1.2，防守0.6对1.1，W8 D1 L1近况完美。阿尔及利亚攻击线面对世界最佳防线难有作为，阿根廷主场气势下稳胜。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:02"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -838,7 +995,7 @@
         "updated_at": "2026-06-16 21:11:00",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -867,42 +1024,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 82.0%，赔率 1.54，隐含概率 61.3%，期望收益率 26.3%。",
           "time": "2026-06-16 21:12:10"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4gGT8x9t",
       "match_id": "M012",
-      "venue": "多伦多BMO球场",
-      "home": "奥地利",
-      "away": "约旦",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-17T12:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-17 12:00:00",
+      "team_a": "奥地利",
+      "team_b": "约旦",
+      "team_a_id": "aut",
+      "team_b_id": "jor",
+      "venue": "多伦多BMO球场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek",
+          "gpt-5.5"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "deepseek": "奥地利进攻(1.5)对约旦薄弱防线(1.3)有优势但非碾压级，约旦进攻极弱(0.9)面对奥地利稳固防守(1.0)难有建树。热门胜率仅56.39%低于安全线，提示...",
+        "gpt-5.5": "奥地利全面占优：进攻1.5对0.9，防守1.0对1.3，近期W6 D2 L2稳健。约旦攻击力极度匮乏，面对奥地利稳固防线几乎无进球可能。当前无明确伤停/首发数据..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "奥地利进攻(1.5)对约旦薄弱防线(1.3)有优势但非碾压级，约旦进攻极弱(0.9)面对奥地利稳固防守(1.0)难有建树。热门胜率仅56.39%低于安全线，提示一球小胜而非大胜。当前无明确伤停/首发数据。低比分主胜。",
-          "score": -100,
           "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 21:09:00"
+          "hit_score": true
         },
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "奥地利全面占优：进攻1.5对0.9，防守1.0对1.3，近期W6 D2 L2稳健。约旦攻击力极度匮乏，面对奥地利稳固防线几乎无进球可能。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:04"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -917,7 +1088,7 @@
         "updated_at": "2026-06-16 21:11:01",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -946,42 +1117,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 78.4%，赔率 1.67，隐含概率 56.4%，期望收益率 30.9%。",
           "time": "2026-06-16 21:12:11"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4gXGXXLW",
       "match_id": "M013",
-      "venue": "温哥华BC Place",
-      "home": "葡萄牙",
-      "away": "刚果(金)",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-18T01:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-18 01:00:00",
+      "team_a": "葡萄牙",
+      "team_b": "刚果(金)",
+      "team_a_id": "por",
+      "team_b_id": "cod",
+      "venue": "温哥华BC Place",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "D": [],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "葡萄牙攻防碾压：进攻1.9对0.9，防守0.7对1.3，W7 D1 L2状态强势。刚果(金)进攻端毫无威胁，面对葡萄牙精英防线难以制造进球。当前无明确伤停/首发...",
+        "deepseek": "葡萄牙攻防全面碾压(attack 1.9, defense 0.7)，刚果(金)防线薄弱(1.3)且进攻无力(0.9)。Elo差390分体现巨大实力鸿沟。葡萄牙..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "葡萄牙攻防碾压：进攻1.9对0.9，防守0.7对1.3，W7 D1 L2状态强势。刚果(金)进攻端毫无威胁，面对葡萄牙精英防线难以制造进球。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:06"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 3,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "葡萄牙攻防全面碾压(attack 1.9, defense 0.7)，刚果(金)防线薄弱(1.3)且进攻无力(0.9)。Elo差390分体现巨大实力鸿沟。葡萄牙近10场W7 D1 L2状态出色。当前无明确伤停/首发数据。轻松零封取胜。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:09:03"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -996,7 +1181,7 @@
         "updated_at": "2026-06-16 21:11:02",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -1025,42 +1210,57 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 82.0%，赔率 1.50，隐含概率 62.9%，期望收益率 23.0%。",
           "time": "2026-06-16 21:12:19"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4hfAPuLL",
       "match_id": "M014",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "英格兰",
-      "away": "克罗地亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-18T04:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-18 04:00:00",
+      "team_a": "英格兰",
+      "team_b": "克罗地亚",
+      "team_a_id": "eng",
+      "team_b_id": "cro",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5"
+        ],
+        "D": [
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "强强对话，英格兰进攻1.9对1.5略优，防守0.7对0.9更硬朗。克罗地亚韧性强但英格兰凭借更锐利攻击线和主场环境小胜可期。当前无明确伤停/首发数据。",
+        "deepseek": "Elo差仅100，两队皆为顶级强队。英格兰防守精英级(0.7)但近10场3平显示攻坚非强项。克罗地亚防守同样出色(0.9)且进攻(1.5)有威胁，客场胜率30...."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
           "analysis": "强强对话，英格兰进攻1.9对1.5略优，防守0.7对0.9更硬朗。克罗地亚韧性强但英格兰凭借更锐利攻击线和主场环境小胜可期。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:07"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "Elo差仅100，两队皆为顶级强队。英格兰防守精英级(0.7)但近10场3平显示攻坚非强项。克罗地亚防守同样出色(0.9)且进攻(1.5)有威胁，客场胜率30.2%不容忽视。强强对话天然倾向平局。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:09:04"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1075,7 +1275,7 @@
         "updated_at": "2026-06-16 21:11:03",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -1104,42 +1304,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 39.4%，赔率 5.43，隐含概率 17.4%，期望收益率 113.7%。",
           "time": "2026-06-16 21:12:21"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4hx9XpsZ",
       "match_id": "M015",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "加纳",
-      "away": "巴拿马",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-18T07:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-18 07:00:00",
+      "team_a": "加纳",
+      "team_b": "巴拿马",
+      "team_a_id": "gha",
+      "team_b_id": "pan",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "双方实力极为接近：加纳进攻1.1对0.9略优但防线同为1.3脆弱。两队攻击力均有限，难以拉开差距，平局是最合理的结局。当前无明确伤停/首发数据。",
+        "deepseek": "Elo差仅30，攻防数据几乎镜像：加纳(1.1/1.3)与巴拿马(0.9/1.3)均缺乏决定性攻防能力。平局基线32.5%为本轮最高，巴拿马近10场高达4平。两..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "双方实力极为接近：加纳进攻1.1对0.9略优但防线同为1.3脆弱。两队攻击力均有限，难以拉开差距，平局是最合理的结局。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:09"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "Elo差仅30，攻防数据几乎镜像：加纳(1.1/1.3)与巴拿马(0.9/1.3)均缺乏决定性攻防能力。平局基线32.5%为本轮最高，巴拿马近10场高达4平。两队核心短板一致，难以相互击败。当前无明确伤停/首发数据。低比分平局。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:09:06"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1154,7 +1368,7 @@
         "updated_at": "2026-06-16 21:11:04",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "平局",
@@ -1183,42 +1397,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 54.5%，赔率 2.90，隐含概率 32.5%，期望收益率 58.1%。",
           "time": "2026-06-16 21:12:22"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4hOQ7xVi",
       "match_id": "M016",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "乌兹别克斯坦",
-      "away": "哥伦比亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-18T10:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-18 10:00:00",
+      "team_a": "乌兹别克斯坦",
+      "team_b": "哥伦比亚",
+      "team_a_id": "uzb",
+      "team_b_id": "col",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": [
+          "gpt-5.5",
+          "deepseek"
+        ]
+      },
+      "comment": {
+        "gpt-5.5": "哥伦比亚双端占优：进攻1.4对1.0，防守1.0对1.2。乌兹别克攻击力不足难以威胁哥伦比亚防线，哥伦比亚大赛经验与阵容深度拉开差距。当前无明确伤停/首发数据。",
+        "deepseek": "哥伦比亚整体实力占优(Elo领先200，attack 1.4 vs defense 1.2)，但乌兹别克斯坦近期状态出色(W6 D2 L2)构成真实威胁。平局基..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 0,
           "away_goals": 2,
           "result": "客胜",
           "analysis": "哥伦比亚双端占优：进攻1.4对1.0，防守1.0对1.2。乌兹别克攻击力不足难以威胁哥伦比亚防线，哥伦比亚大赛经验与阵容深度拉开差距。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:04:11"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
           "analysis": "哥伦比亚整体实力占优(Elo领先200，attack 1.4 vs defense 1.2)，但乌兹别克斯坦近期状态出色(W6 D2 L2)构成真实威胁。平局基线26.5%提示冷门风险，乌兹别克主场战斗力不可低估。哥伦比亚攻坚能力非顶级，一球小胜更合理。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:09:07"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1233,7 +1461,7 @@
         "updated_at": "2026-06-16 21:11:05",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "客胜",
@@ -1262,42 +1490,57 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 客胜；模型概率 62.3%，赔率 2.34，隐含概率 40.3%，期望收益率 45.7%。",
           "time": "2026-06-16 21:12:24"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4i5I0ItH",
       "match_id": "M017",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "捷克",
-      "away": "南非",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-19T00:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-19 00:00:00",
+      "team_a": "捷克",
+      "team_b": "南非",
+      "team_a_id": "cze",
+      "team_b_id": "rsa",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "gpt-5.5"
+        ],
+        "D": [
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "增强策略基线：Elo/攻防/近期状态综合后，捷克胜平负概率为43%/32%/25%，最可能比分为1-0。",
+        "deepseek": "捷克进攻中等(1.2)且近况平庸,10场仅3胜4平,攻坚能力不足;南非防守薄弱(1.4)但捷克火力不足以碾压;Elo差仅180处于临界线,平局概率超31%,捷克..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，捷克胜平负概率为43%/32%/25%，最可能比分为1-0。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:06:07"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "捷克进攻中等(1.2)且近况平庸,10场仅3胜4平,攻坚能力不足;南非防守薄弱(1.4)但捷克火力不足以碾压;Elo差仅180处于临界线,平局概率超31%,捷克近期高平局率使1-1成为最可能低比分路径。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:10:50"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1312,7 +1555,7 @@
         "updated_at": "2026-06-16 21:11:05",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "主胜",
@@ -1341,42 +1584,57 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 53.6%，赔率 2.99，隐含概率 31.6%，期望收益率 60.1%。",
           "time": "2026-06-16 21:12:26"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4iojcFCq",
       "match_id": "M018",
-      "venue": "纽约大都会体育场",
-      "home": "瑞士",
-      "away": "波黑",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-19T03:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-19 03:00:00",
+      "team_a": "瑞士",
+      "team_b": "波黑",
+      "team_a_id": "sui",
+      "team_b_id": "bih",
+      "venue": "纽约大都会体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [
+          "deepseek"
+        ],
+        "D": [
+          "gpt-5.5"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "增强策略基线：Elo/攻防/近期状态综合后，瑞士胜平负概率为55%/24%/21%，最可能比分为1-1。",
+        "deepseek": "瑞士攻防俱佳(1.7/0.9)且近况出色,10场5胜3平,防线为精英级别;波黑攻击孱弱(1.0)且防守漏洞大(1.5),近期10场仅2胜5负;Elo差380体现..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，瑞士胜平负概率为55%/24%/21%，最可能比分为1-1。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:06:09"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
           "analysis": "瑞士攻防俱佳(1.7/0.9)且近况出色,10场5胜3平,防线为精英级别;波黑攻击孱弱(1.0)且防守漏洞大(1.5),近期10场仅2胜5负;Elo差380体现实力鸿沟,波黑几乎无法攻破瑞士防线,2-0零封是结构上最合理路径。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:10:52"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1391,7 +1649,7 @@
         "updated_at": "2026-06-16 21:11:06",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "平局",
@@ -1420,42 +1678,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 主胜；模型概率 76.8%，赔率 1.72，隐含概率 54.8%，期望收益率 32.2%。",
           "time": "2026-06-16 21:12:27"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4iGhmgB3",
       "match_id": "M019",
-      "venue": "达拉斯AT&T体育场",
-      "home": "加拿大",
-      "away": "卡塔尔",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-19T06:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-19 06:00:00",
+      "team_a": "加拿大",
+      "team_b": "卡塔尔",
+      "team_a_id": "can",
+      "team_b_id": "qat",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "增强策略基线：Elo/攻防/近期状态综合后，加拿大胜平负概率为32%/31%/38%，最可能比分为1-1。",
+        "deepseek": "卡塔尔进攻略优于加拿大(1.4对1.2),双方防守均有漏洞(1.3/1.6)且近期状态相近;Elo差仅70几乎无差距,平局概率超30%且卡塔尔客场预期胜率高于加..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，加拿大胜平负概率为32%/31%/38%，最可能比分为1-1。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:06:11"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "卡塔尔进攻略优于加拿大(1.4对1.2),双方防守均有漏洞(1.3/1.6)且近期状态相近;Elo差仅70几乎无差距,平局概率超30%且卡塔尔客场预期胜率高于加拿大主场;互有进球的1-1完全符合双方开放的攻防结构。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:10:54"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1470,7 +1742,7 @@
         "updated_at": "2026-06-16 21:11:07",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "平局",
@@ -1499,42 +1771,56 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 52.8%，赔率 3.06，隐含概率 30.8%，期望收益率 61.5%。",
           "time": "2026-06-16 21:12:29"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4iYUIaMz",
       "match_id": "M020",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "墨西哥",
-      "away": "韩国",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-19T09:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "已预测",
-      "time": "2026-06-19 09:00:00",
+      "team_a": "墨西哥",
+      "team_b": "韩国",
+      "team_a_id": "mex",
+      "team_b_id": "kor",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": true,
+      "bets": {
+        "H": [],
+        "D": [
+          "gpt-5.5",
+          "deepseek"
+        ],
+        "A": []
+      },
+      "comment": {
+        "gpt-5.5": "增强策略基线：Elo/攻防/近期状态综合后，墨西哥胜平负概率为48%/23%/29%，最可能比分为1-1。",
+        "deepseek": "双方近期状态极佳(墨西哥6胜2平,韩国5胜3平),且防线均稳固(1.0/1.1)攻击力接近(1.4/1.3);Elo差仅130不足以形成统治,墨西哥主场胜率不足..."
+      },
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，墨西哥胜平负概率为48%/23%/29%，最可能比分为1-1。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:06:12"
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
           "analysis": "双方近期状态极佳(墨西哥6胜2平,韩国5胜3平),且防线均稳固(1.0/1.1)攻击力接近(1.4/1.3);Elo差仅130不足以形成统治,墨西哥主场胜率不足48%;两队的防守质量使高比分难以出现,1-1平局是攻防高度均衡下的最合理结果。当前无明确伤停/首发数据。",
-          "score": null,
           "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 21:10:55"
+          "hit_score": false
         }
       ],
       "odds": {
@@ -1549,7 +1835,7 @@
         "updated_at": "2026-06-16 21:11:08",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": [
+      "bets_detail": [
         {
           "model": "GPT-5.5",
           "item": "平局",
@@ -1578,20 +1864,30 @@
           "reason": "按 DeepSeek V4 Pro 预测结果自动投注 平局；模型概率 44.9%，赔率 4.13，隐含概率 22.9%，期望收益率 85.2%。",
           "time": "2026-06-16 21:12:31"
         }
-      ]
+      ],
+      "status": "未开始",
+      "prediction_status": "已预测"
     },
     {
-      "record_id": "recvmw4jieXgFO",
       "match_id": "M021",
-      "venue": "迈阿密硬石体育场",
-      "home": "美国",
-      "away": "澳大利亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-20T03:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-20 03:00:00",
+      "team_a": "美国",
+      "team_b": "澳大利亚",
+      "team_a_id": "usa",
+      "team_b_id": "aus",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1605,20 +1901,30 @@
         "updated_at": "2026-06-16 21:11:09",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4jAaQTLm",
       "match_id": "M022",
-      "venue": "休斯顿NRG体育场",
-      "home": "苏格兰",
-      "away": "摩洛哥",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-20T06:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-20 06:00:00",
+      "team_a": "苏格兰",
+      "team_b": "摩洛哥",
+      "team_a_id": "sco",
+      "team_b_id": "mar",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1632,20 +1938,30 @@
         "updated_at": "2026-06-16 21:11:10",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4jSRpek8",
       "match_id": "M023",
-      "venue": "西雅图Lumen球场",
-      "home": "巴西",
-      "away": "海地",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-20T08:30:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-20 08:30:00",
+      "team_a": "巴西",
+      "team_b": "海地",
+      "team_a_id": "bra",
+      "team_b_id": "hai",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1659,20 +1975,30 @@
         "updated_at": "2026-06-16 21:11:11",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4kaPdpgd",
       "match_id": "M024",
-      "venue": "旧金山Levi's体育场",
-      "home": "土耳其",
-      "away": "巴拉圭",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-20T11:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-20 11:00:00",
+      "team_a": "土耳其",
+      "team_b": "巴拉圭",
+      "team_a_id": "tur",
+      "team_b_id": "par",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1686,20 +2012,30 @@
         "updated_at": "2026-06-16 21:11:12",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4krAWlbC",
       "match_id": "M025",
-      "venue": "费城林肯金融球场",
-      "home": "荷兰",
-      "away": "瑞典",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-21T01:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-21 01:00:00",
+      "team_a": "荷兰",
+      "team_b": "瑞典",
+      "team_a_id": "ned",
+      "team_b_id": "swe",
+      "venue": "费城林肯金融球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1713,20 +2049,30 @@
         "updated_at": "2026-06-16 21:11:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4kIGYGj9",
       "match_id": "M026",
-      "venue": "波士顿吉列体育场",
-      "home": "德国",
-      "away": "科特迪瓦",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-21T04:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-21 04:00:00",
+      "team_a": "德国",
+      "team_b": "科特迪瓦",
+      "team_a_id": "ger",
+      "team_b_id": "civ",
+      "venue": "波士顿吉列体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1740,20 +2086,30 @@
         "updated_at": "2026-06-16 21:11:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4kYgNLMC",
       "match_id": "M027",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "厄瓜多尔",
-      "away": "库拉索",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-21T08:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-21 08:00:00",
+      "team_a": "厄瓜多尔",
+      "team_b": "库拉索",
+      "team_a_id": "ecu",
+      "team_b_id": "cuw",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1767,20 +2123,30 @@
         "updated_at": "2026-06-16 21:11:14",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4lfx71Jy",
       "match_id": "M028",
-      "venue": "多伦多BMO球场",
-      "home": "突尼斯",
-      "away": "日本",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-21T12:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-21 12:00:00",
+      "team_a": "突尼斯",
+      "team_b": "日本",
+      "team_a_id": "tun",
+      "team_b_id": "jpn",
+      "venue": "多伦多BMO球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1794,20 +2160,30 @@
         "updated_at": "2026-06-16 21:11:15",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4lx4YduD",
       "match_id": "M029",
-      "venue": "温哥华BC Place",
-      "home": "西班牙",
-      "away": "沙特阿拉伯",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-22T00:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-22 00:00:00",
+      "team_a": "西班牙",
+      "team_b": "沙特阿拉伯",
+      "team_a_id": "esp",
+      "team_b_id": "ksa",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1821,20 +2197,30 @@
         "updated_at": "2026-06-16 21:11:16",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4lNXmTus",
       "match_id": "M030",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "比利时",
-      "away": "伊朗",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-22T03:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-22 03:00:00",
+      "team_a": "比利时",
+      "team_b": "伊朗",
+      "team_a_id": "bel",
+      "team_b_id": "irn",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1848,20 +2234,30 @@
         "updated_at": "2026-06-16 21:11:17",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4m4nMGee",
       "match_id": "M031",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "乌拉圭",
-      "away": "佛得角",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-22T06:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-22 06:00:00",
+      "team_a": "乌拉圭",
+      "team_b": "佛得角",
+      "team_a_id": "uru",
+      "team_b_id": "cpv",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1875,20 +2271,30 @@
         "updated_at": "2026-06-16 21:11:18",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4mnzTkTZ",
       "match_id": "M032",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "新西兰",
-      "away": "埃及",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-22T09:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-22 09:00:00",
+      "team_a": "新西兰",
+      "team_b": "埃及",
+      "team_a_id": "nzl",
+      "team_b_id": "egy",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1902,20 +2308,30 @@
         "updated_at": "2026-06-16 21:11:19",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4mF9PnM9",
       "match_id": "M033",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "阿根廷",
-      "away": "奥地利",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-23T01:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-23 01:00:00",
+      "team_a": "阿根廷",
+      "team_b": "奥地利",
+      "team_a_id": "arg",
+      "team_b_id": "aut",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1929,20 +2345,30 @@
         "updated_at": "2026-06-16 21:11:19",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4mX4VKXi",
       "match_id": "M034",
-      "venue": "纽约大都会体育场",
-      "home": "法国",
-      "away": "伊拉克",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-23T05:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-23 05:00:00",
+      "team_a": "法国",
+      "team_b": "伊拉克",
+      "team_a_id": "fra",
+      "team_b_id": "irq",
+      "venue": "纽约大都会体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1956,20 +2382,30 @@
         "updated_at": "2026-06-16 21:11:20",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4nfHgrU6",
       "match_id": "M035",
-      "venue": "达拉斯AT&T体育场",
-      "home": "挪威",
-      "away": "塞内加尔",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-23T08:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-23 08:00:00",
+      "team_a": "挪威",
+      "team_b": "塞内加尔",
+      "team_a_id": "nor",
+      "team_b_id": "sen",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -1983,20 +2419,30 @@
         "updated_at": "2026-06-16 21:11:21",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4nwN8SKf",
       "match_id": "M036",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "约旦",
-      "away": "阿尔及利亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-23T11:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-23 11:00:00",
+      "team_a": "约旦",
+      "team_b": "阿尔及利亚",
+      "team_a_id": "jor",
+      "team_b_id": "alg",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2010,20 +2456,30 @@
         "updated_at": "2026-06-16 21:11:22",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4nOPGcPe",
       "match_id": "M037",
-      "venue": "迈阿密硬石体育场",
-      "home": "葡萄牙",
-      "away": "乌兹别克斯坦",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-24T01:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-24 01:00:00",
+      "team_a": "葡萄牙",
+      "team_b": "乌兹别克斯坦",
+      "team_a_id": "por",
+      "team_b_id": "uzb",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2037,20 +2493,30 @@
         "updated_at": "2026-06-16 21:11:24",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4o71HJVl",
       "match_id": "M038",
-      "venue": "休斯顿NRG体育场",
-      "home": "英格兰",
-      "away": "加纳",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-24T04:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-24 04:00:00",
+      "team_a": "英格兰",
+      "team_b": "加纳",
+      "team_a_id": "eng",
+      "team_b_id": "gha",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2064,20 +2530,30 @@
         "updated_at": "2026-06-16 21:11:25",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4oEAtAK1",
       "match_id": "M039",
-      "venue": "西雅图Lumen球场",
-      "home": "巴拿马",
-      "away": "克罗地亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-24T07:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-24 07:00:00",
+      "team_a": "巴拿马",
+      "team_b": "克罗地亚",
+      "team_a_id": "pan",
+      "team_b_id": "cro",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2091,20 +2567,30 @@
         "updated_at": "2026-06-16 21:11:26",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4oXkdwEN",
       "match_id": "M040",
-      "venue": "旧金山Levi's体育场",
-      "home": "哥伦比亚",
-      "away": "刚果(金)",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-24T10:00:00+08:00",
       "stage": "小组赛第2轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-24 10:00:00",
+      "team_a": "哥伦比亚",
+      "team_b": "刚果(金)",
+      "team_a_id": "col",
+      "team_b_id": "cod",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2118,20 +2604,30 @@
         "updated_at": "2026-06-16 21:11:27",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4peK7rIM",
       "match_id": "M041",
-      "venue": "费城林肯金融球场",
-      "home": "波黑",
-      "away": "卡塔尔",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T03:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 03:00:00",
+      "team_a": "波黑",
+      "team_b": "卡塔尔",
+      "team_a_id": "bih",
+      "team_b_id": "qat",
+      "venue": "费城林肯金融球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2145,20 +2641,30 @@
         "updated_at": "2026-06-16 21:11:28",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4pwM2wyv",
       "match_id": "M042",
-      "venue": "波士顿吉列体育场",
-      "home": "瑞士",
-      "away": "加拿大",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T03:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 03:00:00",
+      "team_a": "瑞士",
+      "team_b": "加拿大",
+      "team_a_id": "sui",
+      "team_b_id": "can",
+      "venue": "波士顿吉列体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2172,20 +2678,30 @@
         "updated_at": "2026-06-16 21:11:28",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4pPhWjAc",
       "match_id": "M043",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "摩洛哥",
-      "away": "海地",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T06:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 06:00:00",
+      "team_a": "摩洛哥",
+      "team_b": "海地",
+      "team_a_id": "mar",
+      "team_b_id": "hai",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2199,20 +2715,30 @@
         "updated_at": "2026-06-16 21:11:29",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4q4yEONX",
       "match_id": "M044",
-      "venue": "多伦多BMO球场",
-      "home": "苏格兰",
-      "away": "巴西",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T06:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 06:00:00",
+      "team_a": "苏格兰",
+      "team_b": "巴西",
+      "team_a_id": "sco",
+      "team_b_id": "bra",
+      "venue": "多伦多BMO球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2226,20 +2752,30 @@
         "updated_at": "2026-06-16 21:11:30",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4qvHTud6",
       "match_id": "M045",
-      "venue": "温哥华BC Place",
-      "home": "捷克",
-      "away": "墨西哥",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T09:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 09:00:00",
+      "team_a": "捷克",
+      "team_b": "墨西哥",
+      "team_a_id": "cze",
+      "team_b_id": "mex",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2253,20 +2789,30 @@
         "updated_at": "2026-06-16 21:11:31",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4qNoRtL7",
       "match_id": "M046",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "南非",
-      "away": "韩国",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-25T09:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-25 09:00:00",
+      "team_a": "南非",
+      "team_b": "韩国",
+      "team_a_id": "rsa",
+      "team_b_id": "kor",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2280,20 +2826,30 @@
         "updated_at": "2026-06-16 21:11:32",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4r4ARcRs",
       "match_id": "M047",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "库拉索",
-      "away": "科特迪瓦",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T04:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 04:00:00",
+      "team_a": "库拉索",
+      "team_b": "科特迪瓦",
+      "team_a_id": "cuw",
+      "team_b_id": "civ",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2307,20 +2863,30 @@
         "updated_at": "2026-06-16 21:11:32",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4rmFDEXV",
       "match_id": "M048",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "厄瓜多尔",
-      "away": "德国",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T04:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 04:00:00",
+      "team_a": "厄瓜多尔",
+      "team_b": "德国",
+      "team_a_id": "ecu",
+      "team_b_id": "ger",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2334,20 +2900,30 @@
         "updated_at": "2026-06-16 21:11:34",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4rEiXFi3",
       "match_id": "M049",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "日本",
-      "away": "瑞典",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T07:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 07:00:00",
+      "team_a": "日本",
+      "team_b": "瑞典",
+      "team_a_id": "jpn",
+      "team_b_id": "swe",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2361,20 +2937,30 @@
         "updated_at": "2026-06-16 21:11:35",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4rWVXOtj",
       "match_id": "M050",
-      "venue": "纽约大都会体育场",
-      "home": "突尼斯",
-      "away": "荷兰",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T07:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 07:00:00",
+      "team_a": "突尼斯",
+      "team_b": "荷兰",
+      "team_a_id": "tun",
+      "team_b_id": "ned",
+      "venue": "纽约大都会体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2388,20 +2974,30 @@
         "updated_at": "2026-06-16 21:11:36",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4sf1i9C7",
       "match_id": "M051",
-      "venue": "达拉斯AT&T体育场",
-      "home": "巴拉圭",
-      "away": "澳大利亚",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T10:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 10:00:00",
+      "team_a": "巴拉圭",
+      "team_b": "澳大利亚",
+      "team_a_id": "par",
+      "team_b_id": "aus",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2415,20 +3011,30 @@
         "updated_at": "2026-06-16 21:11:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4sxEFwoN",
       "match_id": "M052",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "土耳其",
-      "away": "美国",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-26T10:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-26 10:00:00",
+      "team_a": "土耳其",
+      "team_b": "美国",
+      "team_a_id": "tur",
+      "team_b_id": "usa",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2442,20 +3048,30 @@
         "updated_at": "2026-06-16 21:11:38",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4sPFb6Ob",
       "match_id": "M053",
-      "venue": "迈阿密硬石体育场",
-      "home": "挪威",
-      "away": "法国",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T03:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 03:00:00",
+      "team_a": "挪威",
+      "team_b": "法国",
+      "team_a_id": "nor",
+      "team_b_id": "fra",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2469,20 +3085,30 @@
         "updated_at": "2026-06-16 21:11:39",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4t7XS3dA",
       "match_id": "M054",
-      "venue": "休斯顿NRG体育场",
-      "home": "塞内加尔",
-      "away": "伊拉克",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T03:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 03:00:00",
+      "team_a": "塞内加尔",
+      "team_b": "伊拉克",
+      "team_a_id": "sen",
+      "team_b_id": "irq",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2496,20 +3122,30 @@
         "updated_at": "2026-06-16 21:11:40",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4tsQ90nb",
       "match_id": "M055",
-      "venue": "西雅图Lumen球场",
-      "home": "佛得角",
-      "away": "沙特阿拉伯",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T08:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 08:00:00",
+      "team_a": "佛得角",
+      "team_b": "沙特阿拉伯",
+      "team_a_id": "cpv",
+      "team_b_id": "ksa",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2523,20 +3159,30 @@
         "updated_at": "2026-06-16 21:11:40",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4tKJ5s1g",
       "match_id": "M056",
-      "venue": "旧金山Levi's体育场",
-      "home": "乌拉圭",
-      "away": "西班牙",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T08:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 08:00:00",
+      "team_a": "乌拉圭",
+      "team_b": "西班牙",
+      "team_a_id": "uru",
+      "team_b_id": "esp",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2550,20 +3196,30 @@
         "updated_at": "2026-06-16 21:11:41",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4u2rcC2v",
       "match_id": "M057",
-      "venue": "费城林肯金融球场",
-      "home": "埃及",
-      "away": "伊朗",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T11:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 11:00:00",
+      "team_a": "埃及",
+      "team_b": "伊朗",
+      "team_a_id": "egy",
+      "team_b_id": "irn",
+      "venue": "费城林肯金融球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2577,20 +3233,30 @@
         "updated_at": "2026-06-16 21:11:42",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4uk9X7tD",
       "match_id": "M058",
-      "venue": "波士顿吉列体育场",
-      "home": "新西兰",
-      "away": "比利时",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-27T11:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-27 11:00:00",
+      "team_a": "新西兰",
+      "team_b": "比利时",
+      "team_a_id": "nzl",
+      "team_b_id": "bel",
+      "venue": "波士顿吉列体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2604,20 +3270,30 @@
         "updated_at": "2026-06-16 21:11:43",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4uBH2Q6L",
       "match_id": "M059",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "克罗地亚",
-      "away": "加纳",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T05:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 05:00:00",
+      "team_a": "克罗地亚",
+      "team_b": "加纳",
+      "team_a_id": "cro",
+      "team_b_id": "gha",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2631,20 +3307,30 @@
         "updated_at": "2026-06-16 21:11:44",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4uU4dBdv",
       "match_id": "M060",
-      "venue": "多伦多BMO球场",
-      "home": "巴拿马",
-      "away": "英格兰",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T05:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 05:00:00",
+      "team_a": "巴拿马",
+      "team_b": "英格兰",
+      "team_a_id": "pan",
+      "team_b_id": "eng",
+      "venue": "多伦多BMO球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2658,20 +3344,30 @@
         "updated_at": "2026-06-16 21:11:45",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4vcV5zjm",
       "match_id": "M061",
-      "venue": "温哥华BC Place",
-      "home": "哥伦比亚",
-      "away": "葡萄牙",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T07:30:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 07:30:00",
+      "team_a": "哥伦比亚",
+      "team_b": "葡萄牙",
+      "team_a_id": "col",
+      "team_b_id": "por",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2685,20 +3381,30 @@
         "updated_at": "2026-06-16 21:11:45",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4vttdzud",
       "match_id": "M062",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "刚果(金)",
-      "away": "乌兹别克斯坦",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T07:30:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 07:30:00",
+      "team_a": "刚果(金)",
+      "team_b": "乌兹别克斯坦",
+      "team_a_id": "cod",
+      "team_b_id": "uzb",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2712,20 +3418,30 @@
         "updated_at": "2026-06-16 21:11:46",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4vLF7uMq",
       "match_id": "M063",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "阿尔及利亚",
-      "away": "奥地利",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T10:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 10:00:00",
+      "team_a": "阿尔及利亚",
+      "team_b": "奥地利",
+      "team_a_id": "alg",
+      "team_b_id": "aut",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2739,20 +3455,30 @@
         "updated_at": "2026-06-16 21:11:47",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4w5Aa5TK",
       "match_id": "M064",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "约旦",
-      "away": "阿根廷",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T10:00:00+08:00",
       "stage": "小组赛第3轮",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 10:00:00",
+      "team_a": "约旦",
+      "team_b": "阿根廷",
+      "team_a_id": "jor",
+      "team_b_id": "arg",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2766,20 +3492,30 @@
         "updated_at": "2026-06-16 21:11:48",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4wp0KmnQ",
       "match_id": "M065",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "加拿大",
-      "away": "波黑",
-      "home_score": 1,
-      "away_score": 1,
+      "kickoff_at": "2026-06-13T03:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-13 03:00:00",
+      "team_a": "加拿大",
+      "team_b": "波黑",
+      "team_a_id": "can",
+      "team_b_id": "bih",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2793,20 +3529,30 @@
         "updated_at": "2026-06-16 21:11:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4wHCMtPg",
       "match_id": "M066",
-      "venue": "纽约大都会体育场",
-      "home": "卡塔尔",
-      "away": "瑞士",
-      "home_score": 1,
-      "away_score": 1,
+      "kickoff_at": "2026-06-14T03:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-14 03:00:00",
+      "team_a": "卡塔尔",
+      "team_b": "瑞士",
+      "team_a_id": "qat",
+      "team_b_id": "sui",
+      "venue": "纽约大都会体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2820,20 +3566,30 @@
         "updated_at": "2026-06-16 21:11:50",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4x25NiLJ",
       "match_id": "M067",
-      "venue": "达拉斯AT&T体育场",
-      "home": "南非",
-      "away": "墨西哥",
-      "home_score": 0,
-      "away_score": 2,
+      "kickoff_at": "2026-06-12T03:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-12 03:00:00",
+      "team_a": "南非",
+      "team_b": "墨西哥",
+      "team_a_id": "rsa",
+      "team_b_id": "mex",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 2
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2847,20 +3603,30 @@
         "updated_at": "2026-06-16 21:11:51",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4xkux7aT",
       "match_id": "M068",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "韩国",
-      "away": "捷克",
-      "home_score": 2,
-      "away_score": 1,
+      "kickoff_at": "2026-06-12T10:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-12 10:00:00",
+      "team_a": "韩国",
+      "team_b": "捷克",
+      "team_a_id": "kor",
+      "team_b_id": "cze",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2874,20 +3640,30 @@
         "updated_at": "2026-06-16 21:11:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4xCI5Jht",
       "match_id": "M069",
-      "venue": "迈阿密硬石体育场",
-      "home": "土耳其",
-      "away": "澳大利亚",
-      "home_score": 0,
-      "away_score": 2,
+      "kickoff_at": "2026-06-14T12:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-14 12:00:00",
+      "team_a": "土耳其",
+      "team_b": "澳大利亚",
+      "team_a_id": "tur",
+      "team_b_id": "aus",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 2
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2901,20 +3677,30 @@
         "updated_at": "2026-06-16 21:11:53",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4xUisB8R",
       "match_id": "M070",
-      "venue": "休斯顿NRG体育场",
-      "home": "巴拉圭",
-      "away": "美国",
-      "home_score": 1,
-      "away_score": 4,
+      "kickoff_at": "2026-06-13T09:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-13 09:00:00",
+      "team_a": "巴拉圭",
+      "team_b": "美国",
+      "team_a_id": "par",
+      "team_b_id": "usa",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 4
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2928,20 +3714,30 @@
         "updated_at": "2026-06-16 21:11:53",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4ybveoHq",
       "match_id": "M071",
-      "venue": "西雅图Lumen球场",
-      "home": "巴西",
-      "away": "摩洛哥",
-      "home_score": 1,
-      "away_score": 1,
+      "kickoff_at": "2026-06-14T06:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-14 06:00:00",
+      "team_a": "巴西",
+      "team_b": "摩洛哥",
+      "team_a_id": "bra",
+      "team_b_id": "mar",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": {
         "source": "真实API",
@@ -2955,20 +3751,30 @@
         "updated_at": "2026-06-15 06:00:58",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4yJ4iYT1",
       "match_id": "M072",
-      "venue": "旧金山Levi's体育场",
-      "home": "海地",
-      "away": "苏格兰",
-      "home_score": 0,
-      "away_score": 1,
+      "kickoff_at": "2026-06-14T09:00:00+08:00",
       "stage": "小组赛第1轮",
-      "status": "已结束",
-      "prediction_status": "已校准",
-      "time": "2026-06-14 09:00:00",
+      "team_a": "海地",
+      "team_b": "苏格兰",
+      "team_a_id": "hai",
+      "team_b_id": "sco",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -2982,544 +3788,867 @@
         "updated_at": "2026-06-16 21:11:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
-      "bets": []
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "已校准"
     },
     {
-      "record_id": "recvmw4z0K0WYt",
       "match_id": "M073",
-      "venue": "费城林肯金融球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "费城林肯金融球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4zj6hqEZ",
       "match_id": "M074",
-      "venue": "波士顿吉列体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "波士顿吉列体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4zBy7dMS",
       "match_id": "M075",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4zSxfUBQ",
       "match_id": "M076",
-      "venue": "多伦多BMO球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "多伦多BMO球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4A9jiDga",
       "match_id": "M077",
-      "venue": "温哥华BC Place",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-28T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-28 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4AqNrBkO",
       "match_id": "M078",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-29T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-29 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4AHxP4Ly",
       "match_id": "M079",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-29T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-29 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4AZt69Xf",
       "match_id": "M080",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-29T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-29 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4Bj2L9wG",
       "match_id": "M081",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-29T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-29 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4BzrmgWb",
       "match_id": "M082",
-      "venue": "纽约大都会体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-30T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-30 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "纽约大都会体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4BPTb0x8",
       "match_id": "M083",
-      "venue": "达拉斯AT&T体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-30T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-30 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4C6wcDvw",
       "match_id": "M084",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-30T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-30 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4Cp6yuJp",
       "match_id": "M085",
-      "venue": "迈阿密硬石体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-06-30T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-06-30 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4CGTPt1P",
       "match_id": "M086",
-      "venue": "休斯顿NRG体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-07-01T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-01 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4CZ0uJSy",
       "match_id": "M087",
-      "venue": "西雅图Lumen球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-07-01T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-01 03:00:00",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     },
     {
-      "record_id": "recvmw4DgqVhjH",
       "match_id": "M088",
-      "venue": "旧金山Levi's体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
+      "kickoff_at": "2026-07-01T03:00:00+08:00",
       "stage": "1/16决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-01 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4DxVS9Xd",
-      "match_id": "M089",
-      "venue": "费城林肯金融球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-02 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4DOJv8cO",
-      "match_id": "M090",
-      "venue": "波士顿吉列体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-02 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4E5ifpn9",
-      "match_id": "M091",
-      "venue": "堪萨斯城箭头体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-02 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4En0fxwK",
-      "match_id": "M092",
-      "venue": "多伦多BMO球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-02 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4EF5I1A9",
-      "match_id": "M093",
-      "venue": "温哥华BC Place",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-02 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4EXRmB5V",
-      "match_id": "M094",
-      "venue": "蒙特雷BBVA体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-03 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4Ff0dl3d",
-      "match_id": "M095",
-      "venue": "瓜达拉哈拉阿克伦体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-03 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4Fzm9D5b",
-      "match_id": "M096",
-      "venue": "墨西哥城阿兹特克体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/8决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-03 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4FRl87ZS",
-      "match_id": "M097",
-      "venue": "洛杉矶SoFi体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/4决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-04 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4G8p9e9S",
-      "match_id": "M098",
-      "venue": "纽约大都会体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/4决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-04 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4GqJ5bQL",
-      "match_id": "M099",
-      "venue": "达拉斯AT&T体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/4决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-04 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4GIi1wkj",
-      "match_id": "M100",
-      "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "1/4决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-04 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4GZnnf59",
-      "match_id": "M101",
-      "venue": "迈阿密硬石体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "半决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-05 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4HhOSAYM",
-      "match_id": "M102",
-      "venue": "休斯顿NRG体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "半决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-05 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4HAfHrDH",
-      "match_id": "M103",
-      "venue": "西雅图Lumen球场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "季军赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-06 03:00:00",
-      "predictions": [],
-      "odds": null,
-      "bets": []
-    },
-    {
-      "record_id": "recvmw4HQVrKSK",
-      "match_id": "M104",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
       "venue": "旧金山Levi's体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": 0,
-      "away_score": 0,
-      "stage": "决赛",
-      "status": "未开始",
-      "prediction_status": "待预测",
-      "time": "2026-07-07 03:00:00",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
       "predictions": [],
       "odds": null,
-      "bets": []
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M089",
+      "kickoff_at": "2026-07-02T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "费城林肯金融球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M090",
+      "kickoff_at": "2026-07-02T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "波士顿吉列体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M091",
+      "kickoff_at": "2026-07-02T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "堪萨斯城箭头体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M092",
+      "kickoff_at": "2026-07-02T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "多伦多BMO球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M093",
+      "kickoff_at": "2026-07-02T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M094",
+      "kickoff_at": "2026-07-03T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "蒙特雷BBVA体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M095",
+      "kickoff_at": "2026-07-03T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "瓜达拉哈拉阿克伦体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M096",
+      "kickoff_at": "2026-07-03T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "墨西哥城阿兹特克体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M097",
+      "kickoff_at": "2026-07-04T03:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "洛杉矶SoFi体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M098",
+      "kickoff_at": "2026-07-04T03:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "纽约大都会体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M099",
+      "kickoff_at": "2026-07-04T03:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "达拉斯AT&T体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M100",
+      "kickoff_at": "2026-07-04T03:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "亚特兰大梅赛德斯-奔驰体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M101",
+      "kickoff_at": "2026-07-05T03:00:00+08:00",
+      "stage": "半决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "迈阿密硬石体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M102",
+      "kickoff_at": "2026-07-05T03:00:00+08:00",
+      "stage": "半决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "休斯顿NRG体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M103",
+      "kickoff_at": "2026-07-06T03:00:00+08:00",
+      "stage": "季军赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "西雅图Lumen球场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M104",
+      "kickoff_at": "2026-07-07T03:00:00+08:00",
+      "stage": "决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "旧金山Levi's体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     }
   ],
-  "bet_summary": [
+  "models": [
     {
-      "model": "GPT-5.5",
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
+      "display": "GPT-5.5",
+      "color": "#10A37F",
       "bets": 20,
       "wins": 6,
-      "bankroll": 10000.0,
       "balance": 9688.0,
       "pnl": -312.0,
       "roi": -0.156,
-      "win_rate": 0.3,
-      "updated_at": "2026-06-16 21:12:33"
+      "win_rate": 0.3
     },
     {
-      "model": "DeepSeek V4 Pro",
+      "id": "deepseek",
+      "name": "DeepSeek V4 Pro",
+      "display": "DeepSeek",
+      "color": "#4F7DFF",
       "bets": 20,
       "wins": 8,
-      "bankroll": 10000.0,
       "balance": 10712.0,
       "pnl": 712.0,
       "roi": 0.356,
-      "win_rate": 0.4,
-      "updated_at": "2026-06-16 21:12:34"
+      "win_rate": 0.4
     }
-  ],
-  "generated_at": "2026-06-16 21:12:46"
+  ]
 }

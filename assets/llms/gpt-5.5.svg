@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="gpt-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10A37F"/>
+      <stop offset="100%" style="stop-color:#0D8B6A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#gpt-grad)" stroke="#0A7C5E" stroke-width="1.5"/>
+  <text x="60" y="72" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="800" fill="white">G</text>
+</svg>

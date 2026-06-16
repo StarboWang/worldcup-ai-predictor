@@ -1,110 +1,796 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>世界杯 AI 预测 | 2026</title>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>世界杯 AI 预测 2026 | GPT-5.5 × DeepSeek</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { display: ['"Space Grotesk"','system-ui','sans-serif'] },
+      colors: {
+        primary: '#4F7DFF',
+        'primary-strong': '#3B5FD9',
+        secondary: '#EF4444',
+        background: 'rgb(var(--bg) / <alpha-value>)',
+        surface: 'rgb(var(--surface) / <alpha-value>)',
+        'surface-elevated': 'rgb(var(--surface-elevated) / <alpha-value>)',
+        'surface-highlight': 'rgb(var(--surface-highlight) / <alpha-value>)',
+        'card-muted': 'rgb(var(--card-muted) / <alpha-value>)',
+        'text-main': 'rgb(var(--text-main) / <alpha-value>)',
+        'text-muted': 'rgb(var(--text-muted) / <alpha-value>)',
+        'text-subtle': 'rgb(var(--text-subtle) / <alpha-value>)',
+        'text-dark': 'rgb(var(--text-dark) / <alpha-value>)',
+        border: 'rgb(var(--border) / <alpha-value>)',
+        'border-strong': 'rgb(var(--border-strong) / <alpha-value>)',
+        'status-available': '#10B981',
+      }
+    }
+  }
+}
+</script>
 <style>
-:root{--bg:#060b18;--card:#0e132e;--card2:#141b3a;--line:#212b50;--muted:#7d87b0;--text:#dae0ff;--gold:#f5c76b;--green:#3ece7c;--red:#ff5a6e;--blue:#6096ff}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;background:radial-gradient(circle at top,#1a2355 0,#060b18 42%,#03060e 100%);color:var(--text);min-height:100vh}.w{max-width:1000px;margin:0 auto;padding:18px 14px 40px}
-.hero{padding:18px 0 12px}.hero .tag{display:inline-flex;align-items:center;gap:6px;background:rgba(245,199,107,.12);border:1px solid rgba(245,199,107,.25);border-radius:999px;padding:5px 10px;color:var(--gold);font-size:12px;font-weight:800}.hero h1{font-size:29px;line-height:1.15;margin:10px 0 5px}.hero p{color:var(--muted);font-size:13px}.hero .tinfo{font-size:11px;color:var(--gold);margin-top:6px}
-.nav{position:sticky;top:0;z-index:20;background:rgba(6,11,24,.88);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.08);border-radius:14px;margin:8px 0 14px;padding:6px;display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.nav a{display:flex;align-items:center;justify-content:center;text-decoration:none;color:var(--text);padding:10px 6px;border-radius:10px;font-weight:800;font-size:13px;transition:.15s}.nav a.active,.nav a:hover{background:linear-gradient(135deg,var(--gold),#ff944d);color:#11142a}
-.sec{margin-top:28px}.sechd{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-bottom:10px;flex-wrap:wrap}.sechd h2{font-size:21px}.sechd .sub{color:var(--muted);font-size:12px}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:4px 10px;font-size:11px;border:1px solid var(--line);color:#cbd5ff;background:rgba(255,255,255,.04)}
-.matches{display:grid;grid-template-columns:repeat(auto-fill,minmax(460px,1fr));gap:10px}.mc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;position:relative;overflow:hidden}.mc:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--gold)}.mc.finished:before{background:var(--green)}.mc.live:before{background:var(--red)}.mc-head{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin-bottom:10px}.teams{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center}.tm{text-align:center}.flag{font-size:28px}.tm .name{font-weight:850;margin-top:3px}.scorebox{min-width:80px;text-align:center}.scorebox .main{font-size:26px;font-weight:950;color:var(--gold)}.scorebox .sub{font-size:11px;color:var(--muted)}.preds{margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px}.pbox{background:rgba(11,16,36,.9);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:10px}.pbox .mdl{font-size:11px;font-weight:900;margin-bottom:4px}.mdl.g{color:var(--green)}.mdl.d{color:var(--blue)}.pbox .sc{font-size:19px;font-weight:950}.an{color:#a0a9d0;font-size:11px;line-height:1.45;margin-top:6px}.bet{font-size:11px;color:#c8d1f8;margin-top:7px;padding-top:7px;border-top:1px dashed rgba(255,255,255,.12)}.badge{display:inline-flex;border-radius:999px;padding:2px 7px;font-size:10px;font-weight:900}.badge.pend{background:rgba(245,199,107,.14);color:var(--gold)}.badge.win{background:rgba(62,206,124,.14);color:var(--green)}.badge.lose{background:rgba(255,90,110,.14);color:var(--red)}.venue{color:var(--muted);font-size:11px;margin-top:10px}
-.retcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.retcard .mdl{font-size:12px;font-weight:900;margin-bottom:4px}.retcard .val{font-size:32px;font-weight:950;margin:6px 0 4px}.retcard .val.up{color:var(--green)}.retcard .val.down{color:var(--red)}.retcard .detail{font-size:11px;color:var(--muted)}.return-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.btn{background:rgba(255,255,255,.04);border:1px solid var(--line);color:#cbd5ff;border-radius:999px;padding:6px 11px;font-size:12px;font-weight:800;cursor:pointer}.btn.active,.btn:hover{background:var(--gold);color:#11142a}
-.slist{display:grid;gap:6px}.srow{display:grid;grid-template-columns:110px 1fr 280px;gap:12px;align-items:center;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:10px}.srow .time{font-size:11px;color:var(--muted)}.srow .fix{font-weight:850}.srow .stage{font-size:11px;color:var(--muted)}.srow .comp{display:grid;grid-template-columns:1fr 1fr;gap:6px}.srow .chp{display:flex;justify-content:space-between;align-items:center;gap:6px;background:rgba(11,16,36,.9);border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:5px 8px;font-size:11px}.chp .model.g{color:var(--green);font-weight:850}.chp .model.d{color:var(--blue);font-weight:850}.chp.hit{border-color:rgba(62,206,124,.4)}.chp.miss{border-color:rgba(255,90,110,.4)}.tg{font-weight:950;color:var(--green)}.tr{font-weight:950;color:var(--red)}.tx{color:var(--muted)}.empty{color:var(--muted);text-align:center;padding:30px}.footer{color:#4b547a;font-size:11px;text-align:center;padding:30px 0 10px}
-@media(max-width:820px){.w{padding:12px 10px 32px}.hero h1{font-size:24px}.matches{grid-template-columns:1fr}.preds{grid-template-columns:1fr}.return-grid{grid-template-columns:1fr}.srow{grid-template-columns:1fr;gap:8px}.srow .comp{grid-template-columns:1fr}.srow .time{grid-column:1/-1}.srow .stage{display:none}.nav a{font-size:12px;padding:9px 4px}}
-</style></head><body>
-<div class="w">
-<header class="hero">
-<span class="tag">⚽ AI World Cup Lab</span>
-<h1>世界杯 AI 预测 2026</h1>
-<p>GPT-5.5 × DeepSeek V4 Pro 双模型独立预测 · 模拟投注仅供模型研究</p>
-<div class="tinfo" id="dataTime">数据加载中...</div>
+:root {
+  --bg: 10 10 20;
+  --surface: 20 20 40;
+  --surface-elevated: 30 30 55;
+  --surface-highlight: 45 45 75;
+  --card-muted: 25 25 45;
+  --text-main: 230 232 250;
+  --text-muted: 140 145 190;
+  --text-subtle: 100 105 150;
+  --text-dark: 15 15 30;
+  --border: 255 255 255 / 0.08;
+  --border-strong: 255 255 255 / 0.14;
+  --color-team-a-rgb: 79 125 255;
+  --color-team-b-rgb: 239 68 68;
+  --color-text-muted-rgb: 140 145 190;
+  --primary-rgb: 79 125 255;
+  --secondary-rgb: 239 68 68;
+  --color-primary: #4F7DFF;
+  --color-primary-strong: #3B5FD9;
+  --color-secondary: #EF4444;
+  --color-background: #0A0A14;
+  --color-surface: #141428;
+  --color-surface-elevated: #1E1E37;
+  --color-card-muted: #19192D;
+  --color-text-main: #E6E8FA;
+  --color-text-muted: #8C91BE;
+  --color-text-subtle: #646996;
+  --color-text-dark: #0F0F1E;
+  --color-border: rgba(255,255,255,0.08);
+  --color-border-strong: rgba(255,255,255,0.14);
+  --color-modal-backdrop: rgba(0,0,0,0.7);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-modal: 0 20px 60px rgba(0,0,0,0.5);
+  --color-primary-border: rgba(79,125,255,0.3);
+}
+[data-theme="light"] {
+  --bg: 248 250 252;
+  --surface: 255 255 255;
+  --surface-elevated: 248 250 252;
+  --surface-highlight: 241 245 249;
+  --card-muted: 248 250 252;
+  --text-main: 15 23 42;
+  --text-muted: 100 116 139;
+  --text-subtle: 148 163 184;
+  --text-dark: 248 250 252;
+  --border: 226 232 240;
+  --border-strong: 203 213 225;
+  --color-background: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #F8FAFC;
+  --color-card-muted: #F8FAFC;
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+  --color-text-subtle: #94A3B8;
+  --color-text-dark: #F8FAFC;
+  --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+  --color-modal-backdrop: rgba(0,0,0,0.4);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-modal: 0 20px 60px rgba(0,0,0,0.15);
+}
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  min-height: 100vh;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+}
+.font-display { font-family: "Space Grotesk",system-ui,sans-serif; }
+.shadow-card { box-shadow: var(--shadow-card); }
+.shadow-modal { box-shadow: var(--shadow-modal); }
+
+/* Risk Modal */
+.risk-modal-overlay {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px; background: var(--color-modal-backdrop);
+  backdrop-filter: blur(8px);
+}
+.risk-modal-overlay.hidden { display: none; }
+.risk-modal-panel {
+  width: min(640px, 100%); max-height: 88vh; overflow: auto;
+  border-radius: 18px; border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  box-shadow: var(--shadow-modal); padding: 28px;
+}
+.risk-modal-eyebrow { color: var(--color-text-muted); font-size: 11px; font-family: monospace; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 8px; }
+.risk-modal-title { font-size: 22px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+.risk-modal-intro { color: var(--color-text-muted); font-size: 14px; line-height: 1.7; margin-bottom: 14px; }
+.risk-modal-list { margin: 0 0 18px 1.25rem; color: var(--color-text-muted); font-size: 14px; line-height: 1.7; }
+.risk-modal-list li + li { margin-top: 8px; }
+.risk-modal-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+.risk-modal-primary, .risk-modal-secondary {
+  border-radius: 12px; padding: 12px 18px; font-size: 14px; font-weight: 700;
+  cursor: pointer; transition: transform .18s,box-shadow .18s;
+}
+.risk-modal-primary { background: var(--color-primary); color: white; border: none; box-shadow: 0 8px 18px rgba(79,125,255,0.25); }
+.risk-modal-primary:hover { background: var(--color-primary-strong); transform: translateY(-1px); }
+.risk-modal-secondary { background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border-strong); }
+.risk-modal-secondary:hover { border-color: var(--color-text-subtle); transform: translateY(-1px); }
+
+/* LLM Avatar */
+.llm-avatar {
+  width: 28px; height: 28px; border-radius: 50%; object-fit: cover;
+  border: 2px solid transparent; transition: border-color .2s, transform .2s;
+  cursor: pointer; flex-shrink: 0;
+}
+.llm-avatar:hover { transform: scale(1.12); }
+.llm-avatar.selected { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(79,125,255,0.25); }
+
+/* Team Logo */
+.team-logo {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--color-surface-highlight);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px; flex-shrink: 0;
+}
+.team-logo.lg { width: 80px; height: 80px; font-size: 40px; }
+.team-logo img { width: 36px; height: 36px; object-fit: contain; }
+.team-logo.lg img { width: 52px; height: 52px; }
+
+/* Match Card */
+.match-card {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: 16px; box-shadow: var(--shadow-card);
+  overflow: hidden; transition: border-color .2s, transform .2s;
+}
+.match-card:hover { border-color: var(--color-border-strong); transform: translateY(-1px); }
+
+/* Balance Board */
+.balance-board {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: 16px; box-shadow: var(--shadow-card);
+}
+.balance-rank-item {
+  transition: border-color .2s, background .2s, transform .2s;
+  cursor: pointer; border-radius: 10px; border: 1px solid transparent;
+}
+.balance-rank-item:hover { transform: translateY(-1px); border-color: var(--color-border-strong); background: var(--color-card-muted); }
+
+/* Stage Tabs */
+.stage-tab {
+  white-space: nowrap; padding: 8px 16px; border-radius: 999px;
+  font-size: 13px; font-weight: 700; cursor: pointer; transition: all .18s;
+  border: 1px solid var(--color-border); color: var(--color-text-muted);
+  background: transparent;
+}
+.stage-tab:hover { border-color: var(--color-border-strong); color: var(--color-text-main); }
+.stage-tab.active { background: var(--color-primary); color: white; border-color: var(--color-primary); }
+
+/* Countdown */
+.countdown { font-family: monospace; font-size: 13px; color: var(--color-primary); font-weight: 700; }
+
+/* Score */
+.score-display { font-size: 28px; font-weight: 950; font-family: "Space Grotesk",monospace; }
+.score-display.final { color: var(--color-primary); }
+
+/* Hero background heat */
+.hero-heat {
+  position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  opacity: 0.4; transition: opacity 0.3s;
+}
+
+/* Animations */
+@keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+/* Scrollbar */
+.tabs-scroll::-webkit-scrollbar { display: none; }
+.tabs-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Floating video */
+#video-float { transition: transform .2s; }
+#video-float:hover { transform: translateY(-2px); }
+
+@media (max-width: 640px) {
+  .risk-modal-overlay { padding: 14px; align-items: flex-end; }
+  .risk-modal-panel { border-radius: 16px 16px 0 0; padding: 22px 18px; }
+  .risk-modal-actions { flex-direction: column; }
+  .risk-modal-primary, .risk-modal-secondary { width: 100%; }
+  .team-logo.lg { width: 60px; height: 60px; font-size: 30px; }
+  .score-display { font-size: 22px; }
+}
+</style>
+</head>
+<body class="antialiased">
+
+<!-- Risk Modal -->
+<div id="risk-modal" class="risk-modal-overlay hidden" role="dialog" aria-modal="true">
+  <div class="risk-modal-panel">
+    <p class="risk-modal-eyebrow">重要提示</p>
+    <h2 class="risk-modal-title">访问前风险确认</h2>
+    <p class="risk-modal-intro">欢迎访问！在继续浏览前，请阅读并确认以下事项：</p>
+    <ol class="risk-modal-list">
+      <li>本站预测结果由 AI 模型（GPT-5.5、DeepSeek V4 Pro）自动生成，仅供技术交流与娱乐参考，不构成投注建议。</li>
+      <li>体育彩票存在资金亏损风险，请理性对待。</li>
+      <li>本站反对非法博彩，请遵守当地法律法规。</li>
+    </ol>
+    <div class="risk-modal-actions">
+      <button id="risk-accept" class="risk-modal-primary">我已明确知悉风险，不会基于AI预测盲目投注</button>
+      <button id="risk-leave" class="risk-modal-secondary">离开本站</button>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="sticky top-0 z-50 backdrop-blur-xl border-b" style="background: var(--color-background); border-color: var(--color-border);">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 h-16">
+    <div class="flex items-center gap-3 min-w-0">
+      <span class="w-2.5 h-2.5 rounded-full bg-primary flex-shrink-0"></span>
+      <h1 class="text-lg md:text-2xl font-display font-bold tracking-tight truncate">
+        世界杯 AI 预测
+        <span class="text-primary ml-2 font-mono text-base md:text-lg border border-primary/30 px-1.5 py-0.5 rounded bg-primary/10">2026</span>
+      </h1>
+    </div>
+    <div class="flex items-center gap-3">
+      <span id="beijing-clock" class="text-xs font-mono text-text-muted hidden sm:inline"></span>
+      <button id="theme-toggle" class="p-2 rounded-lg border hover:bg-surface-highlight transition" style="border-color: var(--color-border);" aria-label="切换主题">
+        <svg id="icon-moon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.8A8.5 8.5 0 1111.2 3a6.5 6.5 0 009.8 9.8z"/></svg>
+        <svg id="icon-sun" class="w-4 h-4 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.36-6.36l-1.42 1.42M7.06 16.94l-1.42 1.42m12.72 0l-1.42-1.42M7.06 7.06L5.64 5.64M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+      </button>
+    </div>
+  </div>
 </header>
-<nav class="nav">
-<a href="#predictions" class="active">预测</a>
-<a href="#returns">收益</a>
-<a href="#schedule">赛程</a>
-</nav>
-<section class="sec" id="predictions">
-<div class="sechd"><div><h2>最近比赛</h2><div class="sub">最近3场比赛 + 即将开始/进行中的比赛</div></div><span class="pill" id="predCount">--</span></div>
-<div class="matches" id="predictionCards"></div>
-</section>
-<section class="sec" id="returns">
-<div class="sechd"><div><h2>AI 预测收益</h2><div class="sub">虚拟投注 100/场 · 赛果校准后自动更新</div></div></div>
-<div class="return-grid" id="returnCards"></div>
-</section>
-<section class="sec" id="schedule">
-<div class="sechd"><div><h2>赛程</h2><div class="sub">全部比赛 · 实际比分与预测结果对比</div></div></div>
-<div class="filters" id="scheduleFilters"></div>
-<div class="slist" id="scheduleList"></div>
-</section>
-<div class="footer">Power by Hermes Agent · AI 预测仅供娱乐和模型研究</div>
-</div><script>
-const FLAGS={卡塔尔:'🇶🇦',瑞士:'🇨🇭',巴西:'🇧🇷',摩洛哥:'🇲🇦',海地:'🇭🇹',苏格兰:'🏴',澳大利亚:'🇦🇺',土耳其:'🇹🇷',墨西哥:'🇲🇽',南非:'🇿🇦',韩国:'🇰🇷',捷克:'🇨🇿',加拿大:'🇨🇦',波黑:'🇧🇦',美国:'🇺🇸',巴拉圭:'🇵🇾',阿根廷:'🇦🇷',法国:'🇫🇷',英格兰:'🏴',西班牙:'🇪🇸',德国:'🇩🇪',葡萄牙:'🇵🇹',荷兰:'🇳🇱',意大利:'🇮🇹',日本:'🇯🇵',克罗地亚:'🇭🇷',乌拉圭:'🇺🇾',比利时:'🇧🇪',塞内加尔:'🇸🇳',哥伦比亚:'🇨🇴',丹麦:'🇩🇰',伊朗:'🇮🇷',待定:'❓'};
-const $=id=>document.getElementById(id); const pct=v=>v==null?'--':(Number(v)*100).toFixed(0)+'%'; const money=v=>(Number(v)>0?'+':'')+Number(v||0).toFixed(0);
-function dt(s){const t=Date.parse(String(s).replace(' ','T')+'+08:00');return Number.isFinite(t)?t:0}
-function resultOf(h,a){if(h==null||a==null||h==='')return null; h=Number(h);a=Number(a); return h>a?'主胜':h<a?'客胜':'平局'}
-function mcls(name){return String(name).includes('GPT')?'g':'d'}
 
-function matchCard(m){
-  const actual=m.home_score!==null&&m.home_score!==''?`${m.home_score}:${m.away_score}`:'VS';
-  const live=dt(m.time)<=Date.now()&&m.status!=='已结束';
-  return `<div class="mc ${m.status==='已结束'?'finished':live?'live':''}"><div class="mc-head"><span>${m.stage||''} · ${m.match_id||''}</span><span>${m.time||''}</span></div><div class="teams"><div class="tm"><div class="flag">${FLAGS[m.home]||'🏳️'}</div><div class="name">${m.home}</div></div><div class="scorebox"><div class="main">${actual}</div><div class="sub">${m.status==='已结束'?'已结束':live?'进行中':'未开始'}</div></div><div class="tm"><div class="flag">${FLAGS[m.away]||'🏳️'}</div><div class="name">${m.away}</div></div></div>${predBoxes(m)}<div class="venue">${m.venue||''}</div></div>`
-}
-function predBoxes(m){
-  const preds=m.predictions||[]; if(!preds.length)return '<div class="empty">暂无预测</div>';
-  const actual=resultOf(m.home_score,m.away_score);
-  return `<div class="preds">${preds.map(p=>{
-    const bet=(m.bets||[]).find(b=>b.model===p.model)||{};
-    const ok=actual&&p.result===actual;
-    const badge=bet.status==='已盈利'?'win':bet.status==='已亏损'?'lose':'pend';
-    const verdict=actual?(ok?' 命中':' 未中'):'';
-    return `<div class="pbox"><div class="mdl ${mcls(p.model)}">${p.model}${verdict}</div><div class="sc">${p.home_goals}:${p.away_goals} ${p.result||''}</div><div class="an">${(p.analysis||'').slice(0,110)}${(p.analysis||'').length>110?'...':''}</div><div class="bet"><span class="badge ${badge}">${bet.status||'待结算'}</span> ${bet.item||p.result||'--'} · 赔率 ${bet.odds||'--'} · 盈亏 ${money(bet.pnl||0)}</div></div>`
-  }).join('')}</div>`
-}
+<div id="notice-banner" class="hidden bg-gradient-to-r from-primary to-primary-strong text-white text-center text-sm font-medium py-2 px-4"></div>
 
-function renderPredictions(matches){
-  const now=Date.now();
-  // Group by status
-  const finished=matches.filter(m=>m.status==='已结束').sort((a,b)=>dt(b.time)-dt(a.time));
-  const upcoming=matches.filter(m=>m.status!=='已结束').sort((a,b)=>dt(a.time)-dt(b.time));
-  // Last 3 finished + ALL upcoming/ongoing, sorted by time
-  const picked=[...finished.slice(0,3), ...upcoming].sort((a,b)=>dt(a.time)-dt(b.time));
-  $('predCount').textContent=`${finished.slice(0,3).length} 场已结束 + ${upcoming.length} 场即将/进行中`;
-  $('predictionCards').innerHTML=picked.map(matchCard).join('')||'<div class="empty">暂无比赛</div>'
-}
+<main class="max-w-7xl mx-auto px-4 md:px-8 pt-6 pb-20">
 
-function renderReturns(summaries){
-  const s24=(summaries||[]).sort((a,b)=>Number(b.balance||0)-Number(a.balance||0));
-  $('returnCards').innerHTML=s24.map(s=>`<div class="retcard"><div class="mdl ${mcls(s.model)}">${s.model}</div><div class="val ${Number(s.pnl)>0?'up':Number(s.pnl)<0?'down':''}">${money(s.balance?Number(s.balance)-10000:0)}</div><div class="detail">投注 ${s.bets||0} 次 · 命中 ${s.wins||0} 次 · ROI ${pct(s.roi)} · 余额 ${Number(s.balance||0).toFixed(0)}</div></div>`).join('')||'<div class="retcard"><div class="empty">暂无收益</div></div>'
-}
+  <!-- Balance Leaderboard -->
+  <section id="balance-section" class="mb-10"></section>
 
-function renderSchedule(matches){
-  const stages=['全部',...Array.from(new Set(matches.map(m=>m.stage).filter(Boolean)))];
-  $('scheduleFilters').innerHTML=stages.map((s,i)=>`<button class="btn ${i===0?'active':''}" data-stage="${s}">${s}</button>`).join('');
-  const draw=stage=>{
-    const list=(stage==='全部'?matches:matches.filter(m=>m.stage===stage)).slice().sort((a,b)=>dt(a.time)-dt(b.time));
-    $('scheduleList').innerHTML=list.map(m=>{
-      const actual=resultOf(m.home_score,m.away_score);
-      const preds=m.predictions||[];
-      const predHtml=preds.length?`<div class="comp">${preds.map(p=>{
-        const hit=actual&&p.result===actual;
-        const cls=actual?(hit?'hit':'miss'):'';
-        const v=actual?(hit?'<span class="tg">命中</span>':'<span class="tr">未中</span>'):'<span class="tx">待赛果</span>';
-        return `<div class="chp ${cls}"><span class="model ${mcls(p.model)}">${String(p.model).includes('GPT')?'GPT':'DeepSeek'}</span> <span>${p.home_goals}:${p.away_goals} ${p.result||''}</span>${v}</div>`
-      }).join('')}</div>`:'<div class="tx">暂无预测</div>';
-      const scoreHtml=m.home_score!==null&&m.home_score!==''?`<span style="color:var(--gold);font-weight:950">${m.home_score}:${m.away_score}</span>`:'<span class="tx">VS</span>';
-      return `<div class="srow"><div class="time">${String(m.time||'').slice(5,16)}</div><div class="fix">${FLAGS[m.home]||''} ${m.home} ${scoreHtml} ${m.away} ${FLAGS[m.away]||''} <span class="stage">${m.stage||''}</span></div>${predHtml}</div>`
-    }).join('')||'<div class="empty">暂无赛程</div>'
-  };
-  draw('全部');
-  document.querySelectorAll('#scheduleFilters .btn').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('#scheduleFilters .btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');draw(btn.dataset.stage)})
+  <!-- Hero / Predictions -->
+  <section id="hero-section" class="mb-10"></section>
+
+  <!-- Stage Filter Tabs -->
+  <nav class="sticky top-16 z-40 -mx-4 md:-mx-8 px-4 md:px-8 py-3 backdrop-blur-lg border-b mb-8" style="background: var(--color-background); border-color: var(--color-border);">
+    <div class="flex items-center gap-2 overflow-x-auto tabs-scroll" id="stage-tabs"></div>
+  </nav>
+
+  <!-- Matches by Date -->
+  <div id="matches-container"></div>
+
+</main>
+
+<!-- Footer -->
+<footer class="border-t py-8 text-center text-xs font-mono" style="border-color: var(--color-border); color: var(--color-text-subtle);">
+  <p>Power by Hermes Agent · GPT-5.5 × DeepSeek V4 Pro</p>
+  <p class="mt-1">AI 预测仅供娱乐和模型研究 · 不构成投注建议</p>
+</footer>
+
+<script>
+// ============ DATA & GLOBALS ============
+const RISK_KEY = 'wc-risk-v2';
+const THEME_KEY = 'wc-theme';
+const MODEL_COLORS = { 'gpt-5.5': '#10A37F', 'deepseek': '#4F7DFF' };
+const MODEL_DISPLAY = { 'gpt-5.5': 'GPT-5.5', 'deepseek': 'DeepSeek' };
+const FLAGS = {
+  '德国':'🇩🇪','库拉索':'🇨🇼','荷兰':'🇳🇱','日本':'🇯🇵','科特迪瓦':'🇨🇮','厄瓜多尔':'🇪🇨',
+  '意大利':'🇮🇹','伊朗':'🇮🇷','西班牙':'🇪🇸','佛得角':'🇨🇻','比利时':'🇧🇪','埃及':'🇪🇬',
+  '沙特阿拉伯':'🇸🇦','乌拉圭':'🇺🇾','新西兰':'🇳🇿','法国':'🇫🇷','塞内加尔':'🇸🇳',
+  '伊拉克':'🇮🇶','挪威':'🇳🇴','阿根廷':'🇦🇷','阿尔及利亚':'🇩🇿','奥地利':'🇦🇹','约旦':'🇯🇴',
+  '巴西':'🇧🇷','摩洛哥':'🇲🇦','海地':'🇭🇹','苏格兰':'🏴','澳大利亚':'🇦🇺','土耳其':'🇹🇷',
+  '墨西哥':'🇲🇽','南非':'🇿🇦','韩国':'🇰🇷','捷克':'🇨🇿','加拿大':'🇨🇦','波黑':'🇧🇦',
+  '美国':'🇺🇸','巴拉圭':'🇵🇾','英格兰':'🏴','葡萄牙':'🇵🇹','克罗地亚':'🇭🇷',
+  '哥伦比亚':'🇨🇴','丹麦':'🇩🇰','瑞士':'🇨🇭','卡塔尔':'🇶🇦','待定':'❓',
+};
+let allMatches = [], currentStage = '全部', indexData = null, balanceData = null;
+
+// ============ UTILS ============
+function $(id) { return document.getElementById(id); }
+function esc(s) { return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function toBJ(iso) { const d = new Date(iso); return new Date(d.getTime() + (8*60 + d.getTimezoneOffset()) * 60000); }
+function fmtDate(iso) { const bj = toBJ(iso); const wd = ['周日','周一','周二','周三','周四','周五','周六'][bj.getDay()]; return `${bj.getMonth()+1}月${bj.getDate()}日 ${wd}`; }
+function fmtTime(iso) { const bj = toBJ(iso); return `${String(bj.getHours()).padStart(2,'0')}:${String(bj.getMinutes()).padStart(2,'0')}`; }
+function dateKey(iso) { const bj = toBJ(iso); return `${bj.getFullYear()}-${String(bj.getMonth()+1).padStart(2,'0')}-${String(bj.getDate()).padStart(2,'0')}`; }
+function money(v) { const n = Number(v); if (!Number.isFinite(n)) return '--'; return Math.round(n).toLocaleString('zh-CN'); }
+function profit(v) { const n = Number(v); if (!Number.isFinite(n)) return '--'; const s = n>0?'+':n<0?'-':''; return s+money(Math.abs(n)); }
+function pct(v) { return v==null?'--':(Number(v)*100).toFixed(0)+'%'; }
+function hasScore(s) { return s && typeof s==='object' && Number.isInteger(s.team_a) && Number.isInteger(s.team_b); }
+function hasPredict(m) { return m.has_predict || (m.predictions && m.predictions.length > 0); }
+function matchStatus(m) {
+  if (hasScore(m.score)) return 'finished';
+  return new Date(m.kickoff_at).getTime() > Date.now() ? 'upcoming' : 'live';
 }
 
-fetch('data.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(payload=>{
-  const m=payload.matches||[];
-  $('dataTime').textContent='数据更新时间：'+(payload.generated_at||'未知');
-  renderPredictions(m); renderReturns(payload.bet_summary||[]); renderSchedule(m);
-}).catch(e=>{$('dataTime').textContent='数据加载失败：'+e.message})
-</script></body></html>
+function getCountdown(iso) {
+  const diff = new Date(iso).getTime() - Date.now();
+  if (diff <= 0) return null;
+  return { days: Math.floor(diff/86400000), hours: Math.floor((diff%86400000)/3600000), mins: Math.floor((diff%3600000)/60000), secs: Math.floor((diff%60000)/1000) };
+}
+
+// ============ THEME ============
+function initTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    const dark = saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    updateThemeIcon(dark);
+  } catch(_) { document.documentElement.dataset.theme = 'dark'; }
+}
+function updateThemeIcon(dark) {
+  $('icon-moon').classList.toggle('hidden', !dark);
+  $('icon-sun').classList.toggle('hidden', dark);
+}
+function toggleTheme() {
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  document.documentElement.dataset.theme = isDark ? 'light' : 'dark';
+  updateThemeIcon(!isDark);
+  try { localStorage.setItem(THEME_KEY, isDark ? 'light' : 'dark'); } catch(_) {}
+}
+
+// ============ RISK MODAL ============
+function initRisk() {
+  const modal = $('risk-modal');
+  if (!modal) return;
+  let confirmed = false;
+  try { confirmed = localStorage.getItem(RISK_KEY) === 'true'; } catch(_) {}
+  if (!confirmed) modal.classList.remove('hidden');
+  $('risk-accept').onclick = () => { try { localStorage.setItem(RISK_KEY, 'true'); } catch(_) {} modal.classList.add('hidden'); };
+  $('risk-leave').onclick = () => { window.history.length > 1 ? window.history.back() : window.location.href = 'about:blank'; };
+}
+
+// ============ CLOCK ============
+function updateClock() {
+  const el = $('beijing-clock');
+  if (!el) return;
+  const now = new Date();
+  const bj = new Date(now.getTime() + (8*60 + now.getTimezoneOffset()) * 60000);
+  el.textContent = `北京 ${String(bj.getHours()).padStart(2,'0')}:${String(bj.getMinutes()).padStart(2,'0')}`;
+}
+
+// ============ LLM AVATAR ============
+function llmAvatar(slug, cls='') {
+  const display = MODEL_DISPLAY[slug] || slug;
+  const initial = display.charAt(0);
+  return `<span class="inline-flex items-center" title="${esc(display)}">
+    <img class="llm-avatar ${cls}" src="assets/llms/${slug}.svg" alt="${esc(slug)}"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"/>
+    <span class="llm-avatar hidden items-center justify-center text-xs font-bold" style="background:${MODEL_COLORS[slug]||'#64748B'};color:white;width:28px;height:28px;border-radius:50%;">${initial}</span>
+  </span>`;
+}
+
+// ============ TEAM LOGO ============
+function teamLogo(teamId, teamName, size='') {
+  const flag = FLAGS[teamName] || '🏳️';
+  const lg = size === 'lg' ? ' lg' : '';
+  return `<div class="team-logo${lg}">${flag}</div>`;
+}
+
+// ============ BALANCE LEADERBOARD ============
+function renderBalance(data) {
+  const section = $('balance-section');
+  if (!section) return;
+
+  if (!data || !data.llms || data.llms.length === 0 || !data.datetimes || data.datetimes.length < 2) {
+    section.innerHTML = '';
+    return;
+  }
+
+  const datetimes = data.datetimes;
+  const rows = data.llms.map(slug => {
+    const balances = (data.balances[slug] || []).map(Number);
+    if (balances.length !== datetimes.length || balances.length < 2) return null;
+    const initial = balances[0];
+    const profits = balances.map(b => b - initial);
+    const last = profits[profits.length-1];
+    return { slug, name: MODEL_DISPLAY[slug]||slug, color: MODEL_COLORS[slug]||'#64748B', balances, profits, profit: last, initial };
+  }).filter(Boolean);
+
+  if (rows.length === 0) { section.innerHTML = ''; return; }
+
+  const ranked = [...rows].sort((a,b) => b.profit - a.profit);
+  const latest = datetimes[datetimes.length-1];
+
+  section.innerHTML = `
+    <div class="balance-board rounded-2xl p-5 md:p-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3 mb-5">
+        <div>
+          <p class="text-xs font-mono text-text-muted tracking-widest uppercase mb-1">AI Profit Board</p>
+          <h2 class="text-xl md:text-2xl font-display font-bold">收益排行榜</h2>
+        </div>
+        <div class="flex flex-wrap items-center gap-2 text-xs font-mono text-text-muted">
+          <span class="px-2.5 py-1 rounded border" style="border-color:var(--color-border);background:var(--color-card-muted);">最新 ${fmtTime(latest)}</span>
+          <span class="px-2.5 py-1 rounded border" style="border-color:var(--color-border);background:var(--color-card-muted);">${rows.length} 个模型</span>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] gap-5">
+        <div class="space-y-2">
+          ${ranked.map((r,i) => `
+            <div class="balance-rank-item px-3 py-2.5 flex items-center gap-3">
+              <span class="w-6 text-xs font-mono text-text-muted">${i+1}</span>
+              ${llmAvatar(r.slug)}
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${r.color}"></span>
+                  <span class="font-semibold text-sm truncate">${esc(r.name)}</span>
+                </div>
+              </div>
+              <div class="font-mono font-bold text-sm ${r.profit>=0?'text-status-available':'text-secondary'}">${profit(r.profit)}</div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="rounded-xl border p-3 md:p-4 overflow-hidden" style="border-color:var(--color-border);background:var(--color-card-muted);">
+          ${balanceChart(rows, datetimes)}
+        </div>
+      </div>
+    </div>`;
+}
+
+function balanceChart(rows, datetimes) {
+  const W = 700, H = 260;
+  const plot = { left: 48, top: 20, right: 80, bottom: 34 };
+  const allProfits = rows.flatMap(r => r.profits);
+  let minP = Math.min(0, ...allProfits), maxP = Math.max(0, ...allProfits);
+  const step = 500;
+  if (minP === maxP) { minP -= step; maxP += step; }
+  else { const pad = Math.max(100, (maxP-minP)*0.12); minP -= pad; maxP += pad; }
+  minP = Math.floor(minP/step)*step; maxP = Math.ceil(maxP/step)*step;
+
+  const xFor = i => plot.left + (i/Math.max(1,datetimes.length-1))*(W-plot.left-plot.right);
+  const yFor = v => plot.top + ((maxP-v)/(maxP-minP||1))*(H-plot.top-plot.bottom);
+
+  // Grid lines
+  let gridLines = '';
+  for (let v = minP; v <= maxP; v += step) {
+    const y = yFor(v);
+    gridLines += `<line x1="${plot.left}" x2="${W-plot.right}" y1="${y}" y2="${y}" stroke="var(--color-border)" stroke-width="0.5"/>`;
+    gridLines += `<text x="${plot.left-6}" y="${y+4}" text-anchor="end" fill="var(--color-text-subtle)" font-size="10" font-family="monospace">${profit(v)}</text>`;
+  }
+
+  // X labels
+  const xLabels = [
+    { i: 0, anchor: 'start' },
+    { i: datetimes.length-1, anchor: 'end' }
+  ];
+  let xLabelHtml = '';
+  for (const l of xLabels) {
+    const x = xFor(l.i);
+    xLabelHtml += `<text x="${x}" y="${H-6}" text-anchor="${l.anchor}" fill="var(--color-text-subtle)" font-size="10" font-family="monospace">${fmtDate(datetimes[l.i])}</text>`;
+  }
+
+  // Polylines
+  let paths = '';
+  for (const r of rows) {
+    let d = '';
+    for (let i = 0; i < r.profits.length; i++) {
+      d += (i===0?'M':'L') + xFor(i).toFixed(1) + ',' + yFor(r.profits[i]).toFixed(1) + ' ';
+    }
+    paths += `<path d="${d}" fill="none" stroke="${r.color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
+    // End dot
+    const lastX = xFor(r.profits.length-1), lastY = yFor(r.profits[r.profits.length-1]);
+    paths += `<circle cx="${lastX}" cy="${lastY}" r="3.5" fill="${r.color}"/>`;
+  }
+
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:260px;display:block;overflow:visible;" xmlns="http://www.w3.org/2000/svg">
+    ${gridLines}
+    ${paths}
+    ${xLabelHtml}
+  </svg>`;
+}
+
+// ============ HERO SECTION ============
+function renderHero() {
+  const section = $('hero-section');
+  if (!section) return;
+
+  const now = Date.now();
+  // Upcoming matches sorted by time
+  const upcoming = allMatches.filter(m => matchStatus(m) === 'upcoming').sort((a,b) => new Date(a.kickoff_at)-new Date(b.kickoff_at));
+  // Live matches
+  const live = allMatches.filter(m => matchStatus(m) === 'live');
+  // Recently finished
+  const finished = allMatches.filter(m => matchStatus(m) === 'finished').sort((a,b) => new Date(b.kickoff_at)-new Date(a.kickoff_at));
+
+  // Hero cards: live + upcoming (up to 6)
+  const heroMatches = [...live, ...upcoming].slice(0, 6);
+
+  if (heroMatches.length === 0) {
+    section.innerHTML = `<div class="text-center py-12 text-text-muted">暂无即将开始的比赛</div>`;
+    return;
+  }
+
+  section.innerHTML = `
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <p class="text-xs font-mono text-text-muted tracking-widest uppercase mb-1">AI Prediction Board</p>
+        <h2 class="text-xl md:text-2xl font-display font-bold">AI 预测</h2>
+      </div>
+      <span class="text-xs text-text-muted">每场比赛开赛前 24 小时上线预测</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      ${heroMatches.map(m => heroCard(m)).join('')}
+    </div>`;
+}
+
+function heroCard(m) {
+  const status = matchStatus(m);
+  const hasP = hasPredict(m);
+  const cd = getCountdown(m.kickoff_at);
+
+  // Status badge
+  let statusBadge = '';
+  if (status === 'finished') {
+    statusBadge = `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-gray-100 text-text-muted border border-gray-200">已结束</span>`;
+  } else if (status === 'live') {
+    statusBadge = `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-red-50 text-secondary border border-red-200"><span class="w-1 h-1 rounded-full bg-secondary animate-pulse-dot"></span>进行中</span>`;
+  } else {
+    statusBadge = `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-blue-50 text-primary border border-blue-200">未开始</span>`;
+  }
+
+  // Predict badge
+  const predictBadge = hasP
+    ? `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-emerald-50 text-status-available border border-emerald-200"><span class="w-1 h-1 rounded-full bg-status-available"></span>AI 预测</span>`
+    : `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-gray-100 text-text-muted border border-gray-200">待分析</span>`;
+
+  // Score or VS
+  let scoreHtml = '';
+  if (hasScore(m.score)) {
+    scoreHtml = `<div class="score-display final">${m.score.team_a}-${m.score.team_b}</div>`;
+  } else {
+    scoreHtml = `<div class="text-lg font-bold text-text-muted font-mono">VS</div>`;
+  }
+
+  // Countdown
+  let cdHtml = '';
+  if (cd) {
+    cdHtml = `<div class="countdown">距开赛 ${cd.days}天 ${String(cd.hours).padStart(2,'0')}:${String(cd.mins).padStart(2,'0')}:${String(cd.secs).padStart(2,'0')}</div>`;
+  } else if (status === 'live') {
+    cdHtml = `<div class="text-xs text-secondary font-bold">比赛进行中</div>`;
+  }
+
+  // Model avatars
+  const betSlugs = [];
+  if (m.bets) {
+    for (const side of ['H','D','A']) {
+      if (Array.isArray(m.bets[side])) betSlugs.push(...m.bets[side]);
+    }
+  }
+  const uniqueSlugs = [...new Set(betSlugs)];
+
+  // Heat background
+  const hCount = (m.bets?.H||[]).length, aCount = (m.bets?.A||[]).length;
+  const total = hCount + aCount + (m.bets?.D||[]).length;
+  let heatStyle = '';
+  if (total > 0) {
+    const hShare = hCount/total, aShare = aCount/total;
+    const hAlpha = hCount ? Math.min(0.07+0.22*hShare, 0.26) : 0;
+    const aAlpha = aCount ? Math.min(0.07+0.22*aShare, 0.26) : 0;
+    const hW = Math.min(18+hShare*58, 72);
+    const aW = Math.min(18+aShare*58, 72);
+    heatStyle = `background:radial-gradient(ellipse ${hW}% 82% at 18% 46%,rgba(79,125,255,${hAlpha}) 0%,rgba(79,125,255,${hAlpha*0.55}) 36%,rgba(79,125,255,0) 72%),radial-gradient(ellipse ${aW}% 82% at 82% 46%,rgba(239,68,68,${aAlpha}) 0%,rgba(239,68,68,${aAlpha*0.55}) 36%,rgba(239,68,68,0) 72%)`;
+  }
+
+  return `
+    <div class="match-card p-4 md:p-5 relative">
+      ${heatStyle ? `<div class="hero-heat" style="${heatStyle}"></div>` : ''}
+      <div class="relative z-10">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs text-text-muted font-mono">${esc(m.stage||'')}</span>
+          <div class="flex items-center gap-2">${predictBadge}${statusBadge}</div>
+        </div>
+        <div class="flex items-center justify-between px-2">
+          <div class="flex flex-col items-center gap-2 flex-1">
+            ${teamLogo(m.team_a_id, m.team_a, 'lg')}
+            <span class="font-bold text-sm text-center">${esc(m.team_a)}</span>
+          </div>
+          <div class="flex flex-col items-center px-4">
+            ${scoreHtml}
+            ${cdHtml}
+          </div>
+          <div class="flex flex-col items-center gap-2 flex-1">
+            ${teamLogo(m.team_b_id, m.team_b, 'lg')}
+            <span class="font-bold text-sm text-center">${esc(m.team_b)}</span>
+          </div>
+        </div>
+        ${uniqueSlugs.length > 0 ? `
+        <div class="flex justify-center gap-1.5 mt-4">
+          ${uniqueSlugs.map(s => llmAvatar(s, m.comment?.[s] ? 'selected' : '')).join('')}
+        </div>
+        <div class="text-center mt-2 text-xs text-text-muted italic">
+          ${(() => {
+            const firstSlug = uniqueSlugs[0];
+            if (firstSlug && m.comment?.[firstSlug]) {
+              return `<span class="font-semibold text-primary">${esc(MODEL_DISPLAY[firstSlug]||firstSlug)}</span> 预测：${esc(m.comment[firstSlug])}`;
+            }
+            return '';
+          })()}
+        </div>
+        ` : `<div class="text-center mt-3 text-xs text-text-muted">暂无 AI 预测</div>`}
+        ${m.venue ? `<div class="text-center mt-2 text-[11px] text-text-muted">📍 ${esc(m.venue)}</div>` : ''}
+      </div>
+    </div>`;
+}
+
+// ============ STAGE TABS ============
+function renderTabs() {
+  const container = $('stage-tabs');
+  if (!container) return;
+
+  const stageSet = new Set(allMatches.map(m => m.stage).filter(Boolean));
+  const stages = ['全部', ...Array.from(stageSet).sort()];
+
+  container.innerHTML = stages.map(s => {
+    const active = s === '全部' ? ' active' : '';
+    return `<button class="stage-tab${active}" data-stage="${esc(s)}">${esc(s)}</button>`;
+  }).join('');
+
+  container.querySelectorAll('.stage-tab').forEach(btn => {
+    btn.onclick = () => {
+      container.querySelectorAll('.stage-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentStage = btn.dataset.stage;
+      renderMatches();
+    };
+  });
+}
+
+// ============ MATCHES BY DATE ============
+function renderMatches() {
+  const container = $('matches-container');
+  if (!container) return;
+
+  const filtered = currentStage === '全部' ? allMatches : allMatches.filter(m => m.stage === currentStage);
+  // Group by date
+  const groups = {};
+  for (const m of filtered) {
+    const dk = dateKey(m.kickoff_at);
+    if (!groups[dk]) groups[dk] = [];
+    groups[dk].push(m);
+  }
+
+  let html = '';
+  for (const [dk, matches] of Object.entries(groups).sort()) {
+    html += `<h3 class="text-lg font-display font-bold mt-8 mb-3 text-text-main">${fmtDate(matches[0].kickoff_at)}</h3>`;
+    html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">`;
+    for (const m of matches) {
+      html += scheduleCard(m);
+    }
+    html += `</div>`;
+  }
+
+  if (!html) {
+    html = `<div class="text-center py-16 text-text-muted">该阶段暂无比赛</div>`;
+  }
+  container.innerHTML = html;
+}
+
+function scheduleCard(m) {
+  const status = matchStatus(m);
+  const hasP = hasPredict(m);
+
+  // Score or time
+  let centerHtml = '';
+  if (hasScore(m.score)) {
+    centerHtml = `<div class="score-display final text-lg">${m.score.team_a}-${m.score.team_b}</div>`;
+  } else {
+    centerHtml = `<div class="font-mono font-bold text-text-muted">${fmtTime(m.kickoff_at)}</div>`;
+  }
+
+  // Status
+  let statusDot = '';
+  if (status === 'finished') statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-status-available"></span>';
+  else if (status === 'live') statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse-dot"></span>';
+  else statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>';
+
+  // Model avatars
+  const betSlugs = [];
+  if (m.bets) {
+    for (const side of ['H','D','A']) {
+      if (Array.isArray(m.bets[side])) betSlugs.push(...m.bets[side]);
+    }
+  }
+  const uniqueSlugs = [...new Set(betSlugs)];
+
+  return `
+    <div class="match-card p-3">
+      <div class="flex items-center gap-2 mb-2">
+        ${statusDot}
+        <span class="text-[10px] font-mono text-text-muted">${esc(m.stage||'')}</span>
+        ${hasP ? '<span class="text-[10px] font-mono text-status-available">· 已预测</span>' : ''}
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2 flex-1 min-w-0">
+          <span class="text-lg">${FLAGS[m.team_a]||'🏳️'}</span>
+          <span class="font-semibold text-sm truncate">${esc(m.team_a)}</span>
+        </div>
+        <div class="px-3 text-center flex-shrink-0">${centerHtml}</div>
+        <div class="flex items-center gap-2 flex-1 min-w-0 justify-end">
+          <span class="font-semibold text-sm truncate">${esc(m.team_b)}</span>
+          <span class="text-lg">${FLAGS[m.team_b]||'🏳️'}</span>
+        </div>
+      </div>
+      ${uniqueSlugs.length > 0 ? `
+      <div class="flex justify-center gap-1 mt-2">
+        ${uniqueSlugs.map(s => llmAvatar(s)).join('')}
+      </div>
+      ` : ''}
+      ${m.venue ? `<div class="text-[10px] text-text-muted mt-1.5 text-center">${esc(m.venue)}</div>` : ''}
+    </div>`;
+}
+
+// ============ COUNTDOWN TICKER ============
+function tickCountdowns() {
+  document.querySelectorAll('.countdown').forEach(el => {
+    const matchEl = el.closest('.match-card');
+    if (!matchEl) return;
+    // Find the match data
+    const idx = Array.from(document.querySelectorAll('.match-card')).indexOf(matchEl);
+    // We'll just re-render hero every 10s for simplicity
+  });
+}
+
+// ============ INIT ============
+async function init() {
+  initTheme();
+  initRisk();
+  updateClock();
+  setInterval(updateClock, 30000);
+  $('theme-toggle').onclick = toggleTheme;
+
+  // Banner
+  const banner = $('notice-banner');
+  if (banner) {
+    banner.innerHTML = '内容均为 AI 生成，仅供交流与娱乐，不构成投注建议。反对非法博彩，严禁违规赌博，谨防诈骗。';
+    banner.classList.remove('hidden');
+  }
+
+  try {
+    const [idxResp, balResp] = await Promise.all([
+      fetch('data/index.json?v=' + Date.now(), {cache:'no-store'}),
+      fetch('data/llm_balance_trends.json?v=' + Date.now(), {cache:'no-store'}).catch(() => null)
+    ]);
+    if (!idxResp.ok) throw new Error('数据加载失败');
+    indexData = await idxResp.json();
+    if (balResp && balResp.ok) balanceData = await balResp.json();
+
+    allMatches = (indexData.matches || []).sort((a,b) => new Date(a.kickoff_at) - new Date(b.kickoff_at));
+
+    renderBalance(balanceData);
+    renderHero();
+    renderTabs();
+    renderMatches();
+
+    // Refresh hero every 10s for countdown updates
+    setInterval(() => {
+      if (allMatches.some(m => matchStatus(m) === 'upcoming')) {
+        renderHero();
+      }
+    }, 10000);
+
+  } catch(e) {
+    $('matches-container').innerHTML = `<div class="p-10 text-center rounded-xl border border-red-200 bg-red-50"><p class="text-secondary text-lg font-medium mb-2">数据加载失败</p><p class="text-text-muted text-sm">${esc(e.message)}</p></div>`;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
