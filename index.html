@@ -14,11 +14,8 @@ tailwind.config = {
     extend: {
       fontFamily: { display: ['"Space Grotesk"','system-ui','sans-serif'] },
       colors: {
-        primary: '#4F7DFF',
-        'primary-strong': '#3B5FD9',
-        secondary: '#EF4444',
-        background: 'rgb(var(--bg) / <alpha-value>)',
-        surface: 'rgb(var(--surface) / <alpha-value>)',
+        primary: '#4F7DFF', 'primary-strong': '#3B5FD9', secondary: '#EF4444',
+        background: 'rgb(var(--bg) / <alpha-value>)', surface: 'rgb(var(--surface) / <alpha-value>)',
         'surface-elevated': 'rgb(var(--surface-elevated) / <alpha-value>)',
         'surface-highlight': 'rgb(var(--surface-highlight) / <alpha-value>)',
         'card-muted': 'rgb(var(--card-muted) / <alpha-value>)',
@@ -36,179 +33,87 @@ tailwind.config = {
 </script>
 <style>
 :root {
-  --bg: 10 10 20;
-  --surface: 20 20 40;
-  --surface-elevated: 30 30 55;
-  --surface-highlight: 45 45 75;
-  --card-muted: 25 25 45;
-  --text-main: 230 232 250;
-  --text-muted: 140 145 190;
-  --text-subtle: 100 105 150;
-  --text-dark: 15 15 30;
-  --border: 255 255 255 / 0.08;
-  --border-strong: 255 255 255 / 0.14;
-  --color-team-a-rgb: 79 125 255;
-  --color-team-b-rgb: 239 68 68;
-  --color-text-muted-rgb: 140 145 190;
-  --primary-rgb: 79 125 255;
-  --secondary-rgb: 239 68 68;
-  --color-primary: #4F7DFF;
-  --color-primary-strong: #3B5FD9;
-  --color-secondary: #EF4444;
-  --color-background: #0A0A14;
-  --color-surface: #141428;
-  --color-surface-elevated: #1E1E37;
-  --color-card-muted: #19192D;
-  --color-text-main: #E6E8FA;
-  --color-text-muted: #8C91BE;
-  --color-text-subtle: #646996;
-  --color-text-dark: #0F0F1E;
-  --color-border: rgba(255,255,255,0.08);
-  --color-border-strong: rgba(255,255,255,0.14);
-  --color-modal-backdrop: rgba(0,0,0,0.7);
-  --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
-  --shadow-modal: 0 20px 60px rgba(0,0,0,0.5);
-  --color-primary-border: rgba(79,125,255,0.3);
+  --bg: 10 10 20; --surface: 20 20 40; --surface-elevated: 30 30 55;
+  --surface-highlight: 45 45 75; --card-muted: 25 25 45;
+  --text-main: 230 232 250; --text-muted: 140 145 190; --text-subtle: 100 105 150;
+  --text-dark: 15 15 30; --border: 255 255 255 / 0.08; --border-strong: 255 255 255 / 0.14;
+  --color-team-a-rgb: 79 125 255; --color-team-b-rgb: 239 68 68; --color-text-muted-rgb: 140 145 190;
+  --primary-rgb: 79 125 255; --secondary-rgb: 239 68 68;
+  --color-primary: #4F7DFF; --color-primary-strong: #3B5FD9; --color-secondary: #EF4444;
+  --color-background: #0A0A14; --color-surface: #141428; --color-surface-elevated: #1E1E37;
+  --color-card-muted: #19192D; --color-text-main: #E6E8FA; --color-text-muted: #8C91BE;
+  --color-text-subtle: #646996; --color-text-dark: #0F0F1E;
+  --color-border: rgba(255,255,255,0.08); --color-border-strong: rgba(255,255,255,0.14);
+  --color-modal-backdrop: rgba(0,0,0,0.7); --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-modal: 0 20px 60px rgba(0,0,0,0.5); --color-primary-border: rgba(79,125,255,0.3);
 }
 [data-theme="light"] {
-  --bg: 248 250 252;
-  --surface: 255 255 255;
-  --surface-elevated: 248 250 252;
-  --surface-highlight: 241 245 249;
-  --card-muted: 248 250 252;
-  --text-main: 15 23 42;
-  --text-muted: 100 116 139;
-  --text-subtle: 148 163 184;
-  --text-dark: 248 250 252;
-  --border: 226 232 240;
-  --border-strong: 203 213 225;
-  --color-background: #F8FAFC;
-  --color-surface: #FFFFFF;
-  --color-surface-elevated: #F8FAFC;
-  --color-card-muted: #F8FAFC;
-  --color-text-main: #0F172A;
-  --color-text-muted: #64748B;
-  --color-text-subtle: #94A3B8;
-  --color-text-dark: #F8FAFC;
-  --color-border: #E2E8F0;
-  --color-border-strong: #CBD5E1;
-  --color-modal-backdrop: rgba(0,0,0,0.4);
-  --shadow-card: 0 1px 3px rgba(0,0,0,0.06);
-  --shadow-modal: 0 20px 60px rgba(0,0,0,0.15);
+  --bg: 248 250 252; --surface: 255 255 255; --surface-elevated: 248 250 252;
+  --surface-highlight: 241 245 249; --card-muted: 248 250 252;
+  --text-main: 15 23 42; --text-muted: 100 116 139; --text-subtle: 148 163 184;
+  --text-dark: 248 250 252; --border: 226 232 240; --border-strong: 203 213 225;
+  --color-background: #F8FAFC; --color-surface: #FFFFFF; --color-surface-elevated: #F8FAFC;
+  --color-card-muted: #F8FAFC; --color-text-main: #0F172A; --color-text-muted: #64748B;
+  --color-text-subtle: #94A3B8; --color-text-dark: #F8FAFC; --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1; --color-modal-backdrop: rgba(0,0,0,0.4);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06); --shadow-modal: 0 20px 60px rgba(0,0,0,0.15);
 }
-body {
-  background-color: var(--color-background);
-  color: var(--color-text-main);
-  min-height: 100vh;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-}
+body { background-color: var(--color-background); color: var(--color-text-main); min-height: 100vh; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; }
 .font-display { font-family: "Space Grotesk",system-ui,sans-serif; }
 .shadow-card { box-shadow: var(--shadow-card); }
 .shadow-modal { box-shadow: var(--shadow-modal); }
 
 /* Risk Modal */
-.risk-modal-overlay {
-  position: fixed; inset: 0; z-index: 100;
-  display: flex; align-items: center; justify-content: center;
-  padding: 24px; background: var(--color-modal-backdrop);
-  backdrop-filter: blur(8px);
-}
+.risk-modal-overlay { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px; background: var(--color-modal-backdrop); backdrop-filter: blur(8px); }
 .risk-modal-overlay.hidden { display: none; }
-.risk-modal-panel {
-  width: min(640px, 100%); max-height: 88vh; overflow: auto;
-  border-radius: 18px; border: 1px solid var(--color-border);
-  background: var(--color-surface-elevated);
-  box-shadow: var(--shadow-modal); padding: 28px;
-}
+.risk-modal-panel { width: min(640px, 100%); max-height: 88vh; overflow: auto; border-radius: 18px; border: 1px solid var(--color-border); background: var(--color-surface-elevated); box-shadow: var(--shadow-modal); padding: 28px; }
 .risk-modal-eyebrow { color: var(--color-text-muted); font-size: 11px; font-family: monospace; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 8px; }
 .risk-modal-title { font-size: 22px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
 .risk-modal-intro { color: var(--color-text-muted); font-size: 14px; line-height: 1.7; margin-bottom: 14px; }
 .risk-modal-list { margin: 0 0 18px 1.25rem; color: var(--color-text-muted); font-size: 14px; line-height: 1.7; }
 .risk-modal-list li + li { margin-top: 8px; }
 .risk-modal-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
-.risk-modal-primary, .risk-modal-secondary {
-  border-radius: 12px; padding: 12px 18px; font-size: 14px; font-weight: 700;
-  cursor: pointer; transition: transform .18s,box-shadow .18s;
-}
+.risk-modal-primary, .risk-modal-secondary { border-radius: 12px; padding: 12px 18px; font-size: 14px; font-weight: 700; cursor: pointer; transition: transform .18s,box-shadow .18s; }
 .risk-modal-primary { background: var(--color-primary); color: white; border: none; box-shadow: 0 8px 18px rgba(79,125,255,0.25); }
 .risk-modal-primary:hover { background: var(--color-primary-strong); transform: translateY(-1px); }
 .risk-modal-secondary { background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border-strong); }
 .risk-modal-secondary:hover { border-color: var(--color-text-subtle); transform: translateY(-1px); }
 
-/* LLM Avatar */
-.llm-avatar {
-  width: 28px; height: 28px; border-radius: 50%; object-fit: cover;
-  border: 2px solid transparent; transition: border-color .2s, transform .2s;
-  cursor: pointer; flex-shrink: 0;
-}
+/* Detail Modal */
+.detail-modal-overlay { position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center; padding: 24px; background: var(--color-modal-backdrop); backdrop-filter: blur(8px); }
+.detail-modal-overlay.hidden { display: none; }
+.detail-modal-panel { width: min(720px, 100%); max-height: 88vh; overflow: auto; border-radius: 18px; border: 1px solid var(--color-border); background: var(--color-surface-elevated); box-shadow: var(--shadow-modal); padding: 28px; }
+.detail-modal-close { position: absolute; top: 16px; right: 16px; width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text-muted); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+.detail-modal-close:hover { background: var(--color-surface-highlight); }
+
+/* Models */
+.llm-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; border: 2px solid transparent; transition: border-color .2s, transform .2s; cursor: pointer; flex-shrink: 0; }
 .llm-avatar:hover { transform: scale(1.12); }
 .llm-avatar.selected { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(79,125,255,0.25); }
-
-/* Team Logo */
-.team-logo {
-  width: 56px; height: 56px; border-radius: 50%;
-  background: var(--color-surface-highlight);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 28px; flex-shrink: 0;
-}
+.team-logo { width: 56px; height: 56px; border-radius: 50%; background: var(--color-surface-highlight); display: flex; align-items: center; justify-content: center; font-size: 28px; flex-shrink: 0; }
 .team-logo.lg { width: 80px; height: 80px; font-size: 40px; }
-.team-logo img { width: 36px; height: 36px; object-fit: contain; }
-.team-logo.lg img { width: 52px; height: 52px; }
-
-/* Match Card */
-.match-card {
-  background: var(--color-surface); border: 1px solid var(--color-border);
-  border-radius: 16px; box-shadow: var(--shadow-card);
-  overflow: hidden; transition: border-color .2s, transform .2s;
-}
+.match-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; transition: border-color .2s, transform .2s; cursor: pointer; }
 .match-card:hover { border-color: var(--color-border-strong); transform: translateY(-1px); }
-
-/* Balance Board */
-.balance-board {
-  background: var(--color-surface); border: 1px solid var(--color-border);
-  border-radius: 16px; box-shadow: var(--shadow-card);
-}
-.balance-rank-item {
-  transition: border-color .2s, background .2s, transform .2s;
-  cursor: pointer; border-radius: 10px; border: 1px solid transparent;
-}
+.balance-board { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 16px; box-shadow: var(--shadow-card); }
+.balance-rank-item { transition: border-color .2s, background .2s, transform .2s; cursor: pointer; border-radius: 10px; border: 1px solid transparent; }
 .balance-rank-item:hover { transform: translateY(-1px); border-color: var(--color-border-strong); background: var(--color-card-muted); }
-
-/* Stage Tabs */
-.stage-tab {
-  white-space: nowrap; padding: 8px 16px; border-radius: 999px;
-  font-size: 13px; font-weight: 700; cursor: pointer; transition: all .18s;
-  border: 1px solid var(--color-border); color: var(--color-text-muted);
-  background: transparent;
-}
+.stage-tab { white-space: nowrap; padding: 8px 16px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer; transition: all .18s; border: 1px solid var(--color-border); color: var(--color-text-muted); background: transparent; }
 .stage-tab:hover { border-color: var(--color-border-strong); color: var(--color-text-main); }
 .stage-tab.active { background: var(--color-primary); color: white; border-color: var(--color-primary); }
-
-/* Countdown */
 .countdown { font-family: monospace; font-size: 13px; color: var(--color-primary); font-weight: 700; }
-
-/* Score */
 .score-display { font-size: 28px; font-weight: 950; font-family: "Space Grotesk",monospace; }
 .score-display.final { color: var(--color-primary); }
-
-/* Hero background heat */
-.hero-heat {
-  position: absolute; inset: 0; pointer-events: none; z-index: 0;
-  opacity: 0.4; transition: opacity 0.3s;
-}
-
-/* Animations */
+.hero-heat { position: absolute; inset: 0; pointer-events: none; z-index: 0; opacity: 0.4; }
+.pred-row { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 8px; margin-bottom: 4px; font-size: 13px; }
+.pred-row.hit { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.2); }
+.pred-row.miss { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); }
+.pred-row.pending { background: var(--color-card-muted); border: 1px solid var(--color-border); }
+.tag-hit { background: rgba(16,185,129,0.15); color: #10B981; padding: 1px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.tag-miss { background: rgba(239,68,68,0.15); color: #EF4444; padding: 1px 6px; border-radius: 4px; font-size: 10px; font-weight: 700; }
 @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
 .animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
-
-/* Scrollbar */
 .tabs-scroll::-webkit-scrollbar { display: none; }
 .tabs-scroll { -ms-overflow-style: none; scrollbar-width: none; }
-
-/* Floating video */
-#video-float { transition: transform .2s; }
-#video-float:hover { transform: translateY(-2px); }
-
 @media (max-width: 640px) {
   .risk-modal-overlay { padding: 14px; align-items: flex-end; }
   .risk-modal-panel { border-radius: 16px 16px 0 0; padding: 22px 18px; }
@@ -237,6 +142,11 @@ body {
       <button id="risk-leave" class="risk-modal-secondary">离开本站</button>
     </div>
   </div>
+</div>
+
+<!-- Detail Modal -->
+<div id="detail-modal" class="detail-modal-overlay hidden" role="dialog" aria-modal="true">
+  <div class="detail-modal-panel relative" id="detail-content"></div>
 </div>
 
 <!-- Header -->
@@ -279,16 +189,13 @@ body {
 
 </main>
 
-<!-- Footer -->
 <footer class="border-t py-8 text-center text-xs font-mono" style="border-color: var(--color-border); color: var(--color-text-subtle);">
   <p>Power by Hermes Agent · GPT-5.5 × DeepSeek V4 Pro</p>
   <p class="mt-1">AI 预测仅供娱乐和模型研究 · 不构成投注建议</p>
 </footer>
 
 <script>
-// ============ DATA & GLOBALS ============
-const RISK_KEY = 'wc-risk-v2';
-const THEME_KEY = 'wc-theme';
+const RISK_KEY = 'wc-risk-v2', THEME_KEY = 'wc-theme';
 const MODEL_COLORS = { 'gpt-5.5': '#10A37F', 'deepseek': '#4F7DFF' };
 const MODEL_DISPLAY = { 'gpt-5.5': 'GPT-5.5', 'deepseek': 'DeepSeek' };
 const FLAGS = {
@@ -303,7 +210,6 @@ const FLAGS = {
 };
 let allMatches = [], currentStage = '全部', indexData = null, balanceData = null;
 
-// ============ UTILS ============
 function $(id) { return document.getElementById(id); }
 function esc(s) { return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function toBJ(iso) { const d = new Date(iso); return new Date(d.getTime() + (8*60 + d.getTimezoneOffset()) * 60000); }
@@ -319,14 +225,17 @@ function matchStatus(m) {
   if (hasScore(m.score)) return 'finished';
   return new Date(m.kickoff_at).getTime() > Date.now() ? 'upcoming' : 'live';
 }
-
 function getCountdown(iso) {
   const diff = new Date(iso).getTime() - Date.now();
   if (diff <= 0) return null;
   return { days: Math.floor(diff/86400000), hours: Math.floor((diff%86400000)/3600000), mins: Math.floor((diff%3600000)/60000), secs: Math.floor((diff%60000)/1000) };
 }
+function actualResult(m) {
+  if (!hasScore(m.score)) return null;
+  const a=m.score.team_a, b=m.score.team_b;
+  return a>b?'主胜':a<b?'客胜':'平局';
+}
 
-// ============ THEME ============
 function initTheme() {
   try {
     const saved = localStorage.getItem(THEME_KEY);
@@ -345,8 +254,6 @@ function toggleTheme() {
   updateThemeIcon(!isDark);
   try { localStorage.setItem(THEME_KEY, isDark ? 'light' : 'dark'); } catch(_) {}
 }
-
-// ============ RISK MODAL ============
 function initRisk() {
   const modal = $('risk-modal');
   if (!modal) return;
@@ -356,8 +263,6 @@ function initRisk() {
   $('risk-accept').onclick = () => { try { localStorage.setItem(RISK_KEY, 'true'); } catch(_) {} modal.classList.add('hidden'); };
   $('risk-leave').onclick = () => { window.history.length > 1 ? window.history.back() : window.location.href = 'about:blank'; };
 }
-
-// ============ CLOCK ============
 function updateClock() {
   const el = $('beijing-clock');
   if (!el) return;
@@ -365,8 +270,6 @@ function updateClock() {
   const bj = new Date(now.getTime() + (8*60 + now.getTimezoneOffset()) * 60000);
   el.textContent = `北京 ${String(bj.getHours()).padStart(2,'0')}:${String(bj.getMinutes()).padStart(2,'0')}`;
 }
-
-// ============ LLM AVATAR ============
 function llmAvatar(slug, cls='') {
   const display = MODEL_DISPLAY[slug] || slug;
   const initial = display.charAt(0);
@@ -376,24 +279,48 @@ function llmAvatar(slug, cls='') {
     <span class="llm-avatar hidden items-center justify-center text-xs font-bold" style="background:${MODEL_COLORS[slug]||'#64748B'};color:white;width:28px;height:28px;border-radius:50%;">${initial}</span>
   </span>`;
 }
-
-// ============ TEAM LOGO ============
-function teamLogo(teamId, teamName, size='') {
+function teamLogo(teamName, size='') {
   const flag = FLAGS[teamName] || '🏳️';
   const lg = size === 'lg' ? ' lg' : '';
   return `<div class="team-logo${lg}">${flag}</div>`;
+}
+
+// ============ PREDICTION RESULTS ROW ============
+function predResultsHtml(m) {
+  const preds = m.predictions || [];
+  if (!preds.length) return '';
+  const actual = actualResult(m);
+  return preds.map(p => {
+    const mid = p.model_id || (p.model === 'GPT-5.5' ? 'gpt-5.5' : 'deepseek');
+    const display = MODEL_DISPLAY[mid] || p.model;
+    const color = MODEL_COLORS[mid] || '#64748B';
+    const hit = actual && p.result === actual;
+    const hitExact = actual && hasScore(m.score) && p.home_goals === m.score.team_a && p.away_goals === m.score.team_b;
+    let cls = 'pending';
+    if (actual) { cls = hit ? 'hit' : 'miss'; }
+    let tag = '';
+    if (actual) {
+      if (hitExact) tag = '<span class="tag-hit">比分命中</span>';
+      else if (hit) tag = '<span class="tag-hit">方向命中</span>';
+      else tag = '<span class="tag-miss">未中</span>';
+    }
+    return `<div class="pred-row ${cls}">
+      <span style="color:${color};font-weight:800;font-size:12px;min-width:60px;">${esc(display)}</span>
+      <span style="font-weight:950;font-family:monospace;font-size:16px;">${p.home_goals}:${p.away_goals}</span>
+      <span style="font-size:12px;color:var(--color-text-muted);">${esc(p.result||'')}</span>
+      ${tag}
+    </div>`;
+  }).join('');
 }
 
 // ============ BALANCE LEADERBOARD ============
 function renderBalance(data) {
   const section = $('balance-section');
   if (!section) return;
-
   if (!data || !data.llms || data.llms.length === 0 || !data.datetimes || data.datetimes.length < 2) {
     section.innerHTML = '';
     return;
   }
-
   const datetimes = data.datetimes;
   const rows = data.llms.map(slug => {
     const balances = (data.balances[slug] || []).map(Number);
@@ -403,11 +330,18 @@ function renderBalance(data) {
     const last = profits[profits.length-1];
     return { slug, name: MODEL_DISPLAY[slug]||slug, color: MODEL_COLORS[slug]||'#64748B', balances, profits, profit: last, initial };
   }).filter(Boolean);
-
   if (rows.length === 0) { section.innerHTML = ''; return; }
 
   const ranked = [...rows].sort((a,b) => b.profit - a.profit);
   const latest = datetimes[datetimes.length-1];
+
+  // Get model stats from indexData
+  const modelStats = {};
+  if (indexData && indexData.models) {
+    for (const m of indexData.models) {
+      modelStats[m.id] = m;
+    }
+  }
 
   section.innerHTML = `
     <div class="balance-board rounded-2xl p-5 md:p-6">
@@ -421,21 +355,30 @@ function renderBalance(data) {
           <span class="px-2.5 py-1 rounded border" style="border-color:var(--color-border);background:var(--color-card-muted);">${rows.length} 个模型</span>
         </div>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] gap-5">
+      <div class="grid grid-cols-1 lg:grid-cols-[320px_minmax(0,1fr)] gap-5">
         <div class="space-y-2">
-          ${ranked.map((r,i) => `
-            <div class="balance-rank-item px-3 py-2.5 flex items-center gap-3">
-              <span class="w-6 text-xs font-mono text-text-muted">${i+1}</span>
-              ${llmAvatar(r.slug)}
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${r.color}"></span>
-                  <span class="font-semibold text-sm truncate">${esc(r.name)}</span>
+          ${ranked.map((r,i) => {
+            const stats = modelStats[r.slug] || {};
+            return `<div class="balance-rank-item px-3 py-2.5">
+              <div class="flex items-center gap-3">
+                <span class="w-6 text-xs font-mono text-text-muted">${i+1}</span>
+                ${llmAvatar(r.slug)}
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${r.color}"></span>
+                    <span class="font-semibold text-sm truncate">${esc(r.name)}</span>
+                  </div>
                 </div>
+                <div class="font-mono font-bold text-sm ${r.profit>=0?'text-status-available':'text-secondary'}">${profit(r.profit)}</div>
               </div>
-              <div class="font-mono font-bold text-sm ${r.profit>=0?'text-status-available':'text-secondary'}">${profit(r.profit)}</div>
-            </div>
-          `).join('')}
+              <div class="flex gap-4 mt-1.5 ml-11 text-[11px] text-text-muted">
+                <span>投注 ${stats.bets||0} 次</span>
+                <span>命中 ${stats.wins||0} 次</span>
+                <span>胜率 ${pct(stats.win_rate)}</span>
+                <span>余额 ${money(stats.balance||r.initial)}</span>
+              </div>
+            </div>`;
+          }).join('')}
         </div>
         <div class="rounded-xl border p-3 md:p-4 overflow-hidden" style="border-color:var(--color-border);background:var(--color-card-muted);">
           ${balanceChart(rows, datetimes)}
@@ -453,67 +396,47 @@ function balanceChart(rows, datetimes) {
   if (minP === maxP) { minP -= step; maxP += step; }
   else { const pad = Math.max(100, (maxP-minP)*0.12); minP -= pad; maxP += pad; }
   minP = Math.floor(minP/step)*step; maxP = Math.ceil(maxP/step)*step;
-
   const xFor = i => plot.left + (i/Math.max(1,datetimes.length-1))*(W-plot.left-plot.right);
   const yFor = v => plot.top + ((maxP-v)/(maxP-minP||1))*(H-plot.top-plot.bottom);
-
-  // Grid lines
   let gridLines = '';
   for (let v = minP; v <= maxP; v += step) {
     const y = yFor(v);
     gridLines += `<line x1="${plot.left}" x2="${W-plot.right}" y1="${y}" y2="${y}" stroke="var(--color-border)" stroke-width="0.5"/>`;
     gridLines += `<text x="${plot.left-6}" y="${y+4}" text-anchor="end" fill="var(--color-text-subtle)" font-size="10" font-family="monospace">${profit(v)}</text>`;
   }
-
-  // X labels
-  const xLabels = [
-    { i: 0, anchor: 'start' },
-    { i: datetimes.length-1, anchor: 'end' }
-  ];
   let xLabelHtml = '';
-  for (const l of xLabels) {
-    const x = xFor(l.i);
-    xLabelHtml += `<text x="${x}" y="${H-6}" text-anchor="${l.anchor}" fill="var(--color-text-subtle)" font-size="10" font-family="monospace">${fmtDate(datetimes[l.i])}</text>`;
-  }
-
-  // Polylines
+  [{i:0,anchor:'start'},{i:datetimes.length-1,anchor:'end'}].forEach(l => {
+    xLabelHtml += `<text x="${xFor(l.i)}" y="${H-6}" text-anchor="${l.anchor}" fill="var(--color-text-subtle)" font-size="10" font-family="monospace">${fmtDate(datetimes[l.i])}</text>`;
+  });
   let paths = '';
   for (const r of rows) {
     let d = '';
-    for (let i = 0; i < r.profits.length; i++) {
-      d += (i===0?'M':'L') + xFor(i).toFixed(1) + ',' + yFor(r.profits[i]).toFixed(1) + ' ';
-    }
+    for (let i = 0; i < r.profits.length; i++) d += (i===0?'M':'L') + xFor(i).toFixed(1) + ',' + yFor(r.profits[i]).toFixed(1) + ' ';
     paths += `<path d="${d}" fill="none" stroke="${r.color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
-    // End dot
-    const lastX = xFor(r.profits.length-1), lastY = yFor(r.profits[r.profits.length-1]);
-    paths += `<circle cx="${lastX}" cy="${lastY}" r="3.5" fill="${r.color}"/>`;
+    const lx = xFor(r.profits.length-1), ly = yFor(r.profits[r.profits.length-1]);
+    paths += `<circle cx="${lx}" cy="${ly}" r="3.5" fill="${r.color}"/>`;
   }
-
-  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:260px;display:block;overflow:visible;" xmlns="http://www.w3.org/2000/svg">
-    ${gridLines}
-    ${paths}
-    ${xLabelHtml}
-  </svg>`;
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:260px;display:block;overflow:visible;" xmlns="http://www.w3.org/2000/svg">${gridLines}${paths}${xLabelHtml}</svg>`;
 }
 
 // ============ HERO SECTION ============
 function renderHero() {
   const section = $('hero-section');
   if (!section) return;
-
   const now = Date.now();
-  // Upcoming matches sorted by time
   const upcoming = allMatches.filter(m => matchStatus(m) === 'upcoming').sort((a,b) => new Date(a.kickoff_at)-new Date(b.kickoff_at));
-  // Live matches
   const live = allMatches.filter(m => matchStatus(m) === 'live');
-  // Recently finished
   const finished = allMatches.filter(m => matchStatus(m) === 'finished').sort((a,b) => new Date(b.kickoff_at)-new Date(a.kickoff_at));
 
-  // Hero cards: live + upcoming (up to 6)
-  const heroMatches = [...live, ...upcoming].slice(0, 6);
+  // Show: live + upcoming + recently finished (last 3-4)
+  const heroMatches = [...live, ...upcoming];
+  if (heroMatches.length < 3) {
+    heroMatches.push(...finished.slice(0, Math.max(0, 4 - heroMatches.length)));
+  }
+  const display = heroMatches.slice(0, 6);
 
-  if (heroMatches.length === 0) {
-    section.innerHTML = `<div class="text-center py-12 text-text-muted">暂无即将开始的比赛</div>`;
+  if (display.length === 0) {
+    section.innerHTML = `<div class="text-center py-12 text-text-muted">暂无比赛数据</div>`;
     return;
   }
 
@@ -523,19 +446,20 @@ function renderHero() {
         <p class="text-xs font-mono text-text-muted tracking-widest uppercase mb-1">AI Prediction Board</p>
         <h2 class="text-xl md:text-2xl font-display font-bold">AI 预测</h2>
       </div>
-      <span class="text-xs text-text-muted">每场比赛开赛前 24 小时上线预测</span>
+      <span class="text-xs text-text-muted">${live.length} 场进行中 · ${upcoming.length} 场即将开始 · ${finished.length} 场已结束</span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      ${heroMatches.map(m => heroCard(m)).join('')}
+      ${display.map(m => `<div class="match-card p-4 md:p-5 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">
+        ${heroCardInner(m)}
+      </div>`).join('')}
     </div>`;
 }
 
-function heroCard(m) {
+function heroCardInner(m) {
   const status = matchStatus(m);
   const hasP = hasPredict(m);
   const cd = getCountdown(m.kickoff_at);
 
-  // Status badge
   let statusBadge = '';
   if (status === 'finished') {
     statusBadge = `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-gray-100 text-text-muted border border-gray-200">已结束</span>`;
@@ -545,12 +469,10 @@ function heroCard(m) {
     statusBadge = `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-blue-50 text-primary border border-blue-200">未开始</span>`;
   }
 
-  // Predict badge
   const predictBadge = hasP
     ? `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-emerald-50 text-status-available border border-emerald-200"><span class="w-1 h-1 rounded-full bg-status-available"></span>AI 预测</span>`
     : `<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-gray-100 text-text-muted border border-gray-200">待分析</span>`;
 
-  // Score or VS
   let scoreHtml = '';
   if (hasScore(m.score)) {
     scoreHtml = `<div class="score-display final">${m.score.team_a}-${m.score.team_b}</div>`;
@@ -558,22 +480,12 @@ function heroCard(m) {
     scoreHtml = `<div class="text-lg font-bold text-text-muted font-mono">VS</div>`;
   }
 
-  // Countdown
   let cdHtml = '';
   if (cd) {
     cdHtml = `<div class="countdown">距开赛 ${cd.days}天 ${String(cd.hours).padStart(2,'0')}:${String(cd.mins).padStart(2,'0')}:${String(cd.secs).padStart(2,'0')}</div>`;
   } else if (status === 'live') {
     cdHtml = `<div class="text-xs text-secondary font-bold">比赛进行中</div>`;
   }
-
-  // Model avatars
-  const betSlugs = [];
-  if (m.bets) {
-    for (const side of ['H','D','A']) {
-      if (Array.isArray(m.bets[side])) betSlugs.push(...m.bets[side]);
-    }
-  }
-  const uniqueSlugs = [...new Set(betSlugs)];
 
   // Heat background
   const hCount = (m.bets?.H||[]).length, aCount = (m.bets?.A||[]).length;
@@ -589,43 +501,30 @@ function heroCard(m) {
   }
 
   return `
-    <div class="match-card p-4 md:p-5 relative">
-      ${heatStyle ? `<div class="hero-heat" style="${heatStyle}"></div>` : ''}
-      <div class="relative z-10">
-        <div class="flex items-center justify-between mb-3">
-          <span class="text-xs text-text-muted font-mono">${esc(m.stage||'')}</span>
-          <div class="flex items-center gap-2">${predictBadge}${statusBadge}</div>
-        </div>
-        <div class="flex items-center justify-between px-2">
-          <div class="flex flex-col items-center gap-2 flex-1">
-            ${teamLogo(m.team_a_id, m.team_a, 'lg')}
-            <span class="font-bold text-sm text-center">${esc(m.team_a)}</span>
-          </div>
-          <div class="flex flex-col items-center px-4">
-            ${scoreHtml}
-            ${cdHtml}
-          </div>
-          <div class="flex flex-col items-center gap-2 flex-1">
-            ${teamLogo(m.team_b_id, m.team_b, 'lg')}
-            <span class="font-bold text-sm text-center">${esc(m.team_b)}</span>
-          </div>
-        </div>
-        ${uniqueSlugs.length > 0 ? `
-        <div class="flex justify-center gap-1.5 mt-4">
-          ${uniqueSlugs.map(s => llmAvatar(s, m.comment?.[s] ? 'selected' : '')).join('')}
-        </div>
-        <div class="text-center mt-2 text-xs text-text-muted italic">
-          ${(() => {
-            const firstSlug = uniqueSlugs[0];
-            if (firstSlug && m.comment?.[firstSlug]) {
-              return `<span class="font-semibold text-primary">${esc(MODEL_DISPLAY[firstSlug]||firstSlug)}</span> 预测：${esc(m.comment[firstSlug])}`;
-            }
-            return '';
-          })()}
-        </div>
-        ` : `<div class="text-center mt-3 text-xs text-text-muted">暂无 AI 预测</div>`}
-        ${m.venue ? `<div class="text-center mt-2 text-[11px] text-text-muted">📍 ${esc(m.venue)}</div>` : ''}
+    ${heatStyle ? `<div class="hero-heat" style="${heatStyle}"></div>` : ''}
+    <div class="relative z-10">
+      <div class="flex items-center justify-between mb-3">
+        <span class="text-xs text-text-muted font-mono">${esc(m.stage||'')}</span>
+        <div class="flex items-center gap-2">${predictBadge}${statusBadge}</div>
       </div>
+      <div class="flex items-center justify-between px-2">
+        <div class="flex flex-col items-center gap-2 flex-1">
+          ${teamLogo(m.team_a, 'lg')}
+          <span class="font-bold text-sm text-center">${esc(m.team_a)}</span>
+        </div>
+        <div class="flex flex-col items-center px-4">
+          ${scoreHtml}
+          ${cdHtml}
+        </div>
+        <div class="flex flex-col items-center gap-2 flex-1">
+          ${teamLogo(m.team_b, 'lg')}
+          <span class="font-bold text-sm text-center">${esc(m.team_b)}</span>
+        </div>
+      </div>
+      ${hasP ? `<div class="mt-4 pt-3 border-t" style="border-color:var(--color-border);">${predResultsHtml(m)}</div>`
+        : `<div class="text-center mt-3 text-xs text-text-muted">暂无 AI 预测</div>`}
+      ${m.venue ? `<div class="text-center mt-2 text-[11px] text-text-muted">📍 ${esc(m.venue)}</div>` : ''}
+      <div class="text-center mt-2"><span class="text-[10px] text-primary font-mono cursor-pointer hover:underline">点击查看详情 →</span></div>
     </div>`;
 }
 
@@ -633,15 +532,12 @@ function heroCard(m) {
 function renderTabs() {
   const container = $('stage-tabs');
   if (!container) return;
-
   const stageSet = new Set(allMatches.map(m => m.stage).filter(Boolean));
   const stages = ['全部', ...Array.from(stageSet).sort()];
-
   container.innerHTML = stages.map(s => {
     const active = s === '全部' ? ' active' : '';
     return `<button class="stage-tab${active}" data-stage="${esc(s)}">${esc(s)}</button>`;
   }).join('');
-
   container.querySelectorAll('.stage-tab').forEach(btn => {
     btn.onclick = () => {
       container.querySelectorAll('.stage-tab').forEach(b => b.classList.remove('active'));
@@ -656,16 +552,13 @@ function renderTabs() {
 function renderMatches() {
   const container = $('matches-container');
   if (!container) return;
-
   const filtered = currentStage === '全部' ? allMatches : allMatches.filter(m => m.stage === currentStage);
-  // Group by date
   const groups = {};
   for (const m of filtered) {
     const dk = dateKey(m.kickoff_at);
     if (!groups[dk]) groups[dk] = [];
     groups[dk].push(m);
   }
-
   let html = '';
   for (const [dk, matches] of Object.entries(groups).sort()) {
     html += `<h3 class="text-lg font-display font-bold mt-8 mb-3 text-text-main">${fmtDate(matches[0].kickoff_at)}</h3>`;
@@ -675,42 +568,26 @@ function renderMatches() {
     }
     html += `</div>`;
   }
-
-  if (!html) {
-    html = `<div class="text-center py-16 text-text-muted">该阶段暂无比赛</div>`;
-  }
+  if (!html) html = `<div class="text-center py-16 text-text-muted">该阶段暂无比赛</div>`;
   container.innerHTML = html;
 }
 
 function scheduleCard(m) {
   const status = matchStatus(m);
   const hasP = hasPredict(m);
-
-  // Score or time
   let centerHtml = '';
   if (hasScore(m.score)) {
     centerHtml = `<div class="score-display final text-lg">${m.score.team_a}-${m.score.team_b}</div>`;
   } else {
     centerHtml = `<div class="font-mono font-bold text-text-muted">${fmtTime(m.kickoff_at)}</div>`;
   }
-
-  // Status
   let statusDot = '';
   if (status === 'finished') statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-status-available"></span>';
   else if (status === 'live') statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse-dot"></span>';
   else statusDot = '<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>';
 
-  // Model avatars
-  const betSlugs = [];
-  if (m.bets) {
-    for (const side of ['H','D','A']) {
-      if (Array.isArray(m.bets[side])) betSlugs.push(...m.bets[side]);
-    }
-  }
-  const uniqueSlugs = [...new Set(betSlugs)];
-
   return `
-    <div class="match-card p-3">
+    <div class="match-card p-3" onclick="openDetail('${esc(m.match_id)}')">
       <div class="flex items-center gap-2 mb-2">
         ${statusDot}
         <span class="text-[10px] font-mono text-text-muted">${esc(m.stage||'')}</span>
@@ -727,24 +604,107 @@ function scheduleCard(m) {
           <span class="text-lg">${FLAGS[m.team_b]||'🏳️'}</span>
         </div>
       </div>
-      ${uniqueSlugs.length > 0 ? `
-      <div class="flex justify-center gap-1 mt-2">
-        ${uniqueSlugs.map(s => llmAvatar(s)).join('')}
-      </div>
-      ` : ''}
+      ${hasP ? `<div class="mt-2 pt-2 border-t" style="border-color:var(--color-border);">${predResultsHtml(m)}</div>` : ''}
       ${m.venue ? `<div class="text-[10px] text-text-muted mt-1.5 text-center">${esc(m.venue)}</div>` : ''}
     </div>`;
 }
 
-// ============ COUNTDOWN TICKER ============
-function tickCountdowns() {
-  document.querySelectorAll('.countdown').forEach(el => {
-    const matchEl = el.closest('.match-card');
-    if (!matchEl) return;
-    // Find the match data
-    const idx = Array.from(document.querySelectorAll('.match-card')).indexOf(matchEl);
-    // We'll just re-render hero every 10s for simplicity
-  });
+// ============ DETAIL MODAL ============
+function openDetail(matchId) {
+  const m = allMatches.find(x => x.match_id === matchId);
+  if (!m) return;
+  const modal = $('detail-modal');
+  const content = $('detail-content');
+  const status = matchStatus(m);
+  const actual = actualResult(m);
+  const preds = m.predictions || [];
+
+  let statusLabel = status === 'finished' ? '已结束' : status === 'live' ? '进行中' : '未开始';
+  let scoreLine = '';
+  if (hasScore(m.score)) {
+    scoreLine = `<div class="score-display final" style="font-size:40px;">${m.score.team_a} - ${m.score.team_b}</div>`;
+  } else {
+    scoreLine = `<div class="text-lg text-text-muted font-mono">VS · ${fmtTime(m.kickoff_at)}</div>`;
+  }
+
+  content.innerHTML = `
+    <button class="detail-modal-close" onclick="$('detail-modal').classList.add('hidden')" style="position:sticky;top:0;float:right;">✕</button>
+    <div class="mb-4">
+      <span class="text-xs font-mono text-text-muted">${esc(m.stage||'')} · ${m.match_id} · ${statusLabel}</span>
+    </div>
+    <div class="flex items-center justify-center gap-6 mb-6">
+      <div class="flex flex-col items-center gap-2">
+        ${teamLogo(m.team_a, 'lg')}
+        <span class="font-bold text-lg">${esc(m.team_a)}</span>
+      </div>
+      <div class="flex flex-col items-center">${scoreLine}</div>
+      <div class="flex flex-col items-center gap-2">
+        ${teamLogo(m.team_b, 'lg')}
+        <span class="font-bold text-lg">${esc(m.team_b)}</span>
+      </div>
+    </div>
+    ${m.venue ? `<div class="text-center text-xs text-text-muted mb-4">📍 ${esc(m.venue)}</div>` : ''}
+
+    ${m.odds ? `
+    <div class="mb-6 p-3 rounded-xl border" style="border-color:var(--color-border);background:var(--color-card-muted);">
+      <p class="text-xs font-mono text-text-muted mb-2">盘口赔率 · ${esc(m.odds.bookmaker||'')}</p>
+      <div class="flex justify-around text-center">
+        <div><div class="text-xs text-text-muted">主胜</div><div class="font-mono font-bold">${m.odds.home_odds||'--'}</div></div>
+        <div><div class="text-xs text-text-muted">平局</div><div class="font-mono font-bold">${m.odds.draw_odds||'--'}</div></div>
+        <div><div class="text-xs text-text-muted">客胜</div><div class="font-mono font-bold">${m.odds.away_odds||'--'}</div></div>
+      </div>
+    </div>` : ''}
+
+    <h3 class="font-display font-bold text-lg mb-3">AI 预测</h3>
+    ${preds.length ? preds.map(p => {
+      const mid = p.model_id || (p.model === 'GPT-5.5' ? 'gpt-5.5' : 'deepseek');
+      const display = MODEL_DISPLAY[mid] || p.model;
+      const color = MODEL_COLORS[mid] || '#64748B';
+      const hit = actual && p.result === actual;
+      const hitExact = actual && hasScore(m.score) && p.home_goals === m.score.team_a && p.away_goals === m.score.team_b;
+      let cls = actual ? (hit ? 'hit' : 'miss') : 'pending';
+      let tag = '';
+      if (actual) {
+        if (hitExact) tag = '<span class="tag-hit">比分命中</span>';
+        else if (hit) tag = '<span class="tag-hit">方向命中</span>';
+        else tag = '<span class="tag-miss">未中</span>';
+      }
+      return `<div class="pred-row ${cls}" style="padding:12px;margin-bottom:8px;">
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-1">
+            ${llmAvatar(mid)}
+            <span style="color:${color};font-weight:800;font-size:14px;">${esc(display)}</span>
+            ${tag}
+          </div>
+          <div style="font-weight:950;font-family:monospace;font-size:20px;margin:4px 0;">${p.home_goals}:${p.away_goals} <span style="font-size:14px;color:var(--color-text-muted);">${esc(p.result||'')}</span></div>
+          <div style="font-size:12px;color:var(--color-text-muted);line-height:1.6;">${esc(p.analysis||'暂无分析')}</div>
+          ${p.hit_result !== undefined ? `<div class="mt-2 text-[11px] text-text-muted">得分: ${p.score||0} · 命中结果: ${p.hit_result?'是':'否'} · 命中比分: ${p.hit_score?'是':'否'}</div>` : ''}
+        </div>
+      </div>`;
+    }).join('') : '<div class="text-text-muted text-sm">暂无 AI 预测</div>'}
+
+    ${m.bets_detail && m.bets_detail.length ? `
+    <h3 class="font-display font-bold text-lg mt-6 mb-3">模拟投注</h3>
+    ${m.bets_detail.map(b => {
+      const mid = b.model === 'GPT-5.5' ? 'gpt-5.5' : 'deepseek';
+      const pnlClass = (b.pnl||0) >= 0 ? 'text-status-available' : 'text-secondary';
+      return `<div class="pred-row pending" style="padding:10px;margin-bottom:4px;">
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-1">${llmAvatar(mid)}<span class="font-semibold text-sm">${esc(b.model)}</span> · <span class="text-xs text-text-muted">投注 ${esc(b.item||'')} @${b.odds||'--'}</span></div>
+          <div class="flex items-center gap-3 text-[11px] text-text-muted">
+            <span>本金 ${b.stake||0}</span>
+            <span>结果 ${esc(b.actual||'--')}</span>
+            <span class="${pnlClass} font-bold">盈亏 ${profit(b.pnl||0)}</span>
+            <span>${esc(b.status||'')}</span>
+          </div>
+        </div>
+      </div>`;
+    }).join('')}
+    ` : ''}
+  `;
+
+  modal.classList.remove('hidden');
+  modal.onclick = function(e) { if (e.target === modal) modal.classList.add('hidden'); };
 }
 
 // ============ INIT ============
@@ -755,7 +715,6 @@ async function init() {
   setInterval(updateClock, 30000);
   $('theme-toggle').onclick = toggleTheme;
 
-  // Banner
   const banner = $('notice-banner');
   if (banner) {
     banner.innerHTML = '内容均为 AI 生成，仅供交流与娱乐，不构成投注建议。反对非法博彩，严禁违规赌博，谨防诈骗。';
@@ -770,21 +729,12 @@ async function init() {
     if (!idxResp.ok) throw new Error('数据加载失败');
     indexData = await idxResp.json();
     if (balResp && balResp.ok) balanceData = await balResp.json();
-
     allMatches = (indexData.matches || []).sort((a,b) => new Date(a.kickoff_at) - new Date(b.kickoff_at));
-
     renderBalance(balanceData);
     renderHero();
     renderTabs();
     renderMatches();
-
-    // Refresh hero every 10s for countdown updates
-    setInterval(() => {
-      if (allMatches.some(m => matchStatus(m) === 'upcoming')) {
-        renderHero();
-      }
-    }, 10000);
-
+    setInterval(() => { if (allMatches.some(m => matchStatus(m) === 'upcoming')) { renderHero(); } }, 10000);
   } catch(e) {
     $('matches-container').innerHTML = `<div class="p-10 text-center rounded-xl border border-red-200 bg-red-50"><p class="text-secondary text-lg font-medium mb-2">数据加载失败</p><p class="text-text-muted text-sm">${esc(e.message)}</p></div>`;
   }
