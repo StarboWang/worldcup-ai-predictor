@@ -993,7 +993,7 @@
         "home_imp": 0.7442,
         "draw_imp": 0.1709,
         "away_imp": 0.0849,
-        "updated_at": "2026-06-18 05:00:25",
+        "updated_at": "2026-06-18 06:00:48",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -1124,11 +1124,11 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "加纳进攻强度略高，巴拿马防守风险相近，双方近期状态都偏均衡，比赛环境中性下节奏不宜拉开。soccer24_event为空，当前无明确伤停/首发数据，倾向低比分僵持。",
+          "analysis": "加纳进攻强度略高，但两队防守风险同为1.3，近期状态也接近，比赛环境中立性较强，节奏不宜拉开。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:08"
+          "time": "2026-06-18 06:01:37"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1203,11 +1203,11 @@
           "home_goals": 1,
           "away_goals": 2,
           "result": "客胜",
-          "analysis": "哥伦比亚进攻强度和防守稳定性都优于乌兹别克斯坦，近期状态也保持较好；乌兹别克斯坦有韧性但阵容深度处下风。soccer24_event为空，当前无明确伤停/首发数据。",
+          "analysis": "哥伦比亚进攻强度和防守质量都优于乌兹别克斯坦，阵容深度与整体级别更稳；乌兹别克近期状态不错但抗压层级稍低。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:09"
+          "time": "2026-06-18 06:01:38"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1282,11 +1282,11 @@
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
-          "analysis": "捷克攻防指标更均衡，南非防守风险偏高且近期失利略多，洛杉矶中性场地降低主客影响。soccer24_event为空，当前无明确伤停/首发数据，看好捷克小胜。",
+          "analysis": "捷克进攻强度更高，南非防守风险达到1.4，近期状态也略逊；洛杉矶中立环境下，捷克更适合控制低比分节奏。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:11"
+          "time": "2026-06-18 06:01:41"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1361,11 +1361,11 @@
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
-          "analysis": "瑞士进攻强度明显更高，防守风险也更低，近期状态稳定；波黑近况偏弱且防线承压，阵容深度对抗不占优。soccer24_event为空，当前无明确伤停/首发数据。",
+          "analysis": "瑞士进攻强度1.7且防守风险仅0.9，攻守结构明显更完整；波黑近期败场偏多，防守风险1.5，阵容深度也处下风。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:12"
+          "time": "2026-06-18 06:01:42"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1440,11 +1440,11 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "加拿大整体更均衡，卡塔尔进攻强度较好但防守风险偏高，双方近期状态接近，达拉斯环境下节奏可能谨慎。soccer24_event为空，当前无明确伤停/首发数据。",
+          "analysis": "加拿大防守稳定性略好，但卡塔尔进攻强度更高；双方近期状态接近，达拉斯环境下比赛可能进入拉锯，单边优势不明显。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:14"
+          "time": "2026-06-18 06:01:43"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1519,11 +1519,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "墨西哥攻防稳定性略优，近期状态强，且在墨西哥城比赛环境适应性更好；韩国进攻具威胁但防守风险稍高。soccer24_event为空，当前无明确伤停/首发数据。",
+          "analysis": "墨西哥攻防均衡，近期状态更强，且在北美比赛环境适应性较好；韩国进攻能力接近，但防守风险略高，容易被持续压迫。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:15"
+          "time": "2026-06-18 06:01:45"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1598,11 +1598,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "美国进攻强度和防守风险控制都较好，近期状态更稳，迈阿密比赛环境也更利于其发挥；澳大利亚攻击力不弱但防线承压。soccer24_event为空，当前无明确伤停/首发数据。",
+          "analysis": "美国近期状态突出，防守风险0.9优于澳大利亚，且主场环境有助于提升推进强度；澳大利亚进攻不弱，仍有进球空间。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:16"
+          "time": "2026-06-18 06:01:46"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1675,13 +1675,13 @@
         {
           "model": "GPT-5.5",
           "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "摩洛哥攻防质量更突出，尤其防守风险低；苏格兰进攻不差且身体对抗能力可支撑低比分拉锯。双方近期都有稳定面，soccer24_event为空，当前无明确伤停/首发数据。",
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "摩洛哥防守风险仅0.8，近期状态和阵容深度都更稳，反击效率也更适合应对苏格兰的身体对抗；苏格兰进攻有威胁但后劲略逊。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 05:01:18"
+          "time": "2026-06-18 06:01:48"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3833,5 +3833,5 @@
       "updated_at": "2026-06-18 05:07:17"
     }
   ],
-  "generated_at": "2026-06-18 05:07:21"
+  "generated_at": "2026-06-18 06:02:00"
 }
