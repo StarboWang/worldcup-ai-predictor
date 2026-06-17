@@ -975,13 +975,13 @@
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 2,
-          "away_goals": 1,
+          "away_goals": 0,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，葡萄牙胜平负概率为63%/19%/18%，最可能比分为2-1。",
+          "analysis": "葡萄牙攻防俱佳（进攻1.9/防守0.7），刚果(金)进攻乏力（0.9），Elo差390实力悬殊。刚果(金)防守1.3尚可但难以抵挡葡萄牙持续施压，近期W7 D1 L2状态出色，零封概率高。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:03:52"
+          "time": "2026-06-17 21:03:54"
         }
       ],
       "odds": {
@@ -1053,14 +1053,14 @@
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 3,
-          "away_goals": 2,
-          "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为52%/17%/30%，最可能比分为3-2。",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "英格兰主场胜率仅52.4%，Elo差仅100，克罗地亚防守0.9极为稳固。克罗地亚进攻1.5对英格兰防线0.7构成威胁，近期W5 D3 L2状态不差，双方实力接近，平局是结构性最优解。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:03:54"
+          "time": "2026-06-17 21:03:56"
         }
       ],
       "odds": {
@@ -1133,13 +1133,13 @@
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，加纳胜平负概率为44%/33%/24%，最可能比分为1-0。",
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "双方Elo差仅30几乎持平，平局概率32.5%极高。加纳进攻1.1对巴拿马防守1.3无明显优势，巴拿马进攻0.9难以破门，两队防守均为1.3，低比分闷平格局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:03:56"
+          "time": "2026-06-17 21:03:57"
         }
       ],
       "odds": {
@@ -1214,11 +1214,11 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，乌兹别克斯坦胜平负概率为33%/26%/40%，最可能比分为1-1。",
+          "analysis": "乌兹别克斯坦近期W6 D2 L2状态极佳，防守1.2具备韧性。哥伦比亚进攻1.4并非顶级，Elo差200优势有限，客场胜率仅40.3%，乌兹别克斯坦不败能力值得信赖。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:03:57"
+          "time": "2026-06-17 21:03:59"
         }
       ],
       "odds": {
@@ -1293,11 +1293,11 @@
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，捷克胜平负概率为43%/32%/25%，最可能比分为1-0。",
+          "analysis": "捷克Elo差仅180触发平局警戒，平局概率31.5%。捷克进攻1.2对南非防守1.4有破门空间但火力有限，南非进攻1.0难以威胁捷克防线1.2，一球小胜格局。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:03:59"
+          "time": "2026-06-17 21:04:00"
         }
       ],
       "odds": {
@@ -1369,14 +1369,14 @@
         },
         {
           "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，瑞士胜平负概率为55%/24%/21%，最可能比分为1-1。",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "瑞士进攻1.7对波黑防守1.5有明显优势，防守0.9稳固。波黑近期W2 D3 L5状态低迷，进攻1.0难以突破瑞士防线，Elo差380实力悬殊，瑞士零封取胜。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:04:01"
+          "time": "2026-06-17 21:04:03"
         }
       ],
       "odds": {
@@ -1449,13 +1449,13 @@
         {
           "model": "DeepSeek V4 Pro",
           "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，加拿大胜平负概率为32%/31%/38%，最可能比分为1-1。",
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "卡塔尔进攻1.4优于加拿大1.2，客场胜率37.5%反超主队。加拿大防守1.3与卡塔尔防守1.6均不稳固，双方都有进球空间，卡塔尔近期W3 D4 L3具备拿分能力。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:04:02"
+          "time": "2026-06-17 21:04:04"
         }
       ],
       "odds": {
@@ -1530,11 +1530,11 @@
           "home_goals": 1,
           "away_goals": 1,
           "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，墨西哥胜平负概率为48%/23%/29%，最可能比分为1-1。",
+          "analysis": "墨西哥主场胜率仅47.9%，Elo差130实力接近。韩国进攻1.3对墨西哥防守1.0有破门能力，近期W5 D3 L2状态出色，墨西哥进攻1.4对韩国防守1.1优势有限，平局风险高。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-17 20:04:04"
+          "time": "2026-06-17 21:04:06"
         }
       ],
       "odds": {
@@ -3729,5 +3729,5 @@
       "updated_at": "2026-06-17 20:07:11"
     }
   ],
-  "generated_at": "2026-06-17 21:03:19"
+  "generated_at": "2026-06-17 21:04:35"
 }
