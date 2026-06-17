@@ -114,6 +114,8 @@ body { background-color: var(--color-background); color: var(--color-text-main);
 .animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
 .tabs-scroll::-webkit-scrollbar { display: none; }
 .tabs-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+.prediction-strip { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.prediction-card { min-width: 0; }
 @media (max-width: 640px) {
   .risk-modal-overlay { padding: 14px; align-items: flex-end; }
   .risk-modal-panel { border-radius: 16px 16px 0 0; padding: 22px 18px; }
@@ -121,6 +123,9 @@ body { background-color: var(--color-background); color: var(--color-text-main);
   .risk-modal-primary, .risk-modal-secondary { width: 100%; }
   .team-logo.lg { width: 60px; height: 60px; font-size: 30px; }
   .score-display { font-size: 22px; }
+  .prediction-strip { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; padding: 0 16px 10px; margin: 0 -16px 20px; scrollbar-width: none; }
+  .prediction-strip::-webkit-scrollbar { display: none; }
+  .prediction-strip .prediction-card { width: min(82vw, 320px); min-width: min(82vw, 320px); scroll-snap-align: start; }
 }
 </style>
 </head>
@@ -444,18 +449,18 @@ function renderHero() {
 
   if (recentFinished.length > 0) {
     html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">最近结束</span></div>`;
-    html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-6">`;
+    html += `<div class="prediction-strip md:grid md:grid-cols-2 lg:grid-cols-4 md:mb-6">`;
     for (const m of recentFinished) {
-      html += `<div class="match-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
+      html += `<div class="match-card prediction-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
     }
     html += `</div>`;
   }
 
   if (nextUpcoming.length > 0) {
     html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">即将开始</span></div>`;
-    html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">`;
+    html += `<div class="prediction-strip md:grid md:grid-cols-2 lg:grid-cols-4 md:mb-0">`;
     for (const m of nextUpcoming) {
-      html += `<div class="match-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
+      html += `<div class="match-card prediction-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
     }
     html += `</div>`;
   }
