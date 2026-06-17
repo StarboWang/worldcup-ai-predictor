@@ -123,6 +123,8 @@ body { background-color: var(--color-background); color: var(--color-text-main);
   .risk-modal-primary, .risk-modal-secondary { width: 100%; }
   .team-logo.lg { width: 60px; height: 60px; font-size: 30px; }
   .score-display { font-size: 22px; }
+}
+@media (max-width: 767px) {
   .prediction-strip { display: flex; gap: 12px; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; padding: 0 16px 10px; margin: 0 -16px 20px; scrollbar-width: none; }
   .prediction-strip::-webkit-scrollbar { display: none; }
   .prediction-strip .prediction-card { width: min(82vw, 320px); min-width: min(82vw, 320px); scroll-snap-align: start; }
