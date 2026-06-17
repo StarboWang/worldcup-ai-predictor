@@ -1033,10 +1033,10 @@
       "venue": "蒙特雷BBVA体育场",
       "home": "英格兰",
       "away": "克罗地亚",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 4,
+      "away_score": 2,
       "stage": "小组赛第1轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-18 04:00:00",
       "predictions": [
@@ -3833,5 +3833,5 @@
       "updated_at": "2026-06-18 06:07:00"
     }
   ],
-  "generated_at": "2026-06-18 06:07:04"
+  "generated_at": "2026-06-18 06:11:00"
 }
