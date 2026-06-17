@@ -3720,14 +3720,14 @@
     {
       "model": "DeepSeek V4 Pro",
       "bets": 24,
-      "wins": 11,
+      "wins": 9,
       "bankroll": 10000.0,
-      "balance": 10793.0,
-      "pnl": 793.0,
-      "roi": 0.3304,
-      "win_rate": 0.4583,
-      "updated_at": "2026-06-17 20:07:11"
+      "balance": 9976.0,
+      "pnl": -24.0,
+      "roi": -0.01,
+      "win_rate": 0.375,
+      "updated_at": "2026-06-17 21:07:06"
     }
   ],
-  "generated_at": "2026-06-17 21:07:07"
+  "generated_at": "2026-06-17 21:07:11"
 }

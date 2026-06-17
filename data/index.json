@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T21:07:07+08:00",
+  "generated_at": "2026-06-17T21:07:11+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4616,11 +4616,11 @@
       "display": "DeepSeek",
       "color": "#4F7DFF",
       "bets": 24,
-      "wins": 11,
-      "balance": 10793.0,
-      "pnl": 793.0,
-      "roi": 0.3304,
-      "win_rate": 0.4583
+      "wins": 9,
+      "balance": 9976.0,
+      "pnl": -24.0,
+      "roi": -0.01,
+      "win_rate": 0.375
     }
   ]
 }
