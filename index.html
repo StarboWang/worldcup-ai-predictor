@@ -222,7 +222,9 @@ function pct(v) { return v==null?'--':(Number(v)*100).toFixed(0)+'%'; }
 function hasScore(s) { return s && typeof s==='object' && Number.isInteger(s.team_a) && Number.isInteger(s.team_b); }
 function hasPredict(m) { return m.has_predict || (m.predictions && m.predictions.length > 0); }
 function matchStatus(m) {
+  if (m.status === '进行中') return 'live';
   if (hasScore(m.score)) return 'finished';
+  if (m.status === '已结束') return 'finished';
   return new Date(m.kickoff_at).getTime() > Date.now() ? 'upcoming' : 'live';
 }
 function getCountdown(iso) {
