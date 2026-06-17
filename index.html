@@ -114,8 +114,10 @@ body { background-color: var(--color-background); color: var(--color-text-main);
 .animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
 .tabs-scroll::-webkit-scrollbar { display: none; }
 .tabs-scroll { -ms-overflow-style: none; scrollbar-width: none; }
-.prediction-strip { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.prediction-strip { display: grid; grid-template-columns: minmax(0,1fr); gap: 12px; }
 .prediction-card { min-width: 0; }
+@media (min-width: 768px) { .prediction-strip { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (min-width: 1024px) { .prediction-strip { grid-template-columns: repeat(4,minmax(0,1fr)); } }
 @media (max-width: 640px) {
   .risk-modal-overlay { padding: 14px; align-items: flex-end; }
   .risk-modal-panel { border-radius: 16px 16px 0 0; padding: 22px 18px; }
@@ -451,7 +453,7 @@ function renderHero() {
 
   if (recentFinished.length > 0) {
     html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">最近结束</span></div>`;
-    html += `<div class="prediction-strip md:grid md:grid-cols-2 lg:grid-cols-4 md:mb-6">`;
+    html += `<div class="prediction-strip md:mb-6">`;
     for (const m of recentFinished) {
       html += `<div class="match-card prediction-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
     }
@@ -460,7 +462,7 @@ function renderHero() {
 
   if (nextUpcoming.length > 0) {
     html += `<div class="mb-3"><span class="text-xs font-mono text-text-muted uppercase tracking-wider">即将开始</span></div>`;
-    html += `<div class="prediction-strip md:grid md:grid-cols-2 lg:grid-cols-4 md:mb-0">`;
+    html += `<div class="prediction-strip md:mb-0">`;
     for (const m of nextUpcoming) {
       html += `<div class="match-card prediction-card p-4 relative cursor-pointer" onclick="openDetail('${esc(m.match_id)}')">${heroCardInner(m)}</div>`;
     }
