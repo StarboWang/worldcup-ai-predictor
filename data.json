@@ -1756,11 +1756,11 @@
           "home_goals": 2,
           "away_goals": 0,
           "result": "主胜",
-          "analysis": "巴西攻防两端差距明显，进攻强度和防守质量都远高于海地，近期状态也更稳定；海地防守风险偏高，阵容深度难支撑长时间抗压。西雅图中立场，当前无明确伤停/首发数据。",
+          "analysis": "巴西进攻强度和防守稳定性都明显占优，近期状态也更稳，阵容深度预期优于海地。海地防守风险偏高，客场抗压难度大；当前无明确伤停/首发数据，soccer24_event缺失未能核验官方状态。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 03:03:10"
+          "time": "2026-06-18 04:19:02"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1835,11 +1835,11 @@
           "home_goals": 1,
           "away_goals": 0,
           "result": "主胜",
-          "analysis": "土耳其进攻强度优于巴拉圭，近期不败能力也略好；双方防守风险接近，比赛节奏可能偏谨慎。旧金山中立环境下，土耳其更可能凭前场效率小胜，当前无明确伤停/首发数据。",
+          "analysis": "土耳其进攻强度高于巴拉圭，近期不败能力较好，双方防守风险接近，比赛更可能由土耳其控节奏并小幅压制。巴拉圭进攻输出偏低；当前无明确伤停/首发数据，soccer24_event缺失未能核验官方状态。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 03:03:12"
+          "time": "2026-06-18 04:19:04"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1914,11 +1914,11 @@
           "home_goals": 2,
           "away_goals": 1,
           "result": "主胜",
-          "analysis": "荷兰进攻强度和防守质量均略优于瑞典，近期状态稳定，阵容深度与控场能力更占优；瑞典具备反击和定位球威胁，预计不会轻易被拉开。当前无明确伤停/首发数据。",
+          "analysis": "荷兰进攻效率和防守质量略优，近期状态稳定，阵容深度与比赛控制力更占优势。瑞典攻防均衡且状态不差，具备进球能力，但整体抗压稍弱；当前无明确伤停/首发数据，soccer24_event缺失未能核验官方状态。",
           "score": null,
           "hit_result": false,
           "hit_score": false,
-          "time": "2026-06-18 03:03:13"
+          "time": "2026-06-18 04:19:05"
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -1985,9 +1985,21 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-06-21 04:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "德国进攻强度和防守风险控制略好，整体实力与阵容深度更稳，适合在中立环境下保持主动。科特迪瓦近期状态出色、反击威胁不低，因此德国更像小胜；当前无明确伤停/首发数据，soccer24_event缺失未能核验官方状态。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-18 04:19:07"
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3781,5 +3793,5 @@
       "updated_at": "2026-06-18 03:08:02"
     }
   ],
-  "generated_at": "2026-06-18 04:18:56"
+  "generated_at": "2026-06-18 04:20:13"
 }
