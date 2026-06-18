@@ -1037,7 +1037,7 @@
       "away_score": 2,
       "stage": "小组赛第1轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-18 04:00:00",
       "predictions": [
         {
@@ -1046,9 +1046,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "英格兰进攻强度更高且防守风险更低，近期十场稳定性略优；克罗地亚经验和控球能力可制造拉锯。中立高温环境下节奏或偏谨慎，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 03:02:25"
         },
         {
@@ -1057,9 +1057,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "英格兰进攻火力强（1.9）防守稳固（0.7），但克罗地亚防线扎实（0.9）且近期W5 D3 L2状态稳定。Elo差仅100分，两队大赛经验丰富，首轮谨慎对垒，平局风险较高。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 03:04:57"
         }
       ],
@@ -1116,7 +1116,7 @@
       "away_score": 0,
       "stage": "小组赛第1轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-18 07:00:00",
       "predictions": [
         {
@@ -1125,9 +1125,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "加纳进攻强度略高，但两队防守风险同为1.3，近期状态也接近，比赛环境中立性较强，节奏不宜拉开。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 06:01:37"
         },
         {
@@ -1136,9 +1136,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "两队实力极为接近，FIFA排名仅差2位，Elo差距仅30分。双方防守同为1.3，进攻均偏弱（1.1对0.9），近期状态均以平局居多。当前无明确伤停/首发数据。低比分闷平概率极高。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 06:03:58"
         }
       ],
@@ -1195,7 +1195,7 @@
       "away_score": 3,
       "stage": "小组赛第1轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-18 10:00:00",
       "predictions": [
         {
@@ -1204,9 +1204,9 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "哥伦比亚整体实力和Elo层级更高，进攻强度更好且防守风险低于乌兹别克斯坦；双方近况都不差，墨西哥城环境中立偏考验节奏。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 09:01:30"
         },
         {
@@ -1215,9 +1215,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "乌兹别克斯坦近10场6胜2负状态出色，防守1.2组织严密不易击穿；哥伦比亚近10场3负不够稳定，Elo差200并不悬殊，阿兹特克高原中立场考验双方体能，哥伦比亚攻坚能力存疑，平局风险高。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 09:03:27"
         }
       ],
@@ -3937,5 +3937,5 @@
       "updated_at": "2026-06-18 14:02:33"
     }
   ],
-  "generated_at": "2026-06-18 14:02:38"
+  "generated_at": "2026-06-18 14:09:58"
 }
