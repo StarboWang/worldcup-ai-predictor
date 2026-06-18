@@ -1191,10 +1191,10 @@
       "venue": "墨西哥城阿兹特克体育场",
       "home": "乌兹别克斯坦",
       "away": "哥伦比亚",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 3,
       "stage": "小组赛第1轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-18 10:00:00",
       "predictions": [
@@ -3937,5 +3937,5 @@
       "updated_at": "2026-06-18 12:07:16"
     }
   ],
-  "generated_at": "2026-06-18 12:07:21"
+  "generated_at": "2026-06-18 12:11:47"
 }
