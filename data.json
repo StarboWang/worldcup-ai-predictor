@@ -1274,7 +1274,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-19 00:00:00",
       "predictions": [
         {
@@ -1283,9 +1283,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "捷克Elo和排名占优，进攻1.2配合南非防守风险1.4，更适合控节奏小比分推进；双方近期起伏都不小，洛杉矶中立环境削弱主场因素。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:29"
         },
         {
@@ -1294,9 +1294,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "捷克进攻火力偏弱(1.2)，近10场4平暴露终结效率不足的软肋；南非防守薄弱(1.4)但捷克缺乏持续压制力。Elo差仅180处于临界区，双方进攻均难形成绝对优势，平局是最合理的结构风险路径。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:17"
         }
       ],
@@ -1353,7 +1353,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-19 03:00:00",
       "predictions": [
         {
@@ -1362,9 +1362,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "瑞士攻防状态更均衡，进攻1.7、防守0.9明显优于波黑，近期W5 D3 L2也更稳定；波黑防守风险1.5且近况偏弱，阵容深度层面瑞士更可靠。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:31"
         },
         {
@@ -1373,9 +1373,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "瑞士防守稳固(0.9)严重限制波黑孱弱进攻(1.0)，波黑近5场仅2胜状态低迷；瑞士进攻(1.7)面对波黑防线(1.5)有明显优势。Elo差380，瑞士攻防两端均占优，零封取胜路径清晰。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:18"
         }
       ],
@@ -1432,7 +1432,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-19 06:00:00",
       "predictions": [
         {
@@ -1441,9 +1441,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "加拿大Elo略高但攻防不够压制，卡塔尔进攻1.4更有冲击力，不过防守风险1.6偏高；双方近期都较均衡，达拉斯环境下节奏可能拉锯。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:32"
         },
         {
@@ -1452,9 +1452,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "卡塔尔进攻(1.4)是全场最强单元，但防线(1.6)也是最弱环节；加拿大防守(1.3)稍好但进攻(1.2)平庸。双方近况均含3平，结构上攻守各有短板，互有进球平局是核心风险。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:20"
         }
       ],
@@ -1511,7 +1511,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-19 09:00:00",
       "predictions": [
         {
@@ -1520,9 +1520,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "墨西哥Elo和排名领先，防守1.0比韩国1.1略稳，近期W6 D2 L2保持强势；韩国进攻1.3具备反击质量，但整体攻防与阵容深度稍逊。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:34"
         },
         {
@@ -1531,9 +1531,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "韩国攻防(1.3/1.1)与墨西哥(1.4/1.0)差距极小，Elo差仅130，双方均处强势期(W6/W5)。墨西哥主场优势有限，韩国具备对等抗衡能力，平局是结构上的均衡结果。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:21"
         }
       ],
@@ -1590,7 +1590,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-20 03:00:00",
       "predictions": [
         {
@@ -1599,9 +1599,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "美国进攻1.5、防守0.9更均衡，近期W6 D3 L1状态稳定，且迈阿密比赛环境更利于其发挥；澳大利亚进攻不弱但防守风险1.2略高。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:36"
         },
         {
@@ -1610,9 +1610,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "美国防守(0.9)是全场最佳单元，主场作战优势明显；但澳大利亚进攻(1.4)具备破门实力，Elo差仅120。美国近10场仅1负状态极佳，但澳大利亚攻击力不容小觑，主队小胜是最可能的风险路径。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:23"
         }
       ],
@@ -1669,7 +1669,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-20 06:00:00",
       "predictions": [
         {
@@ -1678,9 +1678,9 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "摩洛哥Elo、排名和近期W6 D2 L2都优于苏格兰，进攻1.5配合防守0.8更完整；苏格兰主打对抗但防守风险1.1，休斯顿中立环境下优势有限。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:38"
         },
         {
@@ -1689,9 +1689,9 @@
           "away_goals": 1,
           "result": "客胜",
           "analysis": "摩洛哥防守(0.8)是全场最强单元，足以压制苏格兰进攻(1.3)；摩洛哥近况更优(W6 D2 L2)且进攻(1.5)优于苏格兰防线(1.1)。尽管苏格兰主场，摩洛哥攻防两端结构性优势使其更可能取胜。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:25"
         }
       ],
@@ -1748,7 +1748,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-20 08:30:00",
       "predictions": [
         {
@@ -1757,9 +1757,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "巴西整体实力差距明显，进攻2.1、防守0.7都远优于海地，近期W7 D2 L1也更稳定；海地进攻0.8、防守风险1.9，阵容深度难以长期承压。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:39"
         },
         {
@@ -1768,9 +1768,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "巴西进攻(2.1)面对海地防线(1.9)是碾压级优势，巴西防守(0.7)可轻松零封海地进攻(0.8)。海地近况低迷(W2 D3 L5)，巴西实力全方位碾压，大比分零封是最符合结构的路径。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:27"
         }
       ],
@@ -1827,7 +1827,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-20 11:00:00",
       "predictions": [
         {
@@ -1836,9 +1836,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "土耳其Elo和排名略占优，进攻1.5明显强于巴拉圭1.0；双方防守风险同为1.3，但土耳其近期W4 D4 L2更稳，旧金山中立环境适合谨慎小胜。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:01:41"
         },
         {
@@ -1847,9 +1847,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "土耳其进攻(1.5)是全场最强单元，面对巴拉圭平庸防线(1.3)有明显破门优势；巴拉圭进攻(1.0)是全场最弱单元，难以威胁土耳其防守。土耳其近10场4平显示效率不足，但巴拉圭攻击力匮乏使小胜概率最高。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:04:28"
         }
       ],
@@ -1906,7 +1906,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-21 01:00:00",
       "predictions": [
         {
@@ -1915,9 +1915,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "荷兰进攻强度更高，防守风险也低于瑞典，近期走势同样稳定；瑞典具备反击和得分能力，但阵容深度与整体压制力略逊。费城中立环境下，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:02:24"
         },
         {
@@ -1926,9 +1926,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "荷兰防线稳固(defense 0.8)但瑞典防守同样不弱(1.0)，近期状态两队接近，费城中立场无加成。Elo差仅130，荷兰攻坚能力未必能击穿组织严密的瑞典防线，平局是结构性风险。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:05:34"
         }
       ],
@@ -1985,7 +1985,7 @@
       "away_score": 1,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-21 04:00:00",
       "predictions": [
         {
@@ -1994,9 +1994,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "德国进攻端质量和阵容深度更占优，防守风险也低于科特迪瓦；科特迪瓦近期状态很好，反击威胁不低，但整体攻坚稳定性稍弱。波士顿中立场地，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:02:26"
         },
         {
@@ -2005,9 +2005,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "德国近期状态不稳(W5 D2 L3三轮失利)，科特迪瓦反而状态出色(W6 D3 L1仅一负)。德国进攻(1.8)面对科特迪瓦尚可的防守(1.1)未必能形成持续压制，冷门风险不可忽视。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:05:36"
         }
       ],
@@ -2064,7 +2064,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-21 08:00:00",
       "predictions": [
         {
@@ -2073,9 +2073,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "厄瓜多尔攻防均衡性明显好于库拉索，近期表现也更稳定；库拉索进攻强度偏低且防守风险较高，预计更多时间被压制。堪萨斯城中立环境，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:02:28"
         },
         {
@@ -2084,9 +2084,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "厄瓜多尔进攻有限(1.3)面对库拉索薄弱防线(1.5)理论上有优势，但厄瓜多尔自身终结效率不高，近期状态中规中矩。库拉索虽弱但厄瓜多尔大胜能力存疑，一球小胜更合理。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:05:38"
         }
       ],
@@ -2143,7 +2143,7 @@
       "away_score": 4,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-06-21 12:00:00",
       "predictions": [
         {
@@ -2152,9 +2152,9 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "日本进攻强度和防守质量都优于突尼斯，近期状态也保持较好；突尼斯近况坚韧，比赛可能胶着，但持续创造机会能力略弱。多伦多中立环境，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:02:29"
         },
         {
@@ -2163,9 +2163,9 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "突尼斯极难被击败(近10场仅1负)，防守扎实(1.1)；日本进攻虽强(1.6)但面对突尼斯顽强防守可能陷入苦战。多伦多中立场无加成，Elo差仅80，平局是真实的结构性风险。",
-          "score": null,
-          "hit_result": false,
-          "hit_score": false,
+          "score": -100,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-06-18 12:05:39"
         }
       ],
@@ -2222,7 +2222,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-06-22 00:00:00",
       "predictions": [],
       "odds": {
@@ -2249,7 +2249,7 @@
       "away_score": 0,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-06-22 03:00:00",
       "predictions": [],
       "odds": {
@@ -2276,7 +2276,7 @@
       "away_score": 2,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-06-22 06:00:00",
       "predictions": [],
       "odds": {
@@ -2303,7 +2303,7 @@
       "away_score": 3,
       "stage": "小组赛第2轮",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-06-22 09:00:00",
       "predictions": [],
       "odds": {
@@ -4665,5 +4665,5 @@
       "updated_at": "2026-06-22 12:17:06"
     }
   ],
-  "generated_at": "2026-06-22 12:19:10"
+  "generated_at": "2026-06-22 12:24:26"
 }
