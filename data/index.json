@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:12:04+08:00",
+  "generated_at": "2026-06-22T11:22:34+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2711,16 +2711,16 @@
       },
       "predictions": [],
       "odds": {
-        "source": "内部估算",
-        "bookmaker": "内部估算盘",
-        "home_odds": 1.86,
-        "draw_odds": 3.48,
-        "away_odds": 4.27,
-        "home_imp": 0.5076,
-        "draw_imp": 0.2713,
-        "away_imp": 0.2211,
-        "updated_at": "2026-06-18 19:01:27",
-        "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
+        "source": "真实API",
+        "bookmaker": "BetExplorer (聚合多家欧洲盘)",
+        "home_odds": 1.38,
+        "draw_odds": 4.61,
+        "away_odds": 9.11,
+        "home_imp": 0.6893,
+        "draw_imp": 0.2063,
+        "away_imp": 0.1044,
+        "updated_at": "2026-06-22 11:20:05",
+        "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [],
       "status": "已结束",
@@ -2772,30 +2772,45 @@
       "team_a_id": "arg",
       "team_b_id": "aut",
       "venue": "洛杉矶SoFi体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "阿根廷进攻强度更高且防守风险更低，近期W8 D1 L1稳定性优于奥地利。洛杉矶中立场削弱主场因素，soccer24_event未提供，当前无明确伤停/首发数据。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "阿根廷进攻强度更高且防守风险更低，近期W8 D1 L1稳定性优于奥地利。洛杉矶中立场削弱主场因素，soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
-        "source": "内部估算",
-        "bookmaker": "内部估算盘",
-        "home_odds": 1.85,
-        "draw_odds": 5.51,
-        "away_odds": 2.96,
-        "home_imp": 0.51,
-        "draw_imp": 0.1712,
-        "away_imp": 0.3188,
-        "updated_at": "2026-06-18 19:01:29",
-        "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
+        "source": "真实API",
+        "bookmaker": "BetExplorer (聚合多家欧洲盘)",
+        "home_odds": 1.52,
+        "draw_odds": 4.06,
+        "away_odds": 6.81,
+        "home_imp": 0.6259,
+        "draw_imp": 0.2343,
+        "away_imp": 0.1397,
+        "updated_at": "2026-06-22 11:20:07",
+        "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M034",
@@ -2806,30 +2821,45 @@
       "team_a_id": "fra",
       "team_b_id": "irq",
       "venue": "纽约大都会体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "法国攻防两端更均衡，进攻强度明显高于伊拉克，防守风险也更低；近期W7 D2 L1延续性好，阵容深度占优。soccer24_event未提供，当前无明确伤停/首发..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "法国攻防两端更均衡，进攻强度明显高于伊拉克，防守风险也更低；近期W7 D2 L1延续性好，阵容深度占优。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
-        "source": "内部估算",
-        "bookmaker": "内部估算盘",
-        "home_odds": 1.48,
-        "draw_odds": 5.42,
-        "away_odds": 5.06,
-        "home_imp": 0.6388,
-        "draw_imp": 0.1744,
-        "away_imp": 0.1868,
-        "updated_at": "2026-06-18 19:01:30",
-        "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
+        "source": "真实API",
+        "bookmaker": "BetExplorer (聚合多家欧洲盘)",
+        "home_odds": 1.08,
+        "draw_odds": 11.6,
+        "away_odds": 30.72,
+        "home_imp": 0.8863,
+        "draw_imp": 0.0825,
+        "away_imp": 0.0312,
+        "updated_at": "2026-06-22 11:20:09",
+        "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M035",
@@ -2840,15 +2870,30 @@
       "team_a_id": "nor",
       "team_b_id": "sen",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
-        "D": [],
+        "D": [
+          "gpt-5.5"
+        ],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "挪威与塞内加尔进攻强度相同，塞内加尔防守风险略低，双方近期状态都较稳定。达拉斯中立环境下差距不大，soccer24_event未提供，当前无明确伤停/首发数据。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "挪威与塞内加尔进攻强度相同，塞内加尔防守风险略低，双方近期状态都较稳定。达拉斯中立环境下差距不大，soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2863,7 +2908,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M036",
@@ -2874,15 +2919,30 @@
       "team_a_id": "jor",
       "team_b_id": "alg",
       "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "阿尔及利亚进攻强度和防守风险都略优于约旦，整体实力层级更高；双方近期同为W4 D3 L3，节奏可能偏谨慎。soccer24_event未提供，当前无明确伤停/首..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 0,
+          "away_goals": 1,
+          "result": "客胜",
+          "analysis": "阿尔及利亚进攻强度和防守风险都略优于约旦，整体实力层级更高；双方近期同为W4 D3 L3，节奏可能偏谨慎。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2897,7 +2957,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M037",
@@ -2908,15 +2968,30 @@
       "team_a_id": "por",
       "team_b_id": "uzb",
       "venue": "迈阿密硬石体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "葡萄牙进攻强度突出且防守风险较低，近期W7 D1 L2保持强队稳定性；乌兹别克斯坦状态不差但阵容深度和攻坚质量处下风。soccer24_event未提供，当前无..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "葡萄牙进攻强度突出且防守风险较低，近期W7 D1 L2保持强队稳定性；乌兹别克斯坦状态不差但阵容深度和攻坚质量处下风。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2931,7 +3006,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M038",
@@ -2942,15 +3017,30 @@
       "team_a_id": "eng",
       "team_b_id": "gha",
       "venue": "休斯顿NRG体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "英格兰进攻强度更高、防守风险更低，近期W6 D3 L1说明下限稳定；加纳防守风险偏高但具备反击进球空间。soccer24_event未提供，当前无明确伤停/首发..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "英格兰进攻强度更高、防守风险更低，近期W6 D3 L1说明下限稳定；加纳防守风险偏高但具备反击进球空间。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2965,7 +3055,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M039",
@@ -2976,15 +3066,30 @@
       "team_a_id": "pan",
       "team_b_id": "cro",
       "venue": "西雅图Lumen球场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "克罗地亚进攻强度、防守风险和整体经验都优于巴拿马，近期W5 D3 L2也更稳；巴拿马防守风险偏高但有低比分拉扯空间。soccer24_event未提供，当前无明..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "克罗地亚进攻强度、防守风险和整体经验都优于巴拿马，近期W5 D3 L2也更稳；巴拿马防守风险偏高但有低比分拉扯空间。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2999,7 +3104,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M040",
@@ -3010,15 +3115,30 @@
       "team_a_id": "col",
       "team_b_id": "cod",
       "venue": "旧金山Levi's体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "哥伦比亚进攻强度更好，防守风险也低于刚果(金)，近期W5 D2 L3整体表现更有支撑；比赛可能偏低比分。soccer24_event未提供，当前无明确伤停/首发..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "哥伦比亚进攻强度更好，防守风险也低于刚果(金)，近期W5 D2 L3整体表现更有支撑；比赛可能偏低比分。soccer24_event未提供，当前无明确伤停/首发数据。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3033,7 +3153,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M041",
@@ -3044,15 +3164,30 @@
       "team_a_id": "bih",
       "team_b_id": "qat",
       "venue": "费城林肯金融球场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
-        "D": [],
+        "D": [
+          "gpt-5.5"
+        ],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "两队整体差距不大，波黑进攻输出偏低且近况起伏，卡塔尔进攻稍好但防守风险也高。费城中立环境下节奏可能谨慎，当前无明确伤停/首发数据，倾向低比分胶着。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "两队整体差距不大，波黑进攻输出偏低且近况起伏，卡塔尔进攻稍好但防守风险也高。费城中立环境下节奏可能谨慎，当前无明确伤停/首发数据，倾向低比分胶着。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3067,7 +3202,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M042",
@@ -3078,15 +3213,30 @@
       "team_a_id": "sui",
       "team_b_id": "can",
       "venue": "波士顿吉列体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "瑞士攻防更均衡，进攻强度和防守稳定性都优于加拿大，近期状态也更连续。加拿大有一定反击能力，但阵容深度与整体控制力稍弱，当前无明确伤停/首发数据，看好瑞士小胜。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "瑞士攻防更均衡，进攻强度和防守稳定性都优于加拿大，近期状态也更连续。加拿大有一定反击能力，但阵容深度与整体控制力稍弱，当前无明确伤停/首发数据，看好瑞士小胜。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3101,7 +3251,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M043",
@@ -3112,15 +3262,30 @@
       "team_a_id": "mar",
       "team_b_id": "hai",
       "venue": "堪萨斯城箭头体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "摩洛哥防守质量突出，进攻强度也明显高于海地，近期状态稳定。海地防守风险偏高，面对更有组织性的压迫和转换会吃力，当前无明确伤停/首发数据，摩洛哥更像控局取胜。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "摩洛哥防守质量突出，进攻强度也明显高于海地，近期状态稳定。海地防守风险偏高，面对更有组织性的压迫和转换会吃力，当前无明确伤停/首发数据，摩洛哥更像控局取胜。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3135,7 +3300,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M044",
@@ -3146,15 +3311,30 @@
       "team_a_id": "sco",
       "team_b_id": "bra",
       "venue": "多伦多BMO球场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "巴西进攻火力和防守质量都处在更高层级，近期状态也更强。苏格兰对抗和纪律性不错，但面对巴西的前场压迫与持续冲击，防线承压较大，当前无明确伤停/首发数据，倾向巴西小..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "巴西进攻火力和防守质量都处在更高层级，近期状态也更强。苏格兰对抗和纪律性不错，但面对巴西的前场压迫与持续冲击，防线承压较大，当前无明确伤停/首发数据，倾向巴西小胜。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3169,7 +3349,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M045",
@@ -3180,15 +3360,30 @@
       "team_a_id": "cze",
       "team_b_id": "mex",
       "venue": "温哥华BC Place",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "捷克攻防较均衡但进攻上限有限，墨西哥近期状态更好，防守风险也略低。温哥华中立环境下比赛可能拉锯，当前无明确伤停/首发数据，墨西哥凭更稳定的攻防效率险胜。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "捷克攻防较均衡但进攻上限有限，墨西哥近期状态更好，防守风险也略低。温哥华中立环境下比赛可能拉锯，当前无明确伤停/首发数据，墨西哥凭更稳定的攻防效率险胜。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3203,7 +3398,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M046",
@@ -3214,15 +3409,30 @@
       "team_a_id": "rsa",
       "team_b_id": "kor",
       "venue": "蒙特雷BBVA体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "韩国进攻强度、防守稳定性和近期状态均优于南非，整体节奏控制更可靠。南非进攻效率一般，面对韩国较好的防守组织不易打开局面，当前无明确伤停/首发数据，倾向韩国小胜。"
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 0,
+          "away_goals": 1,
+          "result": "客胜",
+          "analysis": "韩国进攻强度、防守稳定性和近期状态均优于南非，整体节奏控制更可靠。南非进攻效率一般，面对韩国较好的防守组织不易打开局面，当前无明确伤停/首发数据，倾向韩国小胜。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3237,7 +3447,7 @@
       },
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M047",
