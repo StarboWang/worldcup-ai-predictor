@@ -3300,6 +3300,17 @@
           "hit_result": false,
           "hit_score": false,
           "time": "2026-06-22 11:22:13"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 0,
+          "away_goals": 1,
+          "result": "客胜",
+          "analysis": "韩国攻防均优于南非(攻1.3vs1.0/守1.1vs1.4)，近期状态也更稳定(W5 D3 L2 vs W3 D3 L4)。南非防线漏洞大，韩国进攻虽非强势但足以破门。南非进攻乏力难以回应，韩国小胜格局但平局风险需警惕。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-22 11:27:26"
         }
       ],
       "odds": {
@@ -4570,5 +4581,5 @@
       "updated_at": "2026-06-22 11:27:24"
     }
   ],
-  "generated_at": "2026-06-22 11:27:29"
+  "generated_at": "2026-06-22 11:27:36"
 }
