@@ -2642,10 +2642,10 @@
       "venue": "迈阿密硬石体育场",
       "home": "葡萄牙",
       "away": "乌兹别克斯坦",
-      "home_score": 0,
+      "home_score": 5,
       "away_score": 0,
       "stage": "小组赛第2轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-24 01:00:00",
       "predictions": [
@@ -5081,5 +5081,5 @@
       "updated_at": "2026-06-24 03:04:51"
     }
   ],
-  "generated_at": "2026-06-24 03:06:11"
+  "generated_at": "2026-06-24 03:11:30"
 }
