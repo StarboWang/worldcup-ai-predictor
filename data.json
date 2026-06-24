@@ -756,7 +756,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-06-25 01:26:55",
+        "updated_at": "2026-06-25 04:29:23",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1388,7 +1388,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-06-25 01:26:57",
+        "updated_at": "2026-06-25 04:29:24",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1467,7 +1467,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-06-25 01:26:57",
+        "updated_at": "2026-06-25 04:29:24",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1546,7 +1546,7 @@
         "home_imp": 0.4792,
         "draw_imp": 0.2286,
         "away_imp": 0.2923,
-        "updated_at": "2026-06-25 01:26:58",
+        "updated_at": "2026-06-25 04:29:25",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1625,7 +1625,7 @@
         "home_imp": 0.4175,
         "draw_imp": 0.2252,
         "away_imp": 0.3574,
-        "updated_at": "2026-06-25 01:26:59",
+        "updated_at": "2026-06-25 04:29:26",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1704,7 +1704,7 @@
         "home_imp": 0.4769,
         "draw_imp": 0.2146,
         "away_imp": 0.3086,
-        "updated_at": "2026-06-25 01:27:00",
+        "updated_at": "2026-06-25 04:29:27",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -2958,10 +2958,10 @@
       "venue": "费城林肯金融球场",
       "home": "波黑",
       "away": "卡塔尔",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 3,
+      "away_score": 1,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-25 03:00:00",
       "predictions": [
@@ -3037,10 +3037,10 @@
       "venue": "波士顿吉列体育场",
       "home": "瑞士",
       "away": "加拿大",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 2,
+      "away_score": 1,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-25 03:00:00",
       "predictions": [
@@ -5289,5 +5289,5 @@
       "updated_at": "2026-06-25 02:02:13"
     }
   ],
-  "generated_at": "2026-06-25 03:07:45"
+  "generated_at": "2026-06-25 05:35:20"
 }
