@@ -3116,10 +3116,10 @@
       "venue": "堪萨斯城箭头体育场",
       "home": "摩洛哥",
       "away": "海地",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 4,
+      "away_score": 2,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-25 06:00:00",
       "predictions": [
@@ -3196,9 +3196,9 @@
       "home": "苏格兰",
       "away": "巴西",
       "home_score": 0,
-      "away_score": 0,
+      "away_score": 3,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-25 06:00:00",
       "predictions": [
@@ -3307,13 +3307,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 3.69,
-        "draw_odds": 3.71,
-        "away_odds": 1.91,
-        "home_imp": 0.2547,
-        "draw_imp": 0.2533,
-        "away_imp": 0.492,
-        "updated_at": "2026-06-25 06:44:34",
+        "home_odds": 4.41,
+        "draw_odds": 3.99,
+        "away_odds": 1.71,
+        "home_imp": 0.2135,
+        "draw_imp": 0.236,
+        "away_imp": 0.5506,
+        "updated_at": "2026-06-25 08:31:52",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3386,13 +3386,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 5.73,
-        "draw_odds": 3.83,
-        "away_odds": 1.61,
-        "home_imp": 0.1652,
-        "draw_imp": 0.2471,
-        "away_imp": 0.5878,
-        "updated_at": "2026-06-25 06:44:35",
+        "home_odds": 5.5,
+        "draw_odds": 3.63,
+        "away_odds": 1.67,
+        "home_imp": 0.1722,
+        "draw_imp": 0.2608,
+        "away_imp": 0.567,
+        "updated_at": "2026-06-25 08:31:53",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3471,7 +3471,7 @@
         "home_imp": 0.0575,
         "draw_imp": 0.1181,
         "away_imp": 0.8245,
-        "updated_at": "2026-06-25 06:44:36",
+        "updated_at": "2026-06-25 08:31:54",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3544,13 +3544,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 3.81,
-        "draw_odds": 4.08,
-        "away_odds": 1.81,
-        "home_imp": 0.2476,
-        "draw_imp": 0.2312,
-        "away_imp": 0.5212,
-        "updated_at": "2026-06-25 06:44:38",
+        "home_odds": 4.08,
+        "draw_odds": 4.18,
+        "away_odds": 1.75,
+        "home_imp": 0.2322,
+        "draw_imp": 0.2266,
+        "away_imp": 0.5412,
+        "updated_at": "2026-06-25 08:31:56",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4542,9 +4542,21 @@
       "away_score": 0,
       "stage": "小组赛第3轮",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-06-28 07:30:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "葡萄牙进攻强度更高、防守风险更低，近期状态也更稳定；哥伦比亚具备反击和对抗能力，但整体火力与阵容深度略逊。温哥华中立环境削弱主场因素，当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-25 09:17:20"
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -4569,7 +4581,7 @@
       "away_score": 0,
       "stage": "小组赛第3轮",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-06-28 07:30:00",
       "predictions": [],
       "odds": {
@@ -5393,5 +5405,5 @@
       "updated_at": "2026-06-25 06:48:38"
     }
   ],
-  "generated_at": "2026-06-25 06:53:56"
+  "generated_at": "2026-06-25 09:17:25"
 }
