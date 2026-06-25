@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:07:42+08:00",
+  "generated_at": "2026-06-25T14:13:04+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -3728,8 +3728,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "摩洛哥防守质量突出，进攻强度也明显高于海地，近期状态稳定。海地防守风险偏高，面对更有组织性的压迫和转换会吃力，当前无明确伤停/首发数据，摩洛哥更像控局取胜。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3738,8 +3738,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "摩洛哥防守极强(0.8)，海地进攻羸弱(0.8)难以破门；海地防守漏洞大(1.9)，摩洛哥进攻(1.5)虽非顶级但足以破门。摩洛哥近期状态火热(W6 D2 L2)，零封取胜概率高，但进攻上限有限限制比分。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -3785,7 +3785,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M044",
@@ -3821,8 +3821,8 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "巴西进攻火力和防守质量都处在更高层级，近期状态也更强。苏格兰对抗和纪律性不错，但面对巴西的前场压迫与持续冲击，防线承压较大，当前无明确伤停/首发数据，倾向巴西小胜。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3831,8 +3831,8 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "巴西攻防均为顶级(攻2.1/守0.7)，近期状态极佳(W7 D2 L1)；苏格兰防守尚可(1.1)但进攻火力不足(1.3)。巴西实力碾压，苏格兰难以在巴西防线前制造实质威胁，零封客胜格局。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -3878,7 +3878,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M045",
@@ -3915,8 +3915,8 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "捷克攻防较均衡但进攻上限有限，墨西哥近期状态更好，防守风险也略低。温哥华中立环境下比赛可能拉锯，当前无明确伤停/首发数据，墨西哥凭更稳定的攻防效率险胜。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3925,8 +3925,8 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "两队实力极为接近，墨西哥攻防略优(攻1.4/守1.0)且近期状态出色(W6 D2 L2)；捷克攻防均衡但平庸(攻1.2/守1.2)，近10场4平暴露攻坚乏力。中立场地下双方均难占绝对优势，平局风险极高。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -3972,7 +3972,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M046",
@@ -4008,8 +4008,8 @@
           "away_goals": 1,
           "result": "客胜",
           "analysis": "韩国进攻强度、防守稳定性和近期状态均优于南非，整体节奏控制更可靠。南非进攻效率一般，面对韩国较好的防守组织不易打开局面，当前无明确伤停/首发数据，倾向韩国小胜。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -4018,8 +4018,8 @@
           "away_goals": 1,
           "result": "客胜",
           "analysis": "韩国攻防均优于南非(攻1.3vs1.0/守1.1vs1.4)，近期状态也更稳定(W5 D3 L2 vs W3 D3 L4)。南非防线漏洞大，韩国进攻虽非强势但足以破门。南非进攻乏力难以回应，韩国小胜格局但平局风险需警惕。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -4065,7 +4065,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M047",
