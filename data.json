@@ -3465,13 +3465,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 16.5,
+        "home_odds": 16.25,
         "draw_odds": 8.03,
         "away_odds": 1.15,
-        "home_imp": 0.0575,
-        "draw_imp": 0.1181,
-        "away_imp": 0.8245,
-        "updated_at": "2026-06-25 08:31:54",
+        "home_imp": 0.0583,
+        "draw_imp": 0.118,
+        "away_imp": 0.8237,
+        "updated_at": "2026-06-25 10:00:28",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3544,13 +3544,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 4.08,
-        "draw_odds": 4.18,
-        "away_odds": 1.75,
-        "home_imp": 0.2322,
-        "draw_imp": 0.2266,
-        "away_imp": 0.5412,
-        "updated_at": "2026-06-25 08:31:56",
+        "home_odds": 4.23,
+        "draw_odds": 4.25,
+        "away_odds": 1.72,
+        "home_imp": 0.2245,
+        "draw_imp": 0.2234,
+        "away_imp": 0.5521,
+        "updated_at": "2026-06-25 10:00:31",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4642,9 +4642,21 @@
       "away_score": 0,
       "stage": "小组赛第3轮",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-06-28 10:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "奥地利进攻强度1.5高于阿尔及利亚，防守风险1.0也更稳，近期W6 D2 L2优于对手。阿尔及利亚有一定对抗和比赛环境适应空间，当前无明确伤停/首发数据，倾向奥地利小胜。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-25 10:01:48"
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -4669,9 +4681,21 @@
       "away_score": 0,
       "stage": "小组赛第3轮",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-06-28 10:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 0,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "阿根廷攻防强度明显占优，进攻2.2且防守风险0.6，近期W8 D1 L1稳定；约旦防守风险1.3，阵容深度和高强度抗压处劣势。当前无明确伤停/首发数据，倾向阿根廷控制节奏取胜。",
+          "score": null,
+          "hit_result": false,
+          "hit_score": false,
+          "time": "2026-06-25 10:01:51"
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5439,5 +5463,5 @@
       "updated_at": "2026-06-25 06:48:38"
     }
   ],
-  "generated_at": "2026-06-25 09:41:50"
+  "generated_at": "2026-06-25 10:02:55"
 }
