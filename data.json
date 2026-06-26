@@ -3751,7 +3751,7 @@
       "home_score": 0,
       "away_score": 0,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-26 10:00:00",
       "predictions": [
@@ -3827,10 +3827,10 @@
       "venue": "亚特兰大梅赛德斯-奔驰体育场",
       "home": "土耳其",
       "away": "美国",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 3,
+      "away_score": 2,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-26 10:00:00",
       "predictions": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-26 12:03:44"
     }
   ],
-  "generated_at": "2026-06-26 12:06:09"
+  "generated_at": "2026-06-26 12:11:42"
 }
