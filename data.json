@@ -3629,7 +3629,7 @@
         "home_imp": 0.4095,
         "draw_imp": 0.2879,
         "away_imp": 0.3026,
-        "updated_at": "2026-06-26 23:00:16",
+        "updated_at": "2026-06-27 00:00:24",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3787,7 +3787,7 @@
         "home_imp": 0.3699,
         "draw_imp": 0.4047,
         "away_imp": 0.2255,
-        "updated_at": "2026-06-26 23:00:19",
+        "updated_at": "2026-06-27 00:00:25",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3939,13 +3939,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 4.62,
-        "draw_odds": 4.46,
-        "away_odds": 1.62,
-        "home_imp": 0.2046,
-        "draw_imp": 0.2119,
-        "away_imp": 0.5835,
-        "updated_at": "2026-06-26 23:00:20",
+        "home_odds": 4.79,
+        "draw_odds": 4.61,
+        "away_odds": 1.58,
+        "home_imp": 0.1972,
+        "draw_imp": 0.2049,
+        "away_imp": 0.5979,
+        "updated_at": "2026-06-27 00:00:26",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4019,12 +4019,12 @@
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
         "home_odds": 1.21,
-        "draw_odds": 6.73,
+        "draw_odds": 6.85,
         "away_odds": 12.13,
-        "home_imp": 0.7815,
-        "draw_imp": 0.1405,
-        "away_imp": 0.078,
-        "updated_at": "2026-06-26 23:00:21",
+        "home_imp": 0.7835,
+        "draw_imp": 0.1384,
+        "away_imp": 0.0782,
+        "updated_at": "2026-06-27 00:00:27",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-26 23:02:44"
     }
   ],
-  "generated_at": "2026-06-26 23:03:08"
+  "generated_at": "2026-06-27 00:00:34"
 }
