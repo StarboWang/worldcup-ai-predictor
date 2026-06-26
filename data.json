@@ -756,7 +756,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-06-27 03:00:51",
+        "updated_at": "2026-06-27 04:07:35",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1388,7 +1388,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-06-27 03:00:52",
+        "updated_at": "2026-06-27 04:07:36",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1467,7 +1467,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-06-27 03:00:53",
+        "updated_at": "2026-06-27 04:07:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1546,7 +1546,7 @@
         "home_imp": 0.4792,
         "draw_imp": 0.2286,
         "away_imp": 0.2923,
-        "updated_at": "2026-06-27 03:00:54",
+        "updated_at": "2026-06-27 04:07:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1625,7 +1625,7 @@
         "home_imp": 0.4175,
         "draw_imp": 0.2252,
         "away_imp": 0.3574,
-        "updated_at": "2026-06-27 03:00:54",
+        "updated_at": "2026-06-27 04:07:38",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1704,7 +1704,7 @@
         "home_imp": 0.4769,
         "draw_imp": 0.2146,
         "away_imp": 0.3086,
-        "updated_at": "2026-06-27 03:00:55",
+        "updated_at": "2026-06-27 04:07:39",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -3629,7 +3629,7 @@
         "home_imp": 0.4095,
         "draw_imp": 0.2879,
         "away_imp": 0.3026,
-        "updated_at": "2026-06-27 03:00:43",
+        "updated_at": "2026-06-27 04:07:29",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3787,7 +3787,7 @@
         "home_imp": 0.3699,
         "draw_imp": 0.4047,
         "away_imp": 0.2255,
-        "updated_at": "2026-06-27 03:00:44",
+        "updated_at": "2026-06-27 04:07:30",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -3906,10 +3906,10 @@
       "venue": "迈阿密硬石体育场",
       "home": "挪威",
       "away": "法国",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 4,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-27 03:00:00",
       "predictions": [
@@ -3985,10 +3985,10 @@
       "venue": "休斯顿NRG体育场",
       "home": "塞内加尔",
       "away": "伊拉克",
-      "home_score": 0,
+      "home_score": 5,
       "away_score": 0,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-27 03:00:00",
       "predictions": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-27 03:03:06"
     }
   ],
-  "generated_at": "2026-06-27 03:03:35"
+  "generated_at": "2026-06-27 05:07:52"
 }
