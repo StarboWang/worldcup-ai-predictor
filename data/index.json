@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T08:04:14+08:00",
+  "generated_at": "2026-06-26T09:01:00+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -898,7 +898,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-06-26 08:00:25",
+        "updated_at": "2026-06-26 09:00:36",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1645,7 +1645,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-06-26 08:00:27",
+        "updated_at": "2026-06-26 09:00:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1738,7 +1738,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-06-26 08:00:28",
+        "updated_at": "2026-06-26 09:00:37",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1832,7 +1832,7 @@
         "home_imp": 0.4792,
         "draw_imp": 0.2286,
         "away_imp": 0.2923,
-        "updated_at": "2026-06-26 08:00:29",
+        "updated_at": "2026-06-26 09:00:38",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1925,7 +1925,7 @@
         "home_imp": 0.4175,
         "draw_imp": 0.2252,
         "away_imp": 0.3574,
-        "updated_at": "2026-06-26 08:00:30",
+        "updated_at": "2026-06-26 09:00:39",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2018,7 +2018,7 @@
         "home_imp": 0.4769,
         "draw_imp": 0.2146,
         "away_imp": 0.3086,
-        "updated_at": "2026-06-26 08:00:31",
+        "updated_at": "2026-06-26 09:00:40",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2111,7 +2111,7 @@
         "home_imp": 0.6287,
         "draw_imp": 0.2143,
         "away_imp": 0.1569,
-        "updated_at": "2026-06-26 08:00:32",
+        "updated_at": "2026-06-26 09:00:42",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2204,7 +2204,7 @@
         "home_imp": 0.554,
         "draw_imp": 0.2616,
         "away_imp": 0.1843,
-        "updated_at": "2026-06-26 08:00:32",
+        "updated_at": "2026-06-26 09:00:43",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2298,7 +2298,7 @@
         "home_imp": 0.536,
         "draw_imp": 0.185,
         "away_imp": 0.2791,
-        "updated_at": "2026-06-26 08:00:33",
+        "updated_at": "2026-06-26 09:00:44",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2392,7 +2392,7 @@
         "home_imp": 0.5445,
         "draw_imp": 0.1967,
         "away_imp": 0.2588,
-        "updated_at": "2026-06-26 08:00:34",
+        "updated_at": "2026-06-26 09:00:45",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2485,7 +2485,7 @@
         "home_imp": 0.4937,
         "draw_imp": 0.3061,
         "away_imp": 0.2002,
-        "updated_at": "2026-06-26 08:00:35",
+        "updated_at": "2026-06-26 09:00:46",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2579,7 +2579,7 @@
         "home_imp": 0.3287,
         "draw_imp": 0.2365,
         "away_imp": 0.4348,
-        "updated_at": "2026-06-26 08:00:36",
+        "updated_at": "2026-06-26 09:00:47",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2645,7 +2645,7 @@
         "home_imp": 0.5966,
         "draw_imp": 0.198,
         "away_imp": 0.2054,
-        "updated_at": "2026-06-26 08:00:37",
+        "updated_at": "2026-06-26 09:00:48",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -2682,7 +2682,7 @@
         "home_imp": 0.5941,
         "draw_imp": 0.1782,
         "away_imp": 0.2276,
-        "updated_at": "2026-06-26 08:00:38",
+        "updated_at": "2026-06-26 09:00:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -2756,7 +2756,7 @@
         "home_imp": 0.2532,
         "draw_imp": 0.3056,
         "away_imp": 0.4413,
-        "updated_at": "2026-06-26 08:00:38",
+        "updated_at": "2026-06-26 09:00:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -3565,7 +3565,7 @@
         "home_imp": 0.2616,
         "draw_imp": 0.3434,
         "away_imp": 0.3951,
-        "updated_at": "2026-06-26 08:00:39",
+        "updated_at": "2026-06-26 09:00:50",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -3751,7 +3751,7 @@
         "home_imp": 0.4587,
         "draw_imp": 0.3009,
         "away_imp": 0.2404,
-        "updated_at": "2026-06-26 08:00:40",
+        "updated_at": "2026-06-26 09:00:51",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -3844,7 +3844,7 @@
         "home_imp": 0.3403,
         "draw_imp": 0.1885,
         "away_imp": 0.4712,
-        "updated_at": "2026-06-26 08:00:41",
+        "updated_at": "2026-06-26 09:00:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -4483,13 +4483,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 2.62,
-        "draw_odds": 2.22,
-        "away_odds": 4.38,
-        "home_imp": 0.3599,
-        "draw_imp": 0.4248,
-        "away_imp": 0.2153,
-        "updated_at": "2026-06-26 08:00:17",
+        "home_odds": 2.63,
+        "draw_odds": 2.26,
+        "away_odds": 4.23,
+        "home_imp": 0.359,
+        "draw_imp": 0.4178,
+        "away_imp": 0.2232,
+        "updated_at": "2026-06-26 09:00:26",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -4580,7 +4580,7 @@
         "home_imp": 0.5263,
         "draw_imp": 0.2141,
         "away_imp": 0.2595,
-        "updated_at": "2026-06-26 08:00:42",
+        "updated_at": "2026-06-26 09:00:53",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -4664,13 +4664,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 4.88,
-        "draw_odds": 4.35,
-        "away_odds": 1.6,
-        "home_imp": 0.1934,
-        "draw_imp": 0.2169,
-        "away_imp": 0.5897,
-        "updated_at": "2026-06-26 08:00:19",
+        "home_odds": 4.9,
+        "draw_odds": 4.38,
+        "away_odds": 1.59,
+        "home_imp": 0.1923,
+        "draw_imp": 0.2151,
+        "away_imp": 0.5926,
+        "updated_at": "2026-06-26 09:00:28",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -4757,11 +4757,11 @@
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
         "home_odds": 1.22,
         "draw_odds": 6.49,
-        "away_odds": 12.0,
-        "home_imp": 0.7754,
-        "draw_imp": 0.1458,
-        "away_imp": 0.0788,
-        "updated_at": "2026-06-26 08:00:20",
+        "away_odds": 12.25,
+        "home_imp": 0.7767,
+        "draw_imp": 0.146,
+        "away_imp": 0.0773,
+        "updated_at": "2026-06-26 09:00:29",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -4851,7 +4851,7 @@
         "home_imp": 0.321,
         "draw_imp": 0.3602,
         "away_imp": 0.3188,
-        "updated_at": "2026-06-26 08:00:43",
+        "updated_at": "2026-06-26 09:00:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -4942,7 +4942,7 @@
         "home_imp": 0.3854,
         "draw_imp": 0.1911,
         "away_imp": 0.4234,
-        "updated_at": "2026-06-26 08:00:44",
+        "updated_at": "2026-06-26 09:00:55",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -5033,7 +5033,7 @@
         "home_imp": 0.4838,
         "draw_imp": 0.2451,
         "away_imp": 0.2711,
-        "updated_at": "2026-06-26 08:00:45",
+        "updated_at": "2026-06-26 09:00:56",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
