@@ -756,7 +756,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-06-27 22:11:08",
+        "updated_at": "2026-06-27 23:01:12",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1388,7 +1388,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-06-27 22:11:09",
+        "updated_at": "2026-06-27 23:01:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -1467,7 +1467,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-06-27 22:11:10",
+        "updated_at": "2026-06-27 23:01:14",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets": [
@@ -4103,7 +4103,7 @@
         "home_imp": 0.3729,
         "draw_imp": 0.2827,
         "away_imp": 0.3444,
-        "updated_at": "2026-06-27 22:11:00",
+        "updated_at": "2026-06-27 23:01:04",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4261,7 +4261,7 @@
         "home_imp": 0.3668,
         "draw_imp": 0.3584,
         "away_imp": 0.2748,
-        "updated_at": "2026-06-27 22:11:01",
+        "updated_at": "2026-06-27 23:01:05",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4413,13 +4413,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 1.87,
-        "draw_odds": 3.05,
-        "away_odds": 5.06,
-        "home_imp": 0.5044,
-        "draw_imp": 0.3092,
-        "away_imp": 0.1864,
-        "updated_at": "2026-06-27 22:11:02",
+        "home_odds": 1.89,
+        "draw_odds": 3.01,
+        "away_odds": 4.95,
+        "home_imp": 0.4976,
+        "draw_imp": 0.3124,
+        "away_imp": 0.19,
+        "updated_at": "2026-06-27 23:01:06",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -4493,12 +4493,12 @@
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
         "home_odds": 16.25,
-        "draw_odds": 8.51,
+        "draw_odds": 8.26,
         "away_odds": 1.14,
-        "home_imp": 0.0583,
-        "draw_imp": 0.1113,
-        "away_imp": 0.8305,
-        "updated_at": "2026-06-27 22:11:03",
+        "home_imp": 0.0581,
+        "draw_imp": 0.1142,
+        "away_imp": 0.8277,
+        "updated_at": "2026-06-27 23:01:07",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-27 22:13:18"
     }
   ],
-  "generated_at": "2026-06-27 22:14:13"
+  "generated_at": "2026-06-27 23:01:17"
 }
