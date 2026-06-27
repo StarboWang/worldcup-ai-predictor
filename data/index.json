@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T01:05:37+08:00",
+  "generated_at": "2026-06-28T02:56:53+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4872,7 +4872,7 @@
         "home_imp": 0.3729,
         "draw_imp": 0.2827,
         "away_imp": 0.3444,
-        "updated_at": "2026-06-28 01:00:58",
+        "updated_at": "2026-06-28 02:23:41",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -5060,7 +5060,7 @@
         "home_imp": 0.3668,
         "draw_imp": 0.3584,
         "away_imp": 0.2748,
-        "updated_at": "2026-06-28 01:01:00",
+        "updated_at": "2026-06-28 02:23:43",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -5237,13 +5237,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 1.89,
-        "draw_odds": 3.01,
-        "away_odds": 4.95,
-        "home_imp": 0.4976,
-        "draw_imp": 0.3124,
-        "away_imp": 0.19,
-        "updated_at": "2026-06-28 01:01:01",
+        "home_odds": 1.8,
+        "draw_odds": 3.11,
+        "away_odds": 5.53,
+        "home_imp": 0.5251,
+        "draw_imp": 0.3039,
+        "away_imp": 0.1709,
+        "updated_at": "2026-06-28 02:23:44",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
@@ -5327,13 +5327,13 @@
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 16.75,
-        "draw_odds": 8.31,
+        "home_odds": 16.38,
+        "draw_odds": 8.44,
         "away_odds": 1.14,
-        "home_imp": 0.0565,
-        "draw_imp": 0.1138,
-        "away_imp": 0.8297,
-        "updated_at": "2026-06-28 01:01:02",
+        "home_imp": 0.0578,
+        "draw_imp": 0.1121,
+        "away_imp": 0.8301,
+        "updated_at": "2026-06-28 02:23:45",
         "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
       },
       "bets_detail": [
