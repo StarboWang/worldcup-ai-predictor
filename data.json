@@ -4696,10 +4696,10 @@
       "venue": "瓜达拉哈拉阿克伦体育场",
       "home": "阿尔及利亚",
       "away": "奥地利",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 3,
+      "away_score": 3,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-28 10:00:00",
       "predictions": [
@@ -4775,10 +4775,10 @@
       "venue": "墨西哥城阿兹特克体育场",
       "home": "约旦",
       "away": "阿根廷",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 3,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-28 10:00:00",
       "predictions": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-28 11:02:46"
     }
   ],
-  "generated_at": "2026-06-28 11:07:26"
+  "generated_at": "2026-06-28 12:02:06"
 }
