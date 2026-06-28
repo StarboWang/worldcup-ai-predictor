@@ -4541,7 +4541,7 @@
       "home_score": 0,
       "away_score": 0,
       "stage": "小组赛第3轮",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-06-28 07:30:00",
       "predictions": [
@@ -5601,5 +5601,5 @@
       "updated_at": "2026-06-28 09:03:02"
     }
   ],
-  "generated_at": "2026-06-28 09:06:15"
+  "generated_at": "2026-06-28 09:37:35"
 }
