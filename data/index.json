@@ -1,16 +1,2070 @@
 {
-  "generated_at": "2026-07-01T12:16:53+08:00",
+  "generated_at": "2026-07-01T12:22:10+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
-      "match_id": "M081",
-      "kickoff_at": "2026-07-02T08:00:00+08:00",
+      "match_id": "M001",
+      "kickoff_at": "2026-06-12T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "墨西哥",
+      "team_b": "南非",
+      "team_a_id": "mex",
+      "team_b_id": "rsa",
+      "venue": "墨西哥城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M002",
+      "kickoff_at": "2026-06-12T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "韩国",
+      "team_b": "捷克",
+      "team_a_id": "kor",
+      "team_b_id": "cze",
+      "venue": "瓜达拉哈拉体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M003",
+      "kickoff_at": "2026-06-13T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "加拿大",
+      "team_b": "波黑",
+      "team_a_id": "can",
+      "team_b_id": "bih",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M004",
+      "kickoff_at": "2026-06-13T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "美国",
+      "team_b": "巴拉圭",
+      "team_a_id": "usa",
+      "team_b_id": "par",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 4,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M005",
+      "kickoff_at": "2026-06-14T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "卡塔尔",
+      "team_b": "瑞士",
+      "team_a_id": "qat",
+      "team_b_id": "sui",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M006",
+      "kickoff_at": "2026-06-14T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "巴西",
+      "team_b": "摩洛哥",
+      "team_a_id": "bra",
+      "team_b_id": "mar",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M007",
+      "kickoff_at": "2026-06-14T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "海地",
+      "team_b": "苏格兰",
+      "team_a_id": "hai",
+      "team_b_id": "sco",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M008",
+      "kickoff_at": "2026-06-14T12:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "澳大利亚",
+      "team_b": "土耳其",
+      "team_a_id": "aus",
+      "team_b_id": "tur",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M009",
+      "kickoff_at": "2026-06-15T01:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "德国",
+      "team_b": "库拉索",
+      "team_a_id": "ger",
+      "team_b_id": "cuw",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 7,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M010",
+      "kickoff_at": "2026-06-15T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "荷兰",
+      "team_b": "日本",
+      "team_a_id": "ned",
+      "team_b_id": "jpn",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M011",
+      "kickoff_at": "2026-06-15T07:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "科特迪瓦",
+      "team_b": "厄瓜多尔",
+      "team_a_id": "civ",
+      "team_b_id": "ecu",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M012",
+      "kickoff_at": "2026-06-15T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "瑞典",
+      "team_b": "突尼斯",
+      "team_a_id": "swe",
+      "team_b_id": "tun",
+      "venue": "蒙特雷体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 5,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M013",
+      "kickoff_at": "2026-06-16T00:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "西班牙",
+      "team_b": "佛得角",
+      "team_a_id": "esp",
+      "team_b_id": "cpv",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M014",
+      "kickoff_at": "2026-06-16T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "比利时",
+      "team_b": "埃及",
+      "team_a_id": "bel",
+      "team_b_id": "egy",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M015",
+      "kickoff_at": "2026-06-16T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "沙特阿拉伯",
+      "team_b": "乌拉圭",
+      "team_a_id": "ksa",
+      "team_b_id": "uru",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M016",
+      "kickoff_at": "2026-06-16T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "伊朗",
+      "team_b": "新西兰",
+      "team_a_id": "irn",
+      "team_b_id": "nzl",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M017",
+      "kickoff_at": "2026-06-17T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "法国",
+      "team_b": "塞内加尔",
+      "team_a_id": "fra",
+      "team_b_id": "sen",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M018",
+      "kickoff_at": "2026-06-17T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "伊拉克",
+      "team_b": "挪威",
+      "team_a_id": "irq",
+      "team_b_id": "nor",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 4
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M019",
+      "kickoff_at": "2026-06-17T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "阿根廷",
+      "team_b": "阿尔及利亚",
+      "team_a_id": "arg",
+      "team_b_id": "alg",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M020",
+      "kickoff_at": "2026-06-17T12:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "奥地利",
+      "team_b": "约旦",
+      "team_a_id": "aut",
+      "team_b_id": "jor",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M021",
+      "kickoff_at": "2026-06-18T01:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "葡萄牙",
+      "team_b": "刚果(金)",
+      "team_a_id": "por",
+      "team_b_id": "cod",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M022",
+      "kickoff_at": "2026-06-18T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "英格兰",
+      "team_b": "克罗地亚",
+      "team_a_id": "eng",
+      "team_b_id": "cro",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 4,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M023",
+      "kickoff_at": "2026-06-18T07:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "加纳",
+      "team_b": "巴拿马",
+      "team_a_id": "gha",
+      "team_b_id": "pan",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M024",
+      "kickoff_at": "2026-06-18T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "乌兹别克斯坦",
+      "team_b": "哥伦比亚",
+      "team_a_id": "uzb",
+      "team_b_id": "col",
+      "venue": "墨西哥城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M025",
+      "kickoff_at": "2026-06-19T00:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "捷克",
+      "team_b": "南非",
+      "team_a_id": "cze",
+      "team_b_id": "rsa",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M026",
+      "kickoff_at": "2026-06-19T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "瑞士",
+      "team_b": "波黑",
+      "team_a_id": "sui",
+      "team_b_id": "bih",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 4,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M027",
+      "kickoff_at": "2026-06-19T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "加拿大",
+      "team_b": "卡塔尔",
+      "team_a_id": "can",
+      "team_b_id": "qat",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 6,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M028",
+      "kickoff_at": "2026-06-19T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "墨西哥",
+      "team_b": "韩国",
+      "team_a_id": "mex",
+      "team_b_id": "kor",
+      "venue": "瓜达拉哈拉体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M029",
+      "kickoff_at": "2026-06-20T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "美国",
+      "team_b": "澳大利亚",
+      "team_a_id": "usa",
+      "team_b_id": "aus",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M030",
+      "kickoff_at": "2026-06-20T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "苏格兰",
+      "team_b": "摩洛哥",
+      "team_a_id": "sco",
+      "team_b_id": "mar",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M031",
+      "kickoff_at": "2026-06-20T08:30:00+08:00",
+      "stage": "小组赛",
+      "team_a": "巴西",
+      "team_b": "海地",
+      "team_a_id": "bra",
+      "team_b_id": "hai",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M032",
+      "kickoff_at": "2026-06-20T11:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "土耳其",
+      "team_b": "巴拉圭",
+      "team_a_id": "tur",
+      "team_b_id": "par",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M033",
+      "kickoff_at": "2026-06-21T01:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "荷兰",
+      "team_b": "瑞典",
+      "team_a_id": "ned",
+      "team_b_id": "swe",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 5,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M034",
+      "kickoff_at": "2026-06-21T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "德国",
+      "team_b": "科特迪瓦",
+      "team_a_id": "ger",
+      "team_b_id": "civ",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M035",
+      "kickoff_at": "2026-06-21T08:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "厄瓜多尔",
+      "team_b": "库拉索",
+      "team_a_id": "ecu",
+      "team_b_id": "cuw",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M036",
+      "kickoff_at": "2026-06-21T12:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "突尼斯",
+      "team_b": "日本",
+      "team_a_id": "tun",
+      "team_b_id": "jpn",
+      "venue": "蒙特雷体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 4
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M037",
+      "kickoff_at": "2026-06-22T00:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "西班牙",
+      "team_b": "沙特阿拉伯",
+      "team_a_id": "esp",
+      "team_b_id": "ksa",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 4,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M038",
+      "kickoff_at": "2026-06-22T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "比利时",
+      "team_b": "伊朗",
+      "team_a_id": "bel",
+      "team_b_id": "irn",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M039",
+      "kickoff_at": "2026-06-22T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "乌拉圭",
+      "team_b": "佛得角",
+      "team_a_id": "uru",
+      "team_b_id": "cpv",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M040",
+      "kickoff_at": "2026-06-22T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "新西兰",
+      "team_b": "埃及",
+      "team_a_id": "nzl",
+      "team_b_id": "egy",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M041",
+      "kickoff_at": "2026-06-23T01:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "阿根廷",
+      "team_b": "奥地利",
+      "team_a_id": "arg",
+      "team_b_id": "aut",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M042",
+      "kickoff_at": "2026-06-23T05:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "法国",
+      "team_b": "伊拉克",
+      "team_a_id": "fra",
+      "team_b_id": "irq",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M043",
+      "kickoff_at": "2026-06-23T08:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "挪威",
+      "team_b": "塞内加尔",
+      "team_a_id": "nor",
+      "team_b_id": "sen",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M044",
+      "kickoff_at": "2026-06-23T11:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "约旦",
+      "team_b": "阿尔及利亚",
+      "team_a_id": "jor",
+      "team_b_id": "alg",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M045",
+      "kickoff_at": "2026-06-24T01:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "葡萄牙",
+      "team_b": "乌兹别克斯坦",
+      "team_a_id": "por",
+      "team_b_id": "uzb",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 5,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M046",
+      "kickoff_at": "2026-06-24T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "英格兰",
+      "team_b": "加纳",
+      "team_a_id": "eng",
+      "team_b_id": "gha",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M047",
+      "kickoff_at": "2026-06-24T07:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "巴拿马",
+      "team_b": "克罗地亚",
+      "team_a_id": "pan",
+      "team_b_id": "cro",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M048",
+      "kickoff_at": "2026-06-24T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "哥伦比亚",
+      "team_b": "刚果(金)",
+      "team_a_id": "col",
+      "team_b_id": "cod",
+      "venue": "瓜达拉哈拉体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M049",
+      "kickoff_at": "2026-06-25T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "波黑",
+      "team_b": "卡塔尔",
+      "team_a_id": "bih",
+      "team_b_id": "qat",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M050",
+      "kickoff_at": "2026-06-25T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "瑞士",
+      "team_b": "加拿大",
+      "team_a_id": "sui",
+      "team_b_id": "can",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M051",
+      "kickoff_at": "2026-06-25T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "摩洛哥",
+      "team_b": "海地",
+      "team_a_id": "mar",
+      "team_b_id": "hai",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 4,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M052",
+      "kickoff_at": "2026-06-25T06:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "苏格兰",
+      "team_b": "巴西",
+      "team_a_id": "sco",
+      "team_b_id": "bra",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M053",
+      "kickoff_at": "2026-06-25T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "南非",
+      "team_b": "韩国",
+      "team_a_id": "rsa",
+      "team_b_id": "kor",
+      "venue": "蒙特雷体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M054",
+      "kickoff_at": "2026-06-25T09:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "捷克",
+      "team_b": "墨西哥",
+      "team_a_id": "cze",
+      "team_b_id": "mex",
+      "venue": "墨西哥城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M055",
+      "kickoff_at": "2026-06-26T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "库拉索",
+      "team_b": "科特迪瓦",
+      "team_a_id": "cuw",
+      "team_b_id": "civ",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M056",
+      "kickoff_at": "2026-06-26T04:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "厄瓜多尔",
+      "team_b": "德国",
+      "team_a_id": "ecu",
+      "team_b_id": "ger",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M057",
+      "kickoff_at": "2026-06-26T07:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "突尼斯",
+      "team_b": "荷兰",
+      "team_a_id": "tun",
+      "team_b_id": "ned",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M058",
+      "kickoff_at": "2026-06-26T07:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "日本",
+      "team_b": "瑞典",
+      "team_a_id": "jpn",
+      "team_b_id": "swe",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M059",
+      "kickoff_at": "2026-06-26T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "巴拉圭",
+      "team_b": "澳大利亚",
+      "team_a_id": "par",
+      "team_b_id": "aus",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M060",
+      "kickoff_at": "2026-06-26T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "土耳其",
+      "team_b": "美国",
+      "team_a_id": "tur",
+      "team_b_id": "usa",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M061",
+      "kickoff_at": "2026-06-27T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "塞内加尔",
+      "team_b": "伊拉克",
+      "team_a_id": "sen",
+      "team_b_id": "irq",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 5,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M062",
+      "kickoff_at": "2026-06-27T03:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "挪威",
+      "team_b": "法国",
+      "team_a_id": "nor",
+      "team_b_id": "fra",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 4
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M063",
+      "kickoff_at": "2026-06-27T08:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "乌拉圭",
+      "team_b": "西班牙",
+      "team_a_id": "uru",
+      "team_b_id": "esp",
+      "venue": "瓜达拉哈拉体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M064",
+      "kickoff_at": "2026-06-27T08:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "佛得角",
+      "team_b": "沙特阿拉伯",
+      "team_a_id": "cpv",
+      "team_b_id": "ksa",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M065",
+      "kickoff_at": "2026-06-27T11:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "新西兰",
+      "team_b": "比利时",
+      "team_a_id": "nzl",
+      "team_b_id": "bel",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 5
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M066",
+      "kickoff_at": "2026-06-27T11:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "埃及",
+      "team_b": "伊朗",
+      "team_a_id": "egy",
+      "team_b_id": "irn",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M067",
+      "kickoff_at": "2026-06-28T05:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "巴拿马",
+      "team_b": "英格兰",
+      "team_a_id": "pan",
+      "team_b_id": "eng",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M068",
+      "kickoff_at": "2026-06-28T05:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "克罗地亚",
+      "team_b": "加纳",
+      "team_a_id": "cro",
+      "team_b_id": "gha",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M069",
+      "kickoff_at": "2026-06-28T07:30:00+08:00",
+      "stage": "小组赛",
+      "team_a": "刚果(金)",
+      "team_b": "乌兹别克斯坦",
+      "team_a_id": "cod",
+      "team_b_id": "uzb",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M070",
+      "kickoff_at": "2026-06-28T07:30:00+08:00",
+      "stage": "小组赛",
+      "team_a": "哥伦比亚",
+      "team_b": "葡萄牙",
+      "team_a_id": "col",
+      "team_b_id": "por",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M071",
+      "kickoff_at": "2026-06-28T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "阿尔及利亚",
+      "team_b": "奥地利",
+      "team_a_id": "alg",
+      "team_b_id": "aut",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M072",
+      "kickoff_at": "2026-06-28T10:00:00+08:00",
+      "stage": "小组赛",
+      "team_a": "约旦",
+      "team_b": "阿根廷",
+      "team_a_id": "jor",
+      "team_b_id": "arg",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 3
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M073",
+      "kickoff_at": "2026-06-29T03:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "南非",
+      "team_b": "加拿大",
+      "team_a_id": "rsa",
+      "team_b_id": "can",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M074",
+      "kickoff_at": "2026-06-30T01:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "巴西",
+      "team_b": "日本",
+      "team_a_id": "bra",
+      "team_b_id": "jpn",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 1
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M075",
+      "kickoff_at": "2026-06-30T04:30:00+08:00",
       "stage": "1/16决赛",
       "team_a": "德国",
-      "team_b": "南非",
+      "team_b": "巴拉圭",
       "team_a_id": "ger",
-      "team_b_id": "rsa",
-      "venue": "旧金山Levis体育场",
+      "team_b_id": "par",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M076",
+      "kickoff_at": "2026-06-30T09:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "荷兰",
+      "team_b": "摩洛哥",
+      "team_a_id": "ned",
+      "team_b_id": "mar",
+      "venue": "蒙特雷体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M077",
+      "kickoff_at": "2026-07-01T01:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "科特迪瓦",
+      "team_b": "挪威",
+      "team_a_id": "civ",
+      "team_b_id": "nor",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 1,
+        "team_b": 2
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M078",
+      "kickoff_at": "2026-07-01T05:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "法国",
+      "team_b": "瑞典",
+      "team_a_id": "fra",
+      "team_b_id": "swe",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 3,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待校准"
+    },
+    {
+      "match_id": "M079",
+      "kickoff_at": "2026-07-01T09:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "墨西哥",
+      "team_b": "厄瓜多尔",
+      "team_a_id": "mex",
+      "team_b_id": "ecu",
+      "venue": "墨西哥城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": {
+        "team_a": 2,
+        "team_b": 0
+      },
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "已结束",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M080",
+      "kickoff_at": "2026-07-02T00:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "英格兰",
+      "team_b": "刚果(金)",
+      "team_a_id": "eng",
+      "team_b_id": "cod",
+      "venue": "亚特兰大体育场",
       "has_predict": false,
       "bets": {
         "H": [],
@@ -22,8 +2076,560 @@
       "predictions": [],
       "odds": null,
       "bets_detail": [],
-      "status": "",
-      "prediction_status": "已预测"
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M081",
+      "kickoff_at": "2026-07-02T04:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "比利时",
+      "team_b": "塞内加尔",
+      "team_a_id": "bel",
+      "team_b_id": "sen",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M082",
+      "kickoff_at": "2026-07-02T08:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "美国",
+      "team_b": "波黑",
+      "team_a_id": "usa",
+      "team_b_id": "bih",
+      "venue": "旧金山湾区体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M083",
+      "kickoff_at": "2026-07-03T03:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "西班牙",
+      "team_b": "奥地利",
+      "team_a_id": "esp",
+      "team_b_id": "aut",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M084",
+      "kickoff_at": "2026-07-03T07:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "葡萄牙",
+      "team_b": "克罗地亚",
+      "team_a_id": "por",
+      "team_b_id": "cro",
+      "venue": "多伦多体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M085",
+      "kickoff_at": "2026-07-03T11:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "瑞士",
+      "team_b": "阿尔及利亚",
+      "team_a_id": "sui",
+      "team_b_id": "alg",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M086",
+      "kickoff_at": "2026-07-04T02:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "澳大利亚",
+      "team_b": "埃及",
+      "team_a_id": "aus",
+      "team_b_id": "egy",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M087",
+      "kickoff_at": "2026-07-04T06:00:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "阿根廷",
+      "team_b": "佛得角",
+      "team_a_id": "arg",
+      "team_b_id": "cpv",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M088",
+      "kickoff_at": "2026-07-04T09:30:00+08:00",
+      "stage": "1/16决赛",
+      "team_a": "哥伦比亚",
+      "team_b": "加纳",
+      "team_a_id": "col",
+      "team_b_id": "gha",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M089",
+      "kickoff_at": "2026-07-05T01:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "加拿大",
+      "team_b": "摩洛哥",
+      "team_a_id": "can",
+      "team_b_id": "mar",
+      "venue": "休斯顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M090",
+      "kickoff_at": "2026-07-05T05:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "巴拉圭",
+      "team_b": "法国",
+      "team_a_id": "par",
+      "team_b_id": "fra",
+      "venue": "费城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M091",
+      "kickoff_at": "2026-07-06T04:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "巴西",
+      "team_b": "挪威",
+      "team_a_id": "bra",
+      "team_b_id": "nor",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M092",
+      "kickoff_at": "2026-07-06T08:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "墨西哥城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M093",
+      "kickoff_at": "2026-07-07T03:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M094",
+      "kickoff_at": "2026-07-07T08:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "西雅图体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M095",
+      "kickoff_at": "2026-07-08T00:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M096",
+      "kickoff_at": "2026-07-08T04:00:00+08:00",
+      "stage": "1/8决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "温哥华BC Place",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M097",
+      "kickoff_at": "2026-07-10T04:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "波士顿体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M098",
+      "kickoff_at": "2026-07-11T03:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "洛杉矶体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M099",
+      "kickoff_at": "2026-07-12T05:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M100",
+      "kickoff_at": "2026-07-12T09:00:00+08:00",
+      "stage": "1/4决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "堪萨斯城体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M101",
+      "kickoff_at": "2026-07-15T03:00:00+08:00",
+      "stage": "半决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "达拉斯体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M102",
+      "kickoff_at": "2026-07-16T03:00:00+08:00",
+      "stage": "半决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "亚特兰大体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M103",
+      "kickoff_at": "2026-07-19T05:00:00+08:00",
+      "stage": "季军赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "迈阿密体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
+    },
+    {
+      "match_id": "M104",
+      "kickoff_at": "2026-07-20T03:00:00+08:00",
+      "stage": "决赛",
+      "team_a": "待定",
+      "team_b": "待定",
+      "team_a_id": "tbd",
+      "team_b_id": "tbd",
+      "venue": "纽约/新泽西体育场",
+      "has_predict": false,
+      "bets": {
+        "H": [],
+        "D": [],
+        "A": []
+      },
+      "comment": {},
+      "score": null,
+      "predictions": [],
+      "odds": null,
+      "bets_detail": [],
+      "status": "未开始",
+      "prediction_status": "待预测"
     }
   ],
   "models": []
