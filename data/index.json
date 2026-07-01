@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T01:01:31+08:00",
+  "generated_at": "2026-07-02T01:06:46+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2758,7 +2758,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 1
+        "team_b": 2
       },
       "predictions": [],
       "odds": {
@@ -2795,7 +2795,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 1
+        "team_b": 2
       },
       "predictions": [],
       "odds": {
@@ -2947,7 +2947,10 @@
         "gpt-5.5": "英格兰攻防两端均大幅领先(进攻1.9/防守0.7)，刚果(金)进攻乏力(0.9)难以突破英格兰稳固防线。英格兰近期状态出色(W6 D3 L1)，阵容深度与大赛经...",
         "deepseek": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为64%/18%/18%，最可能比分为2-1。"
       },
-      "score": null,
+      "score": {
+        "team_a": 0,
+        "team_b": 1
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -3012,7 +3015,7 @@
           "time": "2026-07-01 12:31:01"
         }
       ],
-      "status": "未开始",
+      "status": "进行中",
       "prediction_status": "已预测"
     },
     {

@@ -2005,7 +2005,7 @@
       "home": "德国",
       "away": "巴拉圭",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
@@ -2032,7 +2032,7 @@
       "home": "荷兰",
       "away": "摩洛哥",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
@@ -2139,10 +2139,10 @@
       "venue": "亚特兰大体育场",
       "home": "英格兰",
       "away": "刚果(金)",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "stage": "1/16决赛",
-      "status": "未开始",
+      "status": "进行中",
       "prediction_status": "已预测",
       "time": "2026-07-02 00:00:00",
       "predictions": [
@@ -3262,5 +3262,5 @@
       "updated_at": "2026-07-01 12:31:21"
     }
   ],
-  "generated_at": "2026-07-02 01:01:31"
+  "generated_at": "2026-07-02 01:06:46"
 }
