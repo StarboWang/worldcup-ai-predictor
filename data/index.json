@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T11:59:43+08:00",
+  "generated_at": "2026-07-01T12:05:02+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -551,18 +551,7 @@
         "team_b": 1
       },
       "predictions": [],
-      "odds": {
-        "source": "真实API",
-        "bookmaker": "BetExplorer (聚合多家欧洲盘)",
-        "home_odds": 1.45,
-        "draw_odds": 4.56,
-        "away_odds": 6.87,
-        "home_imp": 0.654,
-        "draw_imp": 0.208,
-        "away_imp": 0.138,
-        "updated_at": "2026-06-17 03:01:19",
-        "note": "欧洲盘聚合赔率，来自 BetExplorer.com。"
-      },
+      "odds": null,
       "bets_detail": [
         {
           "model": "GPT-5.5",
@@ -617,18 +606,7 @@
         "team_b": 4
       },
       "predictions": [],
-      "odds": {
-        "source": "内部估算",
-        "bookmaker": "内部估算盘",
-        "home_odds": 2.89,
-        "draw_odds": 3.47,
-        "away_odds": 2.35,
-        "home_imp": 0.3265,
-        "draw_imp": 0.2719,
-        "away_imp": 0.4015,
-        "updated_at": "2026-07-01 11:01:41",
-        "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
-      },
+      "odds": null,
       "bets_detail": [
         {
           "model": "GPT-5.5",
@@ -1463,45 +1441,18 @@
       "team_a_id": "bra",
       "team_b_id": "hai",
       "venue": "西雅图Lumen球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "巴西整体实力差距明显，进攻2.1、防守0.7都远优于海地，近期W7 D2 L1也更稳定；海地进攻0.8、防守风险1.9，阵容深度难以长期承压。当前无明确伤停/首...",
-        "deepseek": "巴西进攻(2.1)面对海地防线(1.9)是碾压级优势，巴西防守(0.7)可轻松零封海地进攻(0.8)。海地近况低迷(W2 D3 L5)，巴西实力全方位碾压，大比..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 3,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "巴西整体实力差距明显，进攻2.1、防守0.7都远优于海地，近期W7 D2 L1也更稳定；海地进攻0.8、防守风险1.9，阵容深度难以长期承压。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 3,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "巴西进攻(2.1)面对海地防线(1.9)是碾压级优势，巴西防守(0.7)可轻松零封海地进攻(0.8)。海地近况低迷(W2 D3 L5)，巴西实力全方位碾压，大比分零封是最符合结构的路径。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1556,45 +1507,18 @@
       "team_a_id": "tur",
       "team_b_id": "par",
       "venue": "旧金山Levi's体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "土耳其Elo和排名略占优，进攻1.5明显强于巴拉圭1.0；双方防守风险同为1.3，但土耳其近期W4 D4 L2更稳，旧金山中立环境适合谨慎小胜。当前无明确伤停/...",
-        "deepseek": "土耳其进攻(1.5)是全场最强单元，面对巴拉圭平庸防线(1.3)有明显破门优势；巴拉圭进攻(1.0)是全场最弱单元，难以威胁土耳其防守。土耳其近10场4平显示效..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "土耳其Elo和排名略占优，进攻1.5明显强于巴拉圭1.0；双方防守风险同为1.3，但土耳其近期W4 D4 L2更稳，旧金山中立环境适合谨慎小胜。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "土耳其进攻(1.5)是全场最强单元，面对巴拉圭平庸防线(1.3)有明显破门优势；巴拉圭进攻(1.0)是全场最弱单元，难以威胁土耳其防守。土耳其近10场4平显示效率不足，但巴拉圭攻击力匮乏使小胜概率最高。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1649,46 +1573,18 @@
       "team_a_id": "ned",
       "team_b_id": "swe",
       "venue": "费城林肯金融球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "荷兰进攻强度更高，防守风险也低于瑞典，近期走势同样稳定；瑞典具备反击和得分能力，但阵容深度与整体压制力略逊。费城中立环境下，当前无明确伤停/首发数据。",
-        "deepseek": "荷兰防线稳固(defense 0.8)但瑞典防守同样不弱(1.0)，近期状态两队接近，费城中立场无加成。Elo差仅130，荷兰攻坚能力未必能击穿组织严密的瑞典防..."
-      },
+      "comment": {},
       "score": {
         "team_a": 5,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "荷兰进攻强度更高，防守风险也低于瑞典，近期走势同样稳定；瑞典具备反击和得分能力，但阵容深度与整体压制力略逊。费城中立环境下，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "荷兰防线稳固(defense 0.8)但瑞典防守同样不弱(1.0)，近期状态两队接近，费城中立场无加成。Elo差仅130，荷兰攻坚能力未必能击穿组织严密的瑞典防线，平局是结构性风险。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1743,46 +1639,18 @@
       "team_a_id": "ger",
       "team_b_id": "civ",
       "venue": "波士顿吉列体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "德国进攻端质量和阵容深度更占优，防守风险也低于科特迪瓦；科特迪瓦近期状态很好，反击威胁不低，但整体攻坚稳定性稍弱。波士顿中立场地，当前无明确伤停/首发数据。",
-        "deepseek": "德国近期状态不稳(W5 D2 L3三轮失利)，科特迪瓦反而状态出色(W6 D3 L1仅一负)。德国进攻(1.8)面对科特迪瓦尚可的防守(1.1)未必能形成持续压..."
-      },
+      "comment": {},
       "score": {
         "team_a": 2,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "德国进攻端质量和阵容深度更占优，防守风险也低于科特迪瓦；科特迪瓦近期状态很好，反击威胁不低，但整体攻坚稳定性稍弱。波士顿中立场地，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "德国近期状态不稳(W5 D2 L3三轮失利)，科特迪瓦反而状态出色(W6 D3 L1仅一负)。德国进攻(1.8)面对科特迪瓦尚可的防守(1.1)未必能形成持续压制，冷门风险不可忽视。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1837,45 +1705,18 @@
       "team_a_id": "ecu",
       "team_b_id": "cuw",
       "venue": "堪萨斯城箭头体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "厄瓜多尔攻防均衡性明显好于库拉索，近期表现也更稳定；库拉索进攻强度偏低且防守风险较高，预计更多时间被压制。堪萨斯城中立环境，当前无明确伤停/首发数据。",
-        "deepseek": "厄瓜多尔进攻有限(1.3)面对库拉索薄弱防线(1.5)理论上有优势，但厄瓜多尔自身终结效率不高，近期状态中规中矩。库拉索虽弱但厄瓜多尔大胜能力存疑，一球小胜更合..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "厄瓜多尔攻防均衡性明显好于库拉索，近期表现也更稳定；库拉索进攻强度偏低且防守风险较高，预计更多时间被压制。堪萨斯城中立环境，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "厄瓜多尔进攻有限(1.3)面对库拉索薄弱防线(1.5)理论上有优势，但厄瓜多尔自身终结效率不高，近期状态中规中矩。库拉索虽弱但厄瓜多尔大胜能力存疑，一球小胜更合理。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1930,46 +1771,18 @@
       "team_a_id": "tun",
       "team_b_id": "jpn",
       "venue": "多伦多BMO球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "日本进攻强度和防守质量都优于突尼斯，近期状态也保持较好；突尼斯近况坚韧，比赛可能胶着，但持续创造机会能力略弱。多伦多中立环境，当前无明确伤停/首发数据。",
-        "deepseek": "突尼斯极难被击败(近10场仅1负)，防守扎实(1.1)；日本进攻虽强(1.6)但面对突尼斯顽强防守可能陷入苦战。多伦多中立场无加成，Elo差仅80，平局是真实的..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 4
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "日本进攻强度和防守质量都优于突尼斯，近期状态也保持较好；突尼斯近况坚韧，比赛可能胶着，但持续创造机会能力略弱。多伦多中立环境，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "突尼斯极难被击败(近10场仅1负)，防守扎实(1.1)；日本进攻虽强(1.6)但面对突尼斯顽强防守可能陷入苦战。多伦多中立场无加成，Elo差仅80，平局是真实的结构性风险。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -2172,45 +1985,18 @@
       "team_a_id": "arg",
       "team_b_id": "aut",
       "venue": "洛杉矶SoFi体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "阿根廷进攻强度更高且防守风险更低，近期W8 D1 L1稳定性优于奥地利。洛杉矶中立场削弱主场因素，soccer24_event未提供，当前无明确伤停/首发数据。",
-        "deepseek": "阿根廷进攻2.2精英级但主场胜率仅51%暴露结构风险。奥地利防守1.0且近况W6 D2 L2具备真实抵抗力，有能力攻破阿根廷防线。阿根廷攻坚虽强，但奥地利不会轻..."
-      },
+      "comment": {},
       "score": {
         "team_a": 2,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "阿根廷进攻强度更高且防守风险更低，近期W8 D1 L1稳定性优于奥地利。洛杉矶中立场削弱主场因素，soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "阿根廷进攻2.2精英级但主场胜率仅51%暴露结构风险。奥地利防守1.0且近况W6 D2 L2具备真实抵抗力，有能力攻破阿根廷防线。阿根廷攻坚虽强，但奥地利不会轻易溃败，2-1险胜更符合比赛结构。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2265,45 +2051,18 @@
       "team_a_id": "fra",
       "team_b_id": "irq",
       "venue": "纽约大都会体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "法国攻防两端更均衡，进攻强度明显高于伊拉克，防守风险也更低；近期W7 D2 L1延续性好，阵容深度占优。soccer24_event未提供，当前无明确伤停/首发...",
-        "deepseek": "法国防守0.7精英级，伊拉克进攻1.0难以构成实质威胁。伊拉克防守1.2面对法国进攻2.0呈明显结构性劣势。Elo差距340确认实力鸿沟，法国应能零封取胜，伊拉..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "法国攻防两端更均衡，进攻强度明显高于伊拉克，防守风险也更低；近期W7 D2 L1延续性好，阵容深度占优。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "法国防守0.7精英级，伊拉克进攻1.0难以构成实质威胁。伊拉克防守1.2面对法国进攻2.0呈明显结构性劣势。Elo差距340确认实力鸿沟，法国应能零封取胜，伊拉克进攻端无力回应。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2358,45 +2117,18 @@
       "team_a_id": "nor",
       "team_b_id": "sen",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "挪威与塞内加尔进攻强度相同，塞内加尔防守风险略低，双方近期状态都较稳定。达拉斯中立环境下差距不大，soccer24_event未提供，当前无明确伤停/首发数据。",
-        "deepseek": "Elo差距仅30，塞内加尔防守1.0略优于挪威1.1，双方进攻同为1.4。两队近况相近，达拉斯中立场地无主场加成。这是真正五五开的比赛，平局最符合结构，双方各取..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "挪威与塞内加尔进攻强度相同，塞内加尔防守风险略低，双方近期状态都较稳定。达拉斯中立环境下差距不大，soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo差距仅30，塞内加尔防守1.0略优于挪威1.1，双方进攻同为1.4。两队近况相近，达拉斯中立场地无主场加成。这是真正五五开的比赛，平局最符合结构，双方各取一球。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2451,46 +2183,18 @@
       "team_a_id": "jor",
       "team_b_id": "alg",
       "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "阿尔及利亚进攻强度和防守风险都略优于约旦，整体实力层级更高；双方近期同为W4 D3 L3，节奏可能偏谨慎。soccer24_event未提供，当前无明确伤停/首...",
-        "deepseek": "双方进攻均偏弱（约旦0.9、阿尔及利亚1.2），两队近况同为W4 D3 L3缺乏连胜势头。约旦防守1.3漏洞明显但阿尔及利亚攻坚力有限，进球预期均不足1.1。低..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "阿尔及利亚进攻强度和防守风险都略优于约旦，整体实力层级更高；双方近期同为W4 D3 L3，节奏可能偏谨慎。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "双方进攻均偏弱（约旦0.9、阿尔及利亚1.2），两队近况同为W4 D3 L3缺乏连胜势头。约旦防守1.3漏洞明显但阿尔及利亚攻坚力有限，进球预期均不足1.1。低比分僵局概率最高，0-0最符合比赛结构。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2545,45 +2249,18 @@
       "team_a_id": "por",
       "team_b_id": "uzb",
       "venue": "迈阿密硬石体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "葡萄牙进攻强度突出且防守风险较低，近期W7 D1 L2保持强队稳定性；乌兹别克斯坦状态不差但阵容深度和攻坚质量处下风。soccer24_event未提供，当前无...",
-        "deepseek": "葡萄牙防守0.7近乎不可攻破，乌兹别克斯坦进攻1.0难以构成威胁。乌兹别克防守1.2面对葡萄牙进攻1.9呈结构性劣势。Elo差距350确认实力鸿沟，葡萄牙应能零..."
-      },
+      "comment": {},
       "score": {
         "team_a": 5,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "葡萄牙进攻强度突出且防守风险较低，近期W7 D1 L2保持强队稳定性；乌兹别克斯坦状态不差但阵容深度和攻坚质量处下风。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "葡萄牙防守0.7近乎不可攻破，乌兹别克斯坦进攻1.0难以构成威胁。乌兹别克防守1.2面对葡萄牙进攻1.9呈结构性劣势。Elo差距350确认实力鸿沟，葡萄牙应能零封取胜控制全场。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2638,45 +2315,18 @@
       "team_a_id": "eng",
       "team_b_id": "gha",
       "venue": "休斯顿NRG体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "英格兰进攻强度更高、防守风险更低，近期W6 D3 L1说明下限稳定；加纳防守风险偏高但具备反击进球空间。soccer24_event未提供，当前无明确伤停/首发...",
-        "deepseek": "英格兰主场胜率仅55%低于58%阈值需警惕。加纳防守1.3虽弱，但英格兰10场3平暴露攻坚不稳定。加纳进攻1.1具备一定威胁，英格兰最终取胜但过程不会轻松，2-..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "英格兰进攻强度更高、防守风险更低，近期W6 D3 L1说明下限稳定；加纳防守风险偏高但具备反击进球空间。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "英格兰主场胜率仅55%低于58%阈值需警惕。加纳防守1.3虽弱，但英格兰10场3平暴露攻坚不稳定。加纳进攻1.1具备一定威胁，英格兰最终取胜但过程不会轻松，2-1险胜格局。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2731,45 +2381,18 @@
       "team_a_id": "pan",
       "team_b_id": "cro",
       "venue": "西雅图Lumen球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "克罗地亚进攻强度、防守风险和整体经验都优于巴拿马，近期W5 D3 L2也更稳；巴拿马防守风险偏高但有低比分拉扯空间。soccer24_event未提供，当前无明...",
-        "deepseek": "克罗地亚防守0.9稳固，巴拿马进攻0.9难以破门。巴拿马防守1.3面对克罗地亚进攻1.5漏洞明显。Elo差距270体现实力差距，当前无明确伤停/首发数据，克罗地..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "克罗地亚进攻强度、防守风险和整体经验都优于巴拿马，近期W5 D3 L2也更稳；巴拿马防守风险偏高但有低比分拉扯空间。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "克罗地亚防守0.9稳固，巴拿马进攻0.9难以破门。巴拿马防守1.3面对克罗地亚进攻1.5漏洞明显。Elo差距270体现实力差距，当前无明确伤停/首发数据，克罗地亚应能零封取胜。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2824,45 +2447,18 @@
       "team_a_id": "col",
       "team_b_id": "cod",
       "venue": "旧金山Levi's体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "哥伦比亚进攻强度更好，防守风险也低于刚果(金)，近期W5 D2 L3整体表现更有支撑；比赛可能偏低比分。soccer24_event未提供，当前无明确伤停/首发...",
-        "deepseek": "哥伦比亚主场胜率仅53%且平局概率26%双双超阈值值得警惕。刚果(金)防守1.3偏弱但哥伦比亚进攻仅1.4中等，攻坚力有限。刚果进攻0.9太弱难以破门，低比分小..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "哥伦比亚进攻强度更好，防守风险也低于刚果(金)，近期W5 D2 L3整体表现更有支撑；比赛可能偏低比分。soccer24_event未提供，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "哥伦比亚主场胜率仅53%且平局概率26%双双超阈值值得警惕。刚果(金)防守1.3偏弱但哥伦比亚进攻仅1.4中等，攻坚力有限。刚果进攻0.9太弱难以破门，低比分小胜格局。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -2917,45 +2513,18 @@
       "team_a_id": "bih",
       "team_b_id": "qat",
       "venue": "费城林肯金融球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "两队整体差距不大，波黑进攻输出偏低且近况起伏，卡塔尔进攻稍好但防守风险也高。费城中立环境下节奏可能谨慎，当前无明确伤停/首发数据，倾向低比分胶着。",
-        "deepseek": "波黑近期状态极差(W2 D3 L5)攻防均无亮点，卡塔尔进攻(1.4)和近况(W3 D4 L3)均占优。两队防守皆弱(1.5/1.6)，中立场地互有进球概率高，..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "两队整体差距不大，波黑进攻输出偏低且近况起伏，卡塔尔进攻稍好但防守风险也高。费城中立环境下节奏可能谨慎，当前无明确伤停/首发数据，倾向低比分胶着。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "波黑近期状态极差(W2 D3 L5)攻防均无亮点，卡塔尔进攻(1.4)和近况(W3 D4 L3)均占优。两队防守皆弱(1.5/1.6)，中立场地互有进球概率高，但双方均缺乏终结能力，平局最符合比赛结构。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3010,45 +2579,18 @@
       "team_a_id": "sui",
       "team_b_id": "can",
       "venue": "波士顿吉列体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "瑞士攻防更均衡，进攻强度和防守稳定性都优于加拿大，近期状态也更连续。加拿大有一定反击能力，但阵容深度与整体控制力稍弱，当前无明确伤停/首发数据，看好瑞士小胜。",
-        "deepseek": "瑞士攻防俱佳(攻1.7/守0.9)，近期状态稳定(W5 D3 L2)；加拿大进攻1.2且近况不差(W4 D3 L3)，具备一定破门能力。瑞士整体实力占优但加拿大..."
-      },
+      "comment": {},
       "score": {
         "team_a": 2,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "瑞士攻防更均衡，进攻强度和防守稳定性都优于加拿大，近期状态也更连续。加拿大有一定反击能力，但阵容深度与整体控制力稍弱，当前无明确伤停/首发数据，看好瑞士小胜。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "瑞士攻防俱佳(攻1.7/守0.9)，近期状态稳定(W5 D3 L2)；加拿大进攻1.2且近况不差(W4 D3 L3)，具备一定破门能力。瑞士整体实力占优但加拿大有能力制造威胁，小胜格局下平局风险不可忽视。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3103,45 +2645,18 @@
       "team_a_id": "mar",
       "team_b_id": "hai",
       "venue": "堪萨斯城箭头体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "摩洛哥防守质量突出，进攻强度也明显高于海地，近期状态稳定。海地防守风险偏高，面对更有组织性的压迫和转换会吃力，当前无明确伤停/首发数据，摩洛哥更像控局取胜。",
-        "deepseek": "摩洛哥防守极强(0.8)，海地进攻羸弱(0.8)难以破门；海地防守漏洞大(1.9)，摩洛哥进攻(1.5)虽非顶级但足以破门。摩洛哥近期状态火热(W6 D2 L2..."
-      },
+      "comment": {},
       "score": {
         "team_a": 4,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "摩洛哥防守质量突出，进攻强度也明显高于海地，近期状态稳定。海地防守风险偏高，面对更有组织性的压迫和转换会吃力，当前无明确伤停/首发数据，摩洛哥更像控局取胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "摩洛哥防守极强(0.8)，海地进攻羸弱(0.8)难以破门；海地防守漏洞大(1.9)，摩洛哥进攻(1.5)虽非顶级但足以破门。摩洛哥近期状态火热(W6 D2 L2)，零封取胜概率高，但进攻上限有限限制比分。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3196,45 +2711,18 @@
       "team_a_id": "sco",
       "team_b_id": "bra",
       "venue": "多伦多BMO球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "巴西进攻火力和防守质量都处在更高层级，近期状态也更强。苏格兰对抗和纪律性不错，但面对巴西的前场压迫与持续冲击，防线承压较大，当前无明确伤停/首发数据，倾向巴西小...",
-        "deepseek": "巴西攻防均为顶级(攻2.1/守0.7)，近期状态极佳(W7 D2 L1)；苏格兰防守尚可(1.1)但进攻火力不足(1.3)。巴西实力碾压，苏格兰难以在巴西防线前..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 3
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "巴西进攻火力和防守质量都处在更高层级，近期状态也更强。苏格兰对抗和纪律性不错，但面对巴西的前场压迫与持续冲击，防线承压较大，当前无明确伤停/首发数据，倾向巴西小胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "巴西攻防均为顶级(攻2.1/守0.7)，近期状态极佳(W7 D2 L1)；苏格兰防守尚可(1.1)但进攻火力不足(1.3)。巴西实力碾压，苏格兰难以在巴西防线前制造实质威胁，零封客胜格局。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -3289,46 +2777,18 @@
       "team_a_id": "cze",
       "team_b_id": "mex",
       "venue": "温哥华BC Place",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "捷克攻防较均衡但进攻上限有限，墨西哥近期状态更好，防守风险也略低。温哥华中立环境下比赛可能拉锯，当前无明确伤停/首发数据，墨西哥凭更稳定的攻防效率险胜。",
-        "deepseek": "两队实力极为接近，墨西哥攻防略优(攻1.4/守1.0)且近期状态出色(W6 D2 L2)；捷克攻防均衡但平庸(攻1.2/守1.2)，近10场4平暴露攻坚乏力。中..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 3
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "捷克攻防较均衡但进攻上限有限，墨西哥近期状态更好，防守风险也略低。温哥华中立环境下比赛可能拉锯，当前无明确伤停/首发数据，墨西哥凭更稳定的攻防效率险胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "两队实力极为接近，墨西哥攻防略优(攻1.4/守1.0)且近期状态出色(W6 D2 L2)；捷克攻防均衡但平庸(攻1.2/守1.2)，近10场4平暴露攻坚乏力。中立场地下双方均难占绝对优势，平局风险极高。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3383,45 +2843,18 @@
       "team_a_id": "rsa",
       "team_b_id": "kor",
       "venue": "蒙特雷BBVA体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "韩国进攻强度、防守稳定性和近期状态均优于南非，整体节奏控制更可靠。南非进攻效率一般，面对韩国较好的防守组织不易打开局面，当前无明确伤停/首发数据，倾向韩国小胜。",
-        "deepseek": "韩国攻防均优于南非(攻1.3vs1.0/守1.1vs1.4)，近期状态也更稳定(W5 D3 L2 vs W3 D3 L4)。南非防线漏洞大，韩国进攻虽非强势但足..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "韩国进攻强度、防守稳定性和近期状态均优于南非，整体节奏控制更可靠。南非进攻效率一般，面对韩国较好的防守组织不易打开局面，当前无明确伤停/首发数据，倾向韩国小胜。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "韩国攻防均优于南非(攻1.3vs1.0/守1.1vs1.4)，近期状态也更稳定(W5 D3 L2 vs W3 D3 L4)。南非防线漏洞大，韩国进攻虽非强势但足以破门。南非进攻乏力难以回应，韩国小胜格局但平局风险需警惕。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3476,45 +2909,18 @@
       "team_a_id": "cuw",
       "team_b_id": "civ",
       "venue": "瓜达拉哈拉阿克伦体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "科特迪瓦进攻强度更高，防守风险也低于库拉索，近期W6 D3 L1明显更稳；库拉索进攻产出偏弱且防守风险较高。比赛在中立环境，当前无明确伤停/首发数据，倾向科特迪...",
-        "deepseek": "库拉索防守薄弱(1.5)且进攻乏力(0.7),科特迪瓦攻防均衡(进攻1.3/防守1.1),近期状态悬殊(客W6D3L1 vs 主W2D3L5),Elo差200分..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "科特迪瓦进攻强度更高，防守风险也低于库拉索，近期W6 D3 L1明显更稳；库拉索进攻产出偏弱且防守风险较高。比赛在中立环境，当前无明确伤停/首发数据，倾向科特迪瓦低比分小胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "库拉索防守薄弱(1.5)且进攻乏力(0.7),科特迪瓦攻防均衡(进攻1.3/防守1.1),近期状态悬殊(客W6D3L1 vs 主W2D3L5),Elo差200分,lambda指向低比分(0.77 vs 1.10),平局概率33%超阈值但状态差距支撑客队小胜,当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3569,46 +2975,18 @@
       "team_a_id": "ecu",
       "team_b_id": "ger",
       "venue": "墨西哥城阿兹特克体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "德国进攻强度和防守控制都略优，阵容深度与关键位置质量通常更能支撑高强度比赛；厄瓜多尔近期状态稳定、防守风险不高，具备进球能力。当前无明确伤停/首发数据，倾向德国...",
-        "deepseek": "厄瓜多尔防守稳固(1.0)且近期状态出色(W5D3L2),德国进攻强劲(1.8)但Elo仅领先140分低于风险阈值,客胜概率不足50%且德国近10场3负暴露不稳..."
-      },
+      "comment": {},
       "score": {
         "team_a": 2,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "德国进攻强度和防守控制都略优，阵容深度与关键位置质量通常更能支撑高强度比赛；厄瓜多尔近期状态稳定、防守风险不高，具备进球能力。当前无明确伤停/首发数据，倾向德国小胜。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "厄瓜多尔防守稳固(1.0)且近期状态出色(W5D3L2),德国进攻强劲(1.8)但Elo仅领先140分低于风险阈值,客胜概率不足50%且德国近10场3负暴露不稳定,高原中立场地(阿兹特克)增加变数,lambda指向对攻但厄瓜多尔有能力逼平,当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3663,46 +3041,18 @@
       "team_a_id": "jpn",
       "team_b_id": "swe",
       "venue": "洛杉矶SoFi体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "日本进攻数值更高且防守风险更低，近期状态与瑞典接近，洛杉矶中立环境下节奏可能偏开放。瑞典Elo略高、整体韧性不弱，但日本攻防均衡更适合小胜路径；当前无明确伤停/...",
-        "deepseek": "日本防守顶级(0.9),瑞典防守稳固(1.0);双方近期状态均佳,Elo差仅30分实力持平。两队防守导向,比赛节奏偏慢,低比分平局是结构性最合理路径。当前无明确..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "日本进攻数值更高且防守风险更低，近期状态与瑞典接近，洛杉矶中立环境下节奏可能偏开放。瑞典Elo略高、整体韧性不弱，但日本攻防均衡更适合小胜路径；当前无明确伤停/首发数据，soccer24_event为空未能校验官方事件。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "日本防守顶级(0.9),瑞典防守稳固(1.0);双方近期状态均佳,Elo差仅30分实力持平。两队防守导向,比赛节奏偏慢,低比分平局是结构性最合理路径。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3757,45 +3107,18 @@
       "team_a_id": "tun",
       "team_b_id": "ned",
       "venue": "纽约大都会体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "荷兰进攻强度和防守质量都优于突尼斯，近期状态稳定，阵容深度与关键球员质量通常也更有保障。突尼斯近况不差且防守风险不算高，纽约中立场可能压低分差；当前无明确伤停/...",
-        "deepseek": "荷兰Elo高240但突尼斯近10场仅1负,不败韧性极强构成结构性风险。荷兰防守出色(0.8),突尼斯进攻乏力(1.0),预计突尼斯难以破门。荷兰小胜是最可能路径..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 3
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "荷兰进攻强度和防守质量都优于突尼斯，近期状态稳定，阵容深度与关键球员质量通常也更有保障。突尼斯近况不差且防守风险不算高，纽约中立场可能压低分差；当前无明确伤停/首发数据，soccer24_event为空未能校验官方事件。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "荷兰Elo高240但突尼斯近10场仅1负,不败韧性极强构成结构性风险。荷兰防守出色(0.8),突尼斯进攻乏力(1.0),预计突尼斯难以破门。荷兰小胜是最可能路径,但平局风险不可忽视。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3850,45 +3173,18 @@
       "team_a_id": "par",
       "team_b_id": "aus",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "澳大利亚进攻1.4优于巴拉圭1.0，防守风险1.2也略低，近况W5 D2 L3更稳；巴拉圭近十场输球偏多。当前无明确伤停/首发数据，达拉斯中立环境下客队小胜更合...",
-        "deepseek": "巴拉圭进攻乏力(1.0)面对澳大利亚稳健防线(1.2)难以破门，近10场仅3胜缺乏火力支撑；澳大利亚进攻中等(1.4)但巴拉圭防线(1.3)存在漏洞，客场一球小..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "澳大利亚进攻1.4优于巴拉圭1.0，防守风险1.2也略低，近况W5 D2 L3更稳；巴拉圭近十场输球偏多。当前无明确伤停/首发数据，达拉斯中立环境下客队小胜更合理。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "巴拉圭进攻乏力(1.0)面对澳大利亚稳健防线(1.2)难以破门，近10场仅3胜缺乏火力支撑；澳大利亚进攻中等(1.4)但巴拉圭防线(1.3)存在漏洞，客场一球小胜路径清晰。双方Elo差仅150，实力接近，低比分客胜是合理判断。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -3943,46 +3239,18 @@
       "team_a_id": "tur",
       "team_b_id": "usa",
       "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "美国防守风险0.9明显优于土耳其1.3，近况W6 D3 L1也更稳定；两队进攻同为1.5，但美国阵容深度与主场环境更占优。当前无明确伤停/首发数据，倾向美国小胜...",
-        "deepseek": "美国防线极强(0.9)是核心变量，可有效限制土耳其进攻(1.5)；土耳其防线(1.3)面对美国同级进攻(1.5)存在失球风险。美国近况出色(W6 D3 L1)不..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "美国防守风险0.9明显优于土耳其1.3，近况W6 D3 L1也更稳定；两队进攻同为1.5，但美国阵容深度与主场环境更占优。当前无明确伤停/首发数据，倾向美国小胜。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "美国防线极强(0.9)是核心变量，可有效限制土耳其进攻(1.5)；土耳其防线(1.3)面对美国同级进攻(1.5)存在失球风险。美国近况出色(W6 D3 L1)不败率高，土耳其多平局(W4 D4 L2)，双方Elo差170实力接近，平局是攻防结构下的合理结果。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -4037,45 +3305,18 @@
       "team_a_id": "nor",
       "team_b_id": "fra",
       "venue": "迈阿密硬石体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "法国进攻强度更高且防守风险更低，近期状态也更稳定，阵容深度和关键球员质量背景优于挪威。迈阿密中立环境削弱主客差异；当前无明确伤停/首发数据，soccer24_e...",
-        "deepseek": "法国防守(0.7)属顶级水准，挪威进攻(1.4)难以形成持续威胁；挪威防线(1.1)尚可但法国进攻(2.0)有破局能力。小组赛末轮存轮换风险，当前无明确伤停/首..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 4
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "法国进攻强度更高且防守风险更低，近期状态也更稳定，阵容深度和关键球员质量背景优于挪威。迈阿密中立环境削弱主客差异；当前无明确伤停/首发数据，soccer24_event为空未能校验官方赛程。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "法国防守(0.7)属顶级水准，挪威进攻(1.4)难以形成持续威胁；挪威防线(1.1)尚可但法国进攻(2.0)有破局能力。小组赛末轮存轮换风险，当前无明确伤停/首发数据。低比分法国小胜格局。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4130,46 +3371,18 @@
       "team_a_id": "sen",
       "team_b_id": "irq",
       "venue": "休斯顿NRG体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "塞内加尔攻防结构更均衡，进攻强度高于伊拉克且防守风险更低；双方近期状态接近，但塞内加尔整体排名与阵容深度背景占优。休斯顿中立环境影响有限；当前无明确伤停/首发数...",
-        "deepseek": "双方近况完全相同(W5 D3 L2)，Elo差仅90，属典型均势局。塞内加尔进攻(1.4)对伊拉克防线(1.2)优势有限，伊拉克进攻(1.0)同样难破塞内加尔防..."
-      },
+      "comment": {},
       "score": {
         "team_a": 5,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "塞内加尔攻防结构更均衡，进攻强度高于伊拉克且防守风险更低；双方近期状态接近，但塞内加尔整体排名与阵容深度背景占优。休斯顿中立环境影响有限；当前无明确伤停/首发数据，soccer24_event为空未能校验官方赛程。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方近况完全相同(W5 D3 L2)，Elo差仅90，属典型均势局。塞内加尔进攻(1.4)对伊拉克防线(1.2)优势有限，伊拉克进攻(1.0)同样难破塞内加尔防守(1.0)。当前无明确伤停/首发数据。平局概率高，低比分胶着。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4224,45 +3437,18 @@
       "team_a_id": "cpv",
       "team_b_id": "ksa",
       "venue": "西雅图Lumen球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "佛得角进攻强度偏低且防守风险较高，沙特攻防略稳、近况也稍好，但两队节奏都不算强势，西雅图中立环境削弱主客差异；当前无明确伤停/首发数据，低比分僵持更合理。",
-        "deepseek": "双方进攻火力极弱（attack≤1.0），Elo差仅110，预期进球几乎相同（0.84 vs 0.83）。两队均缺乏攻坚能力，0-0闷平是结构性合理结果。当前无..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "佛得角进攻强度偏低且防守风险较高，沙特攻防略稳、近况也稍好，但两队节奏都不算强势，西雅图中立环境削弱主客差异；当前无明确伤停/首发数据，低比分僵持更合理。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "双方进攻火力极弱（attack≤1.0），Elo差仅110，预期进球几乎相同（0.84 vs 0.83）。两队均缺乏攻坚能力，0-0闷平是结构性合理结果。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4317,46 +3503,18 @@
       "team_a_id": "uru",
       "team_b_id": "esp",
       "venue": "旧金山Levi's体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "乌拉圭防守质量不错、近期韧性足，但西班牙进攻强度和防守风险控制都更优，阵容深度与控球压迫风格更利于持续制造机会；当前无明确伤停/首发数据，看好西班牙小胜。",
-        "deepseek": "Elo差仅100，西班牙客场作战。乌拉圭防守稳固（defense 0.9），主场有能力限制西班牙进攻。西班牙客场胜率不足43%，结构上存在明显平局风险。当前无明..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "乌拉圭防守质量不错、近期韧性足，但西班牙进攻强度和防守风险控制都更优，阵容深度与控球压迫风格更利于持续制造机会；当前无明确伤停/首发数据，看好西班牙小胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo差仅100，西班牙客场作战。乌拉圭防守稳固（defense 0.9），主场有能力限制西班牙进攻。西班牙客场胜率不足43%，结构上存在明显平局风险。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4411,46 +3569,18 @@
       "team_a_id": "egy",
       "team_b_id": "irn",
       "venue": "费城林肯金融球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "埃及整体 Elo 略占优，近期状态更稳，攻防数值均衡，主场地在中立环境下影响有限。伊朗进攻稍强、防守风险更低，但近况波动更大；soccer24_event 为空...",
-        "deepseek": "埃及主场10场仅1负但攻击力平平(1.2)，伊朗防守更稳(1.0)且攻击略优(1.3)。双方Elo仅差50，实力极为接近。伊朗近况虽有3负但防线质量可靠，埃及攻..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "埃及整体 Elo 略占优，近期状态更稳，攻防数值均衡，主场地在中立环境下影响有限。伊朗进攻稍强、防守风险更低，但近况波动更大；soccer24_event 为空，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "埃及主场10场仅1负但攻击力平平(1.2)，伊朗防守更稳(1.0)且攻击略优(1.3)。双方Elo仅差50，实力极为接近。伊朗近况虽有3负但防线质量可靠，埃及攻坚手段有限，低比分平局是结构上最合理路径。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4505,45 +3635,18 @@
       "team_a_id": "nzl",
       "team_b_id": "bel",
       "venue": "波士顿吉列体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "比利时 Elo、FIFA 排名、进攻强度和防守质量都明显高于新西兰，近期状态也更稳定，阵容深度预期更有优势。新西兰防守风险偏高，比赛环境中立；soccer24_...",
-        "deepseek": "比利时攻防两端全面占优(攻击1.8/防守0.8)，新西兰攻击力弱(0.8)面对比利时稳固防线难以破门。Elo差340印证实力差距，但新西兰防守尚可(1.2)且比..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 5
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "比利时 Elo、FIFA 排名、进攻强度和防守质量都明显高于新西兰，近期状态也更稳定，阵容深度预期更有优势。新西兰防守风险偏高，比赛环境中立；soccer24_event 为空，当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "比利时攻防两端全面占优(攻击1.8/防守0.8)，新西兰攻击力弱(0.8)面对比利时稳固防线难以破门。Elo差340印证实力差距，但新西兰防守尚可(1.2)且比利时客场胜率未达58%阈值，比分可能偏紧而非大胜。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4598,45 +3701,18 @@
       "team_a_id": "cro",
       "team_b_id": "gha",
       "venue": "堪萨斯城箭头体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "克罗地亚进攻强度更高，防守风险低于加纳，近况也更稳定；中场控制和阵容深度占优。当前无明确伤停/首发数据，soccer24_event为空未见已结束标记。",
-        "deepseek": "克罗地亚精英级防线(0.9)是根基，但加纳防守尚可(1.3)且近期不败率70%(W4 D3 L3)，克罗地亚进攻火力(1.5)不足以轻松撕开防线。加纳身体对抗和..."
-      },
+      "comment": {},
       "score": {
         "team_a": 2,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "克罗地亚进攻强度更高，防守风险低于加纳，近况也更稳定；中场控制和阵容深度占优。当前无明确伤停/首发数据，soccer24_event为空未见已结束标记。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "克罗地亚精英级防线(0.9)是根基，但加纳防守尚可(1.3)且近期不败率70%(W4 D3 L3)，克罗地亚进攻火力(1.5)不足以轻松撕开防线。加纳身体对抗和反击威胁存在，但克罗地亚经验和控制力应能在一场胶着战中凭借定位球或中场远射小胜。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4691,45 +3767,18 @@
       "team_a_id": "pan",
       "team_b_id": "eng",
       "venue": "多伦多BMO球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "英格兰攻防强度明显优于巴拿马，近期状态更稳定，阵容深度和关键球员质量优势更适合压制对手。当前无明确伤停/首发数据，soccer24_event为空未见已结束标记...",
-        "deepseek": "英格兰攻防两端(1.9/0.7)对巴拿马(0.9/1.3)形成结构性优势，巴拿马进攻乏力难以威胁英格兰精英防线。巴拿马防守有一定韧性(1.3)，但英格兰阵容深度..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 2
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "英格兰攻防强度明显优于巴拿马，近期状态更稳定，阵容深度和关键球员质量优势更适合压制对手。当前无明确伤停/首发数据，soccer24_event为空未见已结束标记。",
-          "hit_result": true,
-          "hit_score": true
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "英格兰攻防两端(1.9/0.7)对巴拿马(0.9/1.3)形成结构性优势，巴拿马进攻乏力难以威胁英格兰精英防线。巴拿马防守有一定韧性(1.3)，但英格兰阵容深度和进攻多样性应在下半场拉开差距。中立场地和巴拿马平局倾向(4场平局)增加小比分风险，但零封取胜路径清晰。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4784,46 +3833,18 @@
       "team_a_id": "col",
       "team_b_id": "por",
       "venue": "温哥华BC Place",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "葡萄牙进攻强度更高、防守风险更低，近期状态也更稳定；哥伦比亚具备反击和对抗能力，但整体火力与阵容深度略逊。温哥华中立环境削弱主场因素，当前无明确伤停/首发数据。",
-        "deepseek": "哥防守1.0稳固可限制葡进攻1.9；葡防守0.7顶级，哥进攻1.4难破门。Elo差仅150分低于180阈值。葡近况W7 D1 L2出色但哥享温哥华美洲主场氛围。..."
-      },
+      "comment": {},
       "score": {
         "team_a": 0,
         "team_b": 0
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "葡萄牙进攻强度更高、防守风险更低，近期状态也更稳定；哥伦比亚具备反击和对抗能力，但整体火力与阵容深度略逊。温哥华中立环境削弱主场因素，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "哥防守1.0稳固可限制葡进攻1.9；葡防守0.7顶级，哥进攻1.4难破门。Elo差仅150分低于180阈值。葡近况W7 D1 L2出色但哥享温哥华美洲主场氛围。双方防守均强，进球不会多，平局是结构性风险路径。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4878,45 +3899,18 @@
       "team_a_id": "cod",
       "team_b_id": "uzb",
       "venue": "蒙特雷BBVA体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "双方攻防强度接近且进攻产出都偏低，刚果(金)防守风险略高，乌兹别克斯坦近期状态更好但客场破局能力有限。蒙特雷中立环境下节奏可能谨慎，当前无明确伤停/首发数据。",
-        "deepseek": "双方攻击力均弱（0.9/1.0），防守接近（1.3/1.2）。乌兹别克近况W6 D2 L2优于刚果W3 D4 L3但Elo仅差40分。蒙特雷中立场无主场加成。l..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 1
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "双方攻防强度接近且进攻产出都偏低，刚果(金)防守风险略高，乌兹别克斯坦近期状态更好但客场破局能力有限。蒙特雷中立环境下节奏可能谨慎，当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "双方攻击力均弱（0.9/1.0），防守接近（1.3/1.2）。乌兹别克近况W6 D2 L2优于刚果W3 D4 L3但Elo仅差40分。蒙特雷中立场无主场加成。lambda极低，闷平概率极高，0-0为最可能单场比分。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -4971,46 +3965,18 @@
       "team_a_id": "alg",
       "team_b_id": "aut",
       "venue": "瓜达拉哈拉阿克伦体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "奥地利进攻强度1.5高于阿尔及利亚，防守风险1.0也更稳，近期W6 D2 L2优于对手。阿尔及利亚有一定对抗和比赛环境适应空间，当前无明确伤停/首发数据，倾向奥...",
-        "deepseek": "Elo差仅90，实力高度接近。奥地利进攻1.5面对阿尔及利亚防守1.1难形成持续压制，阿尔及利亚近况W4 D3 L3不差，中立场地小组赛末轮双方均无必胜把握，1..."
-      },
+      "comment": {},
       "score": {
         "team_a": 3,
         "team_b": 3
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "奥地利进攻强度1.5高于阿尔及利亚，防守风险1.0也更稳，近期W6 D2 L2优于对手。阿尔及利亚有一定对抗和比赛环境适应空间，当前无明确伤停/首发数据，倾向奥地利小胜。",
-          "hit_result": false,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "Elo差仅90，实力高度接近。奥地利进攻1.5面对阿尔及利亚防守1.1难形成持续压制，阿尔及利亚近况W4 D3 L3不差，中立场地小组赛末轮双方均无必胜把握，1-1平局是结构性风险最高的路径。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -5065,45 +4031,18 @@
       "team_a_id": "jor",
       "team_b_id": "arg",
       "venue": "墨西哥城阿兹特克体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "阿根廷攻防强度明显占优，进攻2.2且防守风险0.6，近期W8 D1 L1稳定；约旦防守风险1.3，阵容深度和高强度抗压处劣势。当前无明确伤停/首发数据，倾向阿根...",
-        "deepseek": "阿根廷攻防两端碾压(攻2.2/守0.6)，约旦攻0.9难破阿根廷精英防线。但阿根廷客胜概率53.5%低于58%阈值，中立场地远途作战限制了统治力，预计零封小胜而..."
-      },
+      "comment": {},
       "score": {
         "team_a": 1,
         "team_b": 3
       },
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "阿根廷攻防强度明显占优，进攻2.2且防守风险0.6，近期W8 D1 L1稳定；约旦防守风险1.3，阵容深度和高强度抗压处劣势。当前无明确伤停/首发数据，倾向阿根廷控制节奏取胜。",
-          "hit_result": true,
-          "hit_score": false
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "阿根廷攻防两端碾压(攻2.2/守0.6)，约旦攻0.9难破阿根廷精英防线。但阿根廷客胜概率53.5%低于58%阈值，中立场地远途作战限制了统治力，预计零封小胜而非大胜，0-2为合理风险调整比分。",
-          "hit_result": true,
-          "hit_score": false
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -5488,30 +4427,15 @@
       "team_a_id": "bra",
       "team_b_id": "swe",
       "venue": "波士顿吉列体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "海地进攻数据亮眼(1.9)但FIFA排名87、Elo仅1200，近期状态差(2胜3平5负)，防线薄弱(0.8)。奥地利FIFA 21位，防守稳健(1.5)，近期..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "海地进攻数据亮眼(1.9)但FIFA排名87、Elo仅1200，近期状态差(2胜3平5负)，防线薄弱(0.8)。奥地利FIFA 21位，防守稳健(1.5)，近期状态出色(6胜2平2负)。实力差距明显，奥地利控场轻松取胜。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5552,30 +4476,15 @@
       "team_a_id": "fra",
       "team_b_id": "por",
       "venue": "蒙特雷BBVA体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "双方实力接近。伊拉克FIFA排名39略高，近期状态更好(5胜3平2负)，防守稳健(1)。刚果(金)进攻稍强(1.3)但防线偏弱(0.9)。势均力敌的较量，伊拉克..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "双方实力接近。伊拉克FIFA排名39略高，近期状态更好(5胜3平2负)，防守稳健(1)。刚果(金)进攻稍强(1.3)但防线偏弱(0.9)。势均力敌的较量，伊拉克凭借状态和主场氛围优势小胜。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5616,30 +4525,15 @@
       "team_a_id": "eng",
       "team_b_id": "egy",
       "venue": "休斯顿NRG体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "伊朗FIFA排名22明显高于巴拿马44，防守更好(1.3 vs 0.9)，Elo高出120分。巴拿马进攻稍强(1.3)但防守薄弱是致命短板。伊朗整体实力占优，亚..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "伊朗FIFA排名22明显高于巴拿马44，防守更好(1.3 vs 0.9)，Elo高出120分。巴拿马进攻稍强(1.3)但防守薄弱是致命短板。伊朗整体实力占优，亚洲区预选赛表现稳健，大概率零封晋级。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5680,43 +4574,15 @@
       "team_a_id": "bel",
       "team_b_id": "cro",
       "venue": "纽约大都会体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "双方排名接近(43 vs 42)，实力相当。加纳攻防更均衡(1.3/1.1)，新西兰防守是短板(0.8)。加纳在非洲区预选赛经验丰富，世界杯淘汰赛气质更佳。低比...",
-        "deepseek": "新西兰攻击力仅0.8极难破门，加纳攻击1.1亦不强势；双方Elo仅差20，防守端均不差（1.2/1.3）。近期状态接近，当前无明确伤停/首发数据，低比分闷平0-..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "双方排名接近(43 vs 42)，实力相当。加纳攻防更均衡(1.3/1.1)，新西兰防守是短板(0.8)。加纳在非洲区预选赛经验丰富，世界杯淘汰赛气质更佳。低比分胶着战，加纳小胜晋级。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "新西兰攻击力仅0.8极难破门，加纳攻击1.1亦不强势；双方Elo仅差20，防守端均不差（1.2/1.3）。近期状态接近，当前无明确伤停/首发数据，低比分闷平0-0是最合理路径。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5771,43 +4637,15 @@
       "team_a_id": "col",
       "team_b_id": "nor",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "塞内加尔FIFA排名20、防守1.4，实力明显更强。乌兹别克斯坦近期状态出色(6胜2平2负)但整体实力有差距。塞内加尔非洲冠军班底，攻防质量更高。乌兹别克斯坦有...",
-        "deepseek": "乌兹别克近10场仅2负状态出色，主场作战韧性足；塞内加尔Elo仅领先150，攻击1.4防守1.0虽占优但不足以碾压。当前无明确伤停/首发数据，乌兹别克攻击1.0..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "塞内加尔FIFA排名20、防守1.4，实力明显更强。乌兹别克斯坦近期状态出色(6胜2平2负)但整体实力有差距。塞内加尔非洲冠军班底，攻防质量更高。乌兹别克斯坦有爆冷潜力但塞内加尔经验和实力应能过关。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "乌兹别克近10场仅2负状态出色，主场作战韧性足；塞内加尔Elo仅领先150，攻击1.4防守1.0虽占优但不足以碾压。当前无明确伤停/首发数据，乌兹别克攻击1.0有破门能力，1-1平局风险大。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5862,42 +4700,15 @@
       "team_a_id": "ned",
       "team_b_id": "gha",
       "venue": "墨西哥城阿兹特克体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "澳大利亚FIFA排名26略高，防守极好(1.4)。突尼斯近期状态极佳(5胜4平1负)，不败率高。双方Elo相同(1600)，实力非常接近。澳大利亚防守稳固但进攻...",
-        "deepseek": "双方Elo同为1600完全均势，突尼斯防守1.1稳固且近10场仅1负韧性极强；澳大利亚攻击1.4但防守1.2存在漏洞。当前无明确伤停/首发数据，阿兹特克高原主场..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "澳大利亚FIFA排名26略高，防守极好(1.4)。突尼斯近期状态极佳(5胜4平1负)，不败率高。双方Elo相同(1600)，实力非常接近。澳大利亚防守稳固但进攻效率一般，突尼斯韧性足但攻坚能力有限。大概率进入加时甚至点球。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方Elo同为1600完全均势，突尼斯防守1.1稳固且近10场仅1负韧性极强；澳大利亚攻击1.4但防守1.2存在漏洞。当前无明确伤停/首发数据，阿兹特克高原主场对客队不利，1-1平局概率突出。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -5952,42 +4763,15 @@
       "team_a_id": "esp",
       "team_b_id": "ecu",
       "venue": "亚特兰大梅赛德斯-奔驰体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "双方实力接近，Elo差仅70且近期状态完全相同(W4 D3 L3)。沙特防守略好(1.2 vs 1.3)，加拿大进攻稍强(1.2 vs 1.0)。亚特兰大中立场...",
-        "deepseek": "沙特与加拿大Elo仅差70，近期状态完全相同（均为W4 D3 L3）；双方攻击力接近（1.0 vs 1.2），防守均一般。当前无明确伤停/首发数据，实力极为接近..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方实力接近，Elo差仅70且近期状态完全相同(W4 D3 L3)。沙特防守略好(1.2 vs 1.3)，加拿大进攻稍强(1.2 vs 1.0)。亚特兰大中立场地，双方均无绝对优势，平局最为合理。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "沙特与加拿大Elo仅差70，近期状态完全相同（均为W4 D3 L3）；双方攻击力接近（1.0 vs 1.2），防守均一般。当前无明确伤停/首发数据，实力极为接近的淘汰赛，1-1平局是结构性高概率路径。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6042,42 +4826,15 @@
       "team_a_id": "usa",
       "team_b_id": "can",
       "venue": "西雅图Lumen球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "土耳其进攻火力强劲(attack 1.5)面对波黑薄弱防线(defense 1.5)，实力差距明显。波黑近期状态低迷(W2 D3 L5)，土耳其攻防两端全面占优...",
-        "deepseek": "土耳其攻击1.5面对波黑防守1.5优势明显，但自身防守1.3也有隐患；波黑近10场仅2胜状态差，Elo仅落后150。当前无明确伤停/首发数据，土耳其主场攻击力足..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "土耳其进攻火力强劲(attack 1.5)面对波黑薄弱防线(defense 1.5)，实力差距明显。波黑近期状态低迷(W2 D3 L5)，土耳其攻防两端全面占优且主场作战，看好土耳其完胜。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "土耳其攻击1.5面对波黑防守1.5优势明显，但自身防守1.3也有隐患；波黑近10场仅2胜状态差，Elo仅落后150。当前无明确伤停/首发数据，土耳其主场攻击力足以取胜，波黑或能偷一球。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6132,42 +4889,15 @@
       "team_a_id": "sui",
       "team_b_id": "aus",
       "venue": "多伦多BMO球场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "卡塔尔进攻端(attack 1.4)远超巴拉圭(1.0)，但防守漏洞较大(defense 1.6)。巴拉圭防守稳固(1.3)但攻击力有限。卡塔尔主场优势明显，进...",
-        "deepseek": "卡塔尔攻击1.4是强点但防守1.6为全场最差隐患巨大；巴拉圭攻击1.0虽弱但面对卡塔尔漏洞防线有破门机会。双方Elo相同，当前无明确伤停/首发数据，卡塔尔主场进..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "卡塔尔进攻端(attack 1.4)远超巴拉圭(1.0)，但防守漏洞较大(defense 1.6)。巴拉圭防守稳固(1.3)但攻击力有限。卡塔尔主场优势明显，进攻火力足以弥补防守短板，小胜可期。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "卡塔尔攻击1.4是强点但防守1.6为全场最差隐患巨大；巴拉圭攻击1.0虽弱但面对卡塔尔漏洞防线有破门机会。双方Elo相同，当前无明确伤停/首发数据，卡塔尔主场进攻优势可小胜但防守风险高。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6222,43 +4952,15 @@
       "team_a_id": "mex",
       "team_b_id": "civ",
       "venue": "洛杉矶SoFi体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "厄瓜多尔攻防更均衡(attack 1.3/defense 1.0)，近期状态(W5 D3 L2)优于捷克(W3 D4 L3)。捷克进攻端(1.2)面对厄瓜多尔稳...",
-        "deepseek": "厄瓜多尔Elo领先130且防守1.0出色，但捷克主场攻击力1.2具备威胁；捷克近10场7场不败韧性足。当前无明确伤停/首发数据，厄瓜多尔实力占优但不足以碾压，捷..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "厄瓜多尔攻防更均衡(attack 1.3/defense 1.0)，近期状态(W5 D3 L2)优于捷克(W3 D4 L3)。捷克进攻端(1.2)面对厄瓜多尔稳固防线(1.0)难以突破，洛杉矶中立场地厄瓜多尔整体实力占优。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "厄瓜多尔Elo领先130且防守1.0出色，但捷克主场攻击力1.2具备威胁；捷克近10场7场不败韧性足。当前无明确伤停/首发数据，厄瓜多尔实力占优但不足以碾压，捷克主场有望逼平1-1。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6313,43 +5015,15 @@
       "team_a_id": "aut",
       "team_b_id": "mar",
       "venue": "温哥华BC Place",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5"
-        ],
-        "D": [
-          "deepseek"
-        ],
+        "H": [],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "双方近期状态同为W6D2L2，攻击力均为1.5，但摩洛哥防守更优（0.8 vs 奥地利1.0）。奥地利Elo略高30点且享温哥华主场之利，攻防转换效率或成胜负手...",
-        "deepseek": "两队攻防实力极为接近，Elo差仅30点，摩洛哥防守更优(0.8)且FIFA排名更高(13)。双方近期状态完全一致(W6 D2 L2)，进攻火力相同(1.5)。淘..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "双方近期状态同为W6D2L2，攻击力均为1.5，但摩洛哥防守更优（0.8 vs 奥地利1.0）。奥地利Elo略高30点且享温哥华主场之利，攻防转换效率或成胜负手。当前无明确伤停/首发数据。预计奥地利小胜。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "两队攻防实力极为接近，Elo差仅30点，摩洛哥防守更优(0.8)且FIFA排名更高(13)。双方近期状态完全一致(W6 D2 L2)，进攻火力相同(1.5)。淘汰赛阶段双方都会谨慎，摩洛哥的防守韧性足以限制奥地利攻坚。当前无明确伤停/首发数据。低比分平局是结构上最合理的路径。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6404,42 +5078,15 @@
       "team_a_id": "jpn",
       "team_b_id": "cpv",
       "venue": "迈阿密硬石体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
-        "H": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "H": [],
         "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "日本攻防两端全面占优：进攻1.6对0.8、防守0.9对1.4形成明显压制；近期状态W6D2L2远优于佛得角W3D3L4；Elo差200分，硬实力差距显著。当前无...",
-        "deepseek": "日本攻防均衡（进攻1.6/防守0.9），防线稳固；佛得角进攻乏力（0.8）难以突破高质量防线。但佛得角防守尚可（1.4），日本攻坚能力未达精英级别，淘汰赛节奏偏..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "日本攻防两端全面占优：进攻1.6对0.8、防守0.9对1.4形成明显压制；近期状态W6D2L2远优于佛得角W3D3L4；Elo差200分，硬实力差距显著。当前无明确伤停/首发数据。日本控场能力足以完成零封并取得两球小胜。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "日本攻防均衡（进攻1.6/防守0.9），防线稳固；佛得角进攻乏力（0.8）难以突破高质量防线。但佛得角防守尚可（1.4），日本攻坚能力未达精英级别，淘汰赛节奏偏谨慎。当前无明确伤停/首发数据。预计日本一球小胜，存在闷平或1-1风险。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6494,42 +5141,15 @@
       "team_a_id": "bih",
       "team_b_id": "par",
       "venue": "堪萨斯城箭头体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "gpt-5.5",
-          "deepseek"
-        ],
+        "D": [],
         "A": []
       },
-      "comment": {
-        "gpt-5.5": "两队攻防端实力接近，进攻同为1.0，巴拉圭防守更稳固(1.3 vs 1.5)。近期波黑10场仅2胜状态低迷，巴拉圭3胜略优但均不突出。中立场地1/16决赛，双方...",
-        "deepseek": "双方进攻均仅1.0，火力薄弱。巴拉圭防守(1.3)优于波黑(1.5)，波黑近10场仅2胜状态低迷，巴拉圭Elo略高(1450-1400)。结构性因素指向低比分平..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "两队攻防端实力接近，进攻同为1.0，巴拉圭防守更稳固(1.3 vs 1.5)。近期波黑10场仅2胜状态低迷，巴拉圭3胜略优但均不突出。中立场地1/16决赛，双方均缺乏破局能力，低比分平局最合理。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 0,
-          "result": "平局",
-          "analysis": "双方进攻均仅1.0，火力薄弱。巴拉圭防守(1.3)优于波黑(1.5)，波黑近10场仅2胜状态低迷，巴拉圭Elo略高(1450-1400)。结构性因素指向低比分平局。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6584,43 +5204,15 @@
       "team_a_id": "alg",
       "team_b_id": "sen",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
-        "D": [
-          "deepseek"
-        ],
-        "A": [
-          "gpt-5.5"
-        ]
+        "D": [],
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "塞内加尔攻防两端均优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近10场5胜3平2负状态更稳定。中立场地达拉斯消除主场优势，FIFA排名第20对第3...",
-        "deepseek": "双方实力极度接近，Elo仅差10分。塞内加尔攻防两端均略优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近期状态也更为稳定（W5 D3 L2对W4 D..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "塞内加尔攻防两端均优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近10场5胜3平2负状态更稳定。中立场地达拉斯消除主场优势，FIFA排名第20对第34也反映实力差距。当前无明确伤停/首发数据。塞内加尔整体占优，预计小胜晋级。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方实力极度接近，Elo仅差10分。塞内加尔攻防两端均略优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近期状态也更为稳定（W5 D3 L2对W4 D3 L3）。AT&T体育场为中立场地，阿尔及利亚无实质主场加成，攻坚能力不足。当前无明确伤停/首发数据。1-1平局是结构上最合理的结果。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -7043,42 +5635,15 @@
       "team_a_id": "ger",
       "team_b_id": "rsa",
       "venue": "旧金山Levis体育场",
-      "has_predict": true,
+      "has_predict": false,
       "bets": {
         "H": [],
         "D": [],
-        "A": [
-          "gpt-5.5",
-          "deepseek"
-        ]
+        "A": []
       },
-      "comment": {
-        "gpt-5.5": "韩国攻防两端全面碾压库拉索(attack 1.3 vs 0.7, defense 1.1 vs 1.5)，库拉索攻击力极弱难以威胁韩国防线。近期状态韩国(W5 ...",
-        "deepseek": "库拉索攻击0.7为全场最低，面对韩国防守1.1几乎无法破门；韩国攻击1.3足以攻破库拉索防守1.5的防线。库拉索近10场仅2胜状态低迷，当前无明确伤停/首发数据..."
-      },
+      "comment": {},
       "score": null,
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "model_id": "gpt-5.5",
-          "home_goals": 0,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "韩国攻防两端全面碾压库拉索(attack 1.3 vs 0.7, defense 1.1 vs 1.5)，库拉索攻击力极弱难以威胁韩国防线。近期状态韩国(W5 D3 L2)远优于库拉索(W2 D3 L5)，旧金山中立场地韩国轻松取胜。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "model_id": "deepseek",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "库拉索攻击0.7为全场最低，面对韩国防守1.1几乎无法破门；韩国攻击1.3足以攻破库拉索防守1.5的防线。库拉索近10场仅2胜状态低迷，当前无明确伤停/首发数据，韩国客场小胜可期。",
-          "hit_result": null,
-          "hit_score": null
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
