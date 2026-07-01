@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:31:27+08:00",
+  "generated_at": "2026-07-01T15:15:49+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -3957,9 +3957,9 @@
       "match_id": "M092",
       "kickoff_at": "2026-07-06T08:00:00+08:00",
       "stage": "1/8决赛",
-      "team_a": "待定",
+      "team_a": "墨西哥",
       "team_b": "待定",
-      "team_a_id": "tbd",
+      "team_a_id": "mex",
       "team_b_id": "tbd",
       "venue": "墨西哥城体育场",
       "has_predict": false,
