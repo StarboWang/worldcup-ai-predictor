@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:59:18+08:00",
+  "generated_at": "2026-07-02T07:04:33+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4021,9 +4021,9 @@
       "kickoff_at": "2026-07-07T08:00:00+08:00",
       "stage": "1/8决赛",
       "team_a": "待定",
-      "team_b": "待定",
+      "team_b": "比利时",
       "team_a_id": "tbd",
-      "team_b_id": "tbd",
+      "team_b_id": "bel",
       "venue": "西雅图体育场",
       "has_predict": false,
       "bets": {
