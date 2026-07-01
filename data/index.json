@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:31:16+08:00",
+  "generated_at": "2026-07-01T10:03:01+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -898,7 +898,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-07-01 09:00:31",
+        "updated_at": "2026-07-01 10:02:36",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1645,7 +1645,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-07-01 09:00:32",
+        "updated_at": "2026-07-01 10:02:38",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1738,7 +1738,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-07-01 09:00:33",
+        "updated_at": "2026-07-01 10:02:39",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1832,7 +1832,7 @@
         "home_imp": 0.4792,
         "draw_imp": 0.2286,
         "away_imp": 0.2923,
-        "updated_at": "2026-07-01 09:00:34",
+        "updated_at": "2026-07-01 10:02:41",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -1925,7 +1925,7 @@
         "home_imp": 0.4175,
         "draw_imp": 0.2252,
         "away_imp": 0.3574,
-        "updated_at": "2026-07-01 09:00:35",
+        "updated_at": "2026-07-01 10:02:42",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2018,7 +2018,7 @@
         "home_imp": 0.4769,
         "draw_imp": 0.2146,
         "away_imp": 0.3086,
-        "updated_at": "2026-07-01 09:00:36",
+        "updated_at": "2026-07-01 10:02:44",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2111,7 +2111,7 @@
         "home_imp": 0.6287,
         "draw_imp": 0.2143,
         "away_imp": 0.1569,
-        "updated_at": "2026-07-01 09:00:38",
+        "updated_at": "2026-07-01 10:02:45",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2204,7 +2204,7 @@
         "home_imp": 0.554,
         "draw_imp": 0.2616,
         "away_imp": 0.1843,
-        "updated_at": "2026-07-01 09:00:39",
+        "updated_at": "2026-07-01 10:02:47",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2298,7 +2298,7 @@
         "home_imp": 0.536,
         "draw_imp": 0.185,
         "away_imp": 0.2791,
-        "updated_at": "2026-07-01 09:00:40",
+        "updated_at": "2026-07-01 10:02:48",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2392,7 +2392,7 @@
         "home_imp": 0.5445,
         "draw_imp": 0.1967,
         "away_imp": 0.2588,
-        "updated_at": "2026-07-01 09:00:41",
+        "updated_at": "2026-07-01 10:02:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2485,7 +2485,7 @@
         "home_imp": 0.4937,
         "draw_imp": 0.3061,
         "away_imp": 0.2002,
-        "updated_at": "2026-07-01 09:00:42",
+        "updated_at": "2026-07-01 10:02:51",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2579,7 +2579,7 @@
         "home_imp": 0.3287,
         "draw_imp": 0.2365,
         "away_imp": 0.4348,
-        "updated_at": "2026-07-01 09:00:43",
+        "updated_at": "2026-07-01 10:02:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [
@@ -2645,7 +2645,7 @@
         "home_imp": 0.5966,
         "draw_imp": 0.198,
         "away_imp": 0.2054,
-        "updated_at": "2026-07-01 09:00:44",
+        "updated_at": "2026-07-01 10:02:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -2682,7 +2682,7 @@
         "home_imp": 0.5941,
         "draw_imp": 0.1782,
         "away_imp": 0.2276,
-        "updated_at": "2026-07-01 09:00:45",
+        "updated_at": "2026-07-01 10:02:55",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -7184,15 +7184,43 @@
       "team_a_id": "alg",
       "team_b_id": "sen",
       "venue": "达拉斯AT&T体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
-        "D": [],
-        "A": []
+        "D": [
+          "deepseek"
+        ],
+        "A": [
+          "gpt-5.5"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "塞内加尔攻防两端均优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近10场5胜3平2负状态更稳定。中立场地达拉斯消除主场优势，FIFA排名第20对第3...",
+        "deepseek": "双方实力极度接近，Elo仅差10分。塞内加尔攻防两端均略优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近期状态也更为稳定（W5 D3 L2对W4 D..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "塞内加尔攻防两端均优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近10场5胜3平2负状态更稳定。中立场地达拉斯消除主场优势，FIFA排名第20对第34也反映实力差距。当前无明确伤停/首发数据。塞内加尔整体占优，预计小胜晋级。",
+          "hit_result": false,
+          "hit_score": false
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "双方实力极度接近，Elo仅差10分。塞内加尔攻防两端均略优于阿尔及利亚（进攻1.4对1.2，防守1.0对1.1），近期状态也更为稳定（W5 D3 L2对W4 D3 L3）。AT&T体育场为中立场地，阿尔及利亚无实质主场加成，攻坚能力不足。当前无明确伤停/首发数据。1-1平局是结构上最合理的结果。",
+          "hit_result": false,
+          "hit_score": false
+        }
+      ],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -7207,7 +7235,7 @@
       },
       "bets_detail": [],
       "status": "",
-      "prediction_status": ""
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M089",
