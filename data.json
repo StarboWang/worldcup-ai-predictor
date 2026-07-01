@@ -12,30 +12,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-15 01:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防线薄弱(防守1.5)且近期状态持续低迷。当前无明确伤停/首发数据。实力差距悬殊，德国控场轻松取胜。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 00:04:35"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "德国攻防两端全面占优(进攻1.8/防守0.9)，库拉索防守漏洞明显(1.5)且近10场仅2胜，实力差距悬殊。Elo差330远超风险阈值，德国虽近况有3败但对手档次远高于库拉索，小组赛首轮控场消耗即可零封取胜，冷门空间极小。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 00:10:01"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -91,30 +68,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-15 04:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "两队近期状态接近，荷兰进攻强度更高、防守风险更低，整体实力与阵容深度更适合主动控球推进；日本反击有威胁但比赛环境压力较大。当前无明确伤停/首发数据，比分不宜拉开。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 03:03:07"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "荷兰Elo仅领先160，主场胜率仅53.9%，两条风险线同时触发。双方近况完全相同W6 D2 L2，日本防守0.9极为稳固，荷兰攻坚难度大。日本攻击1.6有反击破门能力，荷兰防线0.8顶级但难以零封。小组首轮可能胶着，荷兰凭整体深度小胜。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 03:07:55"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -170,30 +124,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-15 07:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方进攻强度接近，厄瓜多尔防守风险略低，科特迪瓦近况更稳但优势有限。达拉斯中立环境下节奏可能谨慎，当前无明确伤停/首发数据。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 06:04:33"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "双方Elo仅差10，攻防数据几乎对称。科特迪瓦防守1.1、厄瓜多尔防守1.0均有组织性，进攻端均偏温和（各1.3），W6D3L1与W5D3L2近况差距极小。当前无明确伤停/首发数据，低比分僵局风险高。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 06:07:58"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -249,30 +180,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-15 10:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "瑞典进攻强度更高，防守风险也略低，近期W5D3L2保持稳定；突尼斯近况同样坚韧但客场攻坚能力稍弱。亚特兰大中立环境影响有限，当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 09:03:17"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "瑞典主场胜率53.9%低于58%风险线，Elo差仅110。突尼斯近10场W5 D4 L1仅1负状态极佳，防守1.1具备韧性。瑞典进攻1.4攻坚不足。当前无明确伤停/首发数据。平局结构性风险高，1-1最合理。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-15 09:07:16"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -328,30 +236,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-16 00:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "西班牙攻防两端全面占优，attack 1.8 对佛得角 defense 1.4 优势明显，defense 0.8 足以零封对方疲软进攻。近期 W6 D2 L2 状态稳定，迈阿密环境下技术流传控占优。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 23:04:36"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "西班牙防守极为稳固(defense 0.8)，佛得角进攻乏力(attack 0.8)难以构成威胁。西班牙进攻端(attack 1.8)面对佛得角防线(1.4)有充足破门能力，但佛得角可能密集防守，比分不会太高。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-15 23:09:24"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -407,30 +292,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-16 03:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "比利时攻击力(1.8)非顶级，埃及近10场仅1负(W5 D4 L1)防守1.2坚固。Elo差仅180处于临界线，小组首轮双方倾向保守开局，埃及韧性足以限制比分，看好比利时一球小胜。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 02:08:09"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "比利时攻防两端均明显优于埃及，进攻1.8对埃及防线1.2具备持续威胁。比利时近期W6胜率稳定，埃及虽不败率高但平局偏多缺乏决胜力。休斯顿中立场地，当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 02:04:11"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -486,30 +348,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-16 06:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "沙特防守力1.2具备一定韧性，乌拉圭进攻端1.4缺乏绝对统治力；双方Elo差仅130表明实力接近，中立场地西雅图无主场优势，比赛结构倾向于胶着低比分，平局是真实风险。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-16 05:08:04"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "乌拉圭攻防两端均占优（进攻1.4 vs 1.0，防守0.9 vs 1.2），Elo高出130分且近期状态更稳定。当前无明确伤停/首发数据。沙特防线承压，乌拉圭整体实力足以客场取分。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 05:02:44"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -565,30 +404,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-16 09:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "伊朗防守稳固（defense 1.0），新西兰进攻乏力（attack 0.8）；两队近况同为W5 D2 L3，实力接近。旧金山中立场地伊朗略占优，Elo差仅110分，低比分格局下平局风险较高，伊朗一球小胜可期。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 08:07:17"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "伊朗攻防两端均优于新西兰（进攻1.3对0.8，防守1.0对1.2），Elo领先110分，主场作战具备场面控制力。两队近期状态相同（均为W5 D2 L3），但伊朗整体实力层级更高，Poisson最可能比分1-0反映伊朗小胜格局。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-16 08:02:18"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -644,30 +460,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-17 03:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "法国进攻火力(2.0)与防线(0.7)均为顶级，塞内加尔防守(1.0)尚可但面对精英级攻击难保不失。法国近期W7 D2 L1状态稳定，整体实力差距明显，法国小胜可期。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-17 02:06:42"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "法国攻防两端均碾压对手，攻击力2.0面对塞内加尔防线1.0优势明显，精英级防守0.7可有效限制对手进攻。近期状态火热W7 D2 L1，费城林肯金融球场作为中立场地无额外环境干扰。当前无明确伤停/首发数据。预计法国掌控节奏零封取胜。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-17 02:03:12"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -723,30 +516,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-17 06:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "伊拉克防守1.2具备抗压能力，挪威客场Elo仅高60点且进攻1.4非压倒性。双方近期状态均稳定(W5D3L2 vs W6D2L2)，当前无明确伤停/首发数据，低比分平局是真实比赛结构风险。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-17 05:07:39"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，伊拉克胜平负概率为33%/27%/40%，最可能比分为1-1。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-17 05:02:21"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -802,30 +572,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-17 09:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "阿根廷进攻2.2与防守0.6均为世界顶级，阿尔及利亚防守1.1尚可但进攻1.2难以威胁阿根廷防线。Elo差310分实力差距明显，阿尔及利亚近况W4D3L3不差但攻防两端均被压制。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-17 08:05:33"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "阿根廷攻防俱佳（进攻2.2/防守0.6），近10场8胜状态火热，防守端仅失0.6几乎无漏洞；阿尔及利亚进攻中等（1.2）难以撕破阿根廷防线，箭头体育场主场氛围加持下阿根廷掌控节奏取完胜。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-17 08:02:24"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -881,30 +628,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-17 12:00:00",
-      "predictions": [
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "奥地利攻防均衡(攻1.5/守1.0)，近期W6D2L2状态出色；约旦进攻乏力(0.9)难以突破奥地利防线。约旦防守一般(1.3)，奥地利持续施压有望零封。主胜概率略低于阈值，但约旦缺乏爆冷武器。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-17 11:07:44"
-        },
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "奥地利整体实力明显占优，进攻端（1.5）远强于约旦（0.9），防线（1.0）也更稳固；近期状态出色（W6D2L2），小组赛首轮面对弱旅战意充足。约旦防线偏弱（1.3）难以抵挡持续施压。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-17 11:02:56"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -960,30 +684,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-18 01:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "葡萄牙进攻强度和防守控制都明显占优，近况W7 D1 L2更稳定，阵容深度也更适合压制对手。温哥华中立环境影响有限，当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-18 00:12:50"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "葡萄牙防线0.7为顶级水准，刚果(金)攻击仅0.9难以破门；Elo差390实力悬殊。刚果近10场4平有韧性但进攻乏力，葡萄牙控场小胜格局明确。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
-          "time": "2026-06-18 00:16:33"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -1039,30 +740,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-18 04:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "英格兰进攻强度更高且防守风险更低，近期十场稳定性略优；克罗地亚经验和控球能力可制造拉锯。中立高温环境下节奏或偏谨慎，当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 03:02:25"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "英格兰进攻火力强（1.9）防守稳固（0.7），但克罗地亚防线扎实（0.9）且近期W5 D3 L2状态稳定。Elo差仅100分，两队大赛经验丰富，首轮谨慎对垒，平局风险较高。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 03:04:57"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -1118,30 +796,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-18 07:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "加纳进攻强度略高，但两队防守风险同为1.3，近期状态也接近，比赛环境中立性较强，节奏不宜拉开。当前无明确伤停/首发数据，soccer24_event缺失无法做官方赛程复核。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 06:01:37"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "两队实力极为接近，FIFA排名仅差2位，Elo差距仅30分。双方防守同为1.3，进攻均偏弱（1.1对0.9），近期状态均以平局居多。当前无明确伤停/首发数据。低比分闷平概率极高。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 06:03:58"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -1197,30 +852,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-18 10:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "哥伦比亚整体实力和Elo层级更高，进攻强度更好且防守风险低于乌兹别克斯坦；双方近况都不差，墨西哥城环境中立偏考验节奏。当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 09:01:30"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "乌兹别克斯坦近10场6胜2负状态出色，防守1.2组织严密不易击穿；哥伦比亚近10场3负不够稳定，Elo差200并不悬殊，阿兹特克高原中立场考验双方体能，哥伦比亚攻坚能力存疑，平局风险高。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 09:03:27"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -1276,30 +908,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-19 00:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "捷克Elo和排名占优，进攻1.2配合南非防守风险1.4，更适合控节奏小比分推进；双方近期起伏都不小，洛杉矶中立环境削弱主场因素。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:29"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "捷克进攻火力偏弱(1.2)，近10场4平暴露终结效率不足的软肋；南非防守薄弱(1.4)但捷克缺乏持续压制力。Elo差仅180处于临界区，双方进攻均难形成绝对优势，平局是最合理的结构风险路径。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-18 12:04:17"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "真实API",
         "bookmaker": "BetExplorer (聚合多家欧洲盘)",
@@ -1355,30 +964,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-19 03:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "瑞士攻防状态更均衡，进攻1.7、防守0.9明显优于波黑，近期W5 D3 L2也更稳定；波黑防守风险1.5且近况偏弱，阵容深度层面瑞士更可靠。当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:31"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 0,
-          "result": "主胜",
-          "analysis": "瑞士防守稳固(0.9)严重限制波黑孱弱进攻(1.0)，波黑近5场仅2胜状态低迷；瑞士进攻(1.7)面对波黑防线(1.5)有明显优势。Elo差380，瑞士攻防两端均占优，零封取胜路径清晰。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:04:18"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1434,30 +1020,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-19 06:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "加拿大Elo略高但攻防不够压制，卡塔尔进攻1.4更有冲击力，不过防守风险1.6偏高；双方近期都较均衡，达拉斯环境下节奏可能拉锯。当前无明确伤停/首发数据。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:32"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "卡塔尔进攻(1.4)是全场最强单元，但防线(1.6)也是最弱环节；加拿大防守(1.3)稍好但进攻(1.2)平庸。双方近况均含3平，结构上攻守各有短板，互有进球平局是核心风险。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 12:04:20"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1513,30 +1076,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-19 09:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "墨西哥Elo和排名领先，防守1.0比韩国1.1略稳，近期W6 D2 L2保持强势；韩国进攻1.3具备反击质量，但整体攻防与阵容深度稍逊。当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:34"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 1,
-          "away_goals": 1,
-          "result": "平局",
-          "analysis": "韩国攻防(1.3/1.1)与墨西哥(1.4/1.0)差距极小，Elo差仅130，双方均处强势期(W6/W5)。墨西哥主场优势有限，韩国具备对等抗衡能力，平局是结构上的均衡结果。",
-          "score": -100,
-          "hit_result": false,
-          "hit_score": false,
-          "time": "2026-06-18 12:04:21"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1592,30 +1132,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-20 03:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "美国进攻1.5、防守0.9更均衡，近期W6 D3 L1状态稳定，且迈阿密比赛环境更利于其发挥；澳大利亚进攻不弱但防守风险1.2略高。当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:36"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 2,
-          "away_goals": 1,
-          "result": "主胜",
-          "analysis": "美国防守(0.9)是全场最佳单元，主场作战优势明显；但澳大利亚进攻(1.4)具备破门实力，Elo差仅120。美国近10场仅1负状态极佳，但澳大利亚攻击力不容小觑，主队小胜是最可能的风险路径。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:04:23"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -1671,30 +1188,7 @@
       "status": "已结束",
       "prediction_status": "已校准",
       "time": "2026-06-20 06:00:00",
-      "predictions": [
-        {
-          "model": "GPT-5.5",
-          "home_goals": 1,
-          "away_goals": 2,
-          "result": "客胜",
-          "analysis": "摩洛哥Elo、排名和近期W6 D2 L2都优于苏格兰，进攻1.5配合防守0.8更完整；苏格兰主打对抗但防守风险1.1，休斯顿中立环境下优势有限。当前无明确伤停/首发数据。",
-          "score": 150,
-          "hit_result": true,
-          "hit_score": false,
-          "time": "2026-06-18 12:01:38"
-        },
-        {
-          "model": "DeepSeek V4 Pro",
-          "home_goals": 0,
-          "away_goals": 1,
-          "result": "客胜",
-          "analysis": "摩洛哥防守(0.8)是全场最强单元，足以压制苏格兰进攻(1.3)；摩洛哥近况更优(W6 D2 L2)且进攻(1.5)优于苏格兰防线(1.1)。尽管苏格兰主场，摩洛哥攻防两端结构性优势使其更可能取胜。",
-          "score": 300,
-          "hit_result": true,
-          "hit_score": true,
-          "time": "2026-06-18 12:04:25"
-        }
-      ],
+      "predictions": [],
       "odds": {
         "source": "内部估算",
         "bookmaker": "内部估算盘",
@@ -6482,5 +5976,5 @@
       "updated_at": "2026-07-01 10:08:07"
     }
   ],
-  "generated_at": "2026-07-01 11:19:34"
+  "generated_at": "2026-07-01 11:59:43"
 }
