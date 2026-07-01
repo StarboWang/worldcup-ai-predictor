@@ -1274,9 +1274,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-02 00:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "英格兰攻防两端均大幅领先(进攻1.9/防守0.7)，刚果(金)进攻乏力(0.9)难以突破英格兰稳固防线。英格兰近期状态出色(W6 D3 L1)，阵容深度与大赛经验远胜对手。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:22:59"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为64%/18%/18%，最可能比分为2-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:21"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1290,9 +1313,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-02 04:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "比利时攻防实力略优于塞内加尔，进攻端(1.8)具备多点威胁。塞内加尔近期状态不俗(W5 D3 L2)具备进球能力，但比利时整体阵容深度更胜一筹。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:02"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，比利时胜平负概率为56%/18%/26%，最可能比分为2-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:23"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1306,9 +1352,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-02 08:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "美国主场作战，攻防数据(1.5/0.9)与近期状态(W6 D3 L1)均明显优于波黑(W2 D3 L5)。波黑防守薄弱(1.5)且进攻效率低，美国有望零封对手。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:04"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，美国胜平负概率为49%/26%/25%，最可能比分为1-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:25"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1322,9 +1391,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-03 03:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "西班牙与奥地利近期状态相同(W6 D2 L2)，但西班牙进攻火力(1.8)更胜一筹且主场作战。奥地利具备反击威胁(进攻1.5)，但西班牙防线(0.8)相对稳固。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:06"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 2,
+          "away_goals": 2,
+          "result": "平局",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，西班牙胜平负概率为50%/18%/32%，最可能比分为2-2。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:28"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1338,9 +1430,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-03 07:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "葡萄牙近期状态出色(W7 D1 L2)，攻防数据(1.9/0.7)均优于克罗地亚。克罗地亚大赛经验丰富且进攻端(1.5)具备威胁，但葡萄牙整体实力与深度略占上风。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:08"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 3,
+          "away_goals": 2,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，葡萄牙胜平负概率为52%/17%/31%，最可能比分为3-2。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:30"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1354,9 +1469,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-03 11:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "瑞士攻防数据(1.7/0.9)与近期状态(W5 D3 L2)均优于阿尔及利亚，阵容深度占优。阿尔及利亚进攻端(1.2)缺乏突破力，瑞士防线稳固且主场优势明显。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:11"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，瑞士胜平负概率为57%/20%/24%，最可能比分为2-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:32"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1370,9 +1508,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-04 02:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "澳大利亚与埃及实力接近，埃及近期状态更佳(W5 D4 L1)且Elo略高，但澳大利亚主场作战且进攻端(1.4)略优。双方防守均偏弱(1.2)，难分胜负。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:14"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 1,
+          "away_goals": 1,
+          "result": "平局",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，澳大利亚胜平负概率为46%/25%/29%，最可能比分为1-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:35"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1386,9 +1547,32 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-04 06:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 3,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "阿根廷攻防数据(2.2/0.6)与近期状态(W8 D1 L1)均为本届顶级，佛得角进攻乏力(0.8)且防守薄弱(1.4)。阿根廷阵容深度与大赛经验碾压对手，零封概率高。当前无明确伤停/首发数据。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:23:17"
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "增强策略基线：Elo/攻防/近期状态综合后，阿根廷胜平负概率为69%/16%/15%，最可能比分为2-1。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:26:37"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1402,9 +1586,21 @@
       "away_score": null,
       "stage": "1/16决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-04 09:30:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "哥伦比亚攻防两端均优于加纳（进攻1.4:1.1，防守1.0:1.3），Elo领先160分，FIFA排名高出25位，整体实力占优。近期状态W5 D2 L3也稍好于对手W4 D3 L3。当前无明确伤停/首发数据。淘汰赛经验哥伦比亚更丰富，预计控制节奏小胜。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:24:27"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1418,9 +1614,21 @@
       "away_score": null,
       "stage": "1/8决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-05 01:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "摩洛哥FIFA第13位远高于加拿大第41位，Elo领先180分，攻防全面占优（进攻1.5:1.2，防守0.8:1.3）。摩洛哥近期W6 D2 L2状态出色，加拿大W4 D3 L3表现平平。当前无明确伤停/首发数据。摩洛哥防线稳固，淘汰赛经验更足，看好客胜。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:24:30"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1434,9 +1642,21 @@
       "away_score": null,
       "stage": "1/8决赛",
       "status": "未开始",
-      "prediction_status": "待预测",
+      "prediction_status": "已预测",
       "time": "2026-07-05 05:00:00",
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "home_goals": 0,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "法国FIFA第2位碾压巴拉圭第50位，Elo领先450分，攻防数据全面碾压（进攻2.0:1.0，防守0.7:1.3）。法国近期W7 D2 L1状态极佳，巴拉圭W3 D3 L4竞争力不足。当前无明确伤停/首发数据。法国阵容深度和大赛经验远超对手，预计零封取胜。",
+          "score": null,
+          "hit_result": null,
+          "hit_score": null,
+          "time": "2026-07-01 12:24:33"
+        }
+      ],
       "odds": null,
       "bets": []
     },
@@ -1666,5 +1886,5 @@
     }
   ],
   "bet_summary": [],
-  "generated_at": "2026-07-01 12:22:10"
+  "generated_at": "2026-07-01 12:27:24"
 }
