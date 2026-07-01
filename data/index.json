@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T05:05:13+08:00",
+  "generated_at": "2026-07-02T06:02:13+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -3016,7 +3016,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M081",
@@ -3041,8 +3041,8 @@
         "deepseek": "增强策略基线：Elo/攻防/近期状态综合后，比利时胜平负概率为56%/18%/26%，最可能比分为2-1。"
       },
       "score": {
-        "team_a": 0,
-        "team_b": 1
+        "team_a": 2,
+        "team_b": 2
       },
       "predictions": [
         {

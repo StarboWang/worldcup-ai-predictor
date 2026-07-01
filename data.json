@@ -2143,7 +2143,7 @@
       "away_score": 1,
       "stage": "1/16决赛",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-07-02 00:00:00",
       "predictions": [
         {
@@ -2152,9 +2152,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "英格兰攻防两端均大幅领先(进攻1.9/防守0.7)，刚果(金)进攻乏力(0.9)难以突破英格兰稳固防线。英格兰近期状态出色(W6 D3 L1)，阵容深度与大赛经验远胜对手。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-01 12:22:59"
         },
         {
@@ -2163,9 +2163,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为64%/18%/18%，最可能比分为2-1。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-07-01 12:26:21"
         }
       ],
@@ -2218,8 +2218,8 @@
       "venue": "西雅图体育场",
       "home": "比利时",
       "away": "塞内加尔",
-      "home_score": 0,
-      "away_score": 1,
+      "home_score": 2,
+      "away_score": 2,
       "stage": "1/16决赛",
       "status": "进行中",
       "prediction_status": "已预测",
@@ -3273,5 +3273,5 @@
       "updated_at": "2026-07-02 05:04:16"
     }
   ],
-  "generated_at": "2026-07-02 05:05:13"
+  "generated_at": "2026-07-02 06:02:13"
 }
