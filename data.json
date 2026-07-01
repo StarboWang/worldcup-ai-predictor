@@ -2005,7 +2005,7 @@
       "home": "德国",
       "away": "巴拉圭",
       "home_score": 1,
-      "away_score": 2,
+      "away_score": 1,
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
@@ -2032,7 +2032,7 @@
       "home": "荷兰",
       "away": "摩洛哥",
       "home_score": 1,
-      "away_score": 2,
+      "away_score": 1,
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
@@ -3262,5 +3262,5 @@
       "updated_at": "2026-07-01 12:31:21"
     }
   ],
-  "generated_at": "2026-07-01 22:10:38"
+  "generated_at": "2026-07-02 01:01:31"
 }

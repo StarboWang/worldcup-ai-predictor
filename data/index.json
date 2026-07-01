@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:10:38+08:00",
+  "generated_at": "2026-07-02T01:01:31+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2758,7 +2758,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 2
+        "team_b": 1
       },
       "predictions": [],
       "odds": {
@@ -2795,7 +2795,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 2
+        "team_b": 1
       },
       "predictions": [],
       "odds": {
