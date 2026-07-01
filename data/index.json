@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T01:06:46+08:00",
+  "generated_at": "2026-07-02T02:03:45+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2948,7 +2948,7 @@
         "deepseek": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为64%/18%/18%，最可能比分为2-1。"
       },
       "score": {
-        "team_a": 0,
+        "team_a": 2,
         "team_b": 1
       },
       "predictions": [
