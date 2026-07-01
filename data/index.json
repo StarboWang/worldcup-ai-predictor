@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:03:45+08:00",
+  "generated_at": "2026-07-02T02:14:08+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2959,8 +2959,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "英格兰攻防两端均大幅领先(进攻1.9/防守0.7)，刚果(金)进攻乏力(0.9)难以突破英格兰稳固防线。英格兰近期状态出色(W6 D3 L1)，阵容深度与大赛经验远胜对手。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -2969,8 +2969,8 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，英格兰胜平负概率为64%/18%/18%，最可能比分为2-1。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -3015,7 +3015,7 @@
           "time": "2026-07-01 12:31:01"
         }
       ],
-      "status": "进行中",
+      "status": "已结束",
       "prediction_status": "已预测"
     },
     {
