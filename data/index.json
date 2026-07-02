@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:06:39+08:00",
+  "generated_at": "2026-07-02T09:03:39+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -3135,7 +3135,7 @@
         "deepseek": "增强策略基线：Elo/攻防/近期状态综合后，美国胜平负概率为49%/26%/25%，最可能比分为1-1。"
       },
       "score": {
-        "team_a": 0,
+        "team_a": 1,
         "team_b": 0
       },
       "predictions": [
