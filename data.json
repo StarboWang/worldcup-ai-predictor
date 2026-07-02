@@ -2300,7 +2300,7 @@
       "home_score": 2,
       "away_score": 0,
       "stage": "1/16决赛",
-      "status": "进行中",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-07-02 08:00:00",
       "predictions": [
@@ -3273,5 +3273,5 @@
       "updated_at": "2026-07-02 06:04:19"
     }
   ],
-  "generated_at": "2026-07-02 10:06:16"
+  "generated_at": "2026-07-02 10:16:43"
 }
