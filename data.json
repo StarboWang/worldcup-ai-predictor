@@ -3324,10 +3324,10 @@
       "venue": "亚特兰大体育场",
       "home": "阿根廷",
       "away": "埃及",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 2,
       "stage": "1/8决赛",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测",
       "time": "2026-07-08 00:00:00",
       "predictions": [
@@ -3714,5 +3714,5 @@
       "updated_at": "2026-07-07 11:04:26"
     }
   ],
-  "generated_at": "2026-07-07 11:05:02"
+  "generated_at": "2026-07-08 05:09:23"
 }

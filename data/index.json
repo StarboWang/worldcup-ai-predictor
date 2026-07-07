@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T11:05:02+08:00",
+  "generated_at": "2026-07-08T05:09:23+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4347,7 +4347,10 @@
         "gpt-5.5": "阿根廷攻防两端均碾压对手，进攻强度2.2配合仅0.6的失球风险构成顶级防线；埃及进攻1.2难以穿透。阿根廷近10场W8 D1 L1状态极佳，淘汰赛经验丰富。当前...",
         "deepseek": "阿根廷进攻端2.2具备破门能力，但埃及近10场W5 D4 L1仅1负，防守韧性1.2并非弱旅；淘汰赛压力下埃及大概率低位收缩，阿根廷攻坚并非顶级，lambda ..."
       },
-      "score": null,
+      "score": {
+        "team_a": 3,
+        "team_b": 2
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -4356,8 +4359,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "阿根廷攻防两端均碾压对手，进攻强度2.2配合仅0.6的失球风险构成顶级防线；埃及进攻1.2难以穿透。阿根廷近10场W8 D1 L1状态极佳，淘汰赛经验丰富。当前无明确伤停/首发数据。预计阿根廷控场2-0取胜。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -4366,8 +4369,8 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "阿根廷进攻端2.2具备破门能力，但埃及近10场W5 D4 L1仅1负，防守韧性1.2并非弱旅；淘汰赛压力下埃及大概率低位收缩，阿根廷攻坚并非顶级，lambda 3.265对2.32显示场面不会一边倒。当前无明确伤停/首发数据。预计阿根廷小胜，但平局风险真实存在。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": false
         }
       ],
       "odds": {
@@ -4412,7 +4415,7 @@
           "time": "2026-07-07 11:04:05"
         }
       ],
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测"
     },
     {
