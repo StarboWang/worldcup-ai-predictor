@@ -3588,10 +3588,10 @@
       "venue": "迈阿密体育场",
       "home": "挪威",
       "away": "英格兰",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "stage": "1/4决赛",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "待预测",
       "time": "2026-07-12 05:00:00",
       "predictions": [],
@@ -3714,5 +3714,5 @@
       "updated_at": "2026-07-07 11:04:26"
     }
   ],
-  "generated_at": "2026-07-11 05:12:23"
+  "generated_at": "2026-07-12 07:59:36"
 }
