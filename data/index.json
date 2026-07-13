@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T09:58:48+08:00",
+  "generated_at": "2026-07-13T10:04:07+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4682,10 +4682,10 @@
       "match_id": "M100",
       "kickoff_at": "2026-07-12T09:00:00+08:00",
       "stage": "1/4决赛",
-      "team_a": "待定",
-      "team_b": "待定",
-      "team_a_id": "tbd",
-      "team_b_id": "tbd",
+      "team_a": "阿根廷",
+      "team_b": "瑞士",
+      "team_a_id": "arg",
+      "team_b_id": "sui",
       "venue": "堪萨斯城体育场",
       "has_predict": false,
       "bets": {
@@ -4694,21 +4694,24 @@
         "A": []
       },
       "comment": {},
-      "score": null,
+      "score": {
+        "team_a": 3,
+        "team_b": 1
+      },
       "predictions": [],
       "odds": null,
       "bets_detail": [],
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "待预测"
     },
     {
       "match_id": "M101",
       "kickoff_at": "2026-07-15T03:00:00+08:00",
       "stage": "半决赛",
-      "team_a": "待定",
-      "team_b": "待定",
-      "team_a_id": "tbd",
-      "team_b_id": "tbd",
+      "team_a": "法国",
+      "team_b": "西班牙",
+      "team_a_id": "fra",
+      "team_b_id": "esp",
       "venue": "达拉斯体育场",
       "has_predict": false,
       "bets": {
@@ -4728,10 +4731,10 @@
       "match_id": "M102",
       "kickoff_at": "2026-07-16T03:00:00+08:00",
       "stage": "半决赛",
-      "team_a": "待定",
-      "team_b": "待定",
-      "team_a_id": "tbd",
-      "team_b_id": "tbd",
+      "team_a": "英格兰",
+      "team_b": "阿根廷",
+      "team_a_id": "eng",
+      "team_b_id": "arg",
       "venue": "亚特兰大体育场",
       "has_predict": false,
       "bets": {

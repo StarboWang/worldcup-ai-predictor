@@ -3613,12 +3613,12 @@
       "record_id": "recvo5L0PiNWEc",
       "match_id": "M100",
       "venue": "堪萨斯城体育场",
-      "home": "待定",
-      "away": "待定",
-      "home_score": null,
-      "away_score": null,
+      "home": "阿根廷",
+      "away": "瑞士",
+      "home_score": 3,
+      "away_score": 1,
       "stage": "1/4决赛",
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "待预测",
       "time": "2026-07-12 09:00:00",
       "predictions": [],
@@ -3629,8 +3629,8 @@
       "record_id": "recvo5L1ewGu6r",
       "match_id": "M101",
       "venue": "达拉斯体育场",
-      "home": "待定",
-      "away": "待定",
+      "home": "法国",
+      "away": "西班牙",
       "home_score": null,
       "away_score": null,
       "stage": "半决赛",
@@ -3645,8 +3645,8 @@
       "record_id": "recvo5L1Fl22p1",
       "match_id": "M102",
       "venue": "亚特兰大体育场",
-      "home": "待定",
-      "away": "待定",
+      "home": "英格兰",
+      "away": "阿根廷",
       "home_score": null,
       "away_score": null,
       "stage": "半决赛",
@@ -3714,5 +3714,5 @@
       "updated_at": "2026-07-07 11:04:26"
     }
   ],
-  "generated_at": "2026-07-13 09:58:48"
+  "generated_at": "2026-07-13 10:04:07"
 }
