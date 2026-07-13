@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:59:36+08:00",
+  "generated_at": "2026-07-13T09:58:48+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4323,7 +4323,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M095",
@@ -4416,7 +4416,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M096",
@@ -4509,7 +4509,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M097",
@@ -4602,7 +4602,7 @@
         }
       ],
       "status": "已结束",
-      "prediction_status": "已预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M098",
@@ -4639,7 +4639,7 @@
       },
       "bets_detail": [],
       "status": "已结束",
-      "prediction_status": "待预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M099",
@@ -4676,7 +4676,7 @@
       },
       "bets_detail": [],
       "status": "已结束",
-      "prediction_status": "待预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M100",

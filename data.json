@@ -3249,7 +3249,7 @@
       "away_score": 4,
       "stage": "1/8决赛",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-07-07 08:00:00",
       "predictions": [
         {
@@ -3258,9 +3258,9 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "比利时在FIFA排名（5 vs 12）、Elo（1860 vs 1720）、进攻（1.8 vs 1.5）和防守（0.8 vs 0.9）四项指标上均明显优于美国，整体实力差距清晰。美国虽坐镇西雅图主场且近期不败率较高（W6 D3 L1仅1负），但比利时阵容深度和攻击火力更强。比利时近期状态（W6 D2 L2）同样稳健。当前无明确伤停/首发数据。淘汰赛阶段个体质量差距往往被放大，比利时更可能凭实力晋级。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-04 12:03:39"
         },
         {
@@ -3269,9 +3269,9 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "比利时攻防两端均优于美国（攻击1.8对1.5，防守0.8对0.9），Elo领先140。美国主场作战且近10场仅1负状态出色，但攻击力面对比利时坚固防线破门难度大。淘汰赛一球分胜负格局。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-04 12:05:03"
         }
       ],
@@ -3328,7 +3328,7 @@
       "away_score": 2,
       "stage": "1/8决赛",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-07-08 00:00:00",
       "predictions": [
         {
@@ -3337,9 +3337,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "阿根廷攻防两端均碾压对手，进攻强度2.2配合仅0.6的失球风险构成顶级防线；埃及进攻1.2难以穿透。阿根廷近10场W8 D1 L1状态极佳，淘汰赛经验丰富。当前无明确伤停/首发数据。预计阿根廷控场2-0取胜。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-05 00:02:20"
         },
         {
@@ -3348,9 +3348,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "阿根廷进攻端2.2具备破门能力，但埃及近10场W5 D4 L1仅1负，防守韧性1.2并非弱旅；淘汰赛压力下埃及大概率低位收缩，阿根廷攻坚并非顶级，lambda 3.265对2.32显示场面不会一边倒。当前无明确伤停/首发数据。预计阿根廷小胜，但平局风险真实存在。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-05 00:02:54"
         }
       ],
@@ -3407,7 +3407,7 @@
       "away_score": 0,
       "stage": "1/8决赛",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-07-08 04:00:00",
       "predictions": [
         {
@@ -3416,9 +3416,9 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "瑞士攻防两端均优于哥伦比亚：进攻1.7高于对手1.4，防守0.9（失球风险低）优于对手1.0。近期状态更稳健，10场2负 vs 对手3负。ELO差80在120以内，但Poisson最可能比分2-1且主胜基线53.6%超52%阈值，不支持平局。温哥华中立场地，瑞士整体实力和攻防均衡性占优。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-05 08:02:20"
         },
         {
@@ -3427,9 +3427,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "瑞士防守0.9顶级水准，哥伦比亚防线1.0同样稳固，双方均守强于攻。Elo差仅80分，FIFA排名14vs17，实力极为接近。淘汰赛保守倾向叠加两队近期状态均非碾压级，低比分缠斗概率高。瑞士主场微优且进攻略强，一球小胜路径最合理，但平局冷门风险不可忽视。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-07-05 08:02:54"
         }
       ],
@@ -3486,7 +3486,7 @@
       "away_score": 0,
       "stage": "1/4决赛",
       "status": "已结束",
-      "prediction_status": "已预测",
+      "prediction_status": "已校准",
       "time": "2026-07-10 04:00:00",
       "predictions": [
         {
@@ -3495,9 +3495,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "法国攻防两端均优于摩洛哥，进攻强度2.0对防守0.8具备稳定破门能力，防守0.7为八强最佳。法国近期W7 D2 L1状态稳定，摩洛哥W6 D2 L2客场作战压力更大。当前无明确伤停/首发数据。看好法国零封晋级。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 300,
+          "hit_result": true,
+          "hit_score": true,
           "time": "2026-07-07 04:48:39"
         },
         {
@@ -3506,9 +3506,9 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "法国攻防均衡但摩洛哥防守质量极佳(0.8)，1/4决赛高压环境易出低比分。摩洛哥近10场6胜2平2负状态不俗，具备将比赛拖入胶着的防守韧性。法国攻坚能力面对顶级防线恐难轻松破门，一球小胜是合理路径。当前无明确伤停/首发数据。",
-          "score": null,
-          "hit_result": null,
-          "hit_score": null,
+          "score": 150,
+          "hit_result": true,
+          "hit_score": false,
           "time": "2026-07-07 04:49:19"
         }
       ],
@@ -3565,7 +3565,7 @@
       "away_score": 1,
       "stage": "1/4决赛",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-07-11 03:00:00",
       "predictions": [],
       "odds": {
@@ -3592,7 +3592,7 @@
       "away_score": 2,
       "stage": "1/4决赛",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-07-12 05:00:00",
       "predictions": [],
       "odds": {
@@ -3714,5 +3714,5 @@
       "updated_at": "2026-07-07 11:04:26"
     }
   ],
-  "generated_at": "2026-07-12 07:59:36"
+  "generated_at": "2026-07-13 09:58:48"
 }
