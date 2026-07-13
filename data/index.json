@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:05:21+08:00",
+  "generated_at": "2026-07-13T14:02:11+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2795,7 +2795,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 2
+        "team_b": 1
       },
       "predictions": [],
       "odds": {
@@ -2890,7 +2890,7 @@
     },
     {
       "match_id": "M079",
-      "kickoff_at": "2026-07-01T09:00:00+08:00",
+      "kickoff_at": "2026-07-01T10:00:00+08:00",
       "stage": "1/16决赛",
       "team_a": "墨西哥",
       "team_b": "厄瓜多尔",
@@ -4713,7 +4713,7 @@
       },
       "bets_detail": [],
       "status": "已结束",
-      "prediction_status": "待预测"
+      "prediction_status": "已校准"
     },
     {
       "match_id": "M101",

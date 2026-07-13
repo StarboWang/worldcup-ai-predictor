@@ -2032,7 +2032,7 @@
       "home": "荷兰",
       "away": "摩洛哥",
       "home_score": 1,
-      "away_score": 2,
+      "away_score": 1,
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
@@ -2117,7 +2117,7 @@
       "stage": "1/16决赛",
       "status": "已结束",
       "prediction_status": "已校准",
-      "time": "2026-07-01 09:00:00",
+      "time": "2026-07-01 10:00:00",
       "predictions": [],
       "odds": {
         "source": "内部估算",
@@ -3619,7 +3619,7 @@
       "away_score": 1,
       "stage": "1/4决赛",
       "status": "已结束",
-      "prediction_status": "待预测",
+      "prediction_status": "已校准",
       "time": "2026-07-12 09:00:00",
       "predictions": [],
       "odds": {
@@ -3851,5 +3851,5 @@
       "updated_at": "2026-07-13 13:04:13"
     }
   ],
-  "generated_at": "2026-07-13 13:05:21"
+  "generated_at": "2026-07-13 14:02:11"
 }
