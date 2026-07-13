@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T23:03:49+08:00",
+  "generated_at": "2026-07-13T23:05:42+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -2758,7 +2758,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 1
+        "team_b": 2
       },
       "predictions": [],
       "odds": {
@@ -2795,7 +2795,7 @@
       "comment": {},
       "score": {
         "team_a": 1,
-        "team_b": 1
+        "team_b": 2
       },
       "predictions": [],
       "odds": {
@@ -2890,7 +2890,7 @@
     },
     {
       "match_id": "M079",
-      "kickoff_at": "2026-07-01T10:00:00+08:00",
+      "kickoff_at": "2026-07-01T09:00:00+08:00",
       "stage": "1/16决赛",
       "team_a": "墨西哥",
       "team_b": "厄瓜多尔",
@@ -3509,7 +3509,7 @@
       },
       "score": {
         "team_a": 1,
-        "team_b": 1
+        "team_b": 2
       },
       "predictions": [
         {
@@ -3519,8 +3519,8 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "澳大利亚与埃及实力接近，埃及近期状态更佳(W5 D4 L1)且Elo略高，但澳大利亚主场作战且进攻端(1.4)略优。双方防守均偏弱(1.2)，难分胜负。当前无明确伤停/首发数据。",
-          "hit_result": true,
-          "hit_score": true
+          "hit_result": false,
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -3529,8 +3529,8 @@
           "away_goals": 1,
           "result": "平局",
           "analysis": "增强策略基线：Elo/攻防/近期状态综合后，澳大利亚胜平负概率为46%/25%/29%，最可能比分为1-1。",
-          "hit_result": true,
-          "hit_score": true
+          "hit_result": false,
+          "hit_score": false
         }
       ],
       "odds": {
@@ -4441,7 +4441,7 @@
         "deepseek": "瑞士防守0.9顶级水准，哥伦比亚防线1.0同样稳固，双方均守强于攻。Elo差仅80分，FIFA排名14vs17，实力极为接近。淘汰赛保守倾向叠加两队近期状态均非..."
       },
       "score": {
-        "team_a": 0,
+        "team_a": 1,
         "team_b": 0
       },
       "predictions": [
@@ -4452,7 +4452,7 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "瑞士攻防两端均优于哥伦比亚：进攻1.7高于对手1.4，防守0.9（失球风险低）优于对手1.0。近期状态更稳健，10场2负 vs 对手3负。ELO差80在120以内，但Poisson最可能比分2-1且主胜基线53.6%超52%阈值，不支持平局。温哥华中立场地，瑞士整体实力和攻防均衡性占优。当前无明确伤停/首发数据。",
-          "hit_result": false,
+          "hit_result": true,
           "hit_score": false
         },
         {
@@ -4462,8 +4462,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "瑞士防守0.9顶级水准，哥伦比亚防线1.0同样稳固，双方均守强于攻。Elo差仅80分，FIFA排名14vs17，实力极为接近。淘汰赛保守倾向叠加两队近期状态均非碾压级，低比分缠斗概率高。瑞士主场微优且进攻略强，一球小胜路径最合理，但平局冷门风险不可忽视。当前无明确伤停/首发数据。",
-          "hit_result": false,
-          "hit_score": false
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
