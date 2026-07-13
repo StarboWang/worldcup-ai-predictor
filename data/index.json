@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:04:07+08:00",
+  "generated_at": "2026-07-13T11:06:30+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -32,7 +32,7 @@
         "home_imp": 0.5263,
         "draw_imp": 0.2595,
         "away_imp": 0.2141,
-        "updated_at": "2026-07-07 11:01:35",
+        "updated_at": "2026-07-13 11:05:44",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -69,7 +69,7 @@
         "home_imp": 0.4533,
         "draw_imp": 0.2619,
         "away_imp": 0.2848,
-        "updated_at": "2026-07-07 11:01:36",
+        "updated_at": "2026-07-13 11:05:45",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -106,7 +106,7 @@
         "home_imp": 0.4207,
         "draw_imp": 0.3307,
         "away_imp": 0.2486,
-        "updated_at": "2026-07-07 11:01:39",
+        "updated_at": "2026-07-13 11:05:46",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -143,7 +143,7 @@
         "home_imp": 0.5299,
         "draw_imp": 0.2406,
         "away_imp": 0.2295,
-        "updated_at": "2026-07-07 11:01:40",
+        "updated_at": "2026-07-13 11:05:47",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -180,7 +180,7 @@
         "home_imp": 0.4717,
         "draw_imp": 0.2353,
         "away_imp": 0.293,
-        "updated_at": "2026-07-07 11:01:41",
+        "updated_at": "2026-07-13 11:05:49",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -217,7 +217,7 @@
         "home_imp": 0.5783,
         "draw_imp": 0.1648,
         "away_imp": 0.2569,
-        "updated_at": "2026-07-07 11:01:42",
+        "updated_at": "2026-07-13 11:05:50",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -254,7 +254,7 @@
         "home_imp": 0.2921,
         "draw_imp": 0.3685,
         "away_imp": 0.3394,
-        "updated_at": "2026-07-07 11:01:43",
+        "updated_at": "2026-07-13 11:05:51",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -291,7 +291,7 @@
         "home_imp": 0.3963,
         "draw_imp": 0.257,
         "away_imp": 0.3467,
-        "updated_at": "2026-07-07 11:01:45",
+        "updated_at": "2026-07-13 11:05:52",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -328,7 +328,7 @@
         "home_imp": 0.6361,
         "draw_imp": 0.2242,
         "away_imp": 0.1397,
-        "updated_at": "2026-07-07 11:01:45",
+        "updated_at": "2026-07-13 11:05:53",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -365,7 +365,7 @@
         "home_imp": 0.539,
         "draw_imp": 0.176,
         "away_imp": 0.285,
-        "updated_at": "2026-07-07 11:01:47",
+        "updated_at": "2026-07-13 11:05:54",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -402,7 +402,7 @@
         "home_imp": 0.4842,
         "draw_imp": 0.2331,
         "away_imp": 0.2827,
-        "updated_at": "2026-07-07 11:01:48",
+        "updated_at": "2026-07-13 11:05:55",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -439,7 +439,7 @@
         "home_imp": 0.5394,
         "draw_imp": 0.2342,
         "away_imp": 0.2264,
-        "updated_at": "2026-07-07 11:01:49",
+        "updated_at": "2026-07-13 11:05:56",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -476,7 +476,7 @@
         "home_imp": 0.6195,
         "draw_imp": 0.2121,
         "away_imp": 0.1684,
-        "updated_at": "2026-07-07 11:01:50",
+        "updated_at": "2026-07-13 11:05:57",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -513,7 +513,7 @@
         "home_imp": 0.5206,
         "draw_imp": 0.2022,
         "away_imp": 0.2772,
-        "updated_at": "2026-07-07 11:01:51",
+        "updated_at": "2026-07-13 11:05:59",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -550,7 +550,7 @@
         "home_imp": 0.3773,
         "draw_imp": 0.257,
         "away_imp": 0.3656,
-        "updated_at": "2026-07-07 11:01:52",
+        "updated_at": "2026-07-13 11:06:00",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -587,7 +587,7 @@
         "home_imp": 0.5232,
         "draw_imp": 0.2675,
         "away_imp": 0.2093,
-        "updated_at": "2026-07-07 11:01:54",
+        "updated_at": "2026-07-13 11:06:01",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -624,7 +624,7 @@
         "home_imp": 0.5819,
         "draw_imp": 0.1686,
         "away_imp": 0.2494,
-        "updated_at": "2026-07-07 11:01:55",
+        "updated_at": "2026-07-13 11:06:03",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -661,7 +661,7 @@
         "home_imp": 0.3265,
         "draw_imp": 0.2719,
         "away_imp": 0.4015,
-        "updated_at": "2026-07-07 11:01:56",
+        "updated_at": "2026-07-13 11:06:04",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -698,7 +698,7 @@
         "home_imp": 0.6128,
         "draw_imp": 0.1624,
         "away_imp": 0.2247,
-        "updated_at": "2026-07-07 11:01:57",
+        "updated_at": "2026-07-13 11:06:05",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -735,7 +735,7 @@
         "home_imp": 0.5644,
         "draw_imp": 0.2417,
         "away_imp": 0.1939,
-        "updated_at": "2026-07-07 11:01:58",
+        "updated_at": "2026-07-13 11:06:06",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -772,7 +772,7 @@
         "home_imp": 0.6286,
         "draw_imp": 0.1905,
         "away_imp": 0.181,
-        "updated_at": "2026-07-07 11:01:59",
+        "updated_at": "2026-07-13 11:06:08",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -809,7 +809,7 @@
         "home_imp": 0.524,
         "draw_imp": 0.1737,
         "away_imp": 0.3023,
-        "updated_at": "2026-07-07 11:02:00",
+        "updated_at": "2026-07-13 11:06:09",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -846,7 +846,7 @@
         "home_imp": 0.4386,
         "draw_imp": 0.3251,
         "away_imp": 0.2363,
-        "updated_at": "2026-07-07 11:02:01",
+        "updated_at": "2026-07-13 11:06:10",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -883,7 +883,7 @@
         "home_imp": 0.3321,
         "draw_imp": 0.2649,
         "away_imp": 0.403,
-        "updated_at": "2026-07-07 11:02:02",
+        "updated_at": "2026-07-13 11:06:12",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -920,7 +920,7 @@
         "home_imp": 0.4331,
         "draw_imp": 0.3158,
         "away_imp": 0.2511,
-        "updated_at": "2026-07-07 11:02:03",
+        "updated_at": "2026-07-13 11:06:13",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -957,7 +957,7 @@
         "home_imp": 0.5483,
         "draw_imp": 0.2393,
         "away_imp": 0.2124,
-        "updated_at": "2026-07-07 11:02:04",
+        "updated_at": "2026-07-13 11:06:14",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -994,7 +994,7 @@
         "home_imp": 0.3163,
         "draw_imp": 0.3081,
         "away_imp": 0.3756,
-        "updated_at": "2026-07-07 11:02:05",
+        "updated_at": "2026-07-13 11:06:15",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1031,7 +1031,7 @@
         "home_imp": 0.4792,
         "draw_imp": 0.2286,
         "away_imp": 0.2923,
-        "updated_at": "2026-07-07 11:02:06",
+        "updated_at": "2026-07-13 11:06:16",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1068,7 +1068,7 @@
         "home_imp": 0.4175,
         "draw_imp": 0.2252,
         "away_imp": 0.3574,
-        "updated_at": "2026-07-07 11:02:07",
+        "updated_at": "2026-07-13 11:06:17",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1105,7 +1105,7 @@
         "home_imp": 0.4769,
         "draw_imp": 0.2146,
         "away_imp": 0.3086,
-        "updated_at": "2026-07-07 11:02:08",
+        "updated_at": "2026-07-13 11:06:18",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1142,7 +1142,7 @@
         "home_imp": 0.6287,
         "draw_imp": 0.2143,
         "away_imp": 0.1569,
-        "updated_at": "2026-07-07 11:02:08",
+        "updated_at": "2026-07-13 11:06:19",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1179,7 +1179,7 @@
         "home_imp": 0.554,
         "draw_imp": 0.2616,
         "away_imp": 0.1843,
-        "updated_at": "2026-07-07 11:02:09",
+        "updated_at": "2026-07-13 11:06:20",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1216,7 +1216,7 @@
         "home_imp": 0.536,
         "draw_imp": 0.185,
         "away_imp": 0.2791,
-        "updated_at": "2026-07-07 11:02:11",
+        "updated_at": "2026-07-13 11:06:22",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1253,7 +1253,7 @@
         "home_imp": 0.5445,
         "draw_imp": 0.1967,
         "away_imp": 0.2588,
-        "updated_at": "2026-07-07 11:02:12",
+        "updated_at": "2026-07-13 11:06:23",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1290,7 +1290,7 @@
         "home_imp": 0.4937,
         "draw_imp": 0.3061,
         "away_imp": 0.2002,
-        "updated_at": "2026-07-07 11:02:13",
+        "updated_at": "2026-07-13 11:06:24",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1327,7 +1327,7 @@
         "home_imp": 0.3287,
         "draw_imp": 0.2365,
         "away_imp": 0.4348,
-        "updated_at": "2026-07-07 11:02:14",
+        "updated_at": "2026-07-13 11:06:25",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -1364,7 +1364,7 @@
         "home_imp": 0.5966,
         "draw_imp": 0.198,
         "away_imp": 0.2054,
-        "updated_at": "2026-07-07 11:02:15",
+        "updated_at": "2026-07-13 11:06:26",
         "note": "当前环境未配置真实赔率 API Key；本行由 Elo+攻防+近况+Poisson 概率加入市场水位生成，仅用于模拟投注展示。"
       },
       "bets_detail": [],
@@ -4713,19 +4713,46 @@
       "team_a_id": "fra",
       "team_b_id": "esp",
       "venue": "达拉斯体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
-        "H": [],
+        "H": [
+          "gpt-5.5",
+          "deepseek"
+        ],
         "D": [],
         "A": []
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "法国攻防两端均优于西班牙（进攻2.0对1.8，防守0.7对0.8），近期状态更稳定（7胜2平1负）。当前无明确伤停/首发数据。中立场地半决赛，法国整体实力与大赛...",
+        "deepseek": "法国防守0.7顶级，西班牙防守0.8同样出色。两队近期状态均佳（法国W7 D2 L1，西班牙W6 D2 L2）。Elo差仅80，半决赛环境利于战术低比分。法国凭..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 2,
+          "away_goals": 1,
+          "result": "主胜",
+          "analysis": "法国攻防两端均优于西班牙（进攻2.0对1.8，防守0.7对0.8），近期状态更稳定（7胜2平1负）。当前无明确伤停/首发数据。中立场地半决赛，法国整体实力与大赛经验略占上风，有望小胜晋级。",
+          "hit_result": null,
+          "hit_score": null
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
+          "home_goals": 1,
+          "away_goals": 0,
+          "result": "主胜",
+          "analysis": "法国防守0.7顶级，西班牙防守0.8同样出色。两队近期状态均佳（法国W7 D2 L1，西班牙W6 D2 L2）。Elo差仅80，半决赛环境利于战术低比分。法国凭防守和状态稍占优。当前无明确伤停/首发数据。",
+          "hit_result": null,
+          "hit_score": null
+        }
+      ],
       "odds": null,
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M102",
@@ -4736,19 +4763,46 @@
       "team_a_id": "eng",
       "team_b_id": "arg",
       "venue": "亚特兰大体育场",
-      "has_predict": false,
+      "has_predict": true,
       "bets": {
         "H": [],
         "D": [],
-        "A": []
+        "A": [
+          "gpt-5.5",
+          "deepseek"
+        ]
       },
-      "comment": {},
+      "comment": {
+        "gpt-5.5": "阿根廷攻防实力全面领先（进攻2.2对1.9，防守0.6对0.7），近期状态极佳（8胜1平1负）。当前无明确伤停/首发数据。中立场地，阿根廷整体实力与竞技状态均优...",
+        "deepseek": "阿根廷进攻2.2最强，防守0.6世界级。英格兰防守0.7稳固但进攻1.9难破阿根廷防线。阿根廷状态W8 D1 L1优于英格兰W6 D3 L1。Elo差70，半决..."
+      },
       "score": null,
-      "predictions": [],
+      "predictions": [
+        {
+          "model": "GPT-5.5",
+          "model_id": "gpt-5.5",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "阿根廷攻防实力全面领先（进攻2.2对1.9，防守0.6对0.7），近期状态极佳（8胜1平1负）。当前无明确伤停/首发数据。中立场地，阿根廷整体实力与竞技状态均优于英格兰，看好小胜晋级。",
+          "hit_result": null,
+          "hit_score": null
+        },
+        {
+          "model": "DeepSeek V4 Pro",
+          "model_id": "deepseek",
+          "home_goals": 1,
+          "away_goals": 2,
+          "result": "客胜",
+          "analysis": "阿根廷进攻2.2最强，防守0.6世界级。英格兰防守0.7稳固但进攻1.9难破阿根廷防线。阿根廷状态W8 D1 L1优于英格兰W6 D3 L1。Elo差70，半决赛胶着。阿根廷攻防更均衡。当前无明确伤停/首发数据。",
+          "hit_result": null,
+          "hit_score": null
+        }
+      ],
       "odds": null,
       "bets_detail": [],
       "status": "未开始",
-      "prediction_status": "待预测"
+      "prediction_status": "已预测"
     },
     {
       "match_id": "M103",
