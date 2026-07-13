@@ -3403,7 +3403,7 @@
       "venue": "温哥华BC Place",
       "home": "瑞士",
       "away": "哥伦比亚",
-      "home_score": 1,
+      "home_score": 0,
       "away_score": 0,
       "stage": "1/8决赛",
       "status": "已结束",
@@ -3851,5 +3851,5 @@
       "updated_at": "2026-07-13 17:06:13"
     }
   ],
-  "generated_at": "2026-07-13 17:06:20"
+  "generated_at": "2026-07-13 18:02:27"
 }
