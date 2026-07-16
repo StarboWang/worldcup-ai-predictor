@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T19:06:40+08:00",
+  "generated_at": "2026-07-16T14:40:28+08:00",
   "competition_name": "2026 世界杯",
   "matches": [
     {
@@ -4737,7 +4737,10 @@
         "gpt-5.5": "法国攻防两端均优于西班牙（进攻2.0对1.8，防守0.7对0.8），近期状态更稳定（7胜2平1负）。当前无明确伤停/首发数据。中立场地半决赛，法国整体实力与大赛...",
         "deepseek": "法国防守0.7顶级，西班牙防守0.8同样出色。两队近期状态均佳（法国W7 D2 L1，西班牙W6 D2 L2）。Elo差仅80，半决赛环境利于战术低比分。法国凭..."
       },
-      "score": null,
+      "score": {
+        "team_a": 0,
+        "team_b": 2
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -4746,8 +4749,8 @@
           "away_goals": 1,
           "result": "主胜",
           "analysis": "法国攻防两端均优于西班牙（进攻2.0对1.8，防守0.7对0.8），近期状态更稳定（7胜2平1负）。当前无明确伤停/首发数据。中立场地半决赛，法国整体实力与大赛经验略占上风，有望小胜晋级。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": false,
+          "hit_score": false
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -4756,8 +4759,8 @@
           "away_goals": 0,
           "result": "主胜",
           "analysis": "法国防守0.7顶级，西班牙防守0.8同样出色。两队近期状态均佳（法国W7 D2 L1，西班牙W6 D2 L2）。Elo差仅80，半决赛环境利于战术低比分。法国凭防守和状态稍占优。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": false,
+          "hit_score": false
         }
       ],
       "odds": {
@@ -4802,7 +4805,7 @@
           "time": "2026-07-14 19:04:46"
         }
       ],
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测"
     },
     {
@@ -4827,7 +4830,10 @@
         "gpt-5.5": "阿根廷攻防实力全面领先（进攻2.2对1.9，防守0.6对0.7），近期状态极佳（8胜1平1负）。当前无明确伤停/首发数据。中立场地，阿根廷整体实力与竞技状态均优...",
         "deepseek": "阿根廷进攻2.2最强，防守0.6世界级。英格兰防守0.7稳固但进攻1.9难破阿根廷防线。阿根廷状态W8 D1 L1优于英格兰W6 D3 L1。Elo差70，半决..."
       },
-      "score": null,
+      "score": {
+        "team_a": 1,
+        "team_b": 2
+      },
       "predictions": [
         {
           "model": "GPT-5.5",
@@ -4836,8 +4842,8 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "阿根廷攻防实力全面领先（进攻2.2对1.9，防守0.6对0.7），近期状态极佳（8胜1平1负）。当前无明确伤停/首发数据。中立场地，阿根廷整体实力与竞技状态均优于英格兰，看好小胜晋级。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": true
         },
         {
           "model": "DeepSeek V4 Pro",
@@ -4846,8 +4852,8 @@
           "away_goals": 2,
           "result": "客胜",
           "analysis": "阿根廷进攻2.2最强，防守0.6世界级。英格兰防守0.7稳固但进攻1.9难破阿根廷防线。阿根廷状态W8 D1 L1优于英格兰W6 D3 L1。Elo差70，半决赛胶着。阿根廷攻防更均衡。当前无明确伤停/首发数据。",
-          "hit_result": null,
-          "hit_score": null
+          "hit_result": true,
+          "hit_score": true
         }
       ],
       "odds": {
@@ -4892,7 +4898,7 @@
           "time": "2026-07-14 19:04:48"
         }
       ],
-      "status": "未开始",
+      "status": "已结束",
       "prediction_status": "已预测"
     },
     {
